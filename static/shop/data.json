@@ -2,208 +2,1197 @@
   "updated": "2026-08-20",
   "notice": "价格来源于各品牌官方商城，以官网实时为准。",
   "brands": [
-    { "key": "huawei", "name": "华为" },
-    { "key": "apple", "name": "苹果" },
-    { "key": "xiaomi", "name": "小米" },
-    { "key": "honor", "name": "荣耀" },
-    { "key": "lenovo", "name": "联想" }
+    {
+      "key": "huawei",
+      "name": "华为"
+    },
+    {
+      "key": "apple",
+      "name": "苹果"
+    },
+    {
+      "key": "xiaomi",
+      "name": "小米"
+    },
+    {
+      "key": "honor",
+      "name": "荣耀"
+    },
+    {
+      "key": "lenovo",
+      "name": "联想"
+    }
   ],
   "products": [
     {
-      "id": "hw-mate80promax", "brand": "huawei", "category": "手机",
-      "name": "HUAWEI Mate 80 Pro Max", "tag": "旗舰 · 全金属玄武架构",
+      "id": "hw-mate80promax",
+      "brand": "huawei",
+      "category": "手机",
+      "name": "HUAWEI Mate 80 Pro Max",
+      "tag": "旗舰 · 全金属玄武架构",
       "image": "/shop/img/hw-mate80promax.png",
-      "configs": [ { "label": "12GB+512GB", "official": 7999, "price": 7699 } ]
+      "configs": [
+        {
+          "label": "12GB+512GB",
+          "official": 7999,
+          "price": 7699
+        }
+      ]
     },
     {
-      "id": "hw-mate80pro", "brand": "huawei", "category": "手机",
-      "name": "HUAWEI Mate 80 Pro", "tag": "旗舰 · 红枫影像",
+      "id": "hw-mate80pro",
+      "brand": "huawei",
+      "category": "手机",
+      "name": "HUAWEI Mate 80 Pro",
+      "tag": "旗舰 · 红枫影像",
       "image": "/shop/img/hw-mate80pro.png",
-      "configs": [ { "label": "12GB+256GB", "official": 5499, "price": 5299 } ]
+      "configs": [
+        {
+          "label": "12GB+256GB",
+          "official": 5499,
+          "price": 5299
+        }
+      ]
     },
     {
-      "id": "hw-pura90pro", "brand": "huawei", "category": "手机",
-      "name": "HUAWEI Pura 90 Pro", "tag": "影像旗舰 · XMAGE",
+      "id": "hw-pura90pro",
+      "brand": "huawei",
+      "category": "手机",
+      "name": "HUAWEI Pura 90 Pro",
+      "tag": "影像旗舰 · XMAGE",
       "image": "/shop/img/hw-pura90pro.png",
-      "configs": [ { "label": "12GB+256GB", "official": 5499, "price": 5299 } ]
+      "configs": [
+        {
+          "label": "12GB+256GB",
+          "official": 5499,
+          "price": 5299
+        }
+      ]
     },
     {
-      "id": "hw-nova16pro", "brand": "huawei", "category": "手机",
-      "name": "HUAWEI nova 16 Pro", "tag": "人像 · 麒麟9010S",
+      "id": "hw-nova16pro",
+      "brand": "huawei",
+      "category": "手机",
+      "name": "HUAWEI nova 16 Pro",
+      "tag": "人像 · 麒麟9010S",
       "image": "/shop/img/hw-nova16pro.png",
-      "configs": [ { "label": "12GB+256GB", "official": 3899, "price": 3749 } ]
+      "configs": [
+        {
+          "label": "12GB+256GB",
+          "official": 3899,
+          "price": 3749
+        }
+      ]
     },
     {
-      "id": "hw-matex7", "brand": "huawei", "category": "折叠屏手机",
-      "name": "HUAWEI Mate X7", "tag": "折叠旗舰 · 玄武架构",
+      "id": "hw-matex7",
+      "brand": "huawei",
+      "category": "折叠屏手机",
+      "name": "HUAWEI Mate X7",
+      "tag": "折叠旗舰 · 玄武架构",
       "image": "/shop/img/hw-matex7.png",
-      "configs": [ { "label": "12GB+256GB", "official": 12999, "price": 12499 } ]
+      "configs": [
+        {
+          "label": "12GB+256GB",
+          "official": 12999,
+          "price": 12499
+        }
+      ]
     },
-
     {
-      "id": "ap-iphone17pro", "brand": "apple", "category": "手机",
-      "name": "iPhone 17 Pro", "tag": "旗舰 · A19 Pro",
+      "id": "ap-iphone17pro",
+      "brand": "apple",
+      "category": "手机",
+      "name": "iPhone 17 Pro",
+      "tag": "旗舰 · A19 Pro",
       "image": "/shop/img/ap-iphone17pro.png",
-      "configs": [ { "label": "256GB", "official": 8999, "price": 8649 } ]
+      "configs": [
+        {
+          "label": "256GB",
+          "official": 8999,
+          "price": 8649
+        },
+        {
+          "label": "512GB",
+          "official": 10999,
+          "price": 10549
+        },
+        {
+          "label": "1TB",
+          "official": 12999,
+          "price": 12499
+        }
+      ]
     },
     {
-      "id": "ap-iphone17promax", "brand": "apple", "category": "手机",
-      "name": "iPhone 17 Pro Max", "tag": "旗舰 · A19 Pro",
+      "id": "ap-iphone17promax",
+      "brand": "apple",
+      "category": "手机",
+      "name": "iPhone 17 Pro Max",
+      "tag": "旗舰 · A19 Pro",
       "image": "/shop/img/ap-iphone17pro.png",
-      "configs": [ { "label": "256GB", "official": 9999, "price": 9599 } ]
+      "configs": [
+        {
+          "label": "256GB",
+          "official": 9999,
+          "price": 9599
+        },
+        {
+          "label": "512GB",
+          "official": 11999,
+          "price": 11499
+        },
+        {
+          "label": "1TB",
+          "official": 13999,
+          "price": 13449
+        },
+        {
+          "label": "2TB",
+          "official": 17999,
+          "price": 17299
+        }
+      ]
     },
     {
-      "id": "ap-iphone17", "brand": "apple", "category": "手机",
-      "name": "iPhone 17", "tag": "主力 · A19",
+      "id": "ap-iphone17",
+      "brand": "apple",
+      "category": "手机",
+      "name": "iPhone 17",
+      "tag": "主力 · A19",
       "image": "/shop/img/ap-iphone17.png",
-      "configs": [ { "label": "128GB", "official": 5999, "price": 5769 } ]
+      "configs": [
+        {
+          "label": "256GB",
+          "official": 5999,
+          "price": 5749
+        },
+        {
+          "label": "512GB",
+          "official": 7999,
+          "price": 7699
+        }
+      ]
     },
     {
-      "id": "ap-iphoneair", "brand": "apple", "category": "手机",
-      "name": "iPhone Air", "tag": "轻薄 · 全新定位",
+      "id": "ap-iphoneair",
+      "brand": "apple",
+      "category": "手机",
+      "name": "iPhone Air",
+      "tag": "轻薄 · 全新定位",
       "image": "/shop/img/ap-iphoneair.png",
-      "configs": [ { "label": "256GB", "official": 7999, "price": 7699 } ]
+      "configs": [
+        {
+          "label": "256GB",
+          "official": 7999,
+          "price": 7699
+        },
+        {
+          "label": "512GB",
+          "official": 9999,
+          "price": 9599
+        },
+        {
+          "label": "1TB",
+          "official": 11999,
+          "price": 11499
+        }
+      ]
     },
     {
-      "id": "ap-iphone17e", "brand": "apple", "category": "手机",
-      "name": "iPhone 17e", "tag": "入门 · A19",
+      "id": "ap-iphone17e",
+      "brand": "apple",
+      "category": "手机",
+      "name": "iPhone 17e",
+      "tag": "入门 · A19",
       "image": "/shop/img/ap-iphone17e.png",
-      "configs": [ { "label": "128GB", "official": 4499, "price": 4329 } ]
+      "configs": [
+        {
+          "label": "256GB",
+          "official": 4499,
+          "price": 4299
+        },
+        {
+          "label": "512GB",
+          "official": 6499,
+          "price": 6249
+        }
+      ]
     },
     {
-      "id": "ap-iphone16", "brand": "apple", "category": "手机",
-      "name": "iPhone 16", "tag": "经典 · A18",
+      "id": "ap-iphone16",
+      "brand": "apple",
+      "category": "手机",
+      "name": "iPhone 16",
+      "tag": "经典 · A18",
       "image": "/shop/img/ap-iphone16.png",
-      "configs": [ { "label": "128GB", "official": 5399, "price": 5189 } ]
+      "configs": [
+        {
+          "label": "128GB",
+          "official": 5399,
+          "price": 5199
+        }
+      ]
     },
     {
-      "id": "ap-macbookair13", "brand": "apple", "category": "轻薄本/全能本",
-      "name": "MacBook Air 13 英寸 M5", "tag": "轻薄本 · M5芯片",
+      "id": "ap-macbookair13",
+      "brand": "apple",
+      "category": "轻薄本/全能本",
+      "name": "MacBook Air 13 英寸 M5",
+      "tag": "轻薄本 · M5芯片",
       "image": "/shop/img/ap-macbookair.png",
-      "configs": [ { "label": "24GB+256GB", "official": 9999, "price": 9599 } ]
+      "configs": [
+        {
+          "label": "24GB+256GB",
+          "official": 9999,
+          "price": 9599
+        }
+      ]
     },
     {
-      "id": "ap-macbookair15", "brand": "apple", "category": "轻薄本/全能本",
-      "name": "MacBook Air 15 英寸 M5", "tag": "轻薄本 · M5芯片",
+      "id": "ap-macbookair15",
+      "brand": "apple",
+      "category": "轻薄本/全能本",
+      "name": "MacBook Air 15 英寸 M5",
+      "tag": "轻薄本 · M5芯片",
       "image": "/shop/img/ap-macbookair.png",
-      "configs": [ { "label": "24GB+256GB", "official": 11999, "price": 11499 } ]
+      "configs": [
+        {
+          "label": "24GB+256GB",
+          "official": 11999,
+          "price": 11499
+        }
+      ]
     },
     {
-      "id": "ap-macbookpro14", "brand": "apple", "category": "笔记本",
-      "name": "MacBook Pro 14 英寸 M5", "tag": "专业本 · M5芯片",
+      "id": "ap-macbookpro14",
+      "brand": "apple",
+      "category": "笔记本",
+      "name": "MacBook Pro 14 英寸 M5",
+      "tag": "专业本 · M5芯片",
       "image": "/shop/img/ap-macbookpro.png",
-      "configs": [ { "label": "24GB+1TB", "official": 15999, "price": 15299 } ]
+      "configs": [
+        {
+          "label": "24GB+1TB",
+          "official": 15999,
+          "price": 15299
+        }
+      ]
     },
     {
-      "id": "ap-macbookpro16", "brand": "apple", "category": "笔记本",
-      "name": "MacBook Pro 16 英寸 M5 Max", "tag": "专业本 · M5 Max",
+      "id": "ap-macbookpro16",
+      "brand": "apple",
+      "category": "笔记本",
+      "name": "MacBook Pro 16 英寸 M5 Max",
+      "tag": "专业本 · M5 Max",
       "image": "/shop/img/ap-macbookpro.png",
-      "configs": [ { "label": "36GB+1TB", "official": 24999, "price": 23899 } ]
+      "configs": [
+        {
+          "label": "36GB+1TB",
+          "official": 24999,
+          "price": 23899
+        }
+      ]
     },
     {
-      "id": "ap-imac", "brand": "apple", "category": "台式机/一体机",
-      "name": "iMac 24 英寸 M4", "tag": "一体机 · 4.5K Retina",
+      "id": "ap-imac",
+      "brand": "apple",
+      "category": "台式机/一体机",
+      "name": "iMac 24 英寸 M4",
+      "tag": "一体机 · 4.5K Retina",
       "image": "/shop/img/ap-imac.png",
-      "configs": [ { "label": "16GB+512GB", "official": 10999, "price": 10499 } ]
+      "configs": [
+        {
+          "label": "16GB+512GB",
+          "official": 10999,
+          "price": 10499
+        }
+      ]
     },
     {
-      "id": "ap-watch11", "brand": "apple", "category": "智能手表",
-      "name": "Apple Watch Series 11", "tag": "智能手表 · GPS",
+      "id": "ap-watch11",
+      "brand": "apple",
+      "category": "智能手表",
+      "name": "Apple Watch Series 11",
+      "tag": "智能手表 · GPS",
       "image": "/shop/img/ap-watch.png",
-      "configs": [ { "label": "42mm 标准版", "official": 2999, "price": 2879 } ]
+      "configs": [
+        {
+          "label": "42mm 标准版",
+          "official": 2999,
+          "price": 2879
+        }
+      ]
     },
     {
-      "id": "ap-watchse3", "brand": "apple", "category": "智能手表",
-      "name": "Apple Watch SE 3", "tag": "智能手表 · 入门款",
+      "id": "ap-watchse3",
+      "brand": "apple",
+      "category": "智能手表",
+      "name": "Apple Watch SE 3",
+      "tag": "智能手表 · 入门款",
       "image": "/shop/img/ap-watch.png",
-      "configs": [ { "label": "40mm 标准版", "official": 1999, "price": 1929 } ]
+      "configs": [
+        {
+          "label": "40mm 标准版",
+          "official": 1999,
+          "price": 1929
+        }
+      ]
     },
     {
-      "id": "ap-watchultra3", "brand": "apple", "category": "智能手表",
-      "name": "Apple Watch Ultra 3", "tag": "智能手表 · 钛金属",
+      "id": "ap-watchultra3",
+      "brand": "apple",
+      "category": "智能手表",
+      "name": "Apple Watch Ultra 3",
+      "tag": "智能手表 · 钛金属",
       "image": "/shop/img/ap-watch.png",
-      "configs": [ { "label": "49mm 标准版", "official": 6499, "price": 6249 } ]
+      "configs": [
+        {
+          "label": "49mm 标准版",
+          "official": 6499,
+          "price": 6249
+        }
+      ]
     },
-
     {
-      "id": "mi-17ultra", "brand": "xiaomi", "category": "手机",
-      "name": "Xiaomi 17 Ultra", "tag": "影像机皇 · 徕卡",
+      "id": "mi-17ultra",
+      "brand": "xiaomi",
+      "category": "手机",
+      "name": "Xiaomi 17 Ultra",
+      "tag": "影像机皇 · 徕卡",
       "image": "/shop/img/mi-17ultra.png",
-      "configs": [ { "label": "12GB+512GB", "official": 6999, "price": 6729 } ]
+      "configs": [
+        {
+          "label": "12GB+512GB",
+          "official": 6999,
+          "price": 6729
+        }
+      ]
     },
     {
-      "id": "mi-17pro", "brand": "xiaomi", "category": "手机",
-      "name": "Xiaomi 17 Pro", "tag": "旗舰 · 骁龙8至尊",
+      "id": "mi-17pro",
+      "brand": "xiaomi",
+      "category": "手机",
+      "name": "Xiaomi 17 Pro",
+      "tag": "旗舰 · 骁龙8至尊",
       "image": "/shop/img/mi-17pro.png",
-      "configs": [ { "label": "12GB+256GB", "official": 4999, "price": 4799 } ]
+      "configs": [
+        {
+          "label": "12GB+256GB",
+          "official": 4999,
+          "price": 4799
+        }
+      ]
     },
     {
-      "id": "mi-17", "brand": "xiaomi", "category": "手机",
-      "name": "Xiaomi 17", "tag": "主力 · 骁龙8至尊",
+      "id": "mi-17",
+      "brand": "xiaomi",
+      "category": "手机",
+      "name": "Xiaomi 17",
+      "tag": "主力 · 骁龙8至尊",
       "image": "/shop/img/mi-17.png",
-      "configs": [ { "label": "12GB+256GB", "official": 4299, "price": 4129 } ]
+      "configs": [
+        {
+          "label": "12GB+256GB",
+          "official": 4299,
+          "price": 4129
+        }
+      ]
     },
     {
-      "id": "mi-15", "brand": "xiaomi", "category": "手机",
-      "name": "Xiaomi 15", "tag": "小屏旗舰 · 徕卡",
+      "id": "mi-15",
+      "brand": "xiaomi",
+      "category": "手机",
+      "name": "Xiaomi 15",
+      "tag": "小屏旗舰 · 徕卡",
       "image": "/shop/img/mi-15.png",
-      "configs": [ { "label": "12GB+256GB", "official": 3599, "price": 3459 } ]
+      "configs": [
+        {
+          "label": "12GB+256GB",
+          "official": 3599,
+          "price": 3459
+        }
+      ]
     },
     {
-      "id": "mi-k90", "brand": "xiaomi", "category": "手机",
-      "name": "REDMI K90 至尊版", "tag": "性能旗舰 · 骁龙8",
+      "id": "mi-k90",
+      "brand": "xiaomi",
+      "category": "手机",
+      "name": "REDMI K90 至尊版",
+      "tag": "性能旗舰 · 骁龙8",
       "image": "/shop/img/mi-k90.png",
-      "configs": [ { "label": "12GB+256GB", "official": 2999, "price": 2879 } ]
+      "configs": [
+        {
+          "label": "12GB+256GB",
+          "official": 2999,
+          "price": 2879
+        }
+      ]
     },
-
     {
-      "id": "ho-magic8pro", "brand": "honor", "category": "手机",
-      "name": "HONOR Magic8 Pro", "tag": "旗舰 · 2亿潜望长焦",
+      "id": "ho-magic8pro",
+      "brand": "honor",
+      "category": "手机",
+      "name": "HONOR Magic8 Pro",
+      "tag": "旗舰 · 2亿潜望长焦",
       "image": "/shop/img/ho-magic8pro.png",
-      "configs": [ { "label": "12GB+256GB", "official": 5699, "price": 5479 } ]
+      "configs": [
+        {
+          "label": "12GB+256GB",
+          "official": 5699,
+          "price": 5479
+        }
+      ]
     },
     {
-      "id": "ho-magic8", "brand": "honor", "category": "手机",
-      "name": "HONOR Magic8", "tag": "旗舰 · 7000mAh",
+      "id": "ho-magic8",
+      "brand": "honor",
+      "category": "手机",
+      "name": "HONOR Magic8",
+      "tag": "旗舰 · 7000mAh",
       "image": "/shop/img/ho-magic8.png",
-      "configs": [ { "label": "12GB+256GB", "official": 4499, "price": 4319 } ]
+      "configs": [
+        {
+          "label": "12GB+256GB",
+          "official": 4499,
+          "price": 4319
+        }
+      ]
     },
     {
-      "id": "ho-magicv6", "brand": "honor", "category": "折叠屏手机",
-      "name": "HONOR Magic V6", "tag": "折叠旗舰 · 大屏生产力",
+      "id": "ho-magicv6",
+      "brand": "honor",
+      "category": "折叠屏手机",
+      "name": "HONOR Magic V6",
+      "tag": "折叠旗舰 · 大屏生产力",
       "image": "/shop/img/ho-magicv6.png",
-      "configs": [ { "label": "12GB+256GB", "official": 8999, "price": 8649 } ]
+      "configs": [
+        {
+          "label": "12GB+256GB",
+          "official": 8999,
+          "price": 8649
+        }
+      ]
     },
     {
-      "id": "ho-600pro", "brand": "honor", "category": "手机",
-      "name": "HONOR 600 Pro", "tag": "数字系列 · 影像续航",
+      "id": "ho-600pro",
+      "brand": "honor",
+      "category": "手机",
+      "name": "HONOR 600 Pro",
+      "tag": "数字系列 · 影像续航",
       "image": "/shop/img/ho-600pro.png",
-      "configs": [ { "label": "12GB+256GB", "official": 3899, "price": 3749 } ]
-    },
-
-    {
-      "id": "le-tb14p", "brand": "lenovo", "category": "轻薄本/全能本",
-      "name": "联想 ThinkBook 14+ 2026", "tag": "轻薄全能本 · Ultra5",
-      "image": "/shop/img/le-tb14p.png",
-      "configs": [ { "label": "Ultra5/32GB/1TB/3K", "official": 10999, "price": 10499 } ]
-    },
-    {
-      "id": "le-tb16p", "brand": "lenovo", "category": "轻薄本/全能本",
-      "name": "联想 ThinkBook 16+ 2026", "tag": "轻薄全能本 · Ultra5",
-      "image": "/shop/img/le-tb16p.png",
-      "configs": [ { "label": "Ultra5/32GB/1TB/3.2K", "official": 10999, "price": 10499 } ]
+      "configs": [
+        {
+          "label": "12GB+256GB",
+          "official": 3899,
+          "price": 3749
+        }
+      ]
     },
     {
-      "id": "le-e14", "brand": "lenovo", "category": "商务本",
-      "name": "联想 ThinkPad E14 2026", "tag": "经典商务本 · 2.8K",
+      "id": "le-x1carbon",
+      "brand": "lenovo",
+      "category": "商务本",
+      "name": "ThinkPad X1 Carbon Aura 2026 酷睿Ultra5 全互联本 1QCD",
+      "tag": "商务本 · 2.8K OLED",
+      "image": "/shop/img/le-x1carbon.png",
+      "configs": [
+        {
+          "label": "Ultra5 325/32GB/1TB/14\"2.8K OLED",
+          "official": 16799,
+          "price": 16149
+        }
+      ]
+    },
+    {
+      "id": "le-x14-x7",
+      "brand": "lenovo",
+      "category": "商务本",
+      "name": "ThinkPad X14 2026 酷睿Ultra X7 06CD",
+      "tag": "商务本 · 2.8K OLED",
+      "image": "/shop/img/le-x14-x7.png",
+      "configs": [
+        {
+          "label": "UltraX7 358H/32GB/1TB/14\"2.8K OLED",
+          "official": 14999,
+          "price": 14399
+        }
+      ]
+    },
+    {
+      "id": "le-x14-u5",
+      "brand": "lenovo",
+      "category": "商务本",
+      "name": "ThinkPad X14 2026 酷睿Ultra5 05CD",
+      "tag": "商务本 · 2.8K OLED",
+      "image": "/shop/img/le-x14-u5.png",
+      "configs": [
+        {
+          "label": "Ultra5 338H/32GB/1TB/14\"2.8K OLED",
+          "official": 12499,
+          "price": 11999
+        }
+      ]
+    },
+    {
+      "id": "le-t14p-u5",
+      "brand": "lenovo",
+      "category": "商务本",
+      "name": "ThinkPad T14p 2026 酷睿Ultra5 00CD",
+      "tag": "商务本 · 3K",
+      "image": "/shop/img/le-t14p-u5.png",
+      "configs": [
+        {
+          "label": "Ultra5 338H/32GB/1TB/14.5\"3K",
+          "official": 12499,
+          "price": 11999
+        }
+      ]
+    },
+    {
+      "id": "le-t14p-u7",
+      "brand": "lenovo",
+      "category": "商务本",
+      "name": "ThinkPad T14p 2026 酷睿Ultra7 00CD",
+      "tag": "商务本 · RTX5060",
+      "image": "/shop/img/le-t14p-u7.png",
+      "configs": [
+        {
+          "label": "Ultra7 356H/32GB/1TB/RTX5060/14.5\"3K",
+          "official": 21999,
+          "price": 21099
+        }
+      ]
+    },
+    {
+      "id": "le-t14",
+      "brand": "lenovo",
+      "category": "商务本",
+      "name": "ThinkPad T14 2026 酷睿Ultra7 ARCD",
+      "tag": "商务本 · 触控",
+      "image": "/shop/img/le-t14.png",
+      "configs": [
+        {
+          "label": "Ultra7 356H/32GB/1TB/14\"触控",
+          "official": 16799,
+          "price": 16149
+        }
+      ]
+    },
+    {
+      "id": "le-e14",
+      "brand": "lenovo",
+      "category": "商务本",
+      "name": "ThinkPad E14 2026 酷睿Ultra5 3KCD",
+      "tag": "经典商务本 · 2.8K",
       "image": "/shop/img/le-e14.png",
-      "configs": [ { "label": "Core5/32GB/1TB/2.8K", "official": 9899, "price": 9399 } ]
+      "configs": [
+        {
+          "label": "Ultra5 336H/32GB/1TB/14\"2.8K",
+          "official": 11399,
+          "price": 10949
+        }
+      ]
     },
     {
-      "id": "le-y9000p", "brand": "lenovo", "category": "游戏本",
-      "name": "拯救者 Y9000P 2026", "tag": "电竞本 · 满功耗独显",
+      "id": "le-p16",
+      "brand": "lenovo",
+      "category": "商务本",
+      "name": "ThinkPad P16 2026 酷睿Ultra7 0DCD",
+      "tag": "专业工作站 · RTX Pro",
+      "image": "/shop/img/le-p16.png",
+      "configs": [
+        {
+          "label": "Ultra7 255HX/32GB/1TB/RTXPro2000/16\"",
+          "official": 31599,
+          "price": 30349
+        }
+      ]
+    },
+    {
+      "id": "le-x1-2in1",
+      "brand": "lenovo",
+      "category": "商务本",
+      "name": "ThinkPad X1 2in1 Aura 2026 酷睿Ultra7 00CD",
+      "tag": "商务二合一 · 触控",
+      "image": "/shop/img/le-x1-2in1.png",
+      "configs": [
+        {
+          "label": "Ultra7 355/32GB/1TB/14\"2.8K触控",
+          "official": 24799,
+          "price": 23799
+        }
+      ]
+    },
+    {
+      "id": "le-x9",
+      "brand": "lenovo",
+      "category": "商务本",
+      "name": "ThinkPad X9 15 Aura 2025 酷睿Ultra7 5JCD",
+      "tag": "商务本 · OLED触控",
+      "image": "/shop/img/le-x9.png",
+      "configs": [
+        {
+          "label": "Ultra7 258V/32GB/1TB/15\"2.8K OLED触控",
+          "official": 17699,
+          "price": 16999
+        }
+      ]
+    },
+    {
+      "id": "le-x13",
+      "brand": "lenovo",
+      "category": "商务本",
+      "name": "ThinkPad X13 2026 锐龙AI7 0QCD",
+      "tag": "商务本 · 锐龙AI",
+      "image": "/shop/img/le-x13.png",
+      "configs": [
+        {
+          "label": "锐龙AI7 445/32GB/512GB/13.3\"",
+          "official": 12499,
+          "price": 11999
+        }
+      ]
+    },
+    {
+      "id": "le-tb14plus-u5",
+      "brand": "lenovo",
+      "category": "轻薄本/全能本",
+      "name": "ThinkBook 14+ 2026 酷睿Ultra5 06CD",
+      "tag": "轻薄全能本 · 3K",
+      "image": "/shop/img/le-tb14plus-u5.png",
+      "configs": [
+        {
+          "label": "Ultra5 338H/32GB/1TB/14.5\"3K",
+          "official": 10999,
+          "price": 10549
+        }
+      ]
+    },
+    {
+      "id": "le-tb14plus-fifa",
+      "brand": "lenovo",
+      "category": "轻薄本/全能本",
+      "name": "ThinkBook 14+ 2026 酷睿UltraX7 FIFA限量",
+      "tag": "轻薄全能本 · FIFA限量",
+      "image": "/shop/img/le-tb14plus-fifa.png",
+      "configs": [
+        {
+          "label": "UltraX7 358H/32GB/1TB/14.5\"3K",
+          "official": 12999,
+          "price": 12499
+        }
+      ]
+    },
+    {
+      "id": "le-tb16plus-u5",
+      "brand": "lenovo",
+      "category": "轻薄本/全能本",
+      "name": "ThinkBook 16+ 2026 酷睿Ultra5 06CD",
+      "tag": "轻薄全能本 · 3.2K",
+      "image": "/shop/img/le-tb16plus-u5.png",
+      "configs": [
+        {
+          "label": "Ultra5 338H/32GB/1TB/16\"3.2K",
+          "official": 10999,
+          "price": 10549
+        }
+      ]
+    },
+    {
+      "id": "le-tb16plus-x7",
+      "brand": "lenovo",
+      "category": "轻薄本/全能本",
+      "name": "ThinkBook 16+ 2026 酷睿UltraX7 09CD",
+      "tag": "轻薄全能本 · 3.2K",
+      "image": "/shop/img/le-tb16plus-x7.png",
+      "configs": [
+        {
+          "label": "UltraX7 358H/32GB/1TB/16\"3.2K",
+          "official": 12999,
+          "price": 12499
+        }
+      ]
+    },
+    {
+      "id": "le-tb16plus-u7",
+      "brand": "lenovo",
+      "category": "轻薄本/全能本",
+      "name": "ThinkBook 16+ 2026 酷睿Ultra7 04CD",
+      "tag": "轻薄全能本 · RTX5060",
+      "image": "/shop/img/le-tb16plus-u7.png",
+      "configs": [
+        {
+          "label": "Ultra7 356H/32GB/1TB/RTX5060/16\"3.2K",
+          "official": 14999,
+          "price": 14399
+        }
+      ]
+    },
+    {
+      "id": "le-tb16p-u7",
+      "brand": "lenovo",
+      "category": "轻薄本/全能本",
+      "name": "ThinkBook 16p 2026 酷睿Ultra7 59CD",
+      "tag": "创作全能本 · RTX5060",
+      "image": "/shop/img/le-tb16p-u7.png",
+      "configs": [
+        {
+          "label": "Ultra7 251HX/32GB/1TB/RTX5060/16\"2.5K",
+          "official": 15999,
+          "price": 15349
+        }
+      ]
+    },
+    {
+      "id": "le-tb16p-u9",
+      "brand": "lenovo",
+      "category": "轻薄本/全能本",
+      "name": "ThinkBook 16p 2026 酷睿Ultra9 5GCD",
+      "tag": "创作全能本 · RTX5060",
+      "image": "/shop/img/le-tb16p-u9.png",
+      "configs": [
+        {
+          "label": "Ultra9 290HX Plus/32GB/1TB/RTX5060/16\"3.2K",
+          "official": 18999,
+          "price": 18249
+        }
+      ]
+    },
+    {
+      "id": "le-tb14",
+      "brand": "lenovo",
+      "category": "轻薄本/全能本",
+      "name": "ThinkBook 14 2026 酷睿Ultra7 5DCD",
+      "tag": "轻薄本 · 2.8K",
+      "image": "/shop/img/le-tb14.png",
+      "configs": [
+        {
+          "label": "Ultra7 356H/32GB/1TB/14\"2.8K",
+          "official": 10999,
+          "price": 10549
+        }
+      ]
+    },
+    {
+      "id": "le-tbplus",
+      "brand": "lenovo",
+      "category": "轻薄本/全能本",
+      "name": "ThinkBook Plus 卷轴屏 2025 酷睿Ultra7 01CD",
+      "tag": "卷轴屏 · 科技旗舰",
+      "image": "/shop/img/le-tbplus.png",
+      "configs": [
+        {
+          "label": "Ultra7 258V/32GB/1TB/14\"→16.7\"卷轴屏",
+          "official": 29999,
+          "price": 28799
+        }
+      ]
+    },
+    {
+      "id": "le-tbx",
+      "brand": "lenovo",
+      "category": "轻薄本/全能本",
+      "name": "ThinkBook X 2025 酷睿Ultra9 00CD",
+      "tag": "轻薄本 · 触控",
+      "image": "/shop/img/le-tbx.png",
+      "configs": [
+        {
+          "label": "Ultra9 285H/32GB/1TB/13.5\"触控",
+          "official": 10999,
+          "price": 10549
+        }
+      ]
+    },
+    {
+      "id": "le-xiaoxinpro16",
+      "brand": "lenovo",
+      "category": "轻薄本/全能本",
+      "name": "联想小新Pro16 酷睿 16英寸",
+      "tag": "轻薄本 · 2.8K",
+      "image": "/shop/img/le-xiaoxinpro16.png",
+      "configs": [
+        {
+          "label": "Ultra5 336H/32GB/1TB/16\"2.8K",
+          "official": 8999,
+          "price": 8649
+        }
+      ]
+    },
+    {
+      "id": "le-xiaoxinpro14gt",
+      "brand": "lenovo",
+      "category": "轻薄本/全能本",
+      "name": "联想小新Pro14 GT 14英寸 赛道灰",
+      "tag": "轻薄本 · GT性能",
+      "image": "/shop/img/le-xiaoxinpro14gt.png",
+      "configs": [
+        {
+          "label": "Ultra5 338H/32GB/1TB/14\"2.8K",
+          "official": 10799,
+          "price": 10349
+        }
+      ]
+    },
+    {
+      "id": "le-yogaair14",
+      "brand": "lenovo",
+      "category": "轻薄本/全能本",
+      "name": "YOGA Air 14 Ultra Aura 2026 云绢",
+      "tag": "轻薄本 · OLED触控",
+      "image": "/shop/img/le-yogaair14.png",
+      "configs": [
+        {
+          "label": "UltraX7 358H/32GB/1TB/14\"2.8K OLED触控",
+          "official": 16999,
+          "price": 16299
+        }
+      ]
+    },
+    {
+      "id": "le-yogapro16",
+      "brand": "lenovo",
+      "category": "轻薄本/全能本",
+      "name": "联想YOGA Pro 16 Aura 雷霆灰",
+      "tag": "全能本 · OLED触控",
+      "image": "/shop/img/le-yogapro16.png",
+      "configs": [
+        {
+          "label": "Ultra7 356H/32GB/1TB/RTX5060/16\"3.2K OLED触控",
+          "official": 23999,
+          "price": 23049
+        }
+      ]
+    },
+    {
+      "id": "le-yogapro15",
+      "brand": "lenovo",
+      "category": "轻薄本/全能本",
+      "name": "联想YOGA Pro 15 锐龙 雷霆灰",
+      "tag": "全能本 · OLED",
+      "image": "/shop/img/le-yogapro15.png",
+      "configs": [
+        {
+          "label": "锐龙AIMax+388/64GB/1TB/15.3\"2.5K OLED",
+          "official": 19999,
+          "price": 19199
+        }
+      ]
+    },
+    {
+      "id": "le-xiaoxin14",
+      "brand": "lenovo",
+      "category": "笔记本",
+      "name": "联想小新14 14英寸",
+      "tag": "家用本 · 轻薄",
+      "image": "/shop/img/le-xiaoxin14.png",
+      "configs": [
+        {
+          "label": "锐龙7 H255/16GB/512GB/14\"FHD+",
+          "official": 5799,
+          "price": 5549
+        }
+      ]
+    },
+    {
+      "id": "le-xiaoxinair14",
+      "brand": "lenovo",
+      "category": "笔记本",
+      "name": "联想小新Air14 14英寸 深空",
+      "tag": "家用本 · 2.8K",
+      "image": "/shop/img/le-xiaoxinair14.png",
+      "configs": [
+        {
+          "label": "Ultra5 226V/16GB/512GB/14\"2.8K",
+          "official": 6499,
+          "price": 6249
+        }
+      ]
+    },
+    {
+      "id": "le-xiaoxinair13",
+      "brand": "lenovo",
+      "category": "笔记本",
+      "name": "联想小新Air13 13.3英寸",
+      "tag": "家用本 · 2.5K",
+      "image": "/shop/img/le-xiaoxinair13.png",
+      "configs": [
+        {
+          "label": "酷睿5 320/16GB/512GB/13.3\"2.5K",
+          "official": 5499,
+          "price": 5299
+        }
+      ]
+    },
+    {
+      "id": "le-y9000p",
+      "brand": "lenovo",
+      "category": "游戏本",
+      "name": "拯救者Y9000P 16英寸 冰魄白",
+      "tag": "电竞本 · RTX5060",
       "image": "/shop/img/le-y9000p.png",
-      "configs": [ { "label": "官方标准配置", "official": 14299, "price": 13599 } ]
+      "configs": [
+        {
+          "label": "Ultra9 275HX/32GB/1TB/RTX5060/16\"2.5K",
+          "official": 18499,
+          "price": 17749
+        }
+      ]
+    },
+    {
+      "id": "le-y9000p-ultra",
+      "brand": "lenovo",
+      "category": "游戏本",
+      "name": "拯救者Y9000P 2026 至尊版 碳晶黑",
+      "tag": "电竞本 · RTX5090",
+      "image": "/shop/img/le-y9000p-ultra.png",
+      "configs": [
+        {
+          "label": "Ultra9 290HX Plus/64GB/2TB/RTX5090/16\"2.5K",
+          "official": 44999,
+          "price": 43199
+        }
+      ]
+    },
+    {
+      "id": "le-y7000p",
+      "brand": "lenovo",
+      "category": "游戏本",
+      "name": "拯救者Y7000P 2026 16英寸 碳晶黑",
+      "tag": "电竞本 · RTX5060",
+      "image": "/shop/img/le-y7000p.png",
+      "configs": [
+        {
+          "label": "Ultra7 255HX/16GB/1TB/RTX5060/16\"2.5K",
+          "official": 14999,
+          "price": 14399
+        }
+      ]
+    },
+    {
+      "id": "le-y7000x",
+      "brand": "lenovo",
+      "category": "游戏本",
+      "name": "拯救者Y7000X 2026 15.3英寸 碳晶黑",
+      "tag": "电竞本 · 碳晶黑",
+      "image": "/shop/img/le-y7000x.png",
+      "configs": [
+        {
+          "label": "Ultra7 251HX/16GB/1TB/RTX5060/15.3\"2.5K",
+          "official": 13499,
+          "price": 12949
+        }
+      ]
+    },
+    {
+      "id": "le-y7000x-white",
+      "brand": "lenovo",
+      "category": "游戏本",
+      "name": "拯救者Y7000X 2026 15.3英寸 冰魄白",
+      "tag": "电竞本 · 冰魄白",
+      "image": "/shop/img/le-y7000x-white.png",
+      "configs": [
+        {
+          "label": "Ultra7 251HX/16GB/1TB/RTX5060/15.3\"2.5K",
+          "official": 13799,
+          "price": 13249
+        }
+      ]
+    },
+    {
+      "id": "le-r9000x",
+      "brand": "lenovo",
+      "category": "游戏本",
+      "name": "拯救者R9000X 2026 15.3英寸 星烁紫",
+      "tag": "电竞本 · 锐龙AI",
+      "image": "/shop/img/le-r9000x.png",
+      "configs": [
+        {
+          "label": "锐龙AIMax+392/64GB/1TB/15.3\"2.5K",
+          "official": 20999,
+          "price": 20149
+        }
+      ]
+    },
+    {
+      "id": "le-r9000p",
+      "brand": "lenovo",
+      "category": "游戏本",
+      "name": "拯救者R9000P 2026 16英寸 碳晶黑",
+      "tag": "电竞本 · RTX5060",
+      "image": "/shop/img/le-r9000p.png",
+      "configs": [
+        {
+          "label": "锐龙9 8945HX/16GB/1TB/RTX5060/16\"2.5K",
+          "official": 14499,
+          "price": 13899
+        }
+      ]
+    },
+    {
+      "id": "le-yoga32",
+      "brand": "lenovo",
+      "category": "台式机/一体机",
+      "name": "联想YOGA 32 Ultra Aura 31.5英寸OLED一体机",
+      "tag": "一体机 · 4K OLED",
+      "image": "/shop/img/le-yoga32.png",
+      "configs": [
+        {
+          "label": "UltraX7 358H/32GB/1TB/31.5\"4K OLED",
+          "official": 22999,
+          "price": 22099
+        }
+      ]
+    },
+    {
+      "id": "le-xiaoxin-desktop",
+      "brand": "lenovo",
+      "category": "台式机/一体机",
+      "name": "小新台式电脑 尊享Ultra版 U5-225",
+      "tag": "台式电脑 · 8.2L",
+      "image": "/shop/img/le-xiaoxin-desktop.png",
+      "configs": [
+        {
+          "label": "Ultra5 225/16G/512G/8.2L机箱",
+          "official": 4899,
+          "price": 4699
+        }
+      ]
+    },
+    {
+      "id": "le-y700pad5",
+      "brand": "lenovo",
+      "category": "平板",
+      "name": "联想拯救者平板Y700 五代 8.8英寸 AI游戏平板",
+      "tag": "游戏平板 · 3K",
+      "image": "/shop/img/le-y700pad5.png",
+      "configs": [
+        {
+          "label": "骁龙8Elite Gen5/16GB/512GB/8.8\"3K",
+          "official": 5099,
+          "price": 4899
+        }
+      ]
+    },
+    {
+      "id": "le-y700pad",
+      "brand": "lenovo",
+      "category": "平板",
+      "name": "联想拯救者Y700 2025 8.8英寸游戏平板",
+      "tag": "游戏平板 · 2.5K",
+      "image": "/shop/img/le-y700pad.png",
+      "configs": [
+        {
+          "label": "骁龙8Gen3/16GB/512GB/8.8\"2.5K",
+          "official": 2899,
+          "price": 2799
+        }
+      ]
+    },
+    {
+      "id": "le-xiaoxinpro13pad",
+      "brand": "lenovo",
+      "category": "平板",
+      "name": "联想AI平板小新Pro13 13英寸 凝雾灰",
+      "tag": "AI平板 · 3.5K",
+      "image": "/shop/img/le-xiaoxinpro13pad.png",
+      "configs": [
+        {
+          "label": "骁龙8s/8GB/128GB/13\"3.5K",
+          "official": 2299,
+          "price": 2199
+        }
+      ]
+    },
+    {
+      "id": "le-xiaoxinpad11",
+      "brand": "lenovo",
+      "category": "平板",
+      "name": "联想小新平板11 11英寸 深空灰",
+      "tag": "平板 · 影音",
+      "image": "/shop/img/le-xiaoxinpad11.png",
+      "configs": [
+        {
+          "label": "天玑6300/6GB/128GB/11\"",
+          "official": 1299,
+          "price": 1249
+        }
+      ]
+    },
+    {
+      "id": "le-razr60",
+      "brand": "lenovo",
+      "category": "折叠屏手机",
+      "name": "联想moto razr 60 12GB+256GB 棉花糖白",
+      "tag": "竖折叠 · 轻奢",
+      "image": "/shop/img/le-razr60.png",
+      "configs": [
+        {
+          "label": "竖折叠/6.9\"+3.63\"屏",
+          "official": 3899,
+          "price": 3749
+        }
+      ]
+    },
+    {
+      "id": "le-razrfold",
+      "brand": "lenovo",
+      "category": "折叠屏手机",
+      "name": "联想moto razr Fold 16GB+512GB FIFA限定",
+      "tag": "横折叠 · FIFA限定",
+      "image": "/shop/img/le-razrfold.png",
+      "configs": [
+        {
+          "label": "横折叠/8.09\"+6.56\"屏",
+          "official": 14999,
+          "price": 14399
+        }
+      ]
+    },
+    {
+      "id": "le-razr70ultra",
+      "brand": "lenovo",
+      "category": "折叠屏手机",
+      "name": "联想moto razr 70 Ultra 12GB+256GB 雾绒紫薇",
+      "tag": "竖折叠 · Ultra",
+      "image": "/shop/img/le-razr70ultra.png",
+      "configs": [
+        {
+          "label": "竖折叠/6.96\"+4.0\"屏",
+          "official": 7499,
+          "price": 7199
+        }
+      ]
+    },
+    {
+      "id": "le-g100pro",
+      "brand": "lenovo",
+      "category": "手机",
+      "name": "联想moto g100 Pro 8+256 苔原青",
+      "tag": "直屏 · 长续航",
+      "image": "/shop/img/le-g100pro.png",
+      "configs": [
+        {
+          "label": "6.7\"1.5K/6720mAh",
+          "official": 1499,
+          "price": 1449
+        }
+      ]
+    },
+    {
+      "id": "le-y70phone",
+      "brand": "lenovo",
+      "category": "手机",
+      "name": "联想拯救者手机Y70 新一代 12GB+256GB 碳晶黑",
+      "tag": "电竞手机 · 8000mAh",
+      "image": "/shop/img/le-y70phone.png",
+      "configs": [
+        {
+          "label": "6.82\"高刷/8000mAh",
+          "official": 3099,
+          "price": 2999
+        }
+      ]
     }
   ]
 }
