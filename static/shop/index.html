@@ -116,6 +116,7 @@
 </header>
 
 <div class="tabs" id="tabs"></div>
+<div class="tabs" id="catTabs"></div>
 <div class="grid" id="grid"></div>
 
 <footer>象联科技 UniThing Technology · 软硬件开发 · 一手二手数码产品优选<br>本商城为下单与咨询渠道，付款后 48 小时内发货 · 支持全国顺丰</footer>
@@ -161,6 +162,7 @@
 const WORKER_URL = ""; // 订单中转地址（Cloudflare Worker），配置后启用推送
 let SHOP = null;
 let current = { product: null, config: null };
+let state = { brand: "all", cat: "all" };
 
 fetch("/shop/data.json").then(r => r.json()).then(d => { SHOP = d; render(); });
 
@@ -168,26 +170,52 @@ function fmt(n) { return n > 0 ? "¥" + n.toLocaleString("zh-CN") : "详询"; }
 
 function render() {
   const tabs = document.getElementById("tabs");
-  const grid = document.getElementById("grid");
-  SHOP.brands.forEach((b, i) => {
+  // 品牌 tab（含"全部"）
+  const bAll = document.createElement("button");
+  bAll.className = "tab active"; bAll.textContent = "全部品牌";
+  bAll.onclick = () => setTab("brand", "all", tabs);
+  tabs.appendChild(bAll);
+  SHOP.brands.forEach(b => {
     const btn = document.createElement("button");
-    btn.className = "tab" + (i === 0 ? " active" : "");
+    btn.className = "tab";
     btn.textContent = b.name;
-    btn.onclick = () => { document.querySelectorAll(".tab").forEach(t => t.classList.remove("active")); btn.classList.add("active"); renderGrid(b.key); };
+    btn.onclick = () => setTab("brand", b.key, tabs);
     tabs.appendChild(btn);
   });
-  renderGrid(SHOP.brands[0].key);
+  // 品类 tab（含"全部"）
+  const catTabs = document.getElementById("catTabs");
+  const cAll = document.createElement("button");
+  cAll.className = "tab active"; cAll.textContent = "全部品类";
+  cAll.onclick = () => setTab("cat", "all", catTabs);
+  catTabs.appendChild(cAll);
+  SHOP.categories.forEach(c => {
+    const btn = document.createElement("button");
+    btn.className = "tab";
+    btn.textContent = c.name;
+    btn.onclick = () => setTab("cat", c.key, catTabs);
+    catTabs.appendChild(btn);
+  });
+  renderGrid();
 }
 
-function renderGrid(brandKey) {
+function setTab(type, key, container) {
+  container.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+  event.target.classList.add("active");
+  if (type === "brand") state.brand = key; else state.cat = key;
+  renderGrid();
+}
+
+function renderGrid() {
   const grid = document.getElementById("grid");
   grid.innerHTML = "";
-  const list = SHOP.products.filter(p => p.brand === brandKey);
+  const list = SHOP.products.filter(p => (state.brand === "all" || p.brand === state.brand) && (state.cat === "all" || p.category === state.cat));
+  if (!list.length) { grid.innerHTML = '<div style="color:var(--text-dim);text-align:center;padding:40px;">该分类暂无产品，敬请期待</div>'; return; }
   list.forEach(p => {
     const card = document.createElement("div");
     card.className = "card";
+    const brandName = SHOP.brands.find(b => b.key === p.brand).name;
     card.innerHTML = `
-      <div class="thumb">${SHOP.brands.find(b => b.key === p.brand).name} · ${p.name.split(" ").pop()}</div>
+      <div class="thumb">${p.img ? `<img src="${p.img}" alt="${p.name}" style="max-width:100%;max-height:100%;object-fit:contain;">` : (brandName + " · " + p.name.split(" ").pop())}</div>
       <h3>${p.name}</h3>
       <div class="tag">${p.tag}</div>
       <div class="price"><span class="off" id="off-${p.id}"></span><span class="official" id="offl-${p.id}"></span></div>

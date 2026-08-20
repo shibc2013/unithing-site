@@ -2,11 +2,26 @@
   "updated": "2026-08-20",
   "notice": "价格来源于各品牌官方商城，以官网实时为准；标注'详询'的档位请联系商家确认。",
   "brands": [
-    { "key": "huawei", "name": "华为" },
-    { "key": "apple", "name": "苹果" },
-    { "key": "xiaomi", "name": "小米" },
-    { "key": "honor", "name": "荣耀" },
-    { "key": "lenovo", "name": "联想" }
+    {
+      "key": "huawei",
+      "name": "华为"
+    },
+    {
+      "key": "apple",
+      "name": "苹果"
+    },
+    {
+      "key": "xiaomi",
+      "name": "小米"
+    },
+    {
+      "key": "honor",
+      "name": "荣耀"
+    },
+    {
+      "key": "lenovo",
+      "name": "联想"
+    }
   ],
   "products": [
     {
@@ -15,9 +30,19 @@
       "name": "HUAWEI Mate 80 Pro Max",
       "tag": "旗舰 · 全金属玄武架构",
       "configs": [
-        { "label": "12GB+512GB", "official": 7999, "price": 7699 },
-        { "label": "16GB+1TB", "official": 0, "price": 0 }
-      ]
+        {
+          "label": "12GB+512GB",
+          "official": 7999,
+          "price": 7699
+        },
+        {
+          "label": "16GB+1TB",
+          "official": 0,
+          "price": 0
+        }
+      ],
+      "category": "phone",
+      "img": ""
     },
     {
       "id": "hw-mate80pro",
@@ -25,9 +50,19 @@
       "name": "HUAWEI Mate 80 Pro",
       "tag": "旗舰 · 红枫影像",
       "configs": [
-        { "label": "12GB+256GB", "official": 5499, "price": 5299 },
-        { "label": "12GB+512GB", "official": 0, "price": 0 }
-      ]
+        {
+          "label": "12GB+256GB",
+          "official": 5499,
+          "price": 5299
+        },
+        {
+          "label": "12GB+512GB",
+          "official": 0,
+          "price": 0
+        }
+      ],
+      "category": "phone",
+      "img": ""
     },
     {
       "id": "hw-pura90pro",
@@ -35,9 +70,19 @@
       "name": "HUAWEI Pura 90 Pro",
       "tag": "影像旗舰 · XMAGE",
       "configs": [
-        { "label": "12GB+256GB", "official": 5499, "price": 5299 },
-        { "label": "12GB+512GB", "official": 0, "price": 0 }
-      ]
+        {
+          "label": "12GB+256GB",
+          "official": 5499,
+          "price": 5299
+        },
+        {
+          "label": "12GB+512GB",
+          "official": 0,
+          "price": 0
+        }
+      ],
+      "category": "phone",
+      "img": ""
     },
     {
       "id": "hw-nova16pro",
@@ -45,9 +90,19 @@
       "name": "HUAWEI nova 16 Pro",
       "tag": "人像 · 麒麟9010S",
       "configs": [
-        { "label": "12GB+256GB", "official": 3899, "price": 3749 },
-        { "label": "12GB+512GB", "official": 0, "price": 0 }
-      ]
+        {
+          "label": "12GB+256GB",
+          "official": 3899,
+          "price": 3749
+        },
+        {
+          "label": "12GB+512GB",
+          "official": 0,
+          "price": 0
+        }
+      ],
+      "category": "phone",
+      "img": ""
     },
     {
       "id": "hw-matex7",
@@ -55,21 +110,44 @@
       "name": "HUAWEI Mate X7",
       "tag": "折叠旗舰 · 玄武架构",
       "configs": [
-        { "label": "12GB+256GB", "official": 12999, "price": 12499 },
-        { "label": "16GB+512GB", "official": 0, "price": 0 }
-      ]
+        {
+          "label": "12GB+256GB",
+          "official": 12999,
+          "price": 12499
+        },
+        {
+          "label": "16GB+512GB",
+          "official": 0,
+          "price": 0
+        }
+      ],
+      "category": "phone",
+      "img": ""
     },
-
     {
       "id": "ap-iphone17pro",
       "brand": "apple",
       "name": "iPhone 17 Pro",
       "tag": "旗舰 · A19 Pro",
       "configs": [
-        { "label": "256GB", "official": 8999, "price": 8649 },
-        { "label": "512GB", "official": 0, "price": 0 },
-        { "label": "1TB", "official": 0, "price": 0 }
-      ]
+        {
+          "label": "256GB",
+          "official": 8999,
+          "price": 8649
+        },
+        {
+          "label": "512GB",
+          "official": 0,
+          "price": 0
+        },
+        {
+          "label": "1TB",
+          "official": 0,
+          "price": 0
+        }
+      ],
+      "category": "phone",
+      "img": ""
     },
     {
       "id": "ap-iphone17promax",
@@ -77,10 +155,24 @@
       "name": "iPhone 17 Pro Max",
       "tag": "旗舰 · A19 Pro",
       "configs": [
-        { "label": "256GB", "official": 9999, "price": 9599 },
-        { "label": "512GB", "official": 0, "price": 0 },
-        { "label": "1TB", "official": 0, "price": 0 }
-      ]
+        {
+          "label": "256GB",
+          "official": 9999,
+          "price": 9599
+        },
+        {
+          "label": "512GB",
+          "official": 0,
+          "price": 0
+        },
+        {
+          "label": "1TB",
+          "official": 0,
+          "price": 0
+        }
+      ],
+      "category": "phone",
+      "img": ""
     },
     {
       "id": "ap-iphone17",
@@ -88,10 +180,24 @@
       "name": "iPhone 17",
       "tag": "主力 · A19",
       "configs": [
-        { "label": "128GB", "official": 5999, "price": 5769 },
-        { "label": "256GB", "official": 0, "price": 0 },
-        { "label": "512GB", "official": 0, "price": 0 }
-      ]
+        {
+          "label": "128GB",
+          "official": 5999,
+          "price": 5769
+        },
+        {
+          "label": "256GB",
+          "official": 0,
+          "price": 0
+        },
+        {
+          "label": "512GB",
+          "official": 0,
+          "price": 0
+        }
+      ],
+      "category": "phone",
+      "img": ""
     },
     {
       "id": "ap-iphone17e",
@@ -99,9 +205,19 @@
       "name": "iPhone 17e",
       "tag": "入门 · A19",
       "configs": [
-        { "label": "128GB", "official": 4499, "price": 4329 },
-        { "label": "256GB", "official": 0, "price": 0 }
-      ]
+        {
+          "label": "128GB",
+          "official": 4499,
+          "price": 4329
+        },
+        {
+          "label": "256GB",
+          "official": 0,
+          "price": 0
+        }
+      ],
+      "category": "phone",
+      "img": ""
     },
     {
       "id": "ap-iphoneair",
@@ -109,20 +225,39 @@
       "name": "iPhone Air",
       "tag": "轻薄 · 全新定位",
       "configs": [
-        { "label": "256GB", "official": 7999, "price": 7699 },
-        { "label": "512GB", "official": 0, "price": 0 }
-      ]
+        {
+          "label": "256GB",
+          "official": 7999,
+          "price": 7699
+        },
+        {
+          "label": "512GB",
+          "official": 0,
+          "price": 0
+        }
+      ],
+      "category": "phone",
+      "img": ""
     },
-
     {
       "id": "mi-17ultra",
       "brand": "xiaomi",
       "name": "Xiaomi 17 Ultra",
       "tag": "影像机皇 · 徕卡",
       "configs": [
-        { "label": "12GB+512GB", "official": 6999, "price": 6729 },
-        { "label": "16GB+1TB", "official": 0, "price": 0 }
-      ]
+        {
+          "label": "12GB+512GB",
+          "official": 6999,
+          "price": 6729
+        },
+        {
+          "label": "16GB+1TB",
+          "official": 0,
+          "price": 0
+        }
+      ],
+      "category": "phone",
+      "img": ""
     },
     {
       "id": "mi-17pro",
@@ -130,10 +265,24 @@
       "name": "Xiaomi 17 Pro",
       "tag": "旗舰 · 骁龙8至尊",
       "configs": [
-        { "label": "12GB+256GB", "official": 4999, "price": 4799 },
-        { "label": "12GB+512GB", "official": 0, "price": 0 },
-        { "label": "16GB+1TB", "official": 0, "price": 0 }
-      ]
+        {
+          "label": "12GB+256GB",
+          "official": 4999,
+          "price": 4799
+        },
+        {
+          "label": "12GB+512GB",
+          "official": 0,
+          "price": 0
+        },
+        {
+          "label": "16GB+1TB",
+          "official": 0,
+          "price": 0
+        }
+      ],
+      "category": "phone",
+      "img": ""
     },
     {
       "id": "mi-17",
@@ -141,9 +290,19 @@
       "name": "Xiaomi 17",
       "tag": "主力 · 骁龙8至尊",
       "configs": [
-        { "label": "12GB+256GB", "official": 4299, "price": 4129 },
-        { "label": "12GB+512GB", "official": 0, "price": 0 }
-      ]
+        {
+          "label": "12GB+256GB",
+          "official": 4299,
+          "price": 4129
+        },
+        {
+          "label": "12GB+512GB",
+          "official": 0,
+          "price": 0
+        }
+      ],
+      "category": "phone",
+      "img": ""
     },
     {
       "id": "mi-15",
@@ -151,10 +310,24 @@
       "name": "Xiaomi 15",
       "tag": "小屏旗舰 · 徕卡",
       "configs": [
-        { "label": "12GB+256GB", "official": 3599, "price": 3459 },
-        { "label": "12GB+512GB", "official": 0, "price": 0 },
-        { "label": "16GB+1TB", "official": 0, "price": 0 }
-      ]
+        {
+          "label": "12GB+256GB",
+          "official": 3599,
+          "price": 3459
+        },
+        {
+          "label": "12GB+512GB",
+          "official": 0,
+          "price": 0
+        },
+        {
+          "label": "16GB+1TB",
+          "official": 0,
+          "price": 0
+        }
+      ],
+      "category": "phone",
+      "img": ""
     },
     {
       "id": "mi-k90",
@@ -162,20 +335,39 @@
       "name": "REDMI K90 至尊版",
       "tag": "性能旗舰 · 骁龙8",
       "configs": [
-        { "label": "12GB+256GB", "official": 2999, "price": 2879 },
-        { "label": "12GB+512GB", "official": 0, "price": 0 }
-      ]
+        {
+          "label": "12GB+256GB",
+          "official": 2999,
+          "price": 2879
+        },
+        {
+          "label": "12GB+512GB",
+          "official": 0,
+          "price": 0
+        }
+      ],
+      "category": "phone",
+      "img": ""
     },
-
     {
       "id": "ho-magic8pro",
       "brand": "honor",
       "name": "HONOR Magic8 Pro",
       "tag": "旗舰 · 2亿潜望长焦",
       "configs": [
-        { "label": "12GB+256GB", "official": 5699, "price": 5479 },
-        { "label": "12GB+512GB", "official": 0, "price": 0 }
-      ]
+        {
+          "label": "12GB+256GB",
+          "official": 5699,
+          "price": 5479
+        },
+        {
+          "label": "12GB+512GB",
+          "official": 0,
+          "price": 0
+        }
+      ],
+      "category": "phone",
+      "img": ""
     },
     {
       "id": "ho-magic8",
@@ -183,9 +375,19 @@
       "name": "HONOR Magic8",
       "tag": "旗舰 · 7000mAh",
       "configs": [
-        { "label": "12GB+256GB", "official": 4499, "price": 4319 },
-        { "label": "12GB+512GB", "official": 0, "price": 0 }
-      ]
+        {
+          "label": "12GB+256GB",
+          "official": 4499,
+          "price": 4319
+        },
+        {
+          "label": "12GB+512GB",
+          "official": 0,
+          "price": 0
+        }
+      ],
+      "category": "phone",
+      "img": ""
     },
     {
       "id": "ho-magicv6",
@@ -193,9 +395,19 @@
       "name": "HONOR Magic V6",
       "tag": "折叠旗舰 · 大屏生产力",
       "configs": [
-        { "label": "12GB+256GB", "official": 8999, "price": 8649 },
-        { "label": "16GB+512GB", "official": 0, "price": 0 }
-      ]
+        {
+          "label": "12GB+256GB",
+          "official": 8999,
+          "price": 8649
+        },
+        {
+          "label": "16GB+512GB",
+          "official": 0,
+          "price": 0
+        }
+      ],
+      "category": "phone",
+      "img": ""
     },
     {
       "id": "ho-600pro",
@@ -203,20 +415,39 @@
       "name": "HONOR 600 Pro",
       "tag": "数字系列 · 影像续航",
       "configs": [
-        { "label": "12GB+256GB", "official": 3899, "price": 3749 },
-        { "label": "12GB+512GB", "official": 0, "price": 0 }
-      ]
+        {
+          "label": "12GB+256GB",
+          "official": 3899,
+          "price": 3749
+        },
+        {
+          "label": "12GB+512GB",
+          "official": 0,
+          "price": 0
+        }
+      ],
+      "category": "phone",
+      "img": ""
     },
-
     {
       "id": "le-tb14p",
       "brand": "lenovo",
       "name": "联想 ThinkBook 14+ 2026",
       "tag": "轻薄全能本 · Ultra5",
       "configs": [
-        { "label": "Ultra5/32GB/1TB/3K", "official": 10999, "price": 10499 },
-        { "label": "Ultra7/32GB/1TB/3K", "official": 0, "price": 0 }
-      ]
+        {
+          "label": "Ultra5/32GB/1TB/3K",
+          "official": 10999,
+          "price": 10499
+        },
+        {
+          "label": "Ultra7/32GB/1TB/3K",
+          "official": 0,
+          "price": 0
+        }
+      ],
+      "category": "laptop",
+      "img": ""
     },
     {
       "id": "le-tb16p",
@@ -224,9 +455,19 @@
       "name": "联想 ThinkBook 16+ 2026",
       "tag": "轻薄全能本 · Ultra5",
       "configs": [
-        { "label": "Ultra5/32GB/1TB/3.2K", "official": 10999, "price": 10499 },
-        { "label": "Ultra7/32GB/1TB/RTX5060", "official": 14999, "price": 14299 }
-      ]
+        {
+          "label": "Ultra5/32GB/1TB/3.2K",
+          "official": 10999,
+          "price": 10499
+        },
+        {
+          "label": "Ultra7/32GB/1TB/RTX5060",
+          "official": 14999,
+          "price": 14299
+        }
+      ],
+      "category": "laptop",
+      "img": ""
     },
     {
       "id": "le-e14",
@@ -234,8 +475,14 @@
       "name": "联想 ThinkPad E14 2026",
       "tag": "经典商务本 · 2.8K",
       "configs": [
-        { "label": "Core5/32GB/1TB/2.8K", "official": 9899, "price": 9399 }
-      ]
+        {
+          "label": "Core5/32GB/1TB/2.8K",
+          "official": 9899,
+          "price": 9399
+        }
+      ],
+      "category": "laptop",
+      "img": ""
     },
     {
       "id": "le-y9000p",
@@ -243,8 +490,56 @@
       "name": "拯救者 Y9000P 2026",
       "tag": "电竞本 · 满功耗独显",
       "configs": [
-        { "label": "官方标准配置", "official": 14299, "price": 13599 }
-      ]
+        {
+          "label": "官方标准配置",
+          "official": 14299,
+          "price": 13599
+        }
+      ],
+      "category": "laptop",
+      "img": ""
+    }
+  ],
+  "categories": [
+    {
+      "key": "phone",
+      "name": "手机"
+    },
+    {
+      "key": "pad",
+      "name": "平板"
+    },
+    {
+      "key": "laptop",
+      "name": "笔记本"
+    },
+    {
+      "key": "desktop",
+      "name": "台式机 / 一体机"
+    },
+    {
+      "key": "audio",
+      "name": "耳机 / 音频"
+    },
+    {
+      "key": "wearable",
+      "name": "智能手表 / 手环"
+    },
+    {
+      "key": "wearacc",
+      "name": "穿戴配件"
+    },
+    {
+      "key": "display",
+      "name": "智慧屏 / 显示器"
+    },
+    {
+      "key": "network",
+      "name": "路由器 / 智能家居"
+    },
+    {
+      "key": "acc",
+      "name": "配件"
     }
   ]
 }
