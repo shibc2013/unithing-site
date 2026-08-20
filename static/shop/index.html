@@ -27,35 +27,36 @@
   .aurora { position: fixed; inset: 0; z-index: -2; background: radial-gradient(ellipse at 20% 0%, rgba(212,175,55,0.16), transparent 45%), radial-gradient(ellipse at 80% 20%, rgba(70,80,140,0.20), transparent 50%), radial-gradient(ellipse at 50% 100%, rgba(212,175,55,0.08), transparent 55%), var(--ink); }
   .glow { position: fixed; width: 460px; height: 460px; border-radius: 50%; background: radial-gradient(circle, rgba(212,175,55,0.14), transparent 65%); pointer-events: none; z-index: -1; transform: translate(-50%,-50%); transition: left .2s, top .2s; }
 
-  /* 顶部导航 */
   .nav { position: sticky; top: 0; z-index: 50; display: flex; align-items: center; justify-content: space-between; padding: 16px 6vw; background: rgba(11,11,18,0.75); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(212,175,55,0.15); }
   .nav .brand { font-size: 18px; font-weight: 700; letter-spacing: 1px; color: var(--gold-light); text-decoration: none; }
   .nav .brand span { color: var(--white); font-weight: 400; margin-left: 8px; font-size: 14px; }
   .nav .home-btn { color: var(--text-dim); text-decoration: none; font-size: 14px; border: 1px solid rgba(212,175,55,0.35); padding: 7px 16px; border-radius: 999px; transition: .3s; }
   .nav .home-btn:hover { color: var(--ink); background: var(--gold-light); }
 
-  header.hero { text-align: center; padding: 56px 20px 30px; }
+  header.hero { text-align: center; padding: 56px 20px 26px; }
   header.hero h1 { font-size: clamp(30px, 5vw, 46px); letter-spacing: 2px; background: linear-gradient(135deg, var(--gold-white), var(--gold) 55%, var(--gold-light)); -webkit-background-clip: text; background-clip: text; color: transparent; }
   header.hero p { color: var(--text-dim); margin-top: 10px; font-size: 15px; }
   header.hero .notice { margin-top: 14px; font-size: 12px; color: rgba(242,216,126,0.6); }
 
-  /* 品牌 tab */
-  .tabs { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 10px 20px 6px; }
-  .tab { padding: 9px 22px; border-radius: 999px; border: 1px solid rgba(212,175,55,0.3); background: transparent; color: var(--text-dim); font-size: 15px; cursor: pointer; transition: .3s; }
+  .filter-bar { display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 12px 20px 4px; }
+  .tabs { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+  .tab { padding: 8px 20px; border-radius: 999px; border: 1px solid rgba(212,175,55,0.3); background: transparent; color: var(--text-dim); font-size: 14px; cursor: pointer; transition: .3s; }
   .tab:hover { border-color: var(--gold); color: var(--gold-light); }
   .tab.active { background: linear-gradient(135deg, var(--gold), var(--gold-light)); color: var(--ink); font-weight: 700; border-color: transparent; }
+  .cat-tab { font-size: 13px; padding: 6px 16px; border-color: rgba(255,255,255,0.2); }
+  .cat-tab.active { background: rgba(255,255,255,0.12); color: var(--white); border-color: rgba(255,255,255,0.4); font-weight: 600; }
 
-  /* 产品网格 */
-  .grid { max-width: 1200px; margin: 30px auto; padding: 0 4vw; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 22px; }
-  .card { position: relative; background: linear-gradient(160deg, rgba(212,175,55,0.08), rgba(255,255,255,0.02)); border: 1px solid rgba(212,175,55,0.18); border-radius: 18px; padding: 22px; transition: .35s; overflow: hidden; }
+  .grid { max-width: 1200px; margin: 26px auto; padding: 0 4vw; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 22px; }
+  .card { position: relative; background: linear-gradient(160deg, rgba(212,175,55,0.08), rgba(255,255,255,0.02)); border: 1px solid rgba(212,175,55,0.18); border-radius: 18px; padding: 18px; transition: .35s; overflow: hidden; }
   .card::before { content: ""; position: absolute; inset: 0; background: radial-gradient(600px circle at var(--mx,50%) var(--my,0%), rgba(212,175,55,0.14), transparent 45%); opacity: 0; transition: opacity .3s; }
   .card:hover { transform: translateY(-6px); border-color: rgba(212,175,55,0.5); box-shadow: 0 20px 60px rgba(0,0,0,0.5); }
   .card:hover::before { opacity: 1; }
-  .card .thumb { height: 120px; display: flex; align-items: center; justify-content: center; font-size: 15px; letter-spacing: 2px; color: var(--gold-light); border: 1px dashed rgba(212,175,55,0.3); border-radius: 12px; margin-bottom: 16px; position: relative; z-index: 1; }
-  .card h3 { font-size: 17px; font-weight: 600; position: relative; z-index: 1; }
+  .card .thumb { height: 150px; display: flex; align-items: center; justify-content: center; margin-bottom: 14px; position: relative; z-index: 1; background: rgba(255,255,255,0.03); border-radius: 12px; overflow: hidden; }
+  .card .thumb img { max-width: 90%; max-height: 140px; object-fit: contain; }
+  .card h3 { font-size: 16px; font-weight: 600; position: relative; z-index: 1; }
   .card .tag { font-size: 12px; color: var(--text-dim); margin-top: 4px; position: relative; z-index: 1; }
-  .card .price { margin-top: 14px; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; position: relative; z-index: 1; }
-  .card .price .off { font-size: 24px; font-weight: 800; color: var(--gold-light); }
+  .card .price { margin-top: 12px; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; position: relative; z-index: 1; }
+  .card .price .off { font-size: 23px; font-weight: 800; color: var(--gold-light); }
   .card .price .off small { font-size: 13px; font-weight: 400; }
   .card .price .official { font-size: 13px; color: var(--text-dim); text-decoration: line-through; }
   .card select { width: 100%; margin-top: 12px; padding: 10px 12px; border-radius: 10px; border: 1px solid rgba(212,175,55,0.3); background: rgba(255,255,255,0.04); color: var(--white); font-size: 14px; cursor: pointer; position: relative; z-index: 1; outline: none; }
@@ -64,7 +65,9 @@
   .buy-btn:hover { filter: brightness(1.08); }
   .buy-btn:active { transform: scale(0.98); }
 
-  /* 下单弹窗 */
+  .empty { text-align: center; color: var(--text-dim); padding: 60px 20px; font-size: 15px; }
+  .empty b { color: var(--gold-light); }
+
   .modal { position: fixed; inset: 0; z-index: 100; background: rgba(0,0,0,0.7); backdrop-filter: blur(4px); display: none; align-items: center; justify-content: center; padding: 16px; }
   .modal.show { display: flex; }
   .panel { width: 100%; max-width: 520px; max-height: 92vh; overflow: auto; background: linear-gradient(165deg, #17161f, #0d0d15); border: 1px solid rgba(212,175,55,0.3); border-radius: 20px; padding: 26px; }
@@ -83,7 +86,6 @@
   .btn-ghost { background: transparent; color: var(--text-dim); border: 1px solid rgba(255,255,255,0.2) !important; }
   .btn-ghost:hover { color: var(--white); border-color: var(--gold) !important; }
 
-  /* 下单成功 */
   .ok-panel { text-align: center; }
   .ok-panel .order-no { display: inline-block; margin: 14px 0; padding: 10px 20px; background: rgba(212,175,55,0.12); border: 1px dashed var(--gold); border-radius: 10px; color: var(--gold-light); font-size: 18px; font-weight: 700; letter-spacing: 1px; }
   .ok-panel .steps { text-align: left; margin: 18px 0; padding: 16px; background: rgba(255,255,255,0.03); border-radius: 12px; font-size: 14px; color: var(--text-dim); }
@@ -95,7 +97,6 @@
   .pay-area .p-note { font-size: 12px; color: var(--text-dim); margin-top: 4px; }
 
   footer { text-align: center; color: var(--text-dim); font-size: 13px; padding: 34px 20px 40px; border-top: 1px solid rgba(212,175,55,0.12); margin-top: 40px; }
-
   .hidden { display: none !important; }
   @media (max-width: 520px) { .grid { grid-template-columns: 1fr; } }
 </style>
@@ -112,16 +113,17 @@
 <header class="hero">
   <h1>UniThing 数码商城</h1>
   <p>华为 · 苹果 · 小米 · 荣耀 · 联想 — 官网正品，官网价基础上再享优惠</p>
-  <div class="notice">价格来源于各品牌官方商城，以官网实时为准；标「详询」的档位请联系商家确认库存与价格</div>
+  <div class="notice">价格来源于各品牌官方商城，以官网实时为准</div>
 </header>
 
-<div class="tabs" id="tabs"></div>
-<div class="tabs" id="catTabs"></div>
+<div class="filter-bar">
+  <div class="tabs" id="brandTabs"></div>
+  <div class="tabs" id="catTabs"></div>
+</div>
 <div class="grid" id="grid"></div>
 
 <footer>象联科技 UniThing Technology · 软硬件开发 · 一手二手数码产品优选<br>本商城为下单与咨询渠道，付款后 48 小时内发货 · 支持全国顺丰</footer>
 
-<!-- 下单弹窗 -->
 <div class="modal" id="modal">
   <div class="panel" id="formPanel">
     <h2>确认订单</h2>
@@ -136,7 +138,6 @@
       <button class="btn-gold" onclick="submitOrder()">提交订单</button>
     </div>
   </div>
-
   <div class="panel ok-panel hidden" id="okPanel">
     <h2>订单已提交</h2>
     <div class="order-no" id="orderNo"></div>
@@ -158,64 +159,75 @@
 </div>
 
 <script>
-// ===== 数据 =====
-const WORKER_URL = ""; // 订单中转地址（Cloudflare Worker），配置后启用推送
+const WORKER_URL = "";
 let SHOP = null;
+let curBrand = "all";
+let curCat = "all";
 let current = { product: null, config: null };
-let state = { brand: "all", cat: "all" };
 
 fetch("/shop/data.json").then(r => r.json()).then(d => { SHOP = d; render(); });
 
-function fmt(n) { return n > 0 ? "¥" + n.toLocaleString("zh-CN") : "详询"; }
+function fmt(n) { return "¥" + n.toLocaleString("zh-CN"); }
 
 function render() {
-  const tabs = document.getElementById("tabs");
-  // 品牌 tab（含"全部"）
+  const bTabs = document.getElementById("brandTabs");
+  const cTabs = document.getElementById("catTabs");
+  // 品牌 tab
   const bAll = document.createElement("button");
   bAll.className = "tab active"; bAll.textContent = "全部品牌";
-  bAll.onclick = () => setTab("brand", "all", tabs);
-  tabs.appendChild(bAll);
+  bAll.onclick = () => setBrand("all");
+  bTabs.appendChild(bAll);
   SHOP.brands.forEach(b => {
     const btn = document.createElement("button");
-    btn.className = "tab";
-    btn.textContent = b.name;
-    btn.onclick = () => setTab("brand", b.key, tabs);
-    tabs.appendChild(btn);
+    btn.className = "tab"; btn.textContent = b.name;
+    btn.dataset.brand = b.key;
+    btn.onclick = () => setBrand(b.key);
+    bTabs.appendChild(btn);
   });
-  // 品类 tab（含"全部"）
-  const catTabs = document.getElementById("catTabs");
+  // 品类 tab（从数据聚合，保持出现顺序）
+  const cats = [];
+  SHOP.products.forEach(p => { if (!cats.includes(p.category)) cats.push(p.category); });
   const cAll = document.createElement("button");
-  cAll.className = "tab active"; cAll.textContent = "全部品类";
-  cAll.onclick = () => setTab("cat", "all", catTabs);
-  catTabs.appendChild(cAll);
-  SHOP.categories.forEach(c => {
+  cAll.className = "tab cat-tab active"; cAll.textContent = "全部品类";
+  cAll.onclick = () => setCat("all");
+  cTabs.appendChild(cAll);
+  cats.forEach(c => {
     const btn = document.createElement("button");
-    btn.className = "tab";
-    btn.textContent = c.name;
-    btn.onclick = () => setTab("cat", c.key, catTabs);
-    catTabs.appendChild(btn);
+    btn.className = "tab cat-tab"; btn.textContent = c;
+    btn.dataset.cat = c;
+    btn.onclick = () => setCat(c);
+    cTabs.appendChild(btn);
   });
   renderGrid();
 }
 
-function setTab(type, key, container) {
-  container.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
-  event.target.classList.add("active");
-  if (type === "brand") state.brand = key; else state.cat = key;
+function setBrand(k) {
+  curBrand = k;
+  document.querySelectorAll("#brandTabs .tab").forEach(t => t.classList.toggle("active", t.dataset.brand === k || (k === "all" && !t.dataset.brand)));
+  renderGrid();
+}
+function setCat(c) {
+  curCat = c;
+  document.querySelectorAll("#catTabs .tab").forEach(t => t.classList.toggle("active", t.dataset.cat === c || (c === "all" && !t.dataset.cat)));
   renderGrid();
 }
 
 function renderGrid() {
   const grid = document.getElementById("grid");
   grid.innerHTML = "";
-  const list = SHOP.products.filter(p => (state.brand === "all" || p.brand === state.brand) && (state.cat === "all" || p.category === state.cat));
-  if (!list.length) { grid.innerHTML = '<div style="color:var(--text-dim);text-align:center;padding:40px;">该分类暂无产品，敬请期待</div>'; return; }
+  let list = SHOP.products;
+  if (curBrand !== "all") list = list.filter(p => p.brand === curBrand);
+  if (curCat !== "all") list = list.filter(p => p.category === curCat);
+  if (list.length === 0) {
+    const bName = curBrand === "all" ? "全部品牌" : (SHOP.brands.find(b => b.key === curBrand) || {}).name;
+    grid.innerHTML = `<div class="empty"><b>${bName}</b> 的${curCat === "all" ? "" : curCat + " "}产品整理中，敬请期待<br>如需咨询请直接联系我们</div>`;
+    return;
+  }
   list.forEach(p => {
     const card = document.createElement("div");
     card.className = "card";
-    const brandName = SHOP.brands.find(b => b.key === p.brand).name;
     card.innerHTML = `
-      <div class="thumb">${p.img ? `<img src="${p.img}" alt="${p.name}" style="max-width:100%;max-height:100%;object-fit:contain;">` : (brandName + " · " + p.name.split(" ").pop())}</div>
+      <div class="thumb"><img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.parentNode.innerHTML='${p.name.split(' ').pop()}';this.parentNode.style.color='var(--gold-light)'"></div>
       <h3>${p.name}</h3>
       <div class="tag">${p.tag}</div>
       <div class="price"><span class="off" id="off-${p.id}"></span><span class="official" id="offl-${p.id}"></span></div>
@@ -225,7 +237,7 @@ function renderGrid() {
     p.configs.forEach((c, i) => {
       const opt = document.createElement("option");
       opt.value = i;
-      opt.textContent = c.label + (c.price > 0 ? " ｜ " + fmt(c.price) : " ｜ 详询");
+      opt.textContent = c.label + " ｜ " + fmt(c.price);
       sel.appendChild(opt);
     });
     sel.onchange = () => updatePrice(p.id);
@@ -238,15 +250,8 @@ function updatePrice(id) {
   const p = SHOP.products.find(x => x.id === id);
   const i = +document.getElementById("sel-" + id).value;
   const c = p.configs[i];
-  const off = document.getElementById("off-" + id);
-  const offl = document.getElementById("offl-" + id);
-  if (c.price > 0) {
-    off.innerHTML = fmt(c.price);
-    offl.textContent = c.official > 0 ? "官网价 " + fmt(c.official) : "";
-  } else {
-    off.innerHTML = "详询";
-    offl.textContent = c.official > 0 ? "官网参考 " + fmt(c.official) : "";
-  }
+  document.getElementById("off-" + id).innerHTML = fmt(c.price);
+  document.getElementById("offl-" + id).textContent = c.official > 0 ? "官网价 " + fmt(c.official) : "";
 }
 
 function openOrder(pid) {
@@ -255,7 +260,7 @@ function openOrder(pid) {
   const c = p.configs[i];
   current = { product: p, config: c };
   document.getElementById("summary").innerHTML =
-    `商品：<b>${p.name}</b><br>配置：<b>${c.label}</b><br>价格：<b>${c.price > 0 ? fmt(c.price) : "详询"}</b>${c.official > 0 ? "（官网价 " + fmt(c.official) + "）" : ""}`;
+    `商品：<b>${p.name}</b><br>配置：<b>${c.label}</b><br>价格：<b>${fmt(c.price)}</b>${c.official > 0 ? "（官网价 " + fmt(c.official) + "）" : ""}`;
   document.getElementById("formPanel").classList.remove("hidden");
   document.getElementById("okPanel").classList.add("hidden");
   document.getElementById("modal").classList.add("show");
@@ -270,26 +275,22 @@ function submitOrder() {
   if (!name || !phone || !addr) { alert("请填写完整的姓名、电话和收货地址"); return; }
   const orderNo = "UT" + Date.now().toString().slice(-8) + Math.floor(Math.random() * 90 + 10);
   const order = {
-    orderNo, product: current.product.name, brand: current.product.brand,
-    config: current.config.label,
-    price: current.config.price > 0 ? current.config.price : "详询",
-    official: current.config.official > 0 ? current.config.official : "",
+    orderNo, product: current.product.name, brand: current.product.brand, category: current.product.category,
+    config: current.config.label, price: current.config.price, official: current.config.official,
     name, phone, addr, note: document.getElementById("fNote").value.trim(),
     time: new Date().toLocaleString("zh-CN")
   };
-  // 推送企业微信（配置 WORKER_URL 后启用）
   if (WORKER_URL) {
     fetch(WORKER_URL, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(order) })
       .catch(e => console.error("推送失败", e));
   }
   document.getElementById("orderNo").textContent = "订单号 " + orderNo;
   document.getElementById("okSummary").innerHTML =
-    `商品：<b>${order.product}</b><br>配置：<b>${order.config}</b><br>金额：<b>${order.price}</b><br>收货人：${order.name} ${order.phone}<br>地址：${order.addr}`;
+    `商品：<b>${order.product}</b><br>配置：<b>${order.config}</b><br>金额：<b>${fmt(order.price)}</b><br>收货人：${order.name} ${order.phone}<br>地址：${order.addr}`;
   document.getElementById("formPanel").classList.add("hidden");
   document.getElementById("okPanel").classList.remove("hidden");
 }
 
-// 鼠标跟随光
 const glow = document.getElementById("glow");
 document.addEventListener("mousemove", e => {
   glow.style.left = e.clientX + "px";
