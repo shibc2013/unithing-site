@@ -95,6 +95,9 @@
   .pay-area img { max-width: 200px; border-radius: 10px; }
   .pay-area .p-tip { font-size: 13px; color: var(--gold-light); margin-top: 10px; }
   .pay-area .p-note { font-size: 12px; color: var(--text-dim); margin-top: 4px; }
+  .pay-tabs { display: flex; gap: 8px; margin-bottom: 12px; }
+  .pay-tab { flex: 1; padding: 8px 0; background: rgba(212,175,55,0.08); border: 1px solid rgba(212,175,55,0.3); border-radius: 8px; color: var(--text-dim); font-size: 13px; cursor: pointer; font-family: inherit; transition: all .15s; }
+  .pay-tab.active { background: var(--gold); color: #1a1a1a; font-weight: 600; border-color: var(--gold); }
 
   footer { text-align: center; color: var(--text-dim); font-size: 13px; padding: 34px 20px 40px; border-top: 1px solid rgba(212,175,55,0.12); margin-top: 40px; }
   .hidden { display: none !important; }
@@ -148,7 +151,12 @@
       <li>商家确认收款后 48 小时内发货</li>
     </div>
     <div class="pay-area">
-      <img src="/shop/pay-qr.png" alt="收款码" onerror="this.style.display='none'">
+      <div class="pay-tabs">
+        <button class="pay-tab active" data-pay="wechat" onclick="switchPay('wechat')">微信支付</button>
+        <button class="pay-tab" data-pay="alipay" onclick="switchPay('alipay')">支付宝</button>
+      </div>
+      <img id="payQrWechat" src="/shop/img/pay-wechat.png" alt="微信收款码" onerror="this.style.display='none'">
+      <img id="payQrAlipay" src="/shop/img/pay-alipay.png" alt="支付宝收款码" style="display:none;" onerror="this.style.display='none'">
       <div class="p-tip">微信 / 支付宝扫码支付</div>
       <div class="p-note">付款时请备注订单号，方便对账</div>
     </div>
@@ -267,6 +275,12 @@ function openOrder(pid) {
 }
 
 function closeModal() { document.getElementById("modal").classList.remove("show"); }
+
+function switchPay(pay) {
+  document.querySelectorAll(".pay-tab").forEach(t => t.classList.toggle("active", t.dataset.pay === pay));
+  document.getElementById("payQrWechat").style.display = pay === "wechat" ? "" : "none";
+  document.getElementById("payQrAlipay").style.display = pay === "alipay" ? "" : "none";
+}
 
 function submitOrder() {
   const name = document.getElementById("fName").value.trim();
