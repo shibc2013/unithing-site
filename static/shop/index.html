@@ -39,7 +39,14 @@
   header.hero .notice { margin-top: 14px; font-size: 12px; color: rgba(242,216,126,0.6); }
 
   .filter-bar { display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 12px 20px 4px; }
-  .tabs { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+  .search-box { position: relative; width: min(560px, 92%); margin: 6px 0 2px; }
+  .search-box input { width: 100%; padding: 12px 44px 12px 18px; border-radius: 999px; border: 1px solid rgba(212,175,55,0.3); background: rgba(255,255,255,0.04); color: var(--white); font-size: 15px; outline: none; font-family: inherit; transition: .3s; }
+  .search-box input:focus { border-color: var(--gold); background: rgba(255,255,255,0.07); box-shadow: 0 0 20px rgba(212,175,55,0.15); }
+  .search-box input::placeholder { color: var(--text-dim); }
+  .search-box .search-ico { position: absolute; right: 16px; top: 50%; transform: translateY(-50%); color: var(--gold-light); font-size: 16px; pointer-events: none; }
+  .search-box .search-clear { position: absolute; right: 14px; top: 50%; transform: translateY(-50%); color: var(--text-dim); font-size: 18px; cursor: pointer; display: none; padding: 0 2px; }
+  .search-box .search-clear:hover { color: var(--gold-light); }
+  .search-info { font-size: 12px; color: var(--text-dim); text-align: center; }
   .tab { padding: 8px 20px; border-radius: 999px; border: 1px solid rgba(212,175,55,0.3); background: transparent; color: var(--text-dim); font-size: 14px; cursor: pointer; transition: .3s; }
   .tab:hover { border-color: var(--gold); color: var(--gold-light); }
   .tab.active { background: linear-gradient(135deg, var(--gold), var(--gold-light)); color: var(--ink); font-weight: 700; border-color: transparent; }
@@ -120,9 +127,15 @@
 </header>
 
 <div class="filter-bar">
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="搜索机型，如：小新、Mate60、iPhone 17" oninput="doSearch()">
+    <span class="search-clear" id="searchClear" onclick="clearSearch()">&times;</span>
+    <span class="search-ico">&#128269;</span>
+  </div>
   <div class="tabs" id="brandTabs"></div>
   <div class="tabs" id="catTabs"></div>
 </div>
+<div class="search-info" id="searchInfo"></div>
 <div class="grid" id="grid"></div>
 
 <footer>象联科技 UniThing Technology · 软硬件开发 · 一手二手数码产品优选<br>本商城为下单与咨询渠道，付款后 48 小时内发货 · 支持全国顺丰</footer>
@@ -171,6 +184,7 @@ const WORKER_URL = "";
 let SHOP = null;
 let curBrand = "all";
 let curCat = "all";
+let curSearch = "";
 let current = { product: null, config: null };
 
 fetch("/shop/data.json").then(r => r.json()).then(d => { SHOP = d; render(); });
@@ -226,6 +240,16 @@ function renderGrid() {
   let list = SHOP.products;
   if (curBrand !== "all") list = list.filter(p => p.brand === curBrand);
   if (curCat !== "all") list = list.filter(p => p.category === curCat);
+  if (curSearch) {
+    const kw = curSearch.toLowerCase();
+    list = list.filter(p => (p.name + " " + p.brand + " " + (p.tag || "")).toLowerCase().includes(kw));
+}
+  const info = document.getElementById("searchInfo");
+  if (curSearch) {
+    info.innerHTML = curSearch ? `搜索 "<b style='color:var(--gold-light)'>${escapeHtml(curSearch)}</b>" 找到 ${list.length} 个机型` : "";
+  } else {
+    info.innerHTML = "";
+  }
   if (list.length === 0) {
     const bName = curBrand === "all" ? "全部品牌" : (SHOP.brands.find(b => b.key === curBrand) || {}).name;
     grid.innerHTML = `<div class="empty"><b>${bName}</b> 的${curCat === "all" ? "" : curCat + " "}产品整理中，敬请期待<br>如需咨询请直接联系我们</div>`;
@@ -310,6 +334,23 @@ document.addEventListener("mousemove", e => {
   glow.style.left = e.clientX + "px";
   glow.style.top = e.clientY + "px";
 });
+
+function escapeHtml(s) {
+  return String(s || "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+function doSearch() {
+  curSearch = document.getElementById("searchInput").value.trim();
+  document.getElementById("searchClear").style.display = curSearch ? "flex" : "none";
+  render();
+}
+
+function clearSearch() {
+  document.getElementById("searchInput").value = "";
+  document.getElementById("searchClear").style.display = "none";
+  curSearch = "";
+  render();
+}
 </script>
 </body>
 </html>
