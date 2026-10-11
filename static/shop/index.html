@@ -194,6 +194,8 @@ function fmt(n) { return "¥" + n.toLocaleString("zh-CN"); }
 function render() {
   const bTabs = document.getElementById("brandTabs");
   const cTabs = document.getElementById("catTabs");
+  bTabs.innerHTML = "";
+  cTabs.innerHTML = "";
   // 品牌 tab
   const bAll = document.createElement("button");
   bAll.className = "tab active"; bAll.textContent = "全部品牌";
