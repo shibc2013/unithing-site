@@ -208,9 +208,10 @@ function render() {
     btn.onclick = () => setBrand(b.key);
     bTabs.appendChild(btn);
   });
-  // 品类 tab（从数据聚合，保持出现顺序）
+  // 品类 tab（从数据聚合，保持出现顺序；过滤荣耀亲选 / 荣耀 LIFE 变体）
+  const hiddenCat = c => /荣耀亲选|honor\s*life|荣耀\s*life/i.test(c);
   const cats = [];
-  SHOP.products.forEach(p => { if (!cats.includes(p.category)) cats.push(p.category); });
+  SHOP.products.forEach(p => { const c = p.category; if (c && !hiddenCat(c) && !cats.includes(c)) cats.push(c); });
   const cAll = document.createElement("button");
   cAll.className = "tab cat-tab active"; cAll.textContent = "全部品类";
   cAll.onclick = () => setCat("all");
