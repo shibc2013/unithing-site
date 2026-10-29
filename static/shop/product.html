@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>产品介绍 · 象联科技 UniThing Technology</title>
+<meta name="description" content="UniThing 商城产品介绍 — 官网式详情、卖点、规格与优惠价格，官网价基础上再享优惠">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --gold: #D4AF37;
+    --gold-light: #F2D87E;
+    --gold-white: #FAF3DC;
+    --white: #FFFFFF;
+    --ink: #0B0B12;
+    --ink-2: #14121D;
+    --text-dim: rgba(255,255,255,0.62);
+  }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--ink);
+    color: var(--white);
+    font-family: "PingFang SC", "Microsoft YaHei", "Segoe UI", system-ui, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  .aurora { position: fixed; inset: 0; z-index: -2; background: radial-gradient(ellipse at 20% 0%, rgba(212,175,55,0.16), transparent 45%), radial-gradient(ellipse at 80% 20%, rgba(70,80,140,0.20), transparent 50%), radial-gradient(ellipse at 50% 100%, rgba(212,175,55,0.08), transparent 55%), var(--ink); }
+  .glow { position: fixed; width: 460px; height: 460px; border-radius: 50%; background: radial-gradient(circle, rgba(212,175,55,0.14), transparent 65%); pointer-events: none; z-index: -1; transform: translate(-50%,-50%); transition: left .2s, top .2s; }
+
+  .nav { position: sticky; top: 0; z-index: 50; display: flex; align-items: center; justify-content: space-between; padding: 16px 6vw; background: rgba(11,11,18,0.75); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(212,175,55,0.15); }
+  .nav .brand { font-size: 18px; font-weight: 700; letter-spacing: 1px; color: var(--gold-light); text-decoration: none; }
+  .nav .brand span { color: var(--white); font-weight: 400; margin-left: 8px; font-size: 14px; }
+  .nav .nav-links { display: flex; gap: 10px; align-items: center; }
+  .nav .nav-btn { color: var(--text-dim); text-decoration: none; font-size: 14px; border: 1px solid rgba(212,175,55,0.35); padding: 7px 16px; border-radius: 999px; transition: .3s; }
+  .nav .nav-btn:hover { color: var(--ink); background: var(--gold-light); }
+
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 4vw; }
+
+  /* 顶部机型名 + 立即下单 */
+  header.hero { padding: 40px 0 8px; }
+  .hero-top { display: flex; align-items: flex-end; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+  .hero-top .crumb { font-size: 13px; color: var(--text-dim); letter-spacing: 1px; }
+  .hero-top .crumb b { color: var(--gold-light); font-weight: 500; }
+  .hero-top h1 { font-size: clamp(26px, 4.4vw, 40px); font-weight: 800; letter-spacing: 1px; margin: 10px 0 6px; background: linear-gradient(135deg, var(--gold-white), var(--gold) 55%, var(--gold-light)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .hero-top .tagline { font-size: 14px; color: var(--text-dim); }
+  .hero-buy { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; }
+  .hero-buy .hero-price { text-align: right; }
+  .hero-buy .hero-price .off { font-size: 30px; font-weight: 800; color: var(--gold-light); }
+  .hero-buy .hero-price .official { font-size: 14px; color: var(--text-dim); text-decoration: line-through; margin-left: 8px; }
+  .hero-buy select { min-width: 240px; padding: 11px 12px; border-radius: 10px; border: 1px solid rgba(212,175,55,0.3); background: rgba(255,255,255,0.04); color: var(--white); font-size: 14px; cursor: pointer; outline: none; }
+  .hero-buy select option { background: var(--ink-2); color: var(--white); }
+  .buy-btn { padding: 13px 42px; border: none; border-radius: 12px; background: linear-gradient(135deg, var(--gold), var(--gold-light)); color: var(--ink); font-size: 17px; font-weight: 700; cursor: pointer; transition: .3s; }
+  .buy-btn:hover { filter: brightness(1.08); }
+  .buy-btn:active { transform: scale(0.98); }
+
+  /* 主图大图居中区 */
+  .stage { margin: 26px 0 8px; padding: 34px 20px; background: linear-gradient(160deg, rgba(212,175,55,0.10), rgba(255,255,255,0.02)); border: 1px solid rgba(212,175,55,0.18); border-radius: 22px; text-align: center; }
+  .stage img { max-width: 100%; max-height: 460px; object-fit: contain; }
+  .stage .stage-note { margin-top: 14px; font-size: 12px; color: var(--text-dim); }
+
+  /* 区块通用 */
+  .sec { margin-top: 42px; }
+  .sec-title { display: flex; align-items: center; gap: 12px; font-size: 21px; font-weight: 700; letter-spacing: 1px; margin-bottom: 18px; color: var(--gold-light); }
+  .sec-title::before { content: ""; width: 4px; height: 20px; border-radius: 2px; background: linear-gradient(180deg, var(--gold), var(--gold-light)); }
+
+  /* 卖点区 */
+  .selling { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+  .point { background: rgba(255,255,255,0.03); border: 1px solid rgba(212,175,55,0.16); border-radius: 14px; padding: 16px 16px 16px 42px; position: relative; font-size: 14.5px; transition: .3s; }
+  .point:hover { border-color: rgba(212,175,55,0.5); background: rgba(212,175,55,0.07); }
+  .point::before { content: ""; position: absolute; left: 16px; top: 20px; width: 8px; height: 8px; border-radius: 50%; background: var(--gold-light); box-shadow: 0 0 12px rgba(212,175,55,0.8); }
+  .no-points { background: rgba(255,255,255,0.03); border: 1px dashed rgba(255,255,255,0.18); border-radius: 14px; padding: 22px; font-size: 14px; color: var(--text-dim); }
+
+  /* 规格参数区 */
+  .specs-box { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
+  .spec-item { background: rgba(255,255,255,0.03); border: 1px solid rgba(212,175,55,0.16); border-radius: 14px; padding: 14px 16px; display: flex; gap: 14px; }
+  .spec-item .k { flex-shrink: 0; width: 88px; color: var(--gold-light); font-size: 13.5px; font-weight: 600; }
+  .spec-item .v { color: var(--white); font-size: 13.5px; }
+  table.cfg { width: 100%; border-collapse: collapse; margin-top: 16px; font-size: 14px; }
+  table.cfg th, table.cfg td { padding: 11px 14px; text-align: left; border-bottom: 1px solid rgba(212,175,55,0.14); }
+  table.cfg th { color: var(--gold-light); font-weight: 600; background: rgba(212,175,55,0.06); white-space: nowrap; }
+  table.cfg td.off { color: var(--gold-light); font-weight: 700; }
+  table.cfg td.ratio { color: var(--text-dim); }
+  .base-table { width: 100%; border-collapse: collapse; margin-bottom: 6px; font-size: 14px; }
+  .base-table th, .base-table td { padding: 10px 14px; text-align: left; border-bottom: 1px solid rgba(212,175,55,0.12); }
+  .base-table th { width: 130px; color: var(--gold-light); font-weight: 500; }
+
+  /* 相关推荐 */
+  .rel-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
+  .rel-card { display: block; text-decoration: none; background: linear-gradient(160deg, rgba(212,175,55,0.08), rgba(255,255,255,0.02)); border: 1px solid rgba(212,175,55,0.18); border-radius: 16px; padding: 14px; transition: .3s; }
+  .rel-card:hover { transform: translateY(-4px); border-color: rgba(212,175,55,0.5); box-shadow: 0 16px 44px rgba(0,0,0,0.45); }
+  .rel-card .thumb { height: 110px; display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,0.03); border-radius: 10px; overflow: hidden; margin-bottom: 10px; }
+  .rel-card .thumb img { max-width: 90%; max-height: 100px; object-fit: contain; }
+  .rel-card .name { font-size: 14px; font-weight: 600; color: var(--white); line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 40px; }
+  .rel-card .price { margin-top: 8px; color: var(--gold-light); font-weight: 700; font-size: 15px; }
+  .rel-card .price small { font-weight: 400; font-size: 12px; color: var(--text-dim); margin-left: 6px; }
+
+  /* 不存在提示 */
+  .notfound { text-align: center; padding: 90px 20px; }
+  .notfound h1 { font-size: 28px; color: var(--gold-light); margin-bottom: 10px; }
+  .notfound p { color: var(--text-dim); margin-bottom: 26px; }
+  .notfound a { display: inline-block; color: var(--ink); background: linear-gradient(135deg, var(--gold), var(--gold-light)); padding: 12px 34px; border-radius: 999px; text-decoration: none; font-weight: 600; }
+
+  footer { text-align: center; color: var(--text-dim); font-size: 13px; padding: 34px 20px 40px; border-top: 1px solid rgba(212,175,55,0.12); margin-top: 50px; }
+
+  /* 订单弹窗（与商城 index.html 一致） */
+  .modal { position: fixed; inset: 0; z-index: 100; background: rgba(0,0,0,0.7); backdrop-filter: blur(4px); display: none; align-items: center; justify-content: center; padding: 16px; }
+  .modal.show { display: flex; }
+  .panel { width: 100%; max-width: 520px; max-height: 92vh; overflow: auto; background: linear-gradient(165deg, #17161f, #0d0d15); border: 1px solid rgba(212,175,55,0.3); border-radius: 20px; padding: 26px; }
+  .panel h2 { font-size: 20px; color: var(--gold-light); margin-bottom: 6px; }
+  .panel .sub { color: var(--text-dim); font-size: 13px; margin-bottom: 18px; }
+  .summary { background: rgba(212,175,55,0.08); border: 1px solid rgba(212,175,55,0.2); border-radius: 12px; padding: 14px; margin-bottom: 18px; font-size: 14px; }
+  .summary b { color: var(--gold-light); }
+  .field { margin-bottom: 14px; }
+  .field label { display: block; font-size: 13px; color: var(--text-dim); margin-bottom: 6px; }
+  .field input, .field textarea { width: 100%; padding: 11px 12px; border-radius: 10px; border: 1px solid rgba(212,175,55,0.25); background: rgba(255,255,255,0.04); color: var(--white); font-size: 14px; outline: none; font-family: inherit; }
+  .field input:focus, .field textarea:focus { border-color: var(--gold); }
+  .field textarea { resize: vertical; min-height: 64px; }
+  .actions { display: flex; gap: 12px; margin-top: 8px; }
+  .actions button { flex: 1; padding: 13px; border-radius: 10px; font-size: 15px; font-weight: 600; cursor: pointer; border: none; }
+  .btn-gold { background: linear-gradient(135deg, var(--gold), var(--gold-light)); color: var(--ink); }
+  .btn-ghost { background: transparent; color: var(--text-dim); border: 1px solid rgba(255,255,255,0.2) !important; }
+  .btn-ghost:hover { color: var(--white); border-color: var(--gold) !important; }
+  .ok-panel { text-align: center; }
+  .ok-panel .order-no { display: inline-block; margin: 14px 0; padding: 10px 20px; background: rgba(212,175,55,0.12); border: 1px dashed var(--gold); border-radius: 10px; color: var(--gold-light); font-size: 18px; font-weight: 700; letter-spacing: 1px; }
+  .ok-panel .steps { text-align: left; margin: 18px 0; padding: 16px; background: rgba(255,255,255,0.03); border-radius: 12px; font-size: 14px; color: var(--text-dim); }
+  .ok-panel .steps li { margin: 8px 0; list-style: none; position: relative; padding-left: 22px; }
+  .ok-panel .steps li::before { content: "✔"; position: absolute; left: 0; color: var(--gold-light); }
+  .pay-area { margin: 16px 0; padding: 16px; border: 1px solid rgba(212,175,55,0.3); border-radius: 12px; }
+  .pay-area img { max-width: 200px; border-radius: 10px; }
+  .pay-area .p-tip { font-size: 13px; color: var(--gold-light); margin-top: 10px; }
+  .pay-area .p-note { font-size: 12px; color: var(--text-dim); margin-top: 4px; }
+  .pay-tabs { display: flex; gap: 8px; margin-bottom: 12px; }
+  .pay-tab { flex: 1; padding: 8px 0; background: rgba(212,175,55,0.08); border: 1px solid rgba(212,175,55,0.3); border-radius: 8px; color: var(--text-dim); font-size: 13px; cursor: pointer; font-family: inherit; transition: all .15s; }
+  .pay-tab.active { background: var(--gold); color: #1a1a1a; font-weight: 600; border-color: var(--gold); }
+
+  .hidden { display: none !important; }
+  @media (max-width: 640px) {
+    .hero-top { flex-direction: column; align-items: flex-start; }
+    .hero-buy { align-items: stretch; width: 100%; }
+    .hero-buy select { width: 100%; }
+    .hero-buy .buy-btn { width: 100%; }
+    .hero-buy .hero-price { text-align: left; }
+    .specs-box { grid-template-columns: 1fr; }
+    .nav-links { gap: 6px; }
+    .nav .nav-btn { padding: 6px 12px; font-size: 13px; }
+  }
+</style>
+</head>
+<body>
+<div class="aurora"></div>
+<div class="glow" id="glow"></div>
+
+<nav class="nav">
+  <a class="brand" href="/">象联科技<span>UniThing 商城</span></a>
+  <div class="nav-links">
+    <a class="nav-btn" href="/shop/">返回商城</a>
+    <a class="nav-btn" href="/">官网首页</a>
+  </div>
+</nav>
+
+<div class="wrap" id="pageBody">
+  <header class="hero" id="heroHeader">
+    <div class="hero-top">
+      <div>
+        <div class="crumb" id="pCrumb"></div>
+        <h1 id="pName"></h1>
+        <div class="tagline" id="pTag"></div>
+      </div>
+      <div class="hero-buy">
+        <div class="hero-price">
+          <span class="off" id="pPrice"></span>
+          <span class="official" id="pOfficial"></span>
+        </div>
+        <select id="cfgSel" onchange="updateHero()"></select>
+        <button class="buy-btn" onclick="openOrder()">立即下单</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="stage">
+    <img id="pImg" alt="产品主图" onerror="this.style.display='none';document.getElementById('stageNote').style.display='block'">
+    <div class="stage-note hidden" id="stageNote">主图加载中，请稍候或刷新重试</div>
+  </section>
+
+  <section class="sec" id="sellingSec">
+    <div class="sec-title">亮点卖点</div>
+    <div id="sellingBox"></div>
+  </section>
+
+  <section class="sec">
+    <div class="sec-title">规格参数</div>
+    <table class="base-table" id="baseTable"></table>
+    <div class="specs-box" id="specsBox"></div>
+    <table class="cfg" id="cfgTable">
+      <thead>
+        <tr><th>配置档位</th><th>官网价</th><th>优惠价</th><th>优惠比例</th></tr>
+      </thead>
+      <tbody id="cfgBody"></tbody>
+    </table>
+  </section>
+
+  <section class="sec" id="relSec">
+    <div class="sec-title">相关推荐</div>
+    <div class="rel-grid" id="relGrid"></div>
+  </section>
+</div>
+
+<div class="wrap">
+  <div class="notfound hidden" id="notfound">
+    <h1>产品不存在</h1>
+    <p>未找到对应的产品信息，可能已下架或链接有误</p>
+    <a href="/shop/">返回商城</a>
+  </div>
+</div>
+
+<footer>象联科技 UniThing Technology · 软硬件开发 · 一手二手数码产品优选<br>本商城为下单与咨询渠道，付款后 48 小时内发货 · 支持全国顺丰</footer>
+
+<div class="modal" id="modal">
+  <div class="panel" id="formPanel">
+    <h2>确认订单</h2>
+    <div class="sub">请核对商品与配置，填写收货信息后提交</div>
+    <div class="summary" id="summary"></div>
+    <div class="field"><label>收货人姓名</label><input id="fName" placeholder="请输入姓名"></div>
+    <div class="field"><label>联系电话</label><input id="fPhone" placeholder="请输入手机号"></div>
+    <div class="field"><label>收货地址</label><textarea id="fAddr" placeholder="省 / 市 / 区 / 详细地址"></textarea></div>
+    <div class="field"><label>备注（可选）</label><input id="fNote" placeholder="如：颜色偏好、开票需求等"></div>
+    <div class="actions">
+      <button class="btn-ghost" onclick="closeModal()">取消</button>
+      <button class="btn-gold" onclick="submitOrder()">提交订单</button>
+    </div>
+  </div>
+  <div class="panel ok-panel hidden" id="okPanel">
+    <h2>订单已提交</h2>
+    <div class="order-no" id="orderNo"></div>
+    <div class="summary" id="okSummary" style="text-align:left;"></div>
+    <div class="steps">
+      <li>订单已推送到商家企业微信</li>
+      <li>请扫描下方收款码付款，并备注订单号</li>
+      <li>商家确认收款后 48 小时内发货</li>
+    </div>
+    <div class="pay-area">
+      <div class="pay-tabs">
+        <button class="pay-tab active" data-pay="wechat" onclick="switchPay('wechat')">微信支付</button>
+        <button class="pay-tab" data-pay="alipay" onclick="switchPay('alipay')">支付宝</button>
+      </div>
+      <img id="payQrWechat" src="/shop/img/pay-wechat.png" alt="微信收款码" onerror="this.style.display='none'">
+      <img id="payQrAlipay" src="/shop/img/pay-alipay.png" alt="支付宝收款码" style="display:none;" onerror="this.style.display='none'">
+      <div class="p-tip">微信 / 支付宝扫码支付</div>
+      <div class="p-note">付款时请备注订单号，方便对账</div>
+    </div>
+    <div class="actions">
+      <button class="btn-gold" onclick="closeModal()">完成</button>
+    </div>
+  </div>
+</div>
+
+<script src="/shop/selling_points.js"></script>
+<script>
+const WORKER_URL = "";
+let SHOP = null;
+let current = { product: null, config: null };
+const params = new URLSearchParams(location.search);
+const pid = params.get("id");
+
+function fmt(n) { return "¥" + n.toLocaleString("zh-CN"); }
+
+function escapeHtml(s) {
+  return String(s || "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+function ratio(price, official) {
+  if (!official || official <= 0 || !price) return "—";
+  return ((1 - price / official) * 100).toFixed(1) + "%";
+}
+
+function render() {
+  const p = SHOP.products.find(x => x.id === pid);
+  if (!p) {
+    document.getElementById("pageBody").classList.add("hidden");
+    document.getElementById("notfound").classList.remove("hidden");
+    document.title = "产品不存在 · UniThing 商城";
+    return;
+  }
+  current.product = p;
+  document.title = p.name + " · UniThing 商城";
+  const sp = SELLING_POINTS[p.id] || null;
+
+  document.getElementById("pCrumb").innerHTML = `首页 / 商城 / <b>${escapeHtml(p.brand)}</b> / <b>${escapeHtml(p.category)}</b>`;
+  document.getElementById("pName").textContent = p.name;
+  document.getElementById("pTag").textContent = `${p.brand} · ${p.category}${p.tag && p.tag !== p.category ? " · " + p.tag : ""} · 官网正品`;
+  document.getElementById("pImg").src = p.image;
+
+  // 配置选择
+  const sel = document.getElementById("cfgSel");
+  p.configs.forEach((c, i) => {
+    const opt = document.createElement("option");
+    opt.value = i;
+    opt.textContent = c.label + " ｜ " + fmt(c.price);
+    sel.appendChild(opt);
+  });
+  updateHero();
+
+  // 卖点区：有映射渲染官网卖点；无映射展示基于真实数据的说明
+  const sBox = document.getElementById("sellingBox");
+  if (sp && sp.points && sp.points.length) {
+    sBox.innerHTML = `<div class="selling">${sp.points.map(pt => `<div class="point">${escapeHtml(pt)}</div>`).join("")}</div>`;
+  } else {
+    sBox.innerHTML = `<div class="no-points">该机型官网卖点文案整理中，以下规格与价格为商城在售的真实数据，可放心选购。</div>`;
+  }
+
+  // 基础信息表
+  document.getElementById("baseTable").innerHTML =
+    `<tr><th>品牌</th><td>${escapeHtml(p.brand)}</td></tr>` +
+    `<tr><th>品类</th><td>${escapeHtml(p.category)}</td></tr>` +
+    `<tr><th>型号</th><td>${escapeHtml(p.name)}</td></tr>` +
+    `<tr><th>在售配置</th><td>${p.configs.length} 个档位</td></tr>`;
+
+  // 详细规格（来自 SELLING_POINTS 映射）
+  const specsBox = document.getElementById("specsBox");
+  if (sp && sp.specs && Object.keys(sp.specs).length) {
+    specsBox.innerHTML = Object.entries(sp.specs).map(([k, v]) =>
+      `<div class="spec-item"><div class="k">${escapeHtml(k)}</div><div class="v">${escapeHtml(v)}</div></div>`).join("");
+  } else {
+    specsBox.innerHTML = `<div class="no-points" style="grid-column:1/-1;">官网详细规格整理中，当前展示商城在售配置档位与价格。</div>`;
+  }
+
+  // 配置档位表（label / 官网价 / 优惠价 / 优惠比例）
+  document.getElementById("cfgBody").innerHTML = p.configs.map(c =>
+    `<tr><td>${escapeHtml(c.label)}</td><td>${c.official > 0 ? fmt(c.official) : "—"}</td><td class="off">${fmt(c.price)}</td><td class="ratio">${ratio(c.price, c.official)}</td></tr>`).join("");
+
+  // 相关推荐：同品牌同品类最多 4 款
+  const rels = SHOP.products.filter(x => x.brand === p.brand && x.category === p.category && x.id !== p.id).slice(0, 4);
+  const relSec = document.getElementById("relSec");
+  const relGrid = document.getElementById("relGrid");
+  if (rels.length) {
+    relGrid.innerHTML = rels.map(r => {
+      const low = r.configs.reduce((m, c) => (c.price < m.price ? c : m), r.configs[0]);
+      return `<a class="rel-card" href="/shop/product.html?id=${encodeURIComponent(r.id)}" title="${escapeHtml(r.name)}">
+        <div class="thumb"><img src="${r.image}" alt="${escapeHtml(r.name)}" loading="lazy" onerror="this.parentNode.innerHTML='<span style=color:var(--gold-light)>${escapeHtml(r.name.split(' ').pop())}</span>'"></div>
+        <div class="name">${escapeHtml(r.name)}</div>
+        <div class="price">${fmt(low.price)}<small>起</small></div>
+      </a>`;
+    }).join("");
+  } else {
+    relSec.classList.add("hidden");
+  }
+}
+
+function updateHero() {
+  const i = +document.getElementById("cfgSel").value;
+  const c = current.product.configs[i];
+  current.config = c;
+  document.getElementById("pPrice").textContent = fmt(c.price);
+  document.getElementById("pOfficial").textContent = c.official > 0 ? "官网价 " + fmt(c.official) : "";
+}
+
+function openOrder() {
+  const p = current.product, c = current.config;
+  document.getElementById("summary").innerHTML =
+    `商品：<b>${escapeHtml(p.name)}</b><br>配置：<b>${escapeHtml(c.label)}</b><br>价格：<b>${fmt(c.price)}</b>${c.official > 0 ? "（官网价 " + fmt(c.official) + "）" : ""}`;
+  document.getElementById("formPanel").classList.remove("hidden");
+  document.getElementById("okPanel").classList.add("hidden");
+  document.getElementById("modal").classList.add("show");
+}
+
+function closeModal() { document.getElementById("modal").classList.remove("show"); }
+
+function switchPay(pay) {
+  document.querySelectorAll(".pay-tab").forEach(t => t.classList.toggle("active", t.dataset.pay === pay));
+  document.getElementById("payQrWechat").style.display = pay === "wechat" ? "" : "none";
+  document.getElementById("payQrAlipay").style.display = pay === "alipay" ? "" : "none";
+}
+
+function submitOrder() {
+  const name = document.getElementById("fName").value.trim();
+  const phone = document.getElementById("fPhone").value.trim();
+  const addr = document.getElementById("fAddr").value.trim();
+  if (!name || !phone || !addr) { alert("请填写完整的姓名、电话和收货地址"); return; }
+  const orderNo = "UT" + Date.now().toString().slice(-8) + Math.floor(Math.random() * 90 + 10);
+  const order = {
+    orderNo, product: current.product.name, brand: current.product.brand, category: current.product.category,
+    config: current.config.label, price: current.config.price, official: current.config.official,
+    name, phone, addr, note: document.getElementById("fNote").value.trim(),
+    time: new Date().toLocaleString("zh-CN")
+  };
+  if (WORKER_URL) {
+    fetch(WORKER_URL, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(order) })
+      .catch(e => console.error("推送失败", e));
+  }
+  document.getElementById("orderNo").textContent = "订单号 " + orderNo;
+  document.getElementById("okSummary").innerHTML =
+    `商品：<b>${escapeHtml(order.product)}</b><br>配置：<b>${escapeHtml(order.config)}</b><br>金额：<b>${fmt(order.price)}</b><br>收货人：${escapeHtml(order.name)} ${escapeHtml(order.phone)}<br>地址：${escapeHtml(order.addr)}`;
+  document.getElementById("formPanel").classList.add("hidden");
+  document.getElementById("okPanel").classList.remove("hidden");
+}
+
+const glow = document.getElementById("glow");
+document.addEventListener("mousemove", e => {
+  glow.style.left = e.clientX + "px";
+  glow.style.top = e.clientY + "px";
+});
+
+fetch("/shop/data.json").then(r => r.json()).then(d => { SHOP = d; render(); })
+  .catch(() => {
+    document.getElementById("pageBody").classList.add("hidden");
+    document.getElementById("notfound").classList.remove("hidden");
+    document.getElementById("notfound").querySelector("p").textContent = "数据加载失败，请稍后刷新重试";
+  });
+</script>
+</body>
+</html>
