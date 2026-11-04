@@ -25,32 +25,582 @@
   ],
   "products": [
     {
-      "id": "le-联想ai平板-小新pro-gt-13-高通骁龙8-3-5k护眼超清大屏-蜜珀粉",
+      "id": "le-联想ai平板-小新pro-gt-13-高通骁龙8-3-5k护眼超清大屏",
       "brand": "lenovo",
       "category": "平板",
-      "name": "联想AI平板 小新Pro GT 13 高通骁龙8 3.5K护眼超清大屏 蜜珀粉",
+      "name": "联想AI平板 小新Pro GT 13 高通骁龙8 3.5K护眼超清大屏",
       "tag": "平板",
-      "image": "/shop/img/le-联想ai平板-小新pro-gt-13-高通骁龙8-3-5k护眼超清大屏-蜜珀粉.png",
+      "image": "/shop/img/le-联想ai平板-小新pro-gt-13-高通骁龙8-3-5k护眼超清大屏.png",
       "configs": [
         {
-          "label": "官方标配",
+          "label": "蜜珀粉",
+          "official": 3399,
+          "price": 3229
+        },
+        {
+          "label": "霜雪银",
           "official": 3399,
           "price": 3229
         }
       ]
     },
     {
-      "id": "le-联想-拯救者y900-13-ai平板-骁龙8至尊版-16gb-plus-512gb-wi-fi-碳晶黑-键盘套装",
+      "id": "le-联想-拯救者y900-13-ai平板-骁龙8至尊版",
       "brand": "lenovo",
       "category": "平板",
-      "name": "联想 拯救者Y900 13 AI平板 骁龙8至尊版 16GB+512GB Wi-Fi 碳晶黑 键盘套装",
+      "name": "联想 拯救者Y900 13 AI平板 骁龙8至尊版",
       "tag": "平板",
-      "image": "/shop/img/le-联想-拯救者y900-13-ai平板-骁龙8至尊版-16gb-plus-512gb-wi-fi-碳晶黑-键盘套装.png",
+      "image": "/shop/img/le-联想-拯救者y900-13-ai平板-骁龙8至尊版.png",
       "configs": [
         {
-          "label": "官方标配",
+          "label": "12GB+256GB 冰魄白",
+          "official": 4199,
+          "price": 3989
+        },
+        {
+          "label": "12GB+256GB 冰魄白 键盘套装",
+          "official": 4799,
+          "price": 4559
+        },
+        {
+          "label": "12GB+256GB 碳晶黑",
+          "official": 4199,
+          "price": 3989
+        },
+        {
+          "label": "12GB+256GB 碳晶黑 键盘套装",
+          "official": 4799,
+          "price": 4559
+        },
+        {
+          "label": "16GB+512GB 冰魄白",
+          "official": 4999,
+          "price": 4749
+        },
+        {
+          "label": "16GB+512GB 冰魄白 键盘套装",
           "official": 5599,
           "price": 5319
+        },
+        {
+          "label": "16GB+512GB 星光紫",
+          "official": 4999,
+          "price": 4749
+        },
+        {
+          "label": "16GB+512GB 碳晶黑",
+          "official": 4999,
+          "price": 4749
+        },
+        {
+          "label": "16GB+512GB 碳晶黑 键盘套装",
+          "official": 5599,
+          "price": 5319
+        },
+        {
+          "label": "8GB+256GB 星光紫",
+          "official": 3799,
+          "price": 3609
+        },
+        {
+          "label": "8GB+256GB 碳晶黑",
+          "official": 3799,
+          "price": 3609
+        }
+      ]
+    },
+    {
+      "id": "le-联想ai平板-拯救者y700-无极-游戏小平板电脑",
+      "brand": "lenovo",
+      "category": "平板",
+      "name": "联想AI平板 拯救者Y700 无极 游戏小平板电脑",
+      "tag": "平板",
+      "image": "/shop/img/le-联想ai平板-拯救者y700-无极-游戏小平板电脑.png",
+      "configs": [
+        {
+          "label": "8.4英寸 12G+256G 云汐紫",
+          "official": 5499,
+          "price": 5224
+        },
+        {
+          "label": "8.4英寸 16G+512G 云汐紫",
+          "official": 6499,
+          "price": 6174
+        },
+        {
+          "label": "8.4英寸 16G+512G 冰魄白",
+          "official": 6499,
+          "price": 6174
+        },
+        {
+          "label": "8.4英寸 碳晶黑",
+          "official": 6499,
+          "price": 6174
+        }
+      ]
+    },
+    {
+      "id": "le-异能者云平板g12a",
+      "brand": "lenovo",
+      "category": "平板",
+      "name": "异能者云平板G12A",
+      "tag": "平板",
+      "image": "/shop/img/le-异能者云平板g12a.png",
+      "configs": [
+        {
+          "label": "（6GB+128GB）太空灰",
+          "official": 1399,
+          "price": 1329
+        },
+        {
+          "label": "（8GB+256GB）太空灰",
+          "official": 1799,
+          "price": 1709
+        }
+      ]
+    },
+    {
+      "id": "le-联想-拯救者y900-11-ai平板-天玑9500s",
+      "brand": "lenovo",
+      "category": "平板",
+      "name": "联想 拯救者Y900 11 AI平板 天玑9500s",
+      "tag": "平板",
+      "image": "/shop/img/le-联想-拯救者y900-11-ai平板-天玑9500s.png",
+      "configs": [
+        {
+          "label": "12GB+256GB 冰魄白",
+          "official": 3699,
+          "price": 3514
+        },
+        {
+          "label": "12GB+256GB 星光紫",
+          "official": 3699,
+          "price": 3514
+        },
+        {
+          "label": "12GB+256GB 碳晶黑",
+          "official": 3699,
+          "price": 3514
+        },
+        {
+          "label": "12GB+512GB 星光紫",
+          "official": 4099,
+          "price": 3894
+        },
+        {
+          "label": "12GB+512GB 碳晶黑",
+          "official": 4099,
+          "price": 3894
+        },
+        {
+          "label": "8GB+128GB 冰魄白",
+          "official": 2999,
+          "price": 2849
+        },
+        {
+          "label": "8GB+128GB 碳晶黑",
+          "official": 2999,
+          "price": 2849
+        },
+        {
+          "label": "8GB+256GB 冰魄白",
+          "official": 3299,
+          "price": 3134
+        },
+        {
+          "label": "8GB+256GB 碳晶黑",
+          "official": 3299,
+          "price": 3134
+        }
+      ]
+    },
+    {
+      "id": "le-联想拯救者平板y700-五代-8-8英寸ai游戏平板-骁龙8至尊版",
+      "brand": "lenovo",
+      "category": "平板",
+      "name": "联想拯救者平板Y700 五代 8.8英寸AI游戏平板 骁龙8至尊版",
+      "tag": "平板",
+      "image": "/shop/img/le-联想拯救者平板y700-五代-8-8英寸ai游戏平板-骁龙8至尊版.png",
+      "configs": [
+        {
+          "label": "冰魄白",
+          "official": 4499,
+          "price": 4274
+        },
+        {
+          "label": "星光紫",
+          "official": 4499,
+          "price": 4274
+        },
+        {
+          "label": "碳晶黑",
+          "official": 6399,
+          "price": 6079
+        }
+      ]
+    },
+    {
+      "id": "le-联想小新平板11-影音娱乐网课学习-ai平板电脑",
+      "brand": "lenovo",
+      "category": "平板",
+      "name": "联想小新平板11 影音娱乐网课学习 AI平板电脑",
+      "tag": "平板",
+      "image": "/shop/img/le-联想小新平板11-影音娱乐网课学习-ai平板电脑.png",
+      "configs": [
+        {
+          "label": "11英寸 天青色",
+          "official": 1349,
+          "price": 1282
+        },
+        {
+          "label": "11英寸 深空灰",
+          "official": 1349,
+          "price": 1282
+        }
+      ]
+    },
+    {
+      "id": "le-联想-拯救者y900-11-ai平板-天玑9500s-键盘手写笔套装",
+      "brand": "lenovo",
+      "category": "平板",
+      "name": "联想 拯救者Y900 11 AI平板 天玑9500s 键盘手写笔套装",
+      "tag": "平板",
+      "image": "/shop/img/le-联想-拯救者y900-11-ai平板-天玑9500s-键盘手写笔套装.png",
+      "configs": [
+        {
+          "label": "12GB+256GB 冰魄白",
+          "official": 4299,
+          "price": 4084
+        },
+        {
+          "label": "12GB+512GB 冰魄白",
+          "official": 4699,
+          "price": 4464
+        },
+        {
+          "label": "12GB+512GB 碳晶黑",
+          "official": 4699,
+          "price": 4464
+        }
+      ]
+    },
+    {
+      "id": "le-联想拯救者y9000p-2026-至尊版-16英寸电竞游戏笔记本电脑",
+      "brand": "lenovo",
+      "category": "笔记本",
+      "name": "联想拯救者Y9000P 2026 至尊版 16英寸电竞游戏笔记本电脑",
+      "tag": "笔记本",
+      "image": "/shop/img/le-联想拯救者y9000p-2026-至尊版-16英寸电竞游戏笔记本电脑.png",
+      "configs": [
+        {
+          "label": "冰魄白",
+          "official": 34998,
+          "price": 33248
+        },
+        {
+          "label": "碳晶黑",
+          "official": 34998,
+          "price": 33248
+        }
+      ]
+    },
+    {
+      "id": "le-联想小新pro14-酷睿-14英寸轻薄笔记本电脑",
+      "brand": "lenovo",
+      "category": "笔记本",
+      "name": "联想小新Pro14 酷睿 14英寸轻薄笔记本电脑",
+      "tag": "笔记本",
+      "image": "/shop/img/le-联想小新pro14-酷睿-14英寸轻薄笔记本电脑.png",
+      "configs": [
+        {
+          "label": "深空灰",
+          "official": 9799,
+          "price": 9309
+        },
+        {
+          "label": "标准版",
+          "official": 9799,
+          "price": 9309
+        }
+      ]
+    },
+    {
+      "id": "le-联想moto-razr-60-马卡龙粉",
+      "brand": "lenovo",
+      "category": "手机",
+      "name": "联想moto razr 60 马卡龙粉",
+      "tag": "手机",
+      "image": "/shop/img/le-联想moto-razr-60-马卡龙粉.png",
+      "configs": [
+        {
+          "label": "12GB+256GB 马卡龙粉",
+          "official": 3899,
+          "price": 3704
+        },
+        {
+          "label": "12GB+512GB 马卡龙粉",
+          "official": 4299,
+          "price": 4084
+        }
+      ]
+    },
+    {
+      "id": "le-联想moto-razr-fold-绅墨",
+      "brand": "lenovo",
+      "category": "手机",
+      "name": "联想moto razr Fold 绅墨",
+      "tag": "手机",
+      "image": "/shop/img/le-联想moto-razr-fold-绅墨.png",
+      "configs": [
+        {
+          "label": "12GB+256GB 绅墨雅黑",
+          "official": 9999,
+          "price": 9499
+        },
+        {
+          "label": "16GB+1TB 绅墨雅黑",
+          "official": 14999,
+          "price": 14249
+        },
+        {
+          "label": "16GB+512GB 绅墨雅黑",
+          "official": 10999,
+          "price": 10449
+        }
+      ]
+    },
+    {
+      "id": "le-联想moto-razr-fold-珠光",
+      "brand": "lenovo",
+      "category": "手机",
+      "name": "联想moto razr Fold 珠光",
+      "tag": "手机",
+      "image": "/shop/img/le-联想moto-razr-fold-珠光.png",
+      "configs": [
+        {
+          "label": "12GB+256GB 珠光锦白",
+          "official": 9999,
+          "price": 9499
+        },
+        {
+          "label": "16GB+1TB 珠光锦白",
+          "official": 14999,
+          "price": 14249
+        },
+        {
+          "label": "16GB+512GB 珠光锦白",
+          "official": 10999,
+          "price": 10449
+        }
+      ]
+    },
+    {
+      "id": "le-联想moto-razr-60-午夜苍蓝",
+      "brand": "lenovo",
+      "category": "手机",
+      "name": "联想moto razr 60 午夜苍蓝",
+      "tag": "手机",
+      "image": "/shop/img/le-联想moto-razr-60-午夜苍蓝.png",
+      "configs": [
+        {
+          "label": "12GB+256GB 午夜苍蓝",
+          "official": 3899,
+          "price": 3704
+        },
+        {
+          "label": "8GB+256GB 午夜苍蓝",
+          "official": 3499,
+          "price": 3324
+        }
+      ]
+    },
+    {
+      "id": "le-联想moto-razr-70-ultra-檀棕椴木",
+      "brand": "lenovo",
+      "category": "手机",
+      "name": "联想moto razr 70 Ultra 檀棕椴木",
+      "tag": "手机",
+      "image": "/shop/img/le-联想moto-razr-70-ultra-檀棕椴木.png",
+      "configs": [
+        {
+          "label": "16GB+1TB 檀棕椴木",
+          "official": 8499,
+          "price": 8074
+        },
+        {
+          "label": "16GB+512GB 檀棕椴木",
+          "official": 7999,
+          "price": 7599
+        }
+      ]
+    },
+    {
+      "id": "le-小新台式电脑-英特尔i5-14400-ssd-台式机",
+      "brand": "lenovo",
+      "category": "台式机",
+      "name": "小新台式电脑 英特尔i5-14400 SSD 台式机",
+      "tag": "台式机",
+      "image": "/shop/img/le-小新台式电脑-英特尔i5-14400-ssd-台式机.png",
+      "configs": [
+        {
+          "label": "16G 1T",
+          "official": 6099,
+          "price": 5794
+        },
+        {
+          "label": "16G 512G",
+          "official": 5599,
+          "price": 5319
+        }
+      ]
+    },
+    {
+      "id": "le-来酷-lecoo一体计算机-n27-pro-i5-27英寸一体台式机",
+      "brand": "lenovo",
+      "category": "一体机",
+      "name": "来酷(Lecoo)一体计算机 N27 Pro I5 27英寸一体台式机",
+      "tag": "一体机",
+      "image": "/shop/img/le-来酷-lecoo一体计算机-n27-pro-i5-27英寸一体台式机.png",
+      "configs": [
+        {
+          "label": "白色",
+          "official": 4499,
+          "price": 4274
+        },
+        {
+          "label": "黑色",
+          "official": 4499,
+          "price": 4274
+        }
+      ]
+    },
+    {
+      "id": "le-来酷-lecoo一体计算机-酷2888-n100-27英寸一体台式机",
+      "brand": "lenovo",
+      "category": "一体机",
+      "name": "来酷(Lecoo)一体计算机 酷2888 N100 27英寸一体台式机",
+      "tag": "一体机",
+      "image": "/shop/img/le-来酷-lecoo一体计算机-酷2888-n100-27英寸一体台式机.png",
+      "configs": [
+        {
+          "label": "白色",
+          "official": 3299,
+          "price": 3134
+        },
+        {
+          "label": "黑色",
+          "official": 3299,
+          "price": 3134
+        }
+      ]
+    },
+    {
+      "id": "le-联想拯救者手机-y70-新一代",
+      "brand": "lenovo",
+      "category": "手机",
+      "name": "联想拯救者手机 Y70 新一代",
+      "tag": "手机",
+      "image": "/shop/img/le-联想拯救者手机-y70-新一代.png",
+      "configs": [
+        {
+          "label": "12GB+256GB 冰魄白",
+          "official": 3499,
+          "price": 3324
+        },
+        {
+          "label": "12GB+256GB 碳晶黑",
+          "official": 3499,
+          "price": 3324
+        },
+        {
+          "label": "12GB+512GB 冰魄白",
+          "official": 3999,
+          "price": 3799
+        },
+        {
+          "label": "12GB+512GB 碳晶黑",
+          "official": 3999,
+          "price": 3799
+        },
+        {
+          "label": "16GB+1TB 冰魄白",
+          "official": 5999,
+          "price": 5699
+        },
+        {
+          "label": "16GB+1TB 碳晶黑",
+          "official": 5999,
+          "price": 5699
+        },
+        {
+          "label": "16GB+512GB 冰魄白",
+          "official": 4499,
+          "price": 4274
+        },
+        {
+          "label": "16GB+512GB 碳晶黑",
+          "official": 4499,
+          "price": 4274
+        }
+      ]
+    },
+    {
+      "id": "le-联想拯救者y7000x-2026-15-3英寸电竞游戏笔记本电脑",
+      "brand": "lenovo",
+      "category": "笔记本",
+      "name": "联想拯救者Y7000X 2026 15.3英寸电竞游戏笔记本电脑",
+      "tag": "笔记本",
+      "image": "/shop/img/le-联想拯救者y7000x-2026-15-3英寸电竞游戏笔记本电脑.png",
+      "configs": [
+        {
+          "label": "冰魄白",
+          "official": 16798,
+          "price": 15958
+        },
+        {
+          "label": "碳晶黑",
+          "official": 14299,
+          "price": 13584
+        }
+      ]
+    },
+    {
+      "id": "le-联想拯救者r9000p-2025-ai元启-16英寸电竞游戏笔记本",
+      "brand": "lenovo",
+      "category": "笔记本",
+      "name": "联想拯救者R9000P 2025 AI元启 16英寸电竞游戏笔记本",
+      "tag": "笔记本",
+      "image": "/shop/img/le-联想拯救者r9000p-2025-ai元启-16英寸电竞游戏笔记本.png",
+      "configs": [
+        {
+          "label": "冰魄白",
+          "official": 16799,
+          "price": 15959
+        },
+        {
+          "label": "碳晶黑",
+          "official": 16799,
+          "price": 15959
+        }
+      ]
+    },
+    {
+      "id": "le-来酷-lecoo一体计算机-酷2888-pro-i5-27英寸一体台式机",
+      "brand": "lenovo",
+      "category": "一体机",
+      "name": "来酷(Lecoo)一体计算机 酷2888 Pro I5 27英寸一体台式机",
+      "tag": "一体机",
+      "image": "/shop/img/le-来酷-lecoo一体计算机-酷2888-pro-i5-27英寸一体台式机.png",
+      "configs": [
+        {
+          "label": "白色",
+          "official": 4499,
+          "price": 4274
+        },
+        {
+          "label": "黑色",
+          "official": 4499,
+          "price": 4274
         }
       ]
     },
@@ -85,36 +635,6 @@
       ]
     },
     {
-      "id": "le-联想-拯救者y900-13-ai平板-骁龙8至尊版-16gb-plus-512gb-wi-fi-冰魄白-键盘套装",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想 拯救者Y900 13 AI平板 骁龙8至尊版 16GB+512GB Wi-Fi 冰魄白 键盘套装",
-      "tag": "平板",
-      "image": "/shop/img/le-联想-拯救者y900-13-ai平板-骁龙8至尊版-16gb-plus-512gb-wi-fi-冰魄白-键盘套装.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 5599,
-          "price": 5319
-        }
-      ]
-    },
-    {
-      "id": "le-联想ai平板-拯救者y700-无极-8-4英寸-16g-plus-512g-5g全网通-游戏小平板电脑-云汐紫",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想AI平板 拯救者Y700 无极 8.4英寸 16G+512G 5G全网通 游戏小平板电脑 云汐紫",
-      "tag": "平板",
-      "image": "/shop/img/le-联想ai平板-拯救者y700-无极-8-4英寸-16g-plus-512g-5g全网通-游戏小平板电脑-云汐紫.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 6499,
-          "price": 6174
-        }
-      ]
-    },
-    {
       "id": "le-联想ai平板小新pro-gt13-13英寸3-5k护眼超清大屏-ai学习平板电脑",
       "brand": "lenovo",
       "category": "平板",
@@ -130,81 +650,6 @@
       ]
     },
     {
-      "id": "le-异能者云平板g12a-6gb-plus-128gb-太空灰",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "异能者云平板G12A（6GB+128GB）太空灰",
-      "tag": "平板",
-      "image": "/shop/img/le-异能者云平板g12a-6gb-plus-128gb-太空灰.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 1399,
-          "price": 1329
-        }
-      ]
-    },
-    {
-      "id": "le-联想-拯救者y900-11-ai平板-天玑9500s-8gb-plus-256gb-wi-fi-碳晶黑",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想 拯救者Y900 11 AI平板 天玑9500s 8GB+256GB Wi-Fi 碳晶黑",
-      "tag": "平板",
-      "image": "/shop/img/le-联想-拯救者y900-11-ai平板-天玑9500s-8gb-plus-256gb-wi-fi-碳晶黑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 3299,
-          "price": 3134
-        }
-      ]
-    },
-    {
-      "id": "le-异能者云平板g12a-8gb-plus-256gb-太空灰",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "异能者云平板G12A（8GB+256GB）太空灰",
-      "tag": "平板",
-      "image": "/shop/img/le-异能者云平板g12a-8gb-plus-256gb-太空灰.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 1799,
-          "price": 1709
-        }
-      ]
-    },
-    {
-      "id": "le-联想拯救者平板y700-五代-8-8英寸ai游戏平板-骁龙8至尊版-碳晶黑",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想拯救者平板Y700 五代 8.8英寸AI游戏平板 骁龙8至尊版 碳晶黑",
-      "tag": "平板",
-      "image": "/shop/img/le-联想拯救者平板y700-五代-8-8英寸ai游戏平板-骁龙8至尊版-碳晶黑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 6399,
-          "price": 6079
-        }
-      ]
-    },
-    {
-      "id": "le-联想小新平板11-11英寸-影音娱乐网课学习-ai平板电脑-天青色",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想小新平板11 11英寸 影音娱乐网课学习 AI平板电脑 天青色",
-      "tag": "平板",
-      "image": "/shop/img/le-联想小新平板11-11英寸-影音娱乐网课学习-ai平板电脑-天青色.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 1349,
-          "price": 1282
-        }
-      ]
-    },
-    {
       "id": "le-异能者云平板g13a-8gb-plus-256gb-太空灰",
       "brand": "lenovo",
       "category": "平板",
@@ -216,21 +661,6 @@
           "label": "官方标配",
           "official": 1999,
           "price": 1899
-        }
-      ]
-    },
-    {
-      "id": "le-联想-拯救者y900-13-ai平板-骁龙8至尊版-12gb-plus-256gb-wi-fi-冰魄白-键盘套装",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想 拯救者Y900 13 AI平板 骁龙8至尊版 12GB+256GB Wi-Fi 冰魄白 键盘套装",
-      "tag": "平板",
-      "image": "/shop/img/le-联想-拯救者y900-13-ai平板-骁龙8至尊版-12gb-plus-256gb-wi-fi-冰魄白-键盘套装.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 4799,
-          "price": 4559
         }
       ]
     },
@@ -265,51 +695,6 @@
       ]
     },
     {
-      "id": "le-联想-拯救者y900-11-ai平板-天玑9500s-12gb-plus-512gb-wi-fi-碳晶黑",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想 拯救者Y900 11 AI平板 天玑9500s 12GB+512GB Wi-Fi 碳晶黑",
-      "tag": "平板",
-      "image": "/shop/img/le-联想-拯救者y900-11-ai平板-天玑9500s-12gb-plus-512gb-wi-fi-碳晶黑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 4099,
-          "price": 3894
-        }
-      ]
-    },
-    {
-      "id": "le-联想拯救者平板y700-五代-8-8英寸ai游戏平板-骁龙8至尊版-冰魄白",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想拯救者平板Y700 五代 8.8英寸AI游戏平板 骁龙8至尊版 冰魄白",
-      "tag": "平板",
-      "image": "/shop/img/le-联想拯救者平板y700-五代-8-8英寸ai游戏平板-骁龙8至尊版-冰魄白.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 4499,
-          "price": 4274
-        }
-      ]
-    },
-    {
-      "id": "le-联想-拯救者y900-11-ai平板-天玑9500s-12gb-plus-512gb-wi-fi-星光紫",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想 拯救者Y900 11 AI平板 天玑9500s 12GB+512GB Wi-Fi 星光紫",
-      "tag": "平板",
-      "image": "/shop/img/le-联想-拯救者y900-11-ai平板-天玑9500s-12gb-plus-512gb-wi-fi-星光紫.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 4099,
-          "price": 3894
-        }
-      ]
-    },
-    {
       "id": "le-联想小新平板-pro-gt-11-1英寸学习影音办公-ai平板电脑-浅海贝",
       "brand": "lenovo",
       "category": "平板",
@@ -321,21 +706,6 @@
           "label": "官方标配",
           "official": 2799,
           "price": 2659
-        }
-      ]
-    },
-    {
-      "id": "le-联想-拯救者y900-11-ai平板-天玑9500s-8gb-plus-128gb-wi-fi-碳晶黑",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想 拯救者Y900 11 AI平板 天玑9500s 8GB+128GB Wi-Fi 碳晶黑",
-      "tag": "平板",
-      "image": "/shop/img/le-联想-拯救者y900-11-ai平板-天玑9500s-8gb-plus-128gb-wi-fi-碳晶黑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 2999,
-          "price": 2849
         }
       ]
     },
@@ -355,36 +725,6 @@
       ]
     },
     {
-      "id": "le-联想-拯救者y900-11-ai平板-天玑9500s-12gb-plus-512gb-wi-fi-碳晶黑-键盘手写笔套装",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想 拯救者Y900 11 AI平板 天玑9500s 12GB+512GB Wi-Fi 碳晶黑 键盘手写笔套装",
-      "tag": "平板",
-      "image": "/shop/img/le-联想-拯救者y900-11-ai平板-天玑9500s-12gb-plus-512gb-wi-fi-碳晶黑-键盘手写笔套装.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 4699,
-          "price": 4464
-        }
-      ]
-    },
-    {
-      "id": "le-联想拯救者平板y700-五代-8-8英寸ai游戏平板-骁龙8至尊版-星光紫",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想拯救者平板Y700 五代 8.8英寸AI游戏平板 骁龙8至尊版 星光紫",
-      "tag": "平板",
-      "image": "/shop/img/le-联想拯救者平板y700-五代-8-8英寸ai游戏平板-骁龙8至尊版-星光紫.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 4499,
-          "price": 4274
-        }
-      ]
-    },
-    {
       "id": "le-联想小新pad-pro-13英寸3-5k护眼超清大屏-ai学习平板电脑-滴珀青",
       "brand": "lenovo",
       "category": "平板",
@@ -396,66 +736,6 @@
           "label": "官方标配",
           "official": 2599,
           "price": 2469
-        }
-      ]
-    },
-    {
-      "id": "le-联想ai平板-小新pro-gt-13-高通骁龙8-3-5k护眼超清大屏-霜雪银",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想AI平板 小新Pro GT 13 高通骁龙8 3.5K护眼超清大屏 霜雪银",
-      "tag": "平板",
-      "image": "/shop/img/le-联想ai平板-小新pro-gt-13-高通骁龙8-3-5k护眼超清大屏-霜雪银.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 3399,
-          "price": 3229
-        }
-      ]
-    },
-    {
-      "id": "le-联想ai平板-拯救者y700-无极-8-4英寸-5g全网通-游戏小平板电脑",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想AI平板 拯救者Y700 无极 8.4英寸 5G全网通 游戏小平板电脑",
-      "tag": "平板",
-      "image": "/shop/img/le-联想ai平板-拯救者y700-无极-8-4英寸-5g全网通-游戏小平板电脑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 6499,
-          "price": 6174
-        }
-      ]
-    },
-    {
-      "id": "le-联想-拯救者y900-11-ai平板-天玑9500s-12gb-plus-256gb-wi-fi-碳晶黑",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想 拯救者Y900 11 AI平板 天玑9500s 12GB+256GB Wi-Fi 碳晶黑",
-      "tag": "平板",
-      "image": "/shop/img/le-联想-拯救者y900-11-ai平板-天玑9500s-12gb-plus-256gb-wi-fi-碳晶黑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 3699,
-          "price": 3514
-        }
-      ]
-    },
-    {
-      "id": "le-联想ai平板-拯救者y700-无极-8-4英寸-16g-plus-512g-5g全网通-游戏小平板电脑-冰魄白",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想AI平板 拯救者Y700 无极 8.4英寸 16G+512G 5G全网通 游戏小平板电脑 冰魄白",
-      "tag": "平板",
-      "image": "/shop/img/le-联想ai平板-拯救者y700-无极-8-4英寸-16g-plus-512g-5g全网通-游戏小平板电脑-冰魄白.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 6499,
-          "price": 6174
         }
       ]
     },
@@ -486,36 +766,6 @@
           "label": "官方标配",
           "official": 3399,
           "price": 3229
-        }
-      ]
-    },
-    {
-      "id": "le-联想-拯救者y900-11-ai平板-天玑9500s-12gb-plus-256gb-wi-fi-星光紫",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想 拯救者Y900 11 AI平板 天玑9500s 12GB+256GB Wi-Fi 星光紫",
-      "tag": "平板",
-      "image": "/shop/img/le-联想-拯救者y900-11-ai平板-天玑9500s-12gb-plus-256gb-wi-fi-星光紫.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 3699,
-          "price": 3514
-        }
-      ]
-    },
-    {
-      "id": "le-联想ai平板-拯救者y700-无极-8-4英寸-12g-plus-256g-5g全网通-游戏小平板电脑-云汐紫",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想AI平板 拯救者Y700 无极 8.4英寸 12G+256G 5G全网通 游戏小平板电脑 云汐紫",
-      "tag": "平板",
-      "image": "/shop/img/le-联想ai平板-拯救者y700-无极-8-4英寸-12g-plus-256g-5g全网通-游戏小平板电脑-云汐紫.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 5499,
-          "price": 5224
         }
       ]
     },
@@ -565,36 +815,6 @@
       ]
     },
     {
-      "id": "le-联想-拯救者y900-13-ai平板-骁龙8至尊版-8gb-plus-256gb-wi-fi-碳晶黑",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想 拯救者Y900 13 AI平板 骁龙8至尊版 8GB+256GB Wi-Fi 碳晶黑",
-      "tag": "平板",
-      "image": "/shop/img/le-联想-拯救者y900-13-ai平板-骁龙8至尊版-8gb-plus-256gb-wi-fi-碳晶黑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 3799,
-          "price": 3609
-        }
-      ]
-    },
-    {
-      "id": "le-联想-拯救者y900-11-ai平板-天玑9500s-12gb-plus-256gb-wi-fi-冰魄白-键盘手写笔套装",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想 拯救者Y900 11 AI平板 天玑9500s 12GB+256GB Wi-Fi 冰魄白 键盘手写笔套装",
-      "tag": "平板",
-      "image": "/shop/img/le-联想-拯救者y900-11-ai平板-天玑9500s-12gb-plus-256gb-wi-fi-冰魄白-键盘手写笔套装.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 4299,
-          "price": 4084
-        }
-      ]
-    },
-    {
       "id": "le-异能者云平板s130-8g-plus-256g-太空灰",
       "brand": "lenovo",
       "category": "平板",
@@ -606,21 +826,6 @@
           "label": "官方标配",
           "official": 2799,
           "price": 2659
-        }
-      ]
-    },
-    {
-      "id": "le-联想小新平板11-11英寸-影音娱乐网课学习-ai平板电脑-深空灰",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想小新平板11 11英寸 影音娱乐网课学习 AI平板电脑 深空灰",
-      "tag": "平板",
-      "image": "/shop/img/le-联想小新平板11-11英寸-影音娱乐网课学习-ai平板电脑-深空灰.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 1349,
-          "price": 1282
         }
       ]
     },
@@ -640,96 +845,6 @@
       ]
     },
     {
-      "id": "le-联想-拯救者y900-13-ai平板-骁龙8至尊版-12gb-plus-256gb-wi-fi-碳晶黑",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想 拯救者Y900 13 AI平板 骁龙8至尊版 12GB+256GB Wi-Fi 碳晶黑",
-      "tag": "平板",
-      "image": "/shop/img/le-联想-拯救者y900-13-ai平板-骁龙8至尊版-12gb-plus-256gb-wi-fi-碳晶黑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 4199,
-          "price": 3989
-        }
-      ]
-    },
-    {
-      "id": "le-联想-拯救者y900-13-ai平板-骁龙8至尊版-16gb-plus-512gb-wi-fi-星光紫",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想 拯救者Y900 13 AI平板 骁龙8至尊版 16GB+512GB Wi-Fi 星光紫",
-      "tag": "平板",
-      "image": "/shop/img/le-联想-拯救者y900-13-ai平板-骁龙8至尊版-16gb-plus-512gb-wi-fi-星光紫.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 4999,
-          "price": 4749
-        }
-      ]
-    },
-    {
-      "id": "le-联想-拯救者y900-13-ai平板-骁龙8至尊版-16gb-plus-512gb-wi-fi-碳晶黑",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想 拯救者Y900 13 AI平板 骁龙8至尊版 16GB+512GB Wi-Fi 碳晶黑",
-      "tag": "平板",
-      "image": "/shop/img/le-联想-拯救者y900-13-ai平板-骁龙8至尊版-16gb-plus-512gb-wi-fi-碳晶黑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 4999,
-          "price": 4749
-        }
-      ]
-    },
-    {
-      "id": "le-联想-拯救者y900-13-ai平板-骁龙8至尊版-16gb-plus-512gb-wi-fi-冰魄白",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想 拯救者Y900 13 AI平板 骁龙8至尊版 16GB+512GB Wi-Fi 冰魄白",
-      "tag": "平板",
-      "image": "/shop/img/le-联想-拯救者y900-13-ai平板-骁龙8至尊版-16gb-plus-512gb-wi-fi-冰魄白.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 4999,
-          "price": 4749
-        }
-      ]
-    },
-    {
-      "id": "le-联想-拯救者y900-11-ai平板-天玑9500s-12gb-plus-512gb-wi-fi-冰魄白-键盘手写笔套装",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想 拯救者Y900 11 AI平板 天玑9500s 12GB+512GB Wi-Fi 冰魄白 键盘手写笔套装",
-      "tag": "平板",
-      "image": "/shop/img/le-联想-拯救者y900-11-ai平板-天玑9500s-12gb-plus-512gb-wi-fi-冰魄白-键盘手写笔套装.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 4699,
-          "price": 4464
-        }
-      ]
-    },
-    {
-      "id": "le-联想-拯救者y900-13-ai平板-骁龙8至尊版-12gb-plus-256gb-wi-fi-冰魄白",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想 拯救者Y900 13 AI平板 骁龙8至尊版 12GB+256GB Wi-Fi 冰魄白",
-      "tag": "平板",
-      "image": "/shop/img/le-联想-拯救者y900-13-ai平板-骁龙8至尊版-12gb-plus-256gb-wi-fi-冰魄白.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 4199,
-          "price": 3989
-        }
-      ]
-    },
-    {
       "id": "le-异能者云平板t10-6g-plus-128g-4g太空灰",
       "brand": "lenovo",
       "category": "平板",
@@ -741,21 +856,6 @@
           "label": "官方标配",
           "official": 749,
           "price": 712
-        }
-      ]
-    },
-    {
-      "id": "le-联想-拯救者y900-13-ai平板-骁龙8至尊版-8gb-plus-256gb-wi-fi-星光紫",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想 拯救者Y900 13 AI平板 骁龙8至尊版 8GB+256GB Wi-Fi 星光紫",
-      "tag": "平板",
-      "image": "/shop/img/le-联想-拯救者y900-13-ai平板-骁龙8至尊版-8gb-plus-256gb-wi-fi-星光紫.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 3799,
-          "price": 3609
         }
       ]
     },
@@ -1150,21 +1250,6 @@
       ]
     },
     {
-      "id": "le-联想拯救者y9000p-2026-至尊版-16英寸电竞游戏笔记本电脑-碳晶黑",
-      "brand": "lenovo",
-      "category": "笔记本",
-      "name": "联想拯救者Y9000P 2026 至尊版 16英寸电竞游戏笔记本电脑 碳晶黑",
-      "tag": "笔记本",
-      "image": "/shop/img/le-联想拯救者y9000p-2026-至尊版-16英寸电竞游戏笔记本电脑-碳晶黑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 34998,
-          "price": 33248
-        }
-      ]
-    },
-    {
       "id": "le-联想thinkpad-e13-ai-2026-酷睿ultra-5-经典商务本-00cd",
       "brand": "lenovo",
       "category": "笔记本",
@@ -1176,21 +1261,6 @@
           "label": "官方标配",
           "official": 7999,
           "price": 7599
-        }
-      ]
-    },
-    {
-      "id": "le-联想小新pro14-酷睿-14英寸轻薄笔记本电脑",
-      "brand": "lenovo",
-      "category": "笔记本",
-      "name": "联想小新Pro14 酷睿 14英寸轻薄笔记本电脑",
-      "tag": "笔记本",
-      "image": "/shop/img/le-联想小新pro14-酷睿-14英寸轻薄笔记本电脑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 9799,
-          "price": 9309
         }
       ]
     },
@@ -1251,21 +1321,6 @@
           "label": "官方标配",
           "official": 84999,
           "price": 80749
-        }
-      ]
-    },
-    {
-      "id": "le-联想拯救者y9000p-2026-至尊版-16英寸电竞游戏笔记本电脑-冰魄白",
-      "brand": "lenovo",
-      "category": "笔记本",
-      "name": "联想拯救者Y9000P 2026 至尊版 16英寸电竞游戏笔记本电脑 冰魄白",
-      "tag": "笔记本",
-      "image": "/shop/img/le-联想拯救者y9000p-2026-至尊版-16英寸电竞游戏笔记本电脑-冰魄白.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 34998,
-          "price": 33248
         }
       ]
     },
@@ -1495,21 +1550,6 @@
       ]
     },
     {
-      "id": "le-联想moto-razr-60-12gb-plus-256gb-马卡龙粉",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto razr 60 12GB+256GB 马卡龙粉",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-razr-60-12gb-plus-256gb-马卡龙粉.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 3899,
-          "price": 3704
-        }
-      ]
-    },
-    {
       "id": "le-联想moto-buds-2-玉兰绿",
       "brand": "lenovo",
       "category": "手机",
@@ -1536,21 +1576,6 @@
           "label": "官方标配",
           "official": 1499,
           "price": 1424
-        }
-      ]
-    },
-    {
-      "id": "le-联想moto-razr-fold-16gb-plus-1tb-绅墨雅黑",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto razr Fold 16GB+1TB 绅墨雅黑",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-razr-fold-16gb-plus-1tb-绅墨雅黑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 14999,
-          "price": 14249
         }
       ]
     },
@@ -1600,21 +1625,6 @@
       ]
     },
     {
-      "id": "le-联想moto-razr-60-12gb-plus-512gb-马卡龙粉",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto razr 60 12GB+512GB 马卡龙粉",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-razr-60-12gb-plus-512gb-马卡龙粉.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 4299,
-          "price": 4084
-        }
-      ]
-    },
-    {
       "id": "le-联想moto-razr-fold-16gb-plus-512gb-2026fifa世界杯鎏金限定版",
       "brand": "lenovo",
       "category": "手机",
@@ -1626,21 +1636,6 @@
           "label": "官方标配",
           "official": 14999,
           "price": 14249
-        }
-      ]
-    },
-    {
-      "id": "le-联想moto-razr-fold-12gb-plus-256gb-绅墨雅黑",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto razr Fold 12GB+256GB 绅墨雅黑",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-razr-fold-12gb-plus-256gb-绅墨雅黑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 9999,
-          "price": 9499
         }
       ]
     },
@@ -1705,36 +1700,6 @@
       ]
     },
     {
-      "id": "le-联想moto-razr-fold-16gb-plus-1tb-珠光锦白",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto razr Fold 16GB+1TB 珠光锦白",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-razr-fold-16gb-plus-1tb-珠光锦白.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 14999,
-          "price": 14249
-        }
-      ]
-    },
-    {
-      "id": "le-联想moto-razr-fold-16gb-plus-512gb-绅墨雅黑",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto razr Fold 16GB+512GB 绅墨雅黑",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-razr-fold-16gb-plus-512gb-绅墨雅黑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 10999,
-          "price": 10449
-        }
-      ]
-    },
-    {
       "id": "le-联想moto-g100s-8-plus-256-陨黑",
       "brand": "lenovo",
       "category": "手机",
@@ -1746,21 +1711,6 @@
           "label": "官方标配",
           "official": 1299,
           "price": 1234
-        }
-      ]
-    },
-    {
-      "id": "le-联想moto-razr-60-12gb-plus-256gb-午夜苍蓝",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto razr 60 12GB+256GB 午夜苍蓝",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-razr-60-12gb-plus-256gb-午夜苍蓝.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 3899,
-          "price": 3704
         }
       ]
     },
@@ -1810,21 +1760,6 @@
       ]
     },
     {
-      "id": "le-联想moto-razr-70-ultra-16gb-plus-1tb-檀棕椴木",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto razr 70 Ultra 16GB+1TB 檀棕椴木",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-razr-70-ultra-16gb-plus-1tb-檀棕椴木.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 8499,
-          "price": 8074
-        }
-      ]
-    },
-    {
       "id": "le-联想moto-razr-60-12gb-plus-256gb-冰淇淋绿",
       "brand": "lenovo",
       "category": "手机",
@@ -1840,36 +1775,6 @@
       ]
     },
     {
-      "id": "le-联想moto-razr-fold-16gb-plus-512gb-珠光锦白",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto razr Fold 16GB+512GB 珠光锦白",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-razr-fold-16gb-plus-512gb-珠光锦白.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 10999,
-          "price": 10449
-        }
-      ]
-    },
-    {
-      "id": "le-联想moto-razr-fold-12gb-plus-256gb-珠光锦白",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto razr Fold 12GB+256GB 珠光锦白",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-razr-fold-12gb-plus-256gb-珠光锦白.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 9999,
-          "price": 9499
-        }
-      ]
-    },
-    {
       "id": "le-联想moto-g100-pro-12gb-plus-512gb-松烟蓝",
       "brand": "lenovo",
       "category": "手机",
@@ -1881,21 +1786,6 @@
           "label": "官方标配",
           "official": 1899,
           "price": 1804
-        }
-      ]
-    },
-    {
-      "id": "le-联想moto-razr-60-8gb-plus-256gb-午夜苍蓝",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto razr 60 8GB+256GB 午夜苍蓝",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-razr-60-8gb-plus-256gb-午夜苍蓝.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 3499,
-          "price": 3324
         }
       ]
     },
@@ -3115,21 +3005,6 @@
       ]
     },
     {
-      "id": "le-小新台式电脑-英特尔i5-14400-16g-512g-ssd-台式机",
-      "brand": "lenovo",
-      "category": "台式机",
-      "name": "小新台式电脑 英特尔i5-14400 16G 512G SSD 台式机",
-      "tag": "台式机",
-      "image": "/shop/img/le-小新台式电脑-英特尔i5-14400-16g-512g-ssd-台式机.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 5599,
-          "price": 5319
-        }
-      ]
-    },
-    {
       "id": "le-小新27-酷睿ultra-5-226v-16g-512g-27英寸一体台式电脑-云影色",
       "brand": "lenovo",
       "category": "一体机",
@@ -3535,21 +3410,6 @@
       ]
     },
     {
-      "id": "le-来酷-lecoo-一体计算机-n27-pro-i5-27英寸一体台式机-白色",
-      "brand": "lenovo",
-      "category": "一体机",
-      "name": "来酷(Lecoo)一体计算机 N27 Pro I5 27英寸一体台式机 白色",
-      "tag": "一体机",
-      "image": "/shop/img/le-来酷-lecoo-一体计算机-n27-pro-i5-27英寸一体台式机-白色.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 4499,
-          "price": 4274
-        }
-      ]
-    },
-    {
       "id": "le-来酷一体计算机-酷2488-锐龙5-3500u-23-8英寸一体台式机",
       "brand": "lenovo",
       "category": "一体机",
@@ -3580,21 +3440,6 @@
       ]
     },
     {
-      "id": "le-来酷-lecoo-一体计算机-酷2888-n100-27英寸一体台式机-黑色",
-      "brand": "lenovo",
-      "category": "一体机",
-      "name": "来酷(Lecoo)一体计算机 酷2888 N100 27英寸一体台式机 黑色",
-      "tag": "一体机",
-      "image": "/shop/img/le-来酷-lecoo-一体计算机-酷2888-n100-27英寸一体台式机-黑色.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 3299,
-          "price": 3134
-        }
-      ]
-    },
-    {
       "id": "le-来酷-lecoo-一体计算机-酷2888-pro-锐龙版-27英寸一体台式机-白色",
       "brand": "lenovo",
       "category": "一体机",
@@ -3606,36 +3451,6 @@
           "label": "官方标配",
           "official": 4699,
           "price": 4464
-        }
-      ]
-    },
-    {
-      "id": "le-联想-拯救者y900-11-ai平板-天玑9500s-12gb-plus-256gb-wi-fi-冰魄白",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想 拯救者Y900 11 AI平板 天玑9500s 12GB+256GB Wi-Fi 冰魄白",
-      "tag": "平板",
-      "image": "/shop/img/le-联想-拯救者y900-11-ai平板-天玑9500s-12gb-plus-256gb-wi-fi-冰魄白.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 3699,
-          "price": 3514
-        }
-      ]
-    },
-    {
-      "id": "le-联想-拯救者y900-11-ai平板-天玑9500s-8gb-plus-128gb-wi-fi-冰魄白",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想 拯救者Y900 11 AI平板 天玑9500s 8GB+128GB Wi-Fi 冰魄白",
-      "tag": "平板",
-      "image": "/shop/img/le-联想-拯救者y900-11-ai平板-天玑9500s-8gb-plus-128gb-wi-fi-冰魄白.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 2999,
-          "price": 2849
         }
       ]
     },
@@ -3670,36 +3485,6 @@
       ]
     },
     {
-      "id": "le-联想-拯救者y900-13-ai平板-骁龙8至尊版-12gb-plus-256gb-wi-fi-碳晶黑-键盘套装",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想 拯救者Y900 13 AI平板 骁龙8至尊版 12GB+256GB Wi-Fi 碳晶黑 键盘套装",
-      "tag": "平板",
-      "image": "/shop/img/le-联想-拯救者y900-13-ai平板-骁龙8至尊版-12gb-plus-256gb-wi-fi-碳晶黑-键盘套装.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 4799,
-          "price": 4559
-        }
-      ]
-    },
-    {
-      "id": "le-联想-拯救者y900-11-ai平板-天玑9500s-8gb-plus-256gb-wi-fi-冰魄白",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想 拯救者Y900 11 AI平板 天玑9500s 8GB+256GB Wi-Fi 冰魄白",
-      "tag": "平板",
-      "image": "/shop/img/le-联想-拯救者y900-11-ai平板-天玑9500s-8gb-plus-256gb-wi-fi-冰魄白.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 3299,
-          "price": 3134
-        }
-      ]
-    },
-    {
       "id": "le-联想小新pad-pro-13英寸3-5k护眼超清大屏-ai学习平板电脑-凝雾灰-舒视版",
       "brand": "lenovo",
       "category": "平板",
@@ -3715,21 +3500,6 @@
       ]
     },
     {
-      "id": "le-联想拯救者手机-y70-新一代-12gb-plus-512gb-冰魄白",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想拯救者手机 Y70 新一代 12GB+512GB 冰魄白",
-      "tag": "手机",
-      "image": "/shop/img/le-联想拯救者手机-y70-新一代-12gb-plus-512gb-冰魄白.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 3999,
-          "price": 3799
-        }
-      ]
-    },
-    {
       "id": "le-拯救者手机散热背夹",
       "brand": "lenovo",
       "category": "手机",
@@ -3741,111 +3511,6 @@
           "label": "官方标配",
           "official": 299,
           "price": 284
-        }
-      ]
-    },
-    {
-      "id": "le-联想拯救者手机-y70-新一代-16gb-plus-512gb-碳晶黑",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想拯救者手机 Y70 新一代 16GB+512GB 碳晶黑",
-      "tag": "手机",
-      "image": "/shop/img/le-联想拯救者手机-y70-新一代-16gb-plus-512gb-碳晶黑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 4499,
-          "price": 4274
-        }
-      ]
-    },
-    {
-      "id": "le-联想拯救者手机-y70-新一代-12gb-plus-512gb-碳晶黑",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想拯救者手机 Y70 新一代 12GB+512GB 碳晶黑",
-      "tag": "手机",
-      "image": "/shop/img/le-联想拯救者手机-y70-新一代-12gb-plus-512gb-碳晶黑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 3999,
-          "price": 3799
-        }
-      ]
-    },
-    {
-      "id": "le-联想拯救者手机-y70-新一代-12gb-plus-256gb-冰魄白",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想拯救者手机 Y70 新一代 12GB+256GB 冰魄白",
-      "tag": "手机",
-      "image": "/shop/img/le-联想拯救者手机-y70-新一代-12gb-plus-256gb-冰魄白.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 3499,
-          "price": 3324
-        }
-      ]
-    },
-    {
-      "id": "le-联想拯救者手机-y70-新一代-12gb-plus-256gb-碳晶黑",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想拯救者手机 Y70 新一代 12GB+256GB 碳晶黑",
-      "tag": "手机",
-      "image": "/shop/img/le-联想拯救者手机-y70-新一代-12gb-plus-256gb-碳晶黑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 3499,
-          "price": 3324
-        }
-      ]
-    },
-    {
-      "id": "le-联想拯救者手机-y70-新一代-16gb-plus-512gb-冰魄白",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想拯救者手机 Y70 新一代 16GB+512GB 冰魄白",
-      "tag": "手机",
-      "image": "/shop/img/le-联想拯救者手机-y70-新一代-16gb-plus-512gb-冰魄白.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 4499,
-          "price": 4274
-        }
-      ]
-    },
-    {
-      "id": "le-联想拯救者手机-y70-新一代-16gb-plus-1tb-冰魄白",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想拯救者手机 Y70 新一代 16GB+1TB 冰魄白",
-      "tag": "手机",
-      "image": "/shop/img/le-联想拯救者手机-y70-新一代-16gb-plus-1tb-冰魄白.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 5999,
-          "price": 5699
-        }
-      ]
-    },
-    {
-      "id": "le-联想拯救者手机-y70-新一代-16gb-plus-1tb-碳晶黑",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想拯救者手机 Y70 新一代 16GB+1TB 碳晶黑",
-      "tag": "手机",
-      "image": "/shop/img/le-联想拯救者手机-y70-新一代-16gb-plus-1tb-碳晶黑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 5999,
-          "price": 5699
         }
       ]
     },
@@ -3891,21 +3556,6 @@
           "label": "官方标配",
           "official": 1399,
           "price": 1329
-        }
-      ]
-    },
-    {
-      "id": "le-联想moto-razr-70-ultra-16gb-plus-512gb-檀棕椴木",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto razr 70 Ultra 16GB+512GB 檀棕椴木",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-razr-70-ultra-16gb-plus-512gb-檀棕椴木.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 7999,
-          "price": 7599
         }
       ]
     },
@@ -4150,21 +3800,6 @@
       ]
     },
     {
-      "id": "le-联想拯救者y7000x-2026-15-3英寸电竞游戏笔记本电脑-碳晶黑",
-      "brand": "lenovo",
-      "category": "笔记本",
-      "name": "联想拯救者Y7000X 2026 15.3英寸电竞游戏笔记本电脑 碳晶黑",
-      "tag": "笔记本",
-      "image": "/shop/img/le-联想拯救者y7000x-2026-15-3英寸电竞游戏笔记本电脑-碳晶黑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 14299,
-          "price": 13584
-        }
-      ]
-    },
-    {
       "id": "le-联想拯救者y9000p-2026-至尊版-fifa世界杯限量版-16英寸电竞游戏笔记本电脑-碳晶黑",
       "brand": "lenovo",
       "category": "笔记本",
@@ -4266,21 +3901,6 @@
           "label": "官方标配",
           "official": 7999,
           "price": 7599
-        }
-      ]
-    },
-    {
-      "id": "le-联想小新pro14-酷睿-14英寸轻薄笔记本电脑-深空灰",
-      "brand": "lenovo",
-      "category": "笔记本",
-      "name": "联想小新Pro14 酷睿 14英寸轻薄笔记本电脑 深空灰",
-      "tag": "笔记本",
-      "image": "/shop/img/le-联想小新pro14-酷睿-14英寸轻薄笔记本电脑-深空灰.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 9799,
-          "price": 9309
         }
       ]
     },
@@ -4735,21 +4355,6 @@
       ]
     },
     {
-      "id": "le-联想拯救者y7000x-2026-15-3英寸电竞游戏笔记本电脑-冰魄白",
-      "brand": "lenovo",
-      "category": "笔记本",
-      "name": "联想拯救者Y7000X 2026 15.3英寸电竞游戏笔记本电脑 冰魄白",
-      "tag": "笔记本",
-      "image": "/shop/img/le-联想拯救者y7000x-2026-15-3英寸电竞游戏笔记本电脑-冰魄白.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 16798,
-          "price": 15958
-        }
-      ]
-    },
-    {
       "id": "le-拯救者7000系笔记本4年保值换新-生产日期180天内专用",
       "brand": "lenovo",
       "category": "笔记本",
@@ -5140,21 +4745,6 @@
       ]
     },
     {
-      "id": "le-联想拯救者r9000p-2025-ai元启-16英寸电竞游戏笔记本-碳晶黑",
-      "brand": "lenovo",
-      "category": "笔记本",
-      "name": "联想拯救者R9000P 2025 AI元启 16英寸电竞游戏笔记本 碳晶黑",
-      "tag": "笔记本",
-      "image": "/shop/img/le-联想拯救者r9000p-2025-ai元启-16英寸电竞游戏笔记本-碳晶黑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 16799,
-          "price": 15959
-        }
-      ]
-    },
-    {
       "id": "le-联想thinkbook-16p-2026-酷睿ultra-9-fifa定制版-高性能创作本",
       "brand": "lenovo",
       "category": "笔记本",
@@ -5166,21 +4756,6 @@
           "label": "官方标配",
           "official": 21999,
           "price": 20899
-        }
-      ]
-    },
-    {
-      "id": "le-联想拯救者r9000p-2025-ai元启-16英寸电竞游戏笔记本-冰魄白",
-      "brand": "lenovo",
-      "category": "笔记本",
-      "name": "联想拯救者R9000P 2025 AI元启 16英寸电竞游戏笔记本 冰魄白",
-      "tag": "笔记本",
-      "image": "/shop/img/le-联想拯救者r9000p-2025-ai元启-16英寸电竞游戏笔记本-冰魄白.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 16799,
-          "price": 15959
         }
       ]
     },
@@ -6160,21 +5735,6 @@
       ]
     },
     {
-      "id": "le-来酷-lecoo-一体计算机-酷2888-pro-i5-27英寸一体台式机-黑色",
-      "brand": "lenovo",
-      "category": "一体机",
-      "name": "来酷(Lecoo)一体计算机 酷2888 Pro I5 27英寸一体台式机 黑色",
-      "tag": "一体机",
-      "image": "/shop/img/le-来酷-lecoo-一体计算机-酷2888-pro-i5-27英寸一体台式机-黑色.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 4499,
-          "price": 4274
-        }
-      ]
-    },
-    {
       "id": "le-来酷-lecoo-台式计算机-酷310-i7-13650hx-分体台式机",
       "brand": "lenovo",
       "category": "笔记本",
@@ -6411,21 +5971,6 @@
           "label": "官方标配",
           "official": 6499,
           "price": 6174
-        }
-      ]
-    },
-    {
-      "id": "le-小新台式电脑-英特尔i5-14400-16g-1t-ssd-台式机",
-      "brand": "lenovo",
-      "category": "台式机",
-      "name": "小新台式电脑 英特尔i5-14400 16G 1T SSD 台式机",
-      "tag": "台式机",
-      "image": "/shop/img/le-小新台式电脑-英特尔i5-14400-16g-1t-ssd-台式机.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 6099,
-          "price": 5794
         }
       ]
     },
@@ -6775,51 +6320,6 @@
       ]
     },
     {
-      "id": "le-来酷-lecoo-一体计算机-酷2888-pro-i5-27英寸一体台式机-白色",
-      "brand": "lenovo",
-      "category": "一体机",
-      "name": "来酷(Lecoo)一体计算机 酷2888 Pro I5 27英寸一体台式机 白色",
-      "tag": "一体机",
-      "image": "/shop/img/le-来酷-lecoo-一体计算机-酷2888-pro-i5-27英寸一体台式机-白色.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 4499,
-          "price": 4274
-        }
-      ]
-    },
-    {
-      "id": "le-来酷-lecoo-一体计算机-n27-pro-i5-27英寸一体台式机-黑色",
-      "brand": "lenovo",
-      "category": "一体机",
-      "name": "来酷(Lecoo)一体计算机 N27 Pro I5 27英寸一体台式机 黑色",
-      "tag": "一体机",
-      "image": "/shop/img/le-来酷-lecoo-一体计算机-n27-pro-i5-27英寸一体台式机-黑色.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 4499,
-          "price": 4274
-        }
-      ]
-    },
-    {
-      "id": "le-来酷-lecoo-一体计算机-酷2888-n100-27英寸一体台式机-白色",
-      "brand": "lenovo",
-      "category": "一体机",
-      "name": "来酷(Lecoo)一体计算机 酷2888 N100 27英寸一体台式机 白色",
-      "tag": "一体机",
-      "image": "/shop/img/le-来酷-lecoo-一体计算机-酷2888-n100-27英寸一体台式机-白色.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 3299,
-          "price": 3134
-        }
-      ]
-    },
-    {
       "id": "le-小新27一体机-元气版-酷睿5-320-16g-512g-27英寸-深空色",
       "brand": "lenovo",
       "category": "一体机",
@@ -7121,6 +6621,236 @@
           "label": "2TB 蜂窝",
           "official": 21799,
           "price": 20709
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-pro-上出风-1-5匹超一级能效-米家空调",
+      "brand": "xiaomi",
+      "category": "家电",
+      "name": "Pro 上出风 1.5匹超一级能效 米家空调",
+      "tag": "家电",
+      "image": "/shop/img/xiaomi-pro-上出风-1-5匹超一级能效-米家空调.png",
+      "configs": [
+        {
+          "label": "冰晶白",
+          "official": 3399,
+          "price": 3229
+        },
+        {
+          "label": "标准版",
+          "official": 3399,
+          "price": 3229
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-新风pro-双出风-立式3匹超一级能效-米家空调",
+      "brand": "xiaomi",
+      "category": "家电",
+      "name": "新风Pro 双出风 立式3匹超一级能效 米家空调",
+      "tag": "家电",
+      "image": "/shop/img/xiaomi-新风pro-双出风-立式3匹超一级能效-米家空调.png",
+      "configs": [
+        {
+          "label": "星锻银",
+          "official": 7199,
+          "price": 6839
+        },
+        {
+          "label": "标准版",
+          "official": 7199,
+          "price": 6839
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-米家净水器-2",
+      "brand": "xiaomi",
+      "category": "家电",
+      "name": "米家净水器 2",
+      "tag": "家电",
+      "image": "/shop/img/xiaomi-米家净水器-2.png",
+      "configs": [
+        {
+          "label": "1200G 白色",
+          "official": 1169,
+          "price": 1111
+        },
+        {
+          "label": "1600G 白色",
+          "official": 1749,
+          "price": 1662
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-米家净水器-2-pro-双出水",
+      "brand": "xiaomi",
+      "category": "家电",
+      "name": "米家净水器 2 Pro 双出水",
+      "tag": "家电",
+      "image": "/shop/img/xiaomi-米家净水器-2-pro-双出水.png",
+      "configs": [
+        {
+          "label": "1200G 白色",
+          "official": 1549,
+          "price": 1472
+        },
+        {
+          "label": "1600G 白色",
+          "official": 2199,
+          "price": 2089
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-米家净水器n1",
+      "brand": "xiaomi",
+      "category": "家电",
+      "name": "米家净水器N1",
+      "tag": "家电",
+      "image": "/shop/img/xiaomi-米家净水器n1.png",
+      "configs": [
+        {
+          "label": "1000G 白色",
+          "official": 1499,
+          "price": 1424
+        },
+        {
+          "label": "1200G 白色",
+          "official": 1799,
+          "price": 1709
+        },
+        {
+          "label": "1600G 白色",
+          "official": 2299,
+          "price": 2184
+        },
+        {
+          "label": "800G 白色",
+          "official": 949,
+          "price": 902
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-米家即热净水器-2-pro-双出水",
+      "brand": "xiaomi",
+      "category": "家电",
+      "name": "米家即热净水器 2 Pro 双出水",
+      "tag": "家电",
+      "image": "/shop/img/xiaomi-米家即热净水器-2-pro-双出水.png",
+      "configs": [
+        {
+          "label": "1200G 白色",
+          "official": 3399,
+          "price": 3229
+        },
+        {
+          "label": "1600G 白色",
+          "official": 3799,
+          "price": 3609
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-米家定时燃气灶-3-5200w-天然气",
+      "brand": "xiaomi",
+      "category": "家电",
+      "name": "米家定时燃气灶 3 5200W（天然气）",
+      "tag": "家电",
+      "image": "/shop/img/xiaomi-米家定时燃气灶-3-5200w-天然气.png",
+      "configs": [
+        {
+          "label": "白色",
+          "official": 1199,
+          "price": 1139
+        },
+        {
+          "label": "黑色",
+          "official": 1099,
+          "price": 1044
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-米家智能净烟机s2",
+      "brand": "xiaomi",
+      "category": "家电",
+      "name": "米家智能净烟机S2",
+      "tag": "家电",
+      "image": "/shop/img/xiaomi-米家智能净烟机s2.png",
+      "configs": [
+        {
+          "label": "白色",
+          "official": 3299,
+          "price": 3134
+        },
+        {
+          "label": "黑色",
+          "official": 3299,
+          "price": 3134
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-redmi-pad-2-pro",
+      "brand": "xiaomi",
+      "category": "平板",
+      "name": "REDMI Pad 2 Pro",
+      "tag": "平板",
+      "image": "/shop/img/xiaomi-redmi-pad-2-pro.png",
+      "configs": [
+        {
+          "label": "5G 深灰色",
+          "official": 2799,
+          "price": 2659
+        },
+        {
+          "label": "标准版",
+          "official": 2599,
+          "price": 2469
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-redmi-pad-pro",
+      "brand": "xiaomi",
+      "category": "平板",
+      "name": "Redmi Pad Pro",
+      "tag": "平板",
+      "image": "/shop/img/xiaomi-redmi-pad-pro.png",
+      "configs": [
+        {
+          "label": "5G 深灰色",
+          "official": 1999,
+          "price": 1899
+        },
+        {
+          "label": "标准版",
+          "official": 1499,
+          "price": 1424
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-redmi-显示器-a系列",
+      "brand": "xiaomi",
+      "category": "电脑办公",
+      "name": "REDMI 显示器 A系列",
+      "tag": "电脑办公",
+      "image": "/shop/img/xiaomi-redmi-显示器-a系列.png",
+      "configs": [
+        {
+          "label": "24英寸 黑色",
+          "official": 429,
+          "price": 408
+        },
+        {
+          "label": "27英寸 黑色",
+          "official": 629,
+          "price": 598
         }
       ]
     },
@@ -7871,36 +7601,6 @@
           "label": "180*200cm",
           "official": 2799,
           "price": 2659
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-pro-上出风-1-5匹超一级能效-冰晶白-米家空调",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "Pro 上出风 1.5匹超一级能效 冰晶白 米家空调",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-pro-上出风-1-5匹超一级能效-冰晶白-米家空调.png",
-      "configs": [
-        {
-          "label": "Pro 上出风 1.5匹超一级能效 冰晶白 米家空调",
-          "official": 3399,
-          "price": 3229
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-pro-上出风-1-5匹超一级能效-米家空调",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "Pro 上出风 1.5匹超一级能效 米家空调",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-pro-上出风-1-5匹超一级能效-米家空调.png",
-      "configs": [
-        {
-          "label": "Pro 上出风 1.5匹超一级能效 米家空调",
-          "official": 3399,
-          "price": 3229
         }
       ]
     },
@@ -8906,36 +8606,6 @@
           "label": "新风Pro 人感双出风 立式3匹超一级能效 米家空调",
           "official": 7799,
           "price": 7409
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-新风pro-双出风-立式3匹超一级能效-星锻银-米家空调",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "新风Pro 双出风 立式3匹超一级能效 星锻银 米家空调",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-新风pro-双出风-立式3匹超一级能效-星锻银-米家空调.png",
-      "configs": [
-        {
-          "label": "新风Pro 双出风 立式3匹超一级能效 星锻银 米家空调",
-          "official": 7199,
-          "price": 6839
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-新风pro-双出风-立式3匹超一级能效-米家空调",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "新风Pro 双出风 立式3匹超一级能效 米家空调",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-新风pro-双出风-立式3匹超一级能效-米家空调.png",
-      "configs": [
-        {
-          "label": "新风Pro 双出风 立式3匹超一级能效 米家空调",
-          "official": 7199,
-          "price": 6839
         }
       ]
     },
@@ -10355,21 +10025,6 @@
       ]
     },
     {
-      "id": "xiaomi-米家净水器-2-1200g",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家净水器 2 1200G",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家净水器-2-1200g.png",
-      "configs": [
-        {
-          "label": "米家净水器 2 1200G",
-          "official": 1169,
-          "price": 1111
-        }
-      ]
-    },
-    {
       "id": "xiaomi-米家净水器-2-1200g-plus-前置过滤器pro-plus-管线机套装",
       "brand": "xiaomi",
       "category": "家电",
@@ -10396,51 +10051,6 @@
           "label": "米家净水器 2 1200G+前置过滤器Pro套装",
           "official": 1818,
           "price": 1727
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-米家净水器-2-1600g",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家净水器 2 1600G",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家净水器-2-1600g.png",
-      "configs": [
-        {
-          "label": "米家净水器 2 1600G",
-          "official": 1749,
-          "price": 1662
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-米家净水器-2-pro-双出水-1200g",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家净水器 2 Pro 双出水 1200G",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家净水器-2-pro-双出水-1200g.png",
-      "configs": [
-        {
-          "label": "米家净水器 2 Pro 双出水 1200G",
-          "official": 1549,
-          "price": 1472
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-米家净水器-2-pro-双出水-1600g",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家净水器 2 Pro 双出水 1600G",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家净水器-2-pro-双出水-1600g.png",
-      "configs": [
-        {
-          "label": "米家净水器 2 Pro 双出水 1600G",
-          "official": 2199,
-          "price": 2089
         }
       ]
     },
@@ -10486,66 +10096,6 @@
           "label": "白色",
           "official": 2499,
           "price": 2374
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-米家净水器n1-1000g",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家净水器N1 1000G",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家净水器n1-1000g.png",
-      "configs": [
-        {
-          "label": "米家净水器N1 1000G",
-          "official": 1499,
-          "price": 1424
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-米家净水器n1-1200g",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家净水器N1 1200G",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家净水器n1-1200g.png",
-      "configs": [
-        {
-          "label": "白色",
-          "official": 1799,
-          "price": 1709
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-米家净水器n1-1600g",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家净水器N1 1600G",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家净水器n1-1600g.png",
-      "configs": [
-        {
-          "label": "白色",
-          "official": 2299,
-          "price": 2184
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-米家净水器n1-800g",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家净水器N1 800G",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家净水器n1-800g.png",
-      "configs": [
-        {
-          "label": "米家净水器N1 800G",
-          "official": 949,
-          "price": 902
         }
       ]
     },
@@ -10696,36 +10246,6 @@
           "label": "米家即热净水器 2 1200G",
           "official": 2499,
           "price": 2374
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-米家即热净水器-2-pro-双出水-1600g",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家即热净水器 2 Pro  双出水 1600G",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家即热净水器-2-pro-双出水-1600g.png",
-      "configs": [
-        {
-          "label": "米家即热净水器 2 Pro 双出水1600G",
-          "official": 3799,
-          "price": 3609
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-米家即热净水器-2-pro-双出水-1200g",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家即热净水器 2 Pro 双出水 1200G",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家即热净水器-2-pro-双出水-1200g.png",
-      "configs": [
-        {
-          "label": "米家即热净水器 2 Pro 双出水1200G",
-          "official": 3399,
-          "price": 3229
         }
       ]
     },
@@ -11500,21 +11020,6 @@
       ]
     },
     {
-      "id": "xiaomi-米家定时燃气灶-3-5200w-天然气",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家定时燃气灶 3 5200W（天然气）",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家定时燃气灶-3-5200w-天然气.png",
-      "configs": [
-        {
-          "label": "米家定时燃气灶 3 5200W（天然气）",
-          "official": 1099,
-          "price": 1044
-        }
-      ]
-    },
-    {
       "id": "xiaomi-米家定时燃气灶-3-max-天然气",
       "brand": "xiaomi",
       "category": "家电",
@@ -11526,21 +11031,6 @@
           "label": "米家定时燃气灶 3 Max（天然气）",
           "official": 2299,
           "price": 2184
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-米家定时燃气灶-3-白色-5200w-天然气",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家定时燃气灶 3 白色 5200W（天然气）",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家定时燃气灶-3-白色-5200w-天然气.png",
-      "configs": [
-        {
-          "label": "米家定时燃气灶 3 白色 5200W（天然气）",
-          "official": 1199,
-          "price": 1139
         }
       ]
     },
@@ -12631,36 +12121,6 @@
           "label": "米家智能净烟机S1定时灶5200W烟灶套装（天然气）",
           "official": 4298,
           "price": 4083
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-米家智能净烟机s2",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家智能净烟机S2",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家智能净烟机s2.png",
-      "configs": [
-        {
-          "label": "米家智能净烟机S2",
-          "official": 3299,
-          "price": 3134
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-米家智能净烟机s2-白色",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家智能净烟机S2 白色",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家智能净烟机s2-白色.png",
-      "configs": [
-        {
-          "label": "白色",
-          "official": 3299,
-          "price": 3134
         }
       ]
     },
@@ -16665,76 +16125,6 @@
       ]
     },
     {
-      "id": "xiaomi-redmi-pad-2-pro",
-      "brand": "xiaomi",
-      "category": "平板",
-      "name": "REDMI Pad 2 Pro",
-      "tag": "平板",
-      "image": "/shop/img/xiaomi-redmi-pad-2-pro.png",
-      "configs": [
-        {
-          "label": "哈利·波特版 8GB内存 256GB存储",
-          "official": 2599,
-          "price": 2469
-        },
-        {
-          "label": "深灰色 8GB内存 128GB存储",
-          "official": 1999,
-          "price": 1899
-        },
-        {
-          "label": "深灰色 8GB内存 256GB存储",
-          "official": 2299,
-          "price": 2184
-        },
-        {
-          "label": "柔光版 深灰色 12GB内存 256GB存储",
-          "official": 2599,
-          "price": 2469
-        },
-        {
-          "label": "紫色 8GB内存 128GB存储",
-          "official": 1999,
-          "price": 1899
-        },
-        {
-          "label": "紫色 8GB内存 256GB存储",
-          "official": 2299,
-          "price": 2184
-        },
-        {
-          "label": "银色 8GB内存 128GB存储",
-          "official": 1999,
-          "price": 1899
-        },
-        {
-          "label": "银色 8GB内存 256GB存储",
-          "official": 2299,
-          "price": 2184
-        },
-        {
-          "label": "乐学版 银色 8GB内存 128GB存储",
-          "official": 2599,
-          "price": 2469
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-redmi-pad-2-pro-5g",
-      "brand": "xiaomi",
-      "category": "平板",
-      "name": "REDMI Pad 2 Pro 5G",
-      "tag": "平板",
-      "image": "/shop/img/xiaomi-redmi-pad-2-pro-5g.png",
-      "configs": [
-        {
-          "label": "深灰色 8GB内存 256GB存储",
-          "official": 2799,
-          "price": 2659
-        }
-      ]
-    },
-    {
       "id": "xiaomi-redmi-pad-2-pro-保护膜",
       "brand": "xiaomi",
       "category": "平板",
@@ -16786,66 +16176,6 @@
           "label": "透明",
           "official": 49,
           "price": 47
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-redmi-pad-pro",
-      "brand": "xiaomi",
-      "category": "平板",
-      "name": "Redmi Pad Pro",
-      "tag": "平板",
-      "image": "/shop/img/xiaomi-redmi-pad-pro.png",
-      "configs": [
-        {
-          "label": "6GB+128GB",
-          "official": 1499,
-          "price": 1424
-        },
-        {
-          "label": "6GB 128GB",
-          "official": 1499,
-          "price": 1424
-        },
-        {
-          "label": "8GB+128GB",
-          "official": 1599,
-          "price": 1519
-        },
-        {
-          "label": "8GB 128GB",
-          "official": 1599,
-          "price": 1519
-        },
-        {
-          "label": "8GB+256GB",
-          "official": 1799,
-          "price": 1709
-        },
-        {
-          "label": "8GB 256GB",
-          "official": 1799,
-          "price": 1709
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-redmi-pad-pro-5g",
-      "brand": "xiaomi",
-      "category": "平板",
-      "name": "Redmi Pad Pro 5G",
-      "tag": "平板",
-      "image": "/shop/img/xiaomi-redmi-pad-pro-5g.png",
-      "configs": [
-        {
-          "label": "6GB+128GB",
-          "official": 1999,
-          "price": 1899
-        },
-        {
-          "label": "8GB+256GB",
-          "official": 2399,
-          "price": 2279
         }
       ]
     },
@@ -21961,91 +21291,6 @@
           "label": "米家隐藏式智能窗帘G10",
           "official": 899,
           "price": 854
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-redmi-显示器-a系列-24英寸",
-      "brand": "xiaomi",
-      "category": "电脑办公",
-      "name": "REDMI 显示器 A系列 24英寸",
-      "tag": "电脑办公",
-      "image": "/shop/img/xiaomi-redmi-显示器-a系列-24英寸.png",
-      "configs": [
-        {
-          "label": "REDMI显示器A24 IPS 2026",
-          "official": 429,
-          "price": 408
-        },
-        {
-          "label": "REDMI显示器A24",
-          "official": 429,
-          "price": 408
-        },
-        {
-          "label": "REDMI 显示器 A24 多功能支架版 节能版",
-          "official": 499,
-          "price": 474
-        },
-        {
-          "label": "REDMI 显示器A24 100Hz版 节能版",
-          "official": 439,
-          "price": 417
-        },
-        {
-          "label": "REDMI显示器A24 多功能支架版 2026",
-          "official": 499,
-          "price": 474
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-redmi-显示器-a系列-27英寸",
-      "brand": "xiaomi",
-      "category": "电脑办公",
-      "name": "REDMI 显示器 A系列 27英寸",
-      "tag": "电脑办公",
-      "image": "/shop/img/xiaomi-redmi-显示器-a系列-27英寸.png",
-      "configs": [
-        {
-          "label": "REDMI显示器A27Q  2026",
-          "official": 629,
-          "price": 598
-        },
-        {
-          "label": "REDMI显示器A27U Type-C版 2026",
-          "official": 1499,
-          "price": 1424
-        },
-        {
-          "label": "REDMI显示器A27Q 多功能支架版",
-          "official": 749,
-          "price": 712
-        },
-        {
-          "label": "REDMI显示器A27Q Type-C版 2026",
-          "official": 889,
-          "price": 845
-        },
-        {
-          "label": "REDMI显示器A27 IPS版",
-          "official": 539,
-          "price": 512
-        },
-        {
-          "label": "REDMI显示器 A27Q 多功能支架版 2025款",
-          "official": 749,
-          "price": 712
-        },
-        {
-          "label": "REDMI显示器A27U 节能版",
-          "official": 1199,
-          "price": 1139
-        },
-        {
-          "label": "REDMI显示器A27  2026",
-          "official": 529,
-          "price": 503
         }
       ]
     },
