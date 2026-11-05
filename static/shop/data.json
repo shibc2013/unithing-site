@@ -25,7 +25,7 @@
   ],
   "products": [
     {
-      "id": "le-联想ai平板-小新pro-gt-13-高通骁龙8-3-5k护眼超清大屏",
+      "id": "le-联想ai平板-小新pro-gt-13-高通骁龙8-3.5k护眼超清大屏",
       "brand": "lenovo",
       "category": "平板",
       "name": "联想AI平板 小新Pro GT 13 高通骁龙8 3.5K护眼超清大屏",
@@ -41,6 +41,11 @@
           "label": "霜雪银",
           "official": 3399,
           "price": 3229
+        },
+        {
+          "label": "凝雾灰 官方标配",
+          "official": 3799,
+          "price": 3609
         }
       ]
     },
@@ -325,10 +330,10 @@
       ]
     },
     {
-      "id": "le-联想moto-razr-60-马卡龙粉",
+      "id": "le-联想moto-razr-60",
       "brand": "lenovo",
       "category": "手机",
-      "name": "联想moto razr 60 马卡龙粉",
+      "name": "联想moto razr 60",
       "tag": "手机",
       "image": "/shop/img/le-联想moto-razr-60-马卡龙粉.png",
       "configs": [
@@ -341,6 +346,31 @@
           "label": "12GB+512GB 马卡龙粉",
           "official": 4299,
           "price": 4084
+        },
+        {
+          "label": "12GB+256GB 午夜苍蓝",
+          "official": 3899,
+          "price": 3704
+        },
+        {
+          "label": "8GB+256GB 午夜苍蓝",
+          "official": 3499,
+          "price": 3324
+        },
+        {
+          "label": "星际陨黑 12+256 官方标配",
+          "official": 3899,
+          "price": 3704
+        },
+        {
+          "label": "棉花糖白 12GB+256GB 官方标配",
+          "official": 3899,
+          "price": 3704
+        },
+        {
+          "label": "冰淇淋绿 12GB+256GB 官方标配",
+          "official": 3899,
+          "price": 3704
         }
       ]
     },
@@ -348,7 +378,7 @@
       "id": "le-联想moto-razr-fold-绅墨",
       "brand": "lenovo",
       "category": "手机",
-      "name": "联想moto razr Fold 绅墨",
+      "name": "联想moto razr Fold",
       "tag": "手机",
       "image": "/shop/img/le-联想moto-razr-fold-绅墨.png",
       "configs": [
@@ -395,26 +425,6 @@
       ]
     },
     {
-      "id": "le-联想moto-razr-60-午夜苍蓝",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto razr 60 午夜苍蓝",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-razr-60-午夜苍蓝.png",
-      "configs": [
-        {
-          "label": "12GB+256GB 午夜苍蓝",
-          "official": 3899,
-          "price": 3704
-        },
-        {
-          "label": "8GB+256GB 午夜苍蓝",
-          "official": 3499,
-          "price": 3324
-        }
-      ]
-    },
-    {
       "id": "le-联想moto-razr-70-ultra-檀棕椴木",
       "brand": "lenovo",
       "category": "手机",
@@ -451,6 +461,11 @@
           "label": "16G 512G",
           "official": 5599,
           "price": 5319
+        },
+        {
+          "label": "16G+1T 23.8英寸显示器 官方标配",
+          "official": 6499,
+          "price": 6174
         }
       ]
     },
@@ -605,17 +620,22 @@
       ]
     },
     {
-      "id": "le-联想小新平板-pro-gt-11-1英寸学习影音办公-ai平板电脑-流岚粉",
+      "id": "le-联想小新平板-pro-gt-11.1英寸学习影音办公-ai平板电脑",
       "brand": "lenovo",
       "category": "平板",
-      "name": "联想小新平板 Pro GT 11.1英寸学习影音办公 AI平板电脑 流岚粉",
+      "name": "联想小新平板 Pro GT 11.1英寸学习影音办公 AI平板电脑",
       "tag": "平板",
       "image": "/shop/img/le-联想小新平板-pro-gt-11-1英寸学习影音办公-ai平板电脑-流岚粉.png",
       "configs": [
         {
-          "label": "官方标配",
+          "label": "流岚粉 官方标配",
           "official": 2799,
           "price": 2659
+        },
+        {
+          "label": "信风灰 官方标配",
+          "official": 2199,
+          "price": 2089
         }
       ]
     },
@@ -623,7 +643,7 @@
       "id": "le-联想ai平板-拯救者y700-五代-2026fifa世界杯限量版-8-8英寸游戏平板-第五代骁龙8至尊版-莱茵绿",
       "brand": "lenovo",
       "category": "平板",
-      "name": "联想AI平板 拯救者Y700 五代 2026FIFA世界杯限量版 8.8英寸游戏平板 第五代骁龙8至尊版 莱茵绿",
+      "name": "联想AI平板 拯救者Y700 五代 2026FIFA世界杯限量版 8.8英寸游戏平板 第五代骁龙8至尊版",
       "tag": "平板",
       "image": "/shop/img/le-联想ai平板-拯救者y700-五代-2026fifa世界杯限量版-8-8英寸游戏平板-第五代骁龙8至尊版-莱茵绿.png",
       "configs": [
@@ -653,12 +673,12 @@
       "id": "le-异能者云平板g13a-8gb-plus-256gb-太空灰",
       "brand": "lenovo",
       "category": "平板",
-      "name": "异能者云平板G13A（8GB+256GB）太空灰",
+      "name": "异能者云平板G13A",
       "tag": "平板",
       "image": "/shop/img/le-异能者云平板g13a-8gb-plus-256gb-太空灰.png",
       "configs": [
         {
-          "label": "官方标配",
+          "label": "8GB+256GB 太空灰 官方标配",
           "official": 1999,
           "price": 1899
         }
@@ -668,7 +688,7 @@
       "id": "le-联想-拯救者y900-11-ai平板-9500s-12gb-plus-256gb-wi-fi-碳晶黑-键盘手写笔套装",
       "brand": "lenovo",
       "category": "平板",
-      "name": "联想 拯救者Y900 11 AI平板 9500s 12GB+256GB Wi-Fi 碳晶黑 键盘手写笔套装",
+      "name": "联想 拯救者Y900 11 AI平板 9500s Wi-Fi 碳晶黑 键盘手写笔套装",
       "tag": "平板",
       "image": "/shop/img/le-联想-拯救者y900-11-ai平板-9500s-12gb-plus-256gb-wi-fi-碳晶黑-键盘手写笔套装.png",
       "configs": [
@@ -683,7 +703,7 @@
       "id": "le-联想拯救者y900-13-骁龙8至尊版-16gb-plus-512gb-wi-fi-碳晶黑-键盘笔套装",
       "brand": "lenovo",
       "category": "平板",
-      "name": "联想拯救者Y900 13 骁龙8至尊版 16GB+512GB Wi-Fi 碳晶黑(键盘笔套装)",
+      "name": "联想拯救者Y900 13 骁龙8至尊版 Wi-Fi 碳晶黑(键盘笔套装)",
       "tag": "平板",
       "image": "/shop/img/le-联想拯救者y900-13-骁龙8至尊版-16gb-plus-512gb-wi-fi-碳晶黑-键盘笔套装.png",
       "configs": [
@@ -725,17 +745,22 @@
       ]
     },
     {
-      "id": "le-联想小新pad-pro-13英寸3-5k护眼超清大屏-ai学习平板电脑-滴珀青",
+      "id": "le-联想小新pad-pro-13英寸3.5k护眼超清大屏-ai学习平板电脑",
       "brand": "lenovo",
       "category": "平板",
-      "name": "联想小新Pad Pro 13英寸3.5K护眼超清大屏 AI学习平板电脑 滴珀青",
+      "name": "联想小新Pad Pro 13英寸3.5K护眼超清大屏 AI学习平板电脑",
       "tag": "平板",
       "image": "/shop/img/le-联想小新pad-pro-13英寸3-5k护眼超清大屏-ai学习平板电脑-滴珀青.png",
       "configs": [
         {
-          "label": "官方标配",
+          "label": "滴珀青 官方标配",
           "official": 2599,
           "price": 2469
+        },
+        {
+          "label": "霜雪银 官方标配",
+          "official": 3399,
+          "price": 3229
         }
       ]
     },
@@ -743,7 +768,7 @@
       "id": "le-联想ai平板小新-pro-13-13英寸3-5k护眼超清大屏-ai学习平板电脑-凝雾灰",
       "brand": "lenovo",
       "category": "平板",
-      "name": "联想AI平板小新 Pro 13 13英寸3.5K护眼超清大屏 AI学习平板电脑 凝雾灰",
+      "name": "联想AI平板小新 Pro 13 13英寸3.5K护眼超清大屏 AI学习平板电脑",
       "tag": "平板",
       "image": "/shop/img/le-联想ai平板小新-pro-13-13英寸3-5k护眼超清大屏-ai学习平板电脑-凝雾灰.png",
       "configs": [
@@ -751,36 +776,6 @@
           "label": "官方标配",
           "official": 2999,
           "price": 2849
-        }
-      ]
-    },
-    {
-      "id": "le-联想小新pad-pro-13英寸3-5k护眼超清大屏-ai学习平板电脑-霜雪银",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想小新Pad Pro 13英寸3.5K护眼超清大屏 AI学习平板电脑 霜雪银",
-      "tag": "平板",
-      "image": "/shop/img/le-联想小新pad-pro-13英寸3-5k护眼超清大屏-ai学习平板电脑-霜雪银.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 3399,
-          "price": 3229
-        }
-      ]
-    },
-    {
-      "id": "le-联想小新平板-pro-gt-11-1英寸学习影音办公-ai平板电脑-信风灰",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想小新平板 Pro GT 11.1英寸学习影音办公 AI平板电脑 信风灰",
-      "tag": "平板",
-      "image": "/shop/img/le-联想小新平板-pro-gt-11-1英寸学习影音办公-ai平板电脑-信风灰.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 2199,
-          "price": 2089
         }
       ]
     },
@@ -833,7 +828,7 @@
       "id": "le-联想小新pad-pro-12-7英寸-影音娱乐办公学习游戏平板电脑-大象灰",
       "brand": "lenovo",
       "category": "平板",
-      "name": "联想小新Pad Pro 12.7英寸 影音娱乐办公学习游戏平板电脑 大象灰",
+      "name": "联想小新Pad Pro 影音娱乐办公学习游戏平板电脑",
       "tag": "平板",
       "image": "/shop/img/le-联想小新pad-pro-12-7英寸-影音娱乐办公学习游戏平板电脑-大象灰.png",
       "configs": [
@@ -848,7 +843,7 @@
       "id": "le-异能者云平板t10-6g-plus-128g-4g太空灰",
       "brand": "lenovo",
       "category": "平板",
-      "name": "异能者云平板T10（6G+128G）4G太空灰",
+      "name": "异能者云平板T10（6G+128G）太空灰",
       "tag": "平板",
       "image": "/shop/img/le-异能者云平板t10-6g-plus-128g-4g太空灰.png",
       "configs": [
@@ -863,7 +858,7 @@
       "id": "le-来酷-lecoo-平板电脑-e08xc-8-68英寸-色彩饱满大电池长续航",
       "brand": "lenovo",
       "category": "平板",
-      "name": "来酷(Lecoo)平板电脑 E08XC 8.68英寸 色彩饱满大电池长续航",
+      "name": "来酷(Lecoo)平板电脑 E08XC 色彩饱满大电池长续航",
       "tag": "平板",
       "image": "/shop/img/le-来酷-lecoo-平板电脑-e08xc-8-68英寸-色彩饱满大电池长续航.png",
       "configs": [
@@ -878,7 +873,7 @@
       "id": "le-来酷-lecoo-平板电脑-e11fc-11英寸-色彩饱满大电池长续航",
       "brand": "lenovo",
       "category": "平板",
-      "name": "来酷(Lecoo)平板电脑 E11FC 11英寸 色彩饱满大电池长续航",
+      "name": "来酷(Lecoo)平板电脑 E11FC 色彩饱满大电池长续航",
       "tag": "平板",
       "image": "/shop/img/le-来酷-lecoo-平板电脑-e11fc-11英寸-色彩饱满大电池长续航.png",
       "configs": [
@@ -893,7 +888,7 @@
       "id": "le-来酷-lecoo-平板电脑-e13fc-13-2英寸-高清大屏立体声效大电池长续航",
       "brand": "lenovo",
       "category": "平板",
-      "name": "来酷(Lecoo)平板电脑 E13FC 13.2英寸 高清大屏立体声效大电池长续航",
+      "name": "来酷(Lecoo)平板电脑 E13FC 高清大屏立体声效大电池长续航",
       "tag": "平板",
       "image": "/shop/img/le-来酷-lecoo-平板电脑-e13fc-13-2英寸-高清大屏立体声效大电池长续航.png",
       "configs": [
@@ -923,7 +918,7 @@
       "id": "le-联想小新-pad-pro-12-7-2025款-12-7英寸-影音娱乐学习办公平板电脑-霜雪银",
       "brand": "lenovo",
       "category": "平板",
-      "name": "联想小新 Pad Pro 12.7 2025款 12.7英寸 影音娱乐学习办公平板电脑 霜雪银",
+      "name": "联想小新 Pad Pro 12.7 2025款 影音娱乐学习办公平板电脑",
       "tag": "平板",
       "image": "/shop/img/le-联想小新-pad-pro-12-7-2025款-12-7英寸-影音娱乐学习办公平板电脑-霜雪银.png",
       "configs": [
@@ -938,7 +933,7 @@
       "id": "le-来酷-lecoo-平板电脑-e11fc-11英寸-护眼ag屏-高清拍摄大电池长续航",
       "brand": "lenovo",
       "category": "平板",
-      "name": "来酷(Lecoo)平板电脑 E11FC 11英寸 护眼AG屏 高清拍摄大电池长续航",
+      "name": "来酷(Lecoo)平板电脑 E11FC 护眼AG屏 高清拍摄大电池长续航",
       "tag": "平板",
       "image": "/shop/img/le-来酷-lecoo-平板电脑-e11fc-11英寸-护眼ag屏-高清拍摄大电池长续航.png",
       "configs": [
@@ -1028,7 +1023,7 @@
       "id": "le-联想小新pro16-锐龙版16英寸轻薄笔记本电脑-深灰色",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想小新Pro16 锐龙版16英寸轻薄笔记本电脑 深灰色",
+      "name": "联想小新Pro16 锐龙版16英寸轻薄笔记本电脑",
       "tag": "笔记本",
       "image": "/shop/img/le-联想小新pro16-锐龙版16英寸轻薄笔记本电脑-深灰色.png",
       "configs": [
@@ -1148,7 +1143,7 @@
       "id": "le-联想-拯救者r7000p-2026-16英寸电竞游戏笔记本电脑-碳晶黑",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想 拯救者R7000P 2026 16英寸电竞游戏笔记本电脑 碳晶黑",
+      "name": "联想 拯救者R7000P 2026 16英寸电竞游戏笔记本电脑",
       "tag": "笔记本",
       "image": "/shop/img/le-联想-拯救者r7000p-2026-16英寸电竞游戏笔记本电脑-碳晶黑.png",
       "configs": [
@@ -1163,7 +1158,7 @@
       "id": "le-联想拯救者y7000x-2026-15-3英寸电竞游戏本笔记本电脑-冰魄白",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想拯救者Y7000X 2026 15.3英寸电竞游戏本笔记本电脑 冰魄白",
+      "name": "联想拯救者Y7000X 2026 15.3英寸电竞游戏本笔记本电脑",
       "tag": "笔记本",
       "image": "/shop/img/le-联想拯救者y7000x-2026-15-3英寸电竞游戏本笔记本电脑-冰魄白.png",
       "configs": [
@@ -1175,17 +1170,22 @@
       ]
     },
     {
-      "id": "le-联想小新pro16-gt-16英寸轻薄笔记本电脑-赛道灰",
+      "id": "le-联想小新pro16-gt-16英寸轻薄笔记本电脑",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想小新Pro16 GT 16英寸轻薄笔记本电脑 赛道灰",
+      "name": "联想小新Pro16 GT 16英寸轻薄笔记本电脑",
       "tag": "笔记本",
       "image": "/shop/img/le-联想小新pro16-gt-16英寸轻薄笔记本电脑-赛道灰.png",
       "configs": [
         {
-          "label": "官方标配",
+          "label": "赛道灰 官方标配",
           "official": 11999,
           "price": 11399
+        },
+        {
+          "label": "冠军白 官方标配",
+          "official": 13999,
+          "price": 13299
         }
       ]
     },
@@ -1223,7 +1223,7 @@
       "id": "le-联想拯救者r9000p-16英寸电竞游戏笔记本-冰魄白",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想拯救者R9000P 16英寸电竞游戏笔记本 冰魄白",
+      "name": "联想拯救者R9000P 16英寸电竞游戏笔记本",
       "tag": "笔记本",
       "image": "/shop/img/le-联想拯救者r9000p-16英寸电竞游戏笔记本-冰魄白.png",
       "configs": [
@@ -1298,7 +1298,7 @@
       "id": "le-联想小新16-se-酷睿版16英寸轻薄笔记本电脑-深灰",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想小新16 SE 酷睿版16英寸轻薄笔记本电脑 深灰",
+      "name": "联想小新16 SE 酷睿版16英寸轻薄笔记本电脑",
       "tag": "笔记本",
       "image": "/shop/img/le-联想小新16-se-酷睿版16英寸轻薄笔记本电脑-深灰.png",
       "configs": [
@@ -1373,7 +1373,7 @@
       "id": "le-联想yoga-pro-15-锐龙-15-3英寸轻薄创作笔记本电脑-雷霆灰",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想YOGA Pro 15 锐龙 15.3英寸轻薄创作笔记本电脑 雷霆灰",
+      "name": "联想YOGA Pro 15 锐龙 15.3英寸轻薄创作笔记本电脑",
       "tag": "笔记本",
       "image": "/shop/img/le-联想yoga-pro-15-锐龙-15-3英寸轻薄创作笔记本电脑-雷霆灰.png",
       "configs": [
@@ -1403,7 +1403,7 @@
       "id": "le-联想yoga-pro-15-aura-15-3英寸轻薄创作笔记本电脑-信风灰",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想YOGA Pro 15 Aura 15.3英寸轻薄创作笔记本电脑 信风灰",
+      "name": "联想YOGA Pro 15 Aura 15.3英寸轻薄创作笔记本电脑",
       "tag": "笔记本",
       "image": "/shop/img/le-联想yoga-pro-15-aura-15-3英寸轻薄创作笔记本电脑-信风灰.png",
       "configs": [
@@ -1448,7 +1448,7 @@
       "id": "le-联想-拯救者r7000p-2026-16英寸电竞游戏本笔记本电脑-碳晶黑",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想 拯救者R7000P 2026 16英寸电竞游戏本笔记本电脑 碳晶黑",
+      "name": "联想 拯救者R7000P 2026 16英寸电竞游戏本笔记本电脑",
       "tag": "笔记本",
       "image": "/shop/img/le-联想-拯救者r7000p-2026-16英寸电竞游戏本笔记本电脑-碳晶黑.png",
       "configs": [
@@ -1463,7 +1463,7 @@
       "id": "le-联想拯救者y7000p-2026-16英寸电竞游戏本笔记本电脑-碳晶黑",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想拯救者Y7000P 2026 16英寸电竞游戏本笔记本电脑 碳晶黑",
+      "name": "联想拯救者Y7000P 2026 16英寸电竞游戏本笔记本电脑",
       "tag": "笔记本",
       "image": "/shop/img/le-联想拯救者y7000p-2026-16英寸电竞游戏本笔记本电脑-碳晶黑.png",
       "configs": [
@@ -1538,7 +1538,7 @@
       "id": "le-yoga-air-14-aura-14英寸轻薄笔记本电脑-霁空蓝",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "YOGA Air 14 Aura 14英寸轻薄笔记本电脑 霁空蓝",
+      "name": "YOGA Air 14 Aura 14英寸轻薄笔记本电脑",
       "tag": "笔记本",
       "image": "/shop/img/le-yoga-air-14-aura-14英寸轻薄笔记本电脑-霁空蓝.png",
       "configs": [
@@ -1553,7 +1553,7 @@
       "id": "le-联想moto-buds-2-玉兰绿",
       "brand": "lenovo",
       "category": "手机",
-      "name": "联想moto buds 2 玉兰绿",
+      "name": "联想moto buds 2",
       "tag": "手机",
       "image": "/shop/img/le-联想moto-buds-2-玉兰绿.png",
       "configs": [
@@ -1580,47 +1580,92 @@
       ]
     },
     {
-      "id": "le-联想moto-g100-12-plus-256-晴空蓝",
+      "id": "le-联想moto-g100",
       "brand": "lenovo",
       "category": "手机",
-      "name": "联想moto g100 12+256 晴空蓝",
+      "name": "联想moto g100",
       "tag": "手机",
       "image": "/shop/img/le-联想moto-g100-12-plus-256-晴空蓝.png",
       "configs": [
         {
-          "label": "官方标配",
+          "label": "晴空蓝 12+256 官方标配",
           "official": 1499,
           "price": 1424
+        },
+        {
+          "label": "曜石黑 8+256 官方标配",
+          "official": 1399,
+          "price": 1329
+        },
+        {
+          "label": "青峰绿 12+256 官方标配",
+          "official": 1499,
+          "price": 1424
+        },
+        {
+          "label": "晴空蓝 8+256 官方标配",
+          "official": 1399,
+          "price": 1329
         }
       ]
     },
     {
-      "id": "le-联想moto-g100s-8-plus-128-陨黑",
+      "id": "le-联想moto-g100s",
       "brand": "lenovo",
       "category": "手机",
-      "name": "联想moto g100s 8+128 陨黑",
+      "name": "联想moto g100s",
       "tag": "手机",
       "image": "/shop/img/le-联想moto-g100s-8-plus-128-陨黑.png",
       "configs": [
         {
-          "label": "官方标配",
+          "label": "陨黑 8+128 官方标配",
           "official": 1199,
           "price": 1139
+        },
+        {
+          "label": "陨黑 8+256 官方标配",
+          "official": 1299,
+          "price": 1234
+        },
+        {
+          "label": "海蓝 8+256 官方标配",
+          "official": 1299,
+          "price": 1234
         }
       ]
     },
     {
-      "id": "le-联想moto-g100-pro-12gb-plus-512gb-云墨黑",
+      "id": "le-联想moto-g100-pro",
       "brand": "lenovo",
       "category": "手机",
-      "name": "联想moto g100 Pro 12GB+512GB 云墨黑",
+      "name": "联想moto g100 Pro",
       "tag": "手机",
       "image": "/shop/img/le-联想moto-g100-pro-12gb-plus-512gb-云墨黑.png",
       "configs": [
         {
-          "label": "官方标配",
+          "label": "云墨黑 12GB+512GB 官方标配",
           "official": 1899,
           "price": 1804
+        },
+        {
+          "label": "绫罗紫 12+256 官方标配",
+          "official": 1699,
+          "price": 1614
+        },
+        {
+          "label": "云墨黑 12+256 官方标配",
+          "official": 1699,
+          "price": 1614
+        },
+        {
+          "label": "松烟蓝 12GB+512GB 官方标配",
+          "official": 1899,
+          "price": 1804
+        },
+        {
+          "label": "苔原青 12GB+256GB 官方标配",
+          "official": 1699,
+          "price": 1614
         }
       ]
     },
@@ -1628,7 +1673,7 @@
       "id": "le-联想moto-razr-fold-16gb-plus-512gb-2026fifa世界杯鎏金限定版",
       "brand": "lenovo",
       "category": "手机",
-      "name": "联想moto razr Fold 16GB+512GB 2026FIFA世界杯鎏金限定版",
+      "name": "联想moto razr Fold 2026FIFA世界杯鎏金限定版",
       "tag": "手机",
       "image": "/shop/img/le-联想moto-razr-fold-16gb-plus-512gb-2026fifa世界杯鎏金限定版.png",
       "configs": [
@@ -1636,21 +1681,6 @@
           "label": "官方标配",
           "official": 14999,
           "price": 14249
-        }
-      ]
-    },
-    {
-      "id": "le-联想moto-razr-60-12-plus-256-星际陨黑",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto razr 60 12+256 星际陨黑",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-razr-60-12-plus-256-星际陨黑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 3899,
-          "price": 3704
         }
       ]
     },
@@ -1670,21 +1700,6 @@
       ]
     },
     {
-      "id": "le-联想moto-g100-pro-12-plus-256-绫罗紫",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto g100 Pro 12+256 绫罗紫",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-g100-pro-12-plus-256-绫罗紫.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 1699,
-          "price": 1614
-        }
-      ]
-    },
-    {
       "id": "le-联想moto-razr-60-心动赫兹联名礼盒",
       "brand": "lenovo",
       "category": "手机",
@@ -1700,100 +1715,10 @@
       ]
     },
     {
-      "id": "le-联想moto-g100s-8-plus-256-陨黑",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto g100s 8+256 陨黑",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-g100s-8-plus-256-陨黑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 1299,
-          "price": 1234
-        }
-      ]
-    },
-    {
-      "id": "le-联想moto-razr-60-12gb-plus-256gb-棉花糖白",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto razr 60 12GB+256GB 棉花糖白",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-razr-60-12gb-plus-256gb-棉花糖白.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 3899,
-          "price": 3704
-        }
-      ]
-    },
-    {
-      "id": "le-联想moto-g100-pro-12-plus-256-云墨黑",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto g100 Pro 12+256 云墨黑",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-g100-pro-12-plus-256-云墨黑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 1699,
-          "price": 1614
-        }
-      ]
-    },
-    {
-      "id": "le-联想moto-g100-8-plus-256-曜石黑",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto g100 8+256 曜石黑",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-g100-8-plus-256-曜石黑.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 1399,
-          "price": 1329
-        }
-      ]
-    },
-    {
-      "id": "le-联想moto-razr-60-12gb-plus-256gb-冰淇淋绿",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto razr 60 12GB+256GB 冰淇淋绿",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-razr-60-12gb-plus-256gb-冰淇淋绿.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 3899,
-          "price": 3704
-        }
-      ]
-    },
-    {
-      "id": "le-联想moto-g100-pro-12gb-plus-512gb-松烟蓝",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto g100 Pro 12GB+512GB 松烟蓝",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-g100-pro-12gb-plus-512gb-松烟蓝.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 1899,
-          "price": 1804
-        }
-      ]
-    },
-    {
       "id": "le-联想moto-s50-12gb-plus-512gb-拿铁5g手机",
       "brand": "lenovo",
       "category": "手机",
-      "name": "联想moto S50 12GB+512GB 拿铁5G手机",
+      "name": "联想moto S50 拿铁5G手机",
       "tag": "手机",
       "image": "/shop/img/le-联想moto-s50-12gb-plus-512gb-拿铁5g手机.png",
       "configs": [
@@ -1805,45 +1730,20 @@
       ]
     },
     {
-      "id": "le-联想moto-g100s-8-plus-256-海蓝",
+      "id": "le-联想moto-s50-摩卡慕斯限定版5g手机",
       "brand": "lenovo",
       "category": "手机",
-      "name": "联想moto g100s 8+256 海蓝",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-g100s-8-plus-256-海蓝.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 1299,
-          "price": 1234
-        }
-      ]
-    },
-    {
-      "id": "le-联想moto-s50-12gb-plus-512gb摩卡慕斯限定版5g手机",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto S50 12GB+512GB摩卡慕斯限定版5G手机",
+      "name": "联想moto S50 摩卡慕斯限定版5G手机",
       "tag": "手机",
       "image": "/shop/img/le-联想moto-s50-12gb-plus-512gb摩卡慕斯限定版5g手机.png",
       "configs": [
         {
-          "label": "官方标配",
+          "label": "12GB+512GB 官方标配",
           "official": 1699,
           "price": 1614
-        }
-      ]
-    },
-    {
-      "id": "le-联想moto-s50-12gb-plus-256gb摩卡慕斯限定版5g手机",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto S50 12GB+256GB摩卡慕斯限定版5G手机",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-s50-12gb-plus-256gb摩卡慕斯限定版5g手机.png",
-      "configs": [
+        },
         {
-          "label": "官方标配",
+          "label": "12GB+256GB 官方标配",
           "official": 1399,
           "price": 1329
         }
@@ -1853,24 +1753,9 @@
       "id": "le-联想moto-s50-12gb-plus-512gb-花木蓝5g手机",
       "brand": "lenovo",
       "category": "手机",
-      "name": "联想moto S50 12GB+512GB 花木蓝5G手机",
+      "name": "联想moto S50 花木蓝5G手机",
       "tag": "手机",
       "image": "/shop/img/le-联想moto-s50-12gb-plus-512gb-花木蓝5g手机.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 1699,
-          "price": 1614
-        }
-      ]
-    },
-    {
-      "id": "le-联想moto-g100-pro-12gb-plus-256gb-苔原青",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto g100 Pro 12GB+256GB 苔原青",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-g100-pro-12gb-plus-256gb-苔原青.png",
       "configs": [
         {
           "label": "官方标配",
@@ -1883,7 +1768,7 @@
       "id": "le-摩托罗拉-联想moto-razr-50-ultra-ai元启版-12gb-plus-256gb-摩登艾绿",
       "brand": "lenovo",
       "category": "手机",
-      "name": "摩托罗拉 联想moto razr 50 Ultra AI元启版 12GB+256GB 摩登艾绿",
+      "name": "摩托罗拉 联想moto razr 50 Ultra AI元启版",
       "tag": "手机",
       "image": "/shop/img/le-摩托罗拉-联想moto-razr-50-ultra-ai元启版-12gb-plus-256gb-摩登艾绿.png",
       "configs": [
@@ -1898,7 +1783,7 @@
       "id": "le-联想moto-g55-8gb-plus-256gb-峰峦黑5g手机-无国补",
       "brand": "lenovo",
       "category": "手机",
-      "name": "联想moto g55 8GB+256GB 峰峦黑5G手机（无国补）",
+      "name": "联想moto g55 峰峦黑5G手机（无国补）",
       "tag": "手机",
       "image": "/shop/img/le-联想moto-g55-8gb-plus-256gb-峰峦黑5g手机-无国补.png",
       "configs": [
@@ -1958,7 +1843,7 @@
       "id": "le-联想thinkvision-t24-4v-23-8英寸-超清视频会议屏",
       "brand": "lenovo",
       "category": "显示器",
-      "name": "联想ThinkVision T24-4v 23.8英寸 超清视频会议屏",
+      "name": "联想ThinkVision T24-4v 超清视频会议屏",
       "tag": "显示器",
       "image": "/shop/img/le-联想thinkvision-t24-4v-23-8英寸-超清视频会议屏.png",
       "configs": [
@@ -2048,7 +1933,7 @@
       "id": "le-联想thinkvision-27-3d-27英寸-4k超清ips裸眼3d显示器",
       "brand": "lenovo",
       "category": "显示器",
-      "name": "联想ThinkVision 27 3D 27英寸 4K超清IPS裸眼3D显示器",
+      "name": "联想ThinkVision 27 3D 4K超清IPS裸眼3D显示器",
       "tag": "显示器",
       "image": "/shop/img/le-联想thinkvision-27-3d-27英寸-4k超清ips裸眼3d显示器.png",
       "configs": [
@@ -2138,7 +2023,7 @@
       "id": "le-联想thinkvision-p27ud-40-27英寸-4k臻彩专业屏-显示器",
       "brand": "lenovo",
       "category": "显示器",
-      "name": "联想ThinkVision P27UD-40 27英寸 4K臻彩专业屏 显示器",
+      "name": "联想ThinkVision P27UD-40 4K臻彩专业屏 显示器",
       "tag": "显示器",
       "image": "/shop/img/le-联想thinkvision-p27ud-40-27英寸-4k臻彩专业屏-显示器.png",
       "configs": [
@@ -2243,7 +2128,7 @@
       "id": "le-联想-l34w-4c-34英寸wqhd-21-9超宽曲面显示器-卷云灰",
       "brand": "lenovo",
       "category": "显示器",
-      "name": "联想 L34W-4c 34英寸WQHD 21:9超宽曲面显示器 卷云灰",
+      "name": "联想 L34W-4c 34英寸WQHD 21:9超宽曲面显示器",
       "tag": "显示器",
       "image": "/shop/img/le-联想-l34w-4c-34英寸wqhd-21-9超宽曲面显示器-卷云灰.png",
       "configs": [
@@ -2438,7 +2323,7 @@
       "id": "le-来酷-lecoo-xq32q-31-5英寸-2k-超清大屏-可壁挂三边窄显示器",
       "brand": "lenovo",
       "category": "显示器",
-      "name": "来酷(Lecoo) XQ32q 31.5英寸 2K 超清大屏 可壁挂三边窄显示器",
+      "name": "来酷(Lecoo) XQ32q 2K 超清大屏 可壁挂三边窄显示器",
       "tag": "显示器",
       "image": "/shop/img/le-来酷-lecoo-xq32q-31-5英寸-2k-超清大屏-可壁挂三边窄显示器.png",
       "configs": [
@@ -2453,7 +2338,7 @@
       "id": "le-瑞天-23-8英寸-液晶显示器2310p",
       "brand": "lenovo",
       "category": "显示器",
-      "name": "瑞天 23.8英寸 液晶显示器2310P",
+      "name": "瑞天 液晶显示器2310P",
       "tag": "显示器",
       "image": "/shop/img/le-瑞天-23-8英寸-液晶显示器2310p.png",
       "configs": [
@@ -2678,7 +2563,7 @@
       "id": "le-来酷-lecoo-xq22e-21-5英寸-fhd-75hz-可壁挂三边窄显示器",
       "brand": "lenovo",
       "category": "显示器",
-      "name": "来酷(Lecoo) XQ22e 21.5英寸 FHD 75hz 可壁挂三边窄显示器",
+      "name": "来酷(Lecoo) XQ22e FHD 75hz 可壁挂三边窄显示器",
       "tag": "显示器",
       "image": "/shop/img/le-来酷-lecoo-xq22e-21-5英寸-fhd-75hz-可壁挂三边窄显示器.png",
       "configs": [
@@ -2693,7 +2578,7 @@
       "id": "le-来酷-lecoo-xq27q-27英寸-100hz-可壁挂三边窄显示器",
       "brand": "lenovo",
       "category": "显示器",
-      "name": "来酷(Lecoo) XQ27q 27英寸 100hz 可壁挂三边窄显示器",
+      "name": "来酷(Lecoo) XQ27q 100hz 可壁挂三边窄显示器",
       "tag": "显示器",
       "image": "/shop/img/le-来酷-lecoo-xq27q-27英寸-100hz-可壁挂三边窄显示器.png",
       "configs": [
@@ -2975,15 +2860,40 @@
       ]
     },
     {
-      "id": "le-小新27一体机-元气版-酷睿5-320-16g-512g-27英寸-霁蓝色",
+      "id": "le-小新27一体机-元气版-酷睿5-320",
       "brand": "lenovo",
       "category": "一体机",
-      "name": "小新27一体机 元气版 酷睿5 320 16G 512G 27英寸 霁蓝色",
+      "name": "小新27一体机 元气版 酷睿5 320",
       "tag": "一体机",
       "image": "/shop/img/le-小新27一体机-元气版-酷睿5-320-16g-512g-27英寸-霁蓝色.png",
       "configs": [
         {
-          "label": "官方标配",
+          "label": "霁蓝色 16G+512G 27英寸 官方标配",
+          "official": 6999,
+          "price": 6649
+        },
+        {
+          "label": "青霭色 16G+512G 27英寸 官方标配",
+          "official": 6999,
+          "price": 6649
+        },
+        {
+          "label": "暮紫色 16G+512G 27英寸 官方标配",
+          "official": 6999,
+          "price": 6649
+        },
+        {
+          "label": "霞绯色 16G+512G 27英寸 官方标配",
+          "official": 6999,
+          "price": 6649
+        },
+        {
+          "label": "深空色 16G+512G 27英寸 官方标配",
+          "official": 6999,
+          "price": 6649
+        },
+        {
+          "label": "云影色 16G+512G 27英寸 官方标配",
           "official": 6999,
           "price": 6649
         }
@@ -3005,15 +2915,20 @@
       ]
     },
     {
-      "id": "le-小新27-酷睿ultra-5-226v-16g-512g-27英寸一体台式电脑-云影色",
+      "id": "le-小新27-酷睿ultra-5-226v-27英寸一体台式电脑",
       "brand": "lenovo",
       "category": "一体机",
-      "name": "小新27 酷睿Ultra 5 226V 16G 512G 27英寸一体台式电脑 云影色",
+      "name": "小新27 酷睿Ultra 5 226V 27英寸一体台式电脑",
       "tag": "一体机",
       "image": "/shop/img/le-小新27-酷睿ultra-5-226v-16g-512g-27英寸一体台式电脑-云影色.png",
       "configs": [
         {
-          "label": "官方标配",
+          "label": "云影色 16G+512G 官方标配",
+          "official": 6499,
+          "price": 6174
+        },
+        {
+          "label": "深空色 16G+512G 官方标配",
           "official": 6499,
           "price": 6174
         }
@@ -3023,7 +2938,7 @@
       "id": "le-联想-ai主机-mini-台式机-此芯p1-cd8180-灰色",
       "brand": "lenovo",
       "category": "台式机",
-      "name": "联想 AI主机 MINI 台式机 此芯P1 CD8180 灰色",
+      "name": "联想 AI主机 MINI 台式机 此芯P1 CD8180",
       "tag": "台式机",
       "image": "/shop/img/le-联想-ai主机-mini-台式机-此芯p1-cd8180-灰色.png",
       "configs": [
@@ -3065,17 +2980,22 @@
       ]
     },
     {
-      "id": "le-小新台式电脑-英特尔i3-14100-16g-512g-台式机",
+      "id": "le-小新台式电脑-英特尔i3-14100-台式机",
       "brand": "lenovo",
       "category": "台式机",
-      "name": "小新台式电脑 英特尔i3-14100 16G 512G 台式机",
+      "name": "小新台式电脑 英特尔i3-14100 台式机",
       "tag": "台式机",
       "image": "/shop/img/le-小新台式电脑-英特尔i3-14100-16g-512g-台式机.png",
       "configs": [
         {
-          "label": "官方标配",
+          "label": "16G+512G 官方标配",
           "official": 5099,
           "price": 4844
+        },
+        {
+          "label": "16G+512G 21.5英寸显示器 官方标配",
+          "official": 5399,
+          "price": 5129
         }
       ]
     },
@@ -3125,15 +3045,20 @@
       ]
     },
     {
-      "id": "le-联想小新24-酷睿ultra-7-256v16g-512g-23-8英寸一体台式电脑-云影色",
+      "id": "le-联想小新24-酷睿ultra-7-256v16g-23.8英寸一体台式电脑",
       "brand": "lenovo",
       "category": "一体机",
-      "name": "联想小新24 酷睿Ultra 7 256V16G 512G 23.8英寸一体台式电脑 云影色",
+      "name": "联想小新24 酷睿Ultra 7 256V16G 23.8英寸一体台式电脑",
       "tag": "一体机",
       "image": "/shop/img/le-联想小新24-酷睿ultra-7-256v16g-512g-23-8英寸一体台式电脑-云影色.png",
       "configs": [
         {
-          "label": "官方标配",
+          "label": "云影色 512G 官方标配",
+          "official": 5999,
+          "price": 5699
+        },
+        {
+          "label": "深空色 512G 官方标配",
           "official": 5999,
           "price": 5699
         }
@@ -3155,17 +3080,22 @@
       ]
     },
     {
-      "id": "le-小新台式电脑-英特尔i5-14400-16g-512g-台式机-plus-23-8英寸显示器",
+      "id": "le-小新台式电脑-英特尔i5-14400-台式机",
       "brand": "lenovo",
       "category": "台式机",
-      "name": "小新台式电脑 英特尔i5-14400 16G 512G 台式机+23.8英寸显示器",
+      "name": "小新台式电脑 英特尔i5-14400 台式机",
       "tag": "台式机",
       "image": "/shop/img/le-小新台式电脑-英特尔i5-14400-16g-512g-台式机-plus-23-8英寸显示器.png",
       "configs": [
         {
-          "label": "官方标配",
+          "label": "16G+512G 23.8英寸显示器 官方标配",
           "official": 5999,
           "price": 5699
+        },
+        {
+          "label": "16G+512G 21.5英寸显示器 官方标配",
+          "official": 5899,
+          "price": 5604
         }
       ]
     },
@@ -3185,152 +3115,107 @@
       ]
     },
     {
-      "id": "le-小新27-酷睿ultra-7-256v-16g-1t-27英寸一体台式电脑-深空色",
+      "id": "le-小新27-酷睿ultra-7-256v-27英寸一体台式电脑",
       "brand": "lenovo",
       "category": "一体机",
-      "name": "小新27 酷睿Ultra 7 256V 16G 1T 27英寸一体台式电脑 深空色",
+      "name": "小新27 酷睿Ultra 7 256V 27英寸一体台式电脑",
       "tag": "一体机",
       "image": "/shop/img/le-小新27-酷睿ultra-7-256v-16g-1t-27英寸一体台式电脑-深空色.png",
       "configs": [
         {
-          "label": "官方标配",
+          "label": "深空色 16G+1T 官方标配",
+          "official": 7499,
+          "price": 7124
+        },
+        {
+          "label": "云影色 16G+1T 官方标配",
           "official": 7499,
           "price": 7124
         }
       ]
     },
     {
-      "id": "le-小新台式电脑-英特尔i5-14400-16g-512g-台式机-plus-21-5英寸显示器",
-      "brand": "lenovo",
-      "category": "台式机",
-      "name": "小新台式电脑 英特尔i5-14400 16G 512G 台式机+21.5英寸显示器",
-      "tag": "台式机",
-      "image": "/shop/img/le-小新台式电脑-英特尔i5-14400-16g-512g-台式机-plus-21-5英寸显示器.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 5899,
-          "price": 5604
-        }
-      ]
-    },
-    {
-      "id": "le-小新27一体机-元气版-酷睿3-304-16g-512g-27英寸-霁蓝色",
+      "id": "le-小新27一体机-元气版-酷睿3-304",
       "brand": "lenovo",
       "category": "一体机",
-      "name": "小新27一体机 元气版 酷睿3 304 16G 512G 27英寸 霁蓝色",
+      "name": "小新27一体机 元气版 酷睿3 304",
       "tag": "一体机",
       "image": "/shop/img/le-小新27一体机-元气版-酷睿3-304-16g-512g-27英寸-霁蓝色.png",
       "configs": [
         {
-          "label": "官方标配",
+          "label": "霁蓝色 16G+512G 27英寸 官方标配",
+          "official": 6499,
+          "price": 6174
+        },
+        {
+          "label": "暮紫色 16G+512G 27英寸 官方标配",
+          "official": 6499,
+          "price": 6174
+        },
+        {
+          "label": "云影色 16G+512G 27英寸 官方标配",
+          "official": 6499,
+          "price": 6174
+        },
+        {
+          "label": "青霭色 16G+512G 27英寸 官方标配",
+          "official": 6499,
+          "price": 6174
+        },
+        {
+          "label": "霞绯色 16G+512G 27英寸 官方标配",
+          "official": 6499,
+          "price": 6174
+        },
+        {
+          "label": "深空色 16G+512G 27英寸 官方标配",
           "official": 6499,
           "price": 6174
         }
       ]
     },
     {
-      "id": "le-小新24-酷睿ultra-5-226v-16g-512g-23-8英寸一体台式电脑-云影色",
+      "id": "le-小新24-酷睿ultra-5-226v-23.8英寸一体台式电脑",
       "brand": "lenovo",
       "category": "一体机",
-      "name": "小新24 酷睿Ultra 5 226V 16G 512G 23.8英寸一体台式电脑 云影色",
+      "name": "小新24 酷睿Ultra 5 226V 23.8英寸一体台式电脑",
       "tag": "一体机",
       "image": "/shop/img/le-小新24-酷睿ultra-5-226v-16g-512g-23-8英寸一体台式电脑-云影色.png",
       "configs": [
         {
-          "label": "官方标配",
+          "label": "云影色 16G+512G 官方标配",
+          "official": 6299,
+          "price": 5984
+        },
+        {
+          "label": "深空色 16G+512G 官方标配",
           "official": 6299,
           "price": 5984
         }
       ]
     },
     {
-      "id": "le-联想小新24-酷睿ultra-7-256v16g-512g-23-8英寸一体台式电脑-深空色",
-      "brand": "lenovo",
-      "category": "一体机",
-      "name": "联想小新24 酷睿Ultra 7 256V16G 512G 23.8英寸一体台式电脑 深空色",
-      "tag": "一体机",
-      "image": "/shop/img/le-联想小新24-酷睿ultra-7-256v16g-512g-23-8英寸一体台式电脑-深空色.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 5999,
-          "price": 5699
-        }
-      ]
-    },
-    {
-      "id": "le-小新台式电脑-尊享版-英特尔i5-13420h-16g-512g-台式机-plus-23-8英寸显示器",
+      "id": "le-小新台式电脑-尊享版-英特尔i5-13420h-台式机",
       "brand": "lenovo",
       "category": "台式机",
-      "name": "小新台式电脑 尊享版 英特尔i5-13420H 16G 512G 台式机+23.8英寸显示器",
+      "name": "小新台式电脑 尊享版 英特尔i5-13420H 台式机",
       "tag": "台式机",
       "image": "/shop/img/le-小新台式电脑-尊享版-英特尔i5-13420h-16g-512g-台式机-plus-23-8英寸显示器.png",
       "configs": [
         {
-          "label": "官方标配",
+          "label": "16G+512G 23.8英寸显示器 官方标配",
           "official": 4999,
           "price": 4749
-        }
-      ]
-    },
-    {
-      "id": "le-小新27一体机-元气版-酷睿3-304-16g-512g-27英寸-暮紫色",
-      "brand": "lenovo",
-      "category": "一体机",
-      "name": "小新27一体机 元气版 酷睿3 304 16G 512G 27英寸 暮紫色",
-      "tag": "一体机",
-      "image": "/shop/img/le-小新27一体机-元气版-酷睿3-304-16g-512g-27英寸-暮紫色.png",
-      "configs": [
+        },
         {
-          "label": "官方标配",
-          "official": 6499,
-          "price": 6174
-        }
-      ]
-    },
-    {
-      "id": "le-小新27一体机-元气版-酷睿5-320-16g-512g-27英寸-青霭色",
-      "brand": "lenovo",
-      "category": "一体机",
-      "name": "小新27一体机 元气版 酷睿5 320 16G 512G 27英寸 青霭色",
-      "tag": "一体机",
-      "image": "/shop/img/le-小新27一体机-元气版-酷睿5-320-16g-512g-27英寸-青霭色.png",
-      "configs": [
+          "label": "16G+512G 21.5英寸显示器 官方标配",
+          "official": 4899,
+          "price": 4654
+        },
         {
-          "label": "官方标配",
-          "official": 6999,
-          "price": 6649
-        }
-      ]
-    },
-    {
-      "id": "le-小新27一体机-元气版-酷睿5-320-16g-512g-27英寸-暮紫色",
-      "brand": "lenovo",
-      "category": "一体机",
-      "name": "小新27一体机 元气版 酷睿5 320 16G 512G 27英寸 暮紫色",
-      "tag": "一体机",
-      "image": "/shop/img/le-小新27一体机-元气版-酷睿5-320-16g-512g-27英寸-暮紫色.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 6999,
-          "price": 6649
-        }
-      ]
-    },
-    {
-      "id": "le-小新27一体机-元气版-酷睿5-320-16g-512g-27英寸-霞绯色",
-      "brand": "lenovo",
-      "category": "一体机",
-      "name": "小新27一体机 元气版 酷睿5 320 16G 512G 27英寸 霞绯色",
-      "tag": "一体机",
-      "image": "/shop/img/le-小新27一体机-元气版-酷睿5-320-16g-512g-27英寸-霞绯色.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 6999,
-          "price": 6649
+          "label": "16G+512G 27英寸显示器 官方标配",
+          "official": 5418,
+          "price": 5147
         }
       ]
     },
@@ -3353,7 +3238,7 @@
       "id": "le-aio-520-23-8英寸-高性能一体机-白色",
       "brand": "lenovo",
       "category": "一体机",
-      "name": "AIO 520 23.8英寸 高性能一体机 白色",
+      "name": "AIO 520 高性能一体机",
       "tag": "一体机",
       "image": "/shop/img/le-aio-520-23-8英寸-高性能一体机-白色.png",
       "configs": [
@@ -3361,36 +3246,6 @@
           "label": "官方标配",
           "official": 3999,
           "price": 3799
-        }
-      ]
-    },
-    {
-      "id": "le-小新27-酷睿ultra-5-226v-16g-512g-27英寸一体台式电脑-深空色",
-      "brand": "lenovo",
-      "category": "一体机",
-      "name": "小新27 酷睿Ultra 5 226V 16G 512G 27英寸一体台式电脑 深空色",
-      "tag": "一体机",
-      "image": "/shop/img/le-小新27-酷睿ultra-5-226v-16g-512g-27英寸一体台式电脑-深空色.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 6499,
-          "price": 6174
-        }
-      ]
-    },
-    {
-      "id": "le-小新24-酷睿ultra-5-226v-16g-512g-23-8英寸一体台式电脑-深空色",
-      "brand": "lenovo",
-      "category": "一体机",
-      "name": "小新24 酷睿Ultra 5 226V 16G 512G 23.8英寸一体台式电脑 深空色",
-      "tag": "一体机",
-      "image": "/shop/img/le-小新24-酷睿ultra-5-226v-16g-512g-23-8英寸一体台式电脑-深空色.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 6299,
-          "price": 5984
         }
       ]
     },
@@ -3428,7 +3283,7 @@
       "id": "le-来酷-lecoo-一体计算机-酷2888-pro-i7-27英寸一体台式机-白色",
       "brand": "lenovo",
       "category": "一体机",
-      "name": "来酷(Lecoo)一体计算机 酷2888 Pro I7 27英寸一体台式机 白色",
+      "name": "来酷(Lecoo)一体计算机 酷2888 Pro I7 27英寸一体台式机",
       "tag": "一体机",
       "image": "/shop/img/le-来酷-lecoo-一体计算机-酷2888-pro-i7-27英寸一体台式机-白色.png",
       "configs": [
@@ -3443,7 +3298,7 @@
       "id": "le-来酷-lecoo-一体计算机-酷2888-pro-锐龙版-27英寸一体台式机-白色",
       "brand": "lenovo",
       "category": "一体机",
-      "name": "来酷(Lecoo)一体计算机 酷2888 Pro 锐龙版 27英寸一体台式机 白色",
+      "name": "来酷(Lecoo)一体计算机 酷2888 Pro 锐龙版 27英寸一体台式机",
       "tag": "一体机",
       "image": "/shop/img/le-来酷-lecoo-一体计算机-酷2888-pro-锐龙版-27英寸一体台式机-白色.png",
       "configs": [
@@ -3455,25 +3310,10 @@
       ]
     },
     {
-      "id": "le-联想ai平板-小新pro-gt-13-高通骁龙8-3-5k护眼超清大屏-凝雾灰",
-      "brand": "lenovo",
-      "category": "平板",
-      "name": "联想AI平板 小新Pro GT 13 高通骁龙8 3.5K护眼超清大屏 凝雾灰",
-      "tag": "平板",
-      "image": "/shop/img/le-联想ai平板-小新pro-gt-13-高通骁龙8-3-5k护眼超清大屏-凝雾灰.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 3799,
-          "price": 3609
-        }
-      ]
-    },
-    {
       "id": "le-联想拯救者y900-13-骁龙8至尊版-12gb-plus-256gb-wi-fi-冰魄白-键盘笔套装",
       "brand": "lenovo",
       "category": "平板",
-      "name": "联想拯救者Y900 13 骁龙8至尊版 12GB+256GB Wi-Fi 冰魄白(键盘笔套装)",
+      "name": "联想拯救者Y900 13 骁龙8至尊版 Wi-Fi 冰魄白(键盘笔套装)",
       "tag": "平板",
       "image": "/shop/img/le-联想拯救者y900-13-骁龙8至尊版-12gb-plus-256gb-wi-fi-冰魄白-键盘笔套装.png",
       "configs": [
@@ -3515,47 +3355,17 @@
       ]
     },
     {
-      "id": "le-联想moto-g100-12-plus-256-青峰绿",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto g100 12+256 青峰绿",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-g100-12-plus-256-青峰绿.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 1499,
-          "price": 1424
-        }
-      ]
-    },
-    {
       "id": "le-联想moto-razr-60-pro-16gb-plus-1tb摩卡慕斯",
       "brand": "lenovo",
       "category": "手机",
-      "name": "联想moto Razr 60 Pro 16GB+1TB摩卡慕斯",
+      "name": "联想moto Razr 60 Pro 摩卡慕斯",
       "tag": "手机",
       "image": "/shop/img/le-联想moto-razr-60-pro-16gb-plus-1tb摩卡慕斯.png",
       "configs": [
         {
-          "label": "官方标配",
+          "label": "16GB+1TB 官方标配",
           "official": 5099,
           "price": 4844
-        }
-      ]
-    },
-    {
-      "id": "le-联想moto-g100-8-plus-256-晴空蓝",
-      "brand": "lenovo",
-      "category": "手机",
-      "name": "联想moto g100 8+256 晴空蓝",
-      "tag": "手机",
-      "image": "/shop/img/le-联想moto-g100-8-plus-256-晴空蓝.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 1399,
-          "price": 1329
         }
       ]
     },
@@ -3563,7 +3373,7 @@
       "id": "le-联想moto-razr-70-ultra-12gb-plus-256gb-雾绒紫薇",
       "brand": "lenovo",
       "category": "手机",
-      "name": "联想moto razr 70 Ultra 12GB+256GB 雾绒紫薇",
+      "name": "联想moto razr 70 Ultra 雾绒紫薇",
       "tag": "手机",
       "image": "/shop/img/le-联想moto-razr-70-ultra-12gb-plus-256gb-雾绒紫薇.png",
       "configs": [
@@ -3698,7 +3508,7 @@
       "id": "le-联想thinkvision-t27qd-4v-27英寸-2k全能商务屏",
       "brand": "lenovo",
       "category": "显示器",
-      "name": "联想ThinkVision T27QD-4v 27英寸 2k全能商务屏",
+      "name": "联想ThinkVision T27QD-4v 2k全能商务屏",
       "tag": "显示器",
       "image": "/shop/img/le-联想thinkvision-t27qd-4v-27英寸-2k全能商务屏.png",
       "configs": [
@@ -3781,6 +3591,11 @@
           "label": "官方标配",
           "official": 5799,
           "price": 5509
+        },
+        {
+          "label": "深空灰 小新无线蓝牙鼠标 官方标配",
+          "official": 5808,
+          "price": 5518
         }
       ]
     },
@@ -3803,7 +3618,7 @@
       "id": "le-联想拯救者y9000p-2026-至尊版-fifa世界杯限量版-16英寸电竞游戏笔记本电脑-碳晶黑",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想拯救者Y9000P 2026 至尊版 FIFA世界杯限量版 16英寸电竞游戏笔记本电脑 碳晶黑",
+      "name": "联想拯救者Y9000P 2026 至尊版 FIFA世界杯限量版 16英寸电竞游戏笔记本电脑",
       "tag": "笔记本",
       "image": "/shop/img/le-联想拯救者y9000p-2026-至尊版-fifa世界杯限量版-16英寸电竞游戏笔记本电脑-碳晶黑.png",
       "configs": [
@@ -3818,7 +3633,7 @@
       "id": "le-联想拯救者y7000p-2026-16英寸电竞游戏笔记本电脑-碳晶黑",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想拯救者Y7000P 2026 16英寸电竞游戏笔记本电脑 碳晶黑",
+      "name": "联想拯救者Y7000P 2026 16英寸电竞游戏笔记本电脑",
       "tag": "笔记本",
       "image": "/shop/img/le-联想拯救者y7000p-2026-16英寸电竞游戏笔记本电脑-碳晶黑.png",
       "configs": [
@@ -3863,7 +3678,7 @@
       "id": "le-联想yoga-pro-16-aura-16英寸轻薄创作笔记本电脑-雷霆灰",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想YOGA Pro 16 Aura 16英寸轻薄创作笔记本电脑 雷霆灰",
+      "name": "联想YOGA Pro 16 Aura 16英寸轻薄创作笔记本电脑",
       "tag": "笔记本",
       "image": "/shop/img/le-联想yoga-pro-16-aura-16英寸轻薄创作笔记本电脑-雷霆灰.png",
       "configs": [
@@ -3878,7 +3693,7 @@
       "id": "le-联想小新pro14-锐龙版14英寸轻薄笔记本电脑-深灰色",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想小新Pro14 锐龙版14英寸轻薄笔记本电脑 深灰色",
+      "name": "联想小新Pro14 锐龙版14英寸轻薄笔记本电脑",
       "tag": "笔记本",
       "image": "/shop/img/le-联想小新pro14-锐龙版14英寸轻薄笔记本电脑-深灰色.png",
       "configs": [
@@ -3908,7 +3723,7 @@
       "id": "le-联想拯救者r9000p-2026-16英寸电竞游戏本笔记本电脑-碳晶黑",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想拯救者R9000P 2026 16英寸电竞游戏本笔记本电脑 碳晶黑",
+      "name": "联想拯救者R9000P 2026 16英寸电竞游戏本笔记本电脑",
       "tag": "笔记本",
       "image": "/shop/img/le-联想拯救者r9000p-2026-16英寸电竞游戏本笔记本电脑-碳晶黑.png",
       "configs": [
@@ -3980,21 +3795,6 @@
       ]
     },
     {
-      "id": "le-联想小新pro16-gt-16英寸轻薄笔记本电脑-冠军白",
-      "brand": "lenovo",
-      "category": "笔记本",
-      "name": "联想小新Pro16 GT 16英寸轻薄笔记本电脑 冠军白",
-      "tag": "笔记本",
-      "image": "/shop/img/le-联想小新pro16-gt-16英寸轻薄笔记本电脑-冠军白.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 13999,
-          "price": 13299
-        }
-      ]
-    },
-    {
       "id": "le-联想thinkpad-x1-carbon-aura-2026-酷睿ultra-x7-全互联本-1bcd",
       "brand": "lenovo",
       "category": "笔记本",
@@ -4043,7 +3843,7 @@
       "id": "le-联想拯救者r7000x-2026-15-3英寸电竞游戏本笔记本电脑-碳晶黑",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想拯救者R7000X 2026 15.3英寸电竞游戏本笔记本电脑 碳晶黑",
+      "name": "联想拯救者R7000X 2026 15.3英寸电竞游戏本笔记本电脑",
       "tag": "笔记本",
       "image": "/shop/img/le-联想拯救者r7000x-2026-15-3英寸电竞游戏本笔记本电脑-碳晶黑.png",
       "configs": [
@@ -4111,21 +3911,6 @@
           "label": "官方标配",
           "official": 18999,
           "price": 18049
-        }
-      ]
-    },
-    {
-      "id": "le-联想小新14-酷睿ultra5-14英寸轻薄笔记本电脑-深空灰-plus-小新无线蓝牙鼠标",
-      "brand": "lenovo",
-      "category": "笔记本",
-      "name": "联想小新14 酷睿Ultra5 14英寸轻薄笔记本电脑 深空灰+小新无线蓝牙鼠标",
-      "tag": "笔记本",
-      "image": "/shop/img/le-联想小新14-酷睿ultra5-14英寸轻薄笔记本电脑-深空灰-plus-小新无线蓝牙鼠标.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 5808,
-          "price": 5518
         }
       ]
     },
@@ -4216,6 +4001,11 @@
           "label": "官方标配",
           "official": 5999,
           "price": 5699
+        },
+        {
+          "label": "深空灰 小新无线蓝牙鼠标 官方标配",
+          "official": 6008,
+          "price": 5708
         }
       ]
     },
@@ -4280,25 +4070,10 @@
       ]
     },
     {
-      "id": "le-联想小新16-酷睿ultra5-16英寸轻薄笔记本电脑-深空灰-plus-小新无线蓝牙鼠标",
-      "brand": "lenovo",
-      "category": "笔记本",
-      "name": "联想小新16 酷睿Ultra5 16英寸轻薄笔记本电脑 深空灰+小新无线蓝牙鼠标",
-      "tag": "笔记本",
-      "image": "/shop/img/le-联想小新16-酷睿ultra5-16英寸轻薄笔记本电脑-深空灰-plus-小新无线蓝牙鼠标.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 6008,
-          "price": 5708
-        }
-      ]
-    },
-    {
       "id": "le-联想-yoga-pro-27ud-10-27英寸-4k-qd-oled-超感屏显示器",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想 YOGA Pro 27UD-10 27英寸 4K QD-OLED 超感屏显示器",
+      "name": "联想 YOGA Pro 27UD-10 4K QD-OLED 超感屏显示器",
       "tag": "笔记本",
       "image": "/shop/img/le-联想-yoga-pro-27ud-10-27英寸-4k-qd-oled-超感屏显示器.png",
       "configs": [
@@ -4328,7 +4103,7 @@
       "id": "le-联想小新14-se-酷睿版14英寸轻薄笔记本电脑-深灰",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想小新14 SE 酷睿版14英寸轻薄笔记本电脑 深灰",
+      "name": "联想小新14 SE 酷睿版14英寸轻薄笔记本电脑",
       "tag": "笔记本",
       "image": "/shop/img/le-联想小新14-se-酷睿版14英寸轻薄笔记本电脑-深灰.png",
       "configs": [
@@ -4463,7 +4238,7 @@
       "id": "le-联想-小新pro16-锐龙版16英寸轻薄笔记本电脑-深灰色",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想 小新Pro16 锐龙版16英寸轻薄笔记本电脑 深灰色",
+      "name": "联想 小新Pro16 锐龙版16英寸轻薄笔记本电脑",
       "tag": "笔记本",
       "image": "/shop/img/le-联想-小新pro16-锐龙版16英寸轻薄笔记本电脑-深灰色.png",
       "configs": [
@@ -4493,7 +4268,7 @@
       "id": "le-来酷lecoo-air16酷睿版16英寸-core3-304-轻薄笔记本电脑-凝霜银",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "来酷Lecoo Air16酷睿版16英寸 Core3 304 轻薄笔记本电脑 凝霜银",
+      "name": "来酷Lecoo Air16酷睿版16英寸 Core3 304 轻薄笔记本电脑",
       "tag": "笔记本",
       "image": "/shop/img/le-来酷lecoo-air16酷睿版16英寸-core3-304-轻薄笔记本电脑-凝霜银.png",
       "configs": [
@@ -4628,7 +4403,7 @@
       "id": "le-联想小新16-2025-锐龙版16英寸轻薄笔记本电脑-深灰",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想小新16 2025 锐龙版16英寸轻薄笔记本电脑 深灰",
+      "name": "联想小新16 2025 锐龙版16英寸轻薄笔记本电脑",
       "tag": "笔记本",
       "image": "/shop/img/le-联想小新16-2025-锐龙版16英寸轻薄笔记本电脑-深灰.png",
       "configs": [
@@ -4643,7 +4418,7 @@
       "id": "le-来酷-lecoo-14锐龙版-14英寸-锐龙r7-170-轻薄笔记本电脑",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "来酷（Lecoo）14锐龙版 14英寸 锐龙R7-170 轻薄笔记本电脑",
+      "name": "来酷（Lecoo）14锐龙版 锐龙R7-170 轻薄笔记本电脑",
       "tag": "笔记本",
       "image": "/shop/img/le-来酷-lecoo-14锐龙版-14英寸-锐龙r7-170-轻薄笔记本电脑.png",
       "configs": [
@@ -4718,7 +4493,7 @@
       "id": "le-联想小新pro14-酷睿-ai元启版14英寸轻薄笔记本电脑-深空灰",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想小新Pro14 酷睿 AI元启版14英寸轻薄笔记本电脑 深空灰",
+      "name": "联想小新Pro14 酷睿 AI元启版14英寸轻薄笔记本电脑",
       "tag": "笔记本",
       "image": "/shop/img/le-联想小新pro14-酷睿-ai元启版14英寸轻薄笔记本电脑-深空灰.png",
       "configs": [
@@ -4763,7 +4538,7 @@
       "id": "le-联想-lenovo-小新14-2024款-14英寸轻薄笔记本电脑-霜雪银",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想(Lenovo)小新14 2024款 14英寸轻薄笔记本电脑 霜雪银",
+      "name": "联想(Lenovo)小新14 2024款 14英寸轻薄笔记本电脑",
       "tag": "笔记本",
       "image": "/shop/img/le-联想-lenovo-小新14-2024款-14英寸轻薄笔记本电脑-霜雪银.png",
       "configs": [
@@ -4778,7 +4553,7 @@
       "id": "le-联想-瑞天14-商务办公学生轻薄本-银空灰",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想 瑞天14 商务办公学生轻薄本 银空灰",
+      "name": "联想 瑞天14 商务办公学生轻薄本",
       "tag": "笔记本",
       "image": "/shop/img/le-联想-瑞天14-商务办公学生轻薄本-银空灰.png",
       "configs": [
@@ -4808,7 +4583,7 @@
       "id": "le-联想来酷显示器-31-5寸-240hz1ms-1500r曲面电竞k3218slc",
       "brand": "lenovo",
       "category": "显示器",
-      "name": "联想来酷显示器 31.5寸 240hz1ms 1500R曲面电竞K3218SLC",
+      "name": "联想来酷显示器 240hz1ms 1500R曲面电竞K3218SLC",
       "tag": "显示器",
       "image": "/shop/img/le-联想来酷显示器-31-5寸-240hz1ms-1500r曲面电竞k3218slc.png",
       "configs": [
@@ -4913,7 +4688,7 @@
       "id": "le-lecoo联想来酷2k-27英寸-fastips240hz-1ms电竞显示器k2718sql",
       "brand": "lenovo",
       "category": "显示器",
-      "name": "Lecoo联想来酷2K 27英寸 FastIPS240Hz 1ms电竞显示器K2718SQL",
+      "name": "Lecoo联想来酷2K FastIPS240Hz 1ms电竞显示器K2718SQL",
       "tag": "显示器",
       "image": "/shop/img/le-lecoo联想来酷2k-27英寸-fastips240hz-1ms电竞显示器k2718sql.png",
       "configs": [
@@ -5345,36 +5120,6 @@
       ]
     },
     {
-      "id": "le-小新台式电脑-英特尔i3-14100-16g-512g-台式机-plus-21-5英寸显示器",
-      "brand": "lenovo",
-      "category": "笔记本",
-      "name": "小新台式电脑 英特尔i3-14100 16G 512G 台式机+21.5英寸显示器",
-      "tag": "笔记本",
-      "image": "/shop/img/le-小新台式电脑-英特尔i3-14100-16g-512g-台式机-plus-21-5英寸显示器.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 5399,
-          "price": 5129
-        }
-      ]
-    },
-    {
-      "id": "le-小新台式电脑-尊享版-英特尔i5-13420h-16g-512g-台式机-plus-21-5英寸显示器",
-      "brand": "lenovo",
-      "category": "笔记本",
-      "name": "小新台式电脑 尊享版 英特尔i5-13420H 16G 512G 台式机+21.5英寸显示器",
-      "tag": "笔记本",
-      "image": "/shop/img/le-小新台式电脑-尊享版-英特尔i5-13420h-16g-512g-台式机-plus-21-5英寸显示器.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 4899,
-          "price": 4654
-        }
-      ]
-    },
-    {
       "id": "le-拯救者-刃9000k-酷睿u7-rtx-5080-游戏台式机",
       "brand": "lenovo",
       "category": "笔记本",
@@ -5528,12 +5273,12 @@
       "id": "le-联想国际-thinkcentre-m-2-2280-gen4-ii-value-1tb固态硬盘",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "联想国际 ThinkCentre M.2 2280 Gen4 II Value 1TB固态硬盘",
+      "name": "联想国际 ThinkCentre M.2 2280 Gen4 II Value 固态硬盘",
       "tag": "笔记本",
       "image": "/shop/img/le-联想国际-thinkcentre-m-2-2280-gen4-ii-value-1tb固态硬盘.png",
       "configs": [
         {
-          "label": "官方标配",
+          "label": "1TB 官方标配",
           "official": 1299,
           "price": 1234
         }
@@ -5603,7 +5348,7 @@
       "id": "le-来酷-lecoo-一体计算机-酷2888-锐龙5-7430u-27英寸一体台式机-黑色",
       "brand": "lenovo",
       "category": "一体机",
-      "name": "来酷(Lecoo)一体计算机 酷2888 锐龙5 7430U 27英寸一体台式机 黑色",
+      "name": "来酷(Lecoo)一体计算机 酷2888 锐龙5 7430U 27英寸一体台式机",
       "tag": "一体机",
       "image": "/shop/img/le-来酷-lecoo-一体计算机-酷2888-锐龙5-7430u-27英寸一体台式机-黑色.png",
       "configs": [
@@ -5663,7 +5408,7 @@
       "id": "le-来酷一体计算机-来酷-酷2488-n100-23-8英寸一体台式机-黑色",
       "brand": "lenovo",
       "category": "一体机",
-      "name": "来酷一体计算机 来酷 酷2488 N100 23.8英寸一体台式机 黑色",
+      "name": "来酷一体计算机 来酷 酷2488 N100 23.8英寸一体台式机",
       "tag": "一体机",
       "image": "/shop/img/le-来酷一体计算机-来酷-酷2488-n100-23-8英寸一体台式机-黑色.png",
       "configs": [
@@ -5678,7 +5423,7 @@
       "id": "le-小新台式电脑-尊享ultra版-r7-h-255-16g-512g-台式机",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "小新台式电脑 尊享Ultra版 R7 H 255 16G 512G 台式机",
+      "name": "小新台式电脑 尊享Ultra版 R7 H 255 台式机",
       "tag": "笔记本",
       "image": "/shop/img/le-小新台式电脑-尊享ultra版-r7-h-255-16g-512g-台式机.png",
       "configs": [
@@ -5723,7 +5468,7 @@
       "id": "le-天逸510s尊享版-i5-14400-16g-2t-plus-512g-单主机",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "天逸510S尊享版 i5-14400 16G 2T+512G 单主机",
+      "name": "天逸510S尊享版 i5-14400 单主机",
       "tag": "笔记本",
       "image": "/shop/img/le-天逸510s尊享版-i5-14400-16g-2t-plus-512g-单主机.png",
       "configs": [
@@ -5753,7 +5498,7 @@
       "id": "le-斗战者-bellator-锋7000x-锐龙5-5600g-游戏台式机",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "斗战者（bellator） 锋7000X 锐龙5 5600G 游戏台式机",
+      "name": "斗战者（bellator） 锋7000X 锐龙5 游戏台式机",
       "tag": "笔记本",
       "image": "/shop/img/le-斗战者-bellator-锋7000x-锐龙5-5600g-游戏台式机.png",
       "configs": [
@@ -5783,7 +5528,7 @@
       "id": "le-小新台式电脑-尊享ultra版-u7-265-16g-1t-台式机",
       "brand": "lenovo",
       "category": "笔记本",
-      "name": "小新台式电脑 尊享Ultra版 U7-265 16G 1T 台式机",
+      "name": "小新台式电脑 尊享Ultra版 U7-265 台式机",
       "tag": "笔记本",
       "image": "/shop/img/le-小新台式电脑-尊享ultra版-u7-265-16g-1t-台式机.png",
       "configs": [
@@ -5813,7 +5558,7 @@
       "id": "le-来酷-lecoo-一体计算机-酷2488-n100-23-8英寸一体台式机-黑色",
       "brand": "lenovo",
       "category": "一体机",
-      "name": "来酷（Lecoo）一体计算机 酷2488 N100 23.8英寸一体台式机 黑色",
+      "name": "来酷（Lecoo）一体计算机 酷2488 N100 23.8英寸一体台式机",
       "tag": "一体机",
       "image": "/shop/img/le-来酷-lecoo-一体计算机-酷2488-n100-23-8英寸一体台式机-黑色.png",
       "configs": [
@@ -5828,7 +5573,7 @@
       "id": "le-天逸510s尊享版-i5-13400-16g-512g-台式主机电脑",
       "brand": "lenovo",
       "category": "台式机",
-      "name": "天逸510S尊享版 i5-13400 16G 512G 台式主机电脑",
+      "name": "天逸510S尊享版 i5-13400 台式主机电脑",
       "tag": "台式机",
       "image": "/shop/img/le-天逸510s尊享版-i5-13400-16g-512g-台式主机电脑.png",
       "configs": [
@@ -5843,7 +5588,7 @@
       "id": "le-天逸510s尊享版-i5-14400-16g-512g-台式主机电脑",
       "brand": "lenovo",
       "category": "台式机",
-      "name": "天逸510S尊享版 i5-14400 16G 512G 台式主机电脑",
+      "name": "天逸510S尊享版 i5-14400 台式主机电脑",
       "tag": "台式机",
       "image": "/shop/img/le-天逸510s尊享版-i5-14400-16g-512g-台式主机电脑.png",
       "configs": [
@@ -5888,7 +5633,7 @@
       "id": "le-联想开天m740zp信创台式机-飞腾d2000-16g-512g-27英寸-麒麟v10",
       "brand": "lenovo",
       "category": "台式机",
-      "name": "联想开天M740ZP信创台式机 飞腾D2000 16G 512G 27英寸 麒麟V10",
+      "name": "联想开天M740ZP信创台式机 飞腾D2000 麒麟V10",
       "tag": "台式机",
       "image": "/shop/img/le-联想开天m740zp信创台式机-飞腾d2000-16g-512g-27英寸-麒麟v10.png",
       "configs": [
@@ -5903,29 +5648,14 @@
       "id": "le-thinkcentre-m-2-2280-gen4-ii-value-1tb固态硬盘",
       "brand": "lenovo",
       "category": "台式机",
-      "name": "ThinkCentre M.2 2280 Gen4 II Value 1TB固态硬盘",
+      "name": "ThinkCentre M.2 2280 Gen4 II Value 固态硬盘",
       "tag": "台式机",
       "image": "/shop/img/le-thinkcentre-m-2-2280-gen4-ii-value-1tb固态硬盘.png",
       "configs": [
         {
-          "label": "官方标配",
+          "label": "1TB 官方标配",
           "official": 1299,
           "price": 1234
-        }
-      ]
-    },
-    {
-      "id": "le-小新27一体机-元气版-酷睿3-304-16g-512g-27英寸-云影色",
-      "brand": "lenovo",
-      "category": "一体机",
-      "name": "小新27一体机 元气版 酷睿3 304 16G 512G 27英寸 云影色",
-      "tag": "一体机",
-      "image": "/shop/img/le-小新27一体机-元气版-酷睿3-304-16g-512g-27英寸-云影色.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 6499,
-          "price": 6174
         }
       ]
     },
@@ -5933,7 +5663,7 @@
       "id": "le-天逸510s尊享版-i5-16g-主机-plus-27英寸显示器",
       "brand": "lenovo",
       "category": "台式机",
-      "name": "天逸510S尊享版 i5 16G 主机+27英寸显示器",
+      "name": "天逸510S尊享版 i5 主机",
       "tag": "台式机",
       "image": "/shop/img/le-天逸510s尊享版-i5-16g-主机-plus-27英寸显示器.png",
       "configs": [
@@ -5960,25 +5690,10 @@
       ]
     },
     {
-      "id": "le-小新27一体机-元气版-酷睿3-304-16g-512g-27英寸-青霭色",
-      "brand": "lenovo",
-      "category": "一体机",
-      "name": "小新27一体机 元气版 酷睿3 304 16G 512G 27英寸 青霭色",
-      "tag": "一体机",
-      "image": "/shop/img/le-小新27一体机-元气版-酷睿3-304-16g-512g-27英寸-青霭色.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 6499,
-          "price": 6174
-        }
-      ]
-    },
-    {
       "id": "le-小新台式电脑-尊享ultra版-u5-225-16g-512g-台式机-plus-23-8英寸显示器",
       "brand": "lenovo",
       "category": "台式机",
-      "name": "小新台式电脑 尊享Ultra版 U5-225 16G 512G 台式机+23.8英寸显示器",
+      "name": "小新台式电脑 尊享Ultra版 U5-225 台式机",
       "tag": "台式机",
       "image": "/shop/img/le-小新台式电脑-尊享ultra版-u5-225-16g-512g-台式机-plus-23-8英寸显示器.png",
       "configs": [
@@ -5993,7 +5708,7 @@
       "id": "le-天逸510s尊享版-i3-14100-8g-512g-单主机-plus-27英寸显示器",
       "brand": "lenovo",
       "category": "台式机",
-      "name": "天逸510S尊享版 i3-14100 8G 512G 单主机+27英寸显示器",
+      "name": "天逸510S尊享版 i3-14100 单主机",
       "tag": "台式机",
       "image": "/shop/img/le-天逸510s尊享版-i3-14100-8g-512g-单主机-plus-27英寸显示器.png",
       "configs": [
@@ -6005,137 +5720,32 @@
       ]
     },
     {
-      "id": "le-小新台式电脑-英特尔i5-14400-16g-256g-ssd-plus-2t-hdd-台式机",
+      "id": "le-小新台式电脑-英特尔i5-14400-ssd-plus-2t-hdd-台式机",
       "brand": "lenovo",
       "category": "台式机",
-      "name": "小新台式电脑 英特尔i5-14400 16G 256G SSD+2T HDD 台式机",
+      "name": "小新台式电脑 英特尔i5-14400 SSD+2T HDD 台式机",
       "tag": "台式机",
       "image": "/shop/img/le-小新台式电脑-英特尔i5-14400-16g-256g-ssd-plus-2t-hdd-台式机.png",
       "configs": [
         {
-          "label": "官方标配",
+          "label": "16G+256G 官方标配",
           "official": 6099,
           "price": 5794
-        }
-      ]
-    },
-    {
-      "id": "le-小新台式电脑-尊享版-英特尔i5-13420h-16g-512g-台式机-plus-27英寸显示器",
-      "brand": "lenovo",
-      "category": "台式机",
-      "name": "小新台式电脑 尊享版 英特尔i5-13420H 16G 512G 台式机+27英寸显示器",
-      "tag": "台式机",
-      "image": "/shop/img/le-小新台式电脑-尊享版-英特尔i5-13420h-16g-512g-台式机-plus-27英寸显示器.png",
-      "configs": [
+        },
         {
-          "label": "官方标配",
-          "official": 5418,
-          "price": 5147
-        }
-      ]
-    },
-    {
-      "id": "le-小新台式电脑-英特尔i5-14400-16g-256g-ssd-plus-2t-hdd-台式机-plus-23-8英寸显示器",
-      "brand": "lenovo",
-      "category": "台式机",
-      "name": "小新台式电脑 英特尔i5-14400 16G 256G SSD+2T HDD 台式机+23.8英寸显示器",
-      "tag": "台式机",
-      "image": "/shop/img/le-小新台式电脑-英特尔i5-14400-16g-256g-ssd-plus-2t-hdd-台式机-plus-23-8英寸显示器.png",
-      "configs": [
-        {
-          "label": "官方标配",
+          "label": "16G+256G 23.8英寸显示器 官方标配",
           "official": 6499,
           "price": 6174
-        }
-      ]
-    },
-    {
-      "id": "le-小新台式电脑-英特尔i5-14400-16g-256g-ssd-plus-2t-hdd-台式机-plus-21-5英寸显示器",
-      "brand": "lenovo",
-      "category": "台式机",
-      "name": "小新台式电脑 英特尔i5-14400 16G 256G SSD+2T HDD 台式机+21.5英寸显示器",
-      "tag": "台式机",
-      "image": "/shop/img/le-小新台式电脑-英特尔i5-14400-16g-256g-ssd-plus-2t-hdd-台式机-plus-21-5英寸显示器.png",
-      "configs": [
+        },
         {
-          "label": "官方标配",
+          "label": "16G+256G 21.5英寸显示器 官方标配",
           "official": 6399,
           "price": 6079
-        }
-      ]
-    },
-    {
-      "id": "le-小新27-酷睿ultra-7-256v-16g-1t-27英寸一体台式电脑-云影色",
-      "brand": "lenovo",
-      "category": "一体机",
-      "name": "小新27 酷睿Ultra 7 256V 16G 1T 27英寸一体台式电脑 云影色",
-      "tag": "一体机",
-      "image": "/shop/img/le-小新27-酷睿ultra-7-256v-16g-1t-27英寸一体台式电脑-云影色.png",
-      "configs": [
+        },
         {
-          "label": "官方标配",
-          "official": 7499,
-          "price": 7124
-        }
-      ]
-    },
-    {
-      "id": "le-小新台式电脑-英特尔i5-14400-16g-256g-ssd-plus-2t-hdd-台式机-plus-27英寸显示器",
-      "brand": "lenovo",
-      "category": "台式机",
-      "name": "小新台式电脑 英特尔i5-14400 16G 256G SSD+2T HDD 台式机+27英寸显示器",
-      "tag": "台式机",
-      "image": "/shop/img/le-小新台式电脑-英特尔i5-14400-16g-256g-ssd-plus-2t-hdd-台式机-plus-27英寸显示器.png",
-      "configs": [
-        {
-          "label": "官方标配",
+          "label": "16G+256G 27英寸显示器 官方标配",
           "official": 6879,
           "price": 6535
-        }
-      ]
-    },
-    {
-      "id": "le-小新27一体机-元气版-酷睿3-304-16g-512g-27英寸-霞绯色",
-      "brand": "lenovo",
-      "category": "一体机",
-      "name": "小新27一体机 元气版 酷睿3 304 16G 512G 27英寸 霞绯色",
-      "tag": "一体机",
-      "image": "/shop/img/le-小新27一体机-元气版-酷睿3-304-16g-512g-27英寸-霞绯色.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 6499,
-          "price": 6174
-        }
-      ]
-    },
-    {
-      "id": "le-小新台式电脑-英特尔i5-14400-16g-1t-ssd-台式机-plus-23-8英寸显示器",
-      "brand": "lenovo",
-      "category": "台式机",
-      "name": "小新台式电脑 英特尔i5-14400 16G 1T SSD 台式机+23.8英寸显示器",
-      "tag": "台式机",
-      "image": "/shop/img/le-小新台式电脑-英特尔i5-14400-16g-1t-ssd-台式机-plus-23-8英寸显示器.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 6499,
-          "price": 6174
-        }
-      ]
-    },
-    {
-      "id": "le-小新27一体机-元气版-酷睿3-304-16g-512g-27英寸-深空色",
-      "brand": "lenovo",
-      "category": "一体机",
-      "name": "小新27一体机 元气版 酷睿3 304 16G 512G 27英寸 深空色",
-      "tag": "一体机",
-      "image": "/shop/img/le-小新27一体机-元气版-酷睿3-304-16g-512g-27英寸-深空色.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 6499,
-          "price": 6174
         }
       ]
     },
@@ -6173,7 +5783,7 @@
       "id": "le-小新台式电脑-尊享版i3英特尔i5-13420h-16g-1t-台式机",
       "brand": "lenovo",
       "category": "台式机",
-      "name": "小新台式电脑 尊享版i3英特尔i5-13420H 16G 1T 台式机",
+      "name": "小新台式电脑 尊享版i3英特尔i5-13420H 台式机",
       "tag": "台式机",
       "image": "/shop/img/le-小新台式电脑-尊享版i3英特尔i5-13420h-16g-1t-台式机.png",
       "configs": [
@@ -6218,7 +5828,7 @@
       "id": "le-来酷-酷310-i5台式机-plus-21-5英寸ips液晶显示器",
       "brand": "lenovo",
       "category": "台式机",
-      "name": "来酷 酷310 I5台式机+21.5英寸IPS液晶显示器",
+      "name": "来酷 酷310 I5台式机",
       "tag": "台式机",
       "image": "/shop/img/le-来酷-酷310-i5台式机-plus-21-5英寸ips液晶显示器.png",
       "configs": [
@@ -6316,36 +5926,6 @@
           "label": "官方标配",
           "official": 4999,
           "price": 4749
-        }
-      ]
-    },
-    {
-      "id": "le-小新27一体机-元气版-酷睿5-320-16g-512g-27英寸-深空色",
-      "brand": "lenovo",
-      "category": "一体机",
-      "name": "小新27一体机 元气版 酷睿5 320 16G 512G 27英寸 深空色",
-      "tag": "一体机",
-      "image": "/shop/img/le-小新27一体机-元气版-酷睿5-320-16g-512g-27英寸-深空色.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 6999,
-          "price": 6649
-        }
-      ]
-    },
-    {
-      "id": "le-小新27一体机-元气版-酷睿5-320-16g-512g-27英寸-云影色",
-      "brand": "lenovo",
-      "category": "一体机",
-      "name": "小新27一体机 元气版 酷睿5 320 16G 512G 27英寸 云影色",
-      "tag": "一体机",
-      "image": "/shop/img/le-小新27一体机-元气版-酷睿5-320-16g-512g-27英寸-云影色.png",
-      "configs": [
-        {
-          "label": "官方标配",
-          "official": 6999,
-          "price": 6649
         }
       ]
     },
@@ -6681,6 +6261,16 @@
           "label": "1600G 白色",
           "official": 1749,
           "price": 1662
+        },
+        {
+          "label": "米家净水器 2 1200G+前置过滤器Pro+管线机套装",
+          "official": 2717,
+          "price": 2581
+        },
+        {
+          "label": "米家净水器 2 1200G+前置过滤器Pro套装",
+          "official": 1818,
+          "price": 1727
         }
       ]
     },
@@ -6731,6 +6321,16 @@
           "label": "800G 白色",
           "official": 949,
           "price": 902
+        },
+        {
+          "label": "米家净水器N1 800G+前置过滤器Pro 套装",
+          "official": 1598,
+          "price": 1518
+        },
+        {
+          "label": "米家净水器N1 800G+前置过滤器Pro+管线机 套装",
+          "official": 2497,
+          "price": 2372
         }
       ]
     },
@@ -7815,10 +7415,10 @@
       ]
     },
     {
-      "id": "xiaomi-净水器-2-pro-双出水-1200g-plus-前置过滤器pro-套装",
+      "id": "xiaomi-净水器-2-pro-双出水",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "净水器 2 Pro 双出水 1200G+前置过滤器Pro 套装",
+      "name": "净水器 2 Pro 双出水",
       "tag": "家电",
       "image": "/shop/img/xiaomi-净水器-2-pro-双出水-1200g-plus-前置过滤器pro-套装.png",
       "configs": [
@@ -7826,77 +7426,27 @@
           "label": "净水器 2 Pro 双出水 1200G+前置过滤器Pro 套装",
           "official": 2198,
           "price": 2088
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-净水器-2-pro-双出水-1200g-plus-前置过滤器pro-plus-管线机",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "净水器 2 Pro 双出水 1200G+前置过滤器Pro+管线机",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-净水器-2-pro-双出水-1200g-plus-前置过滤器pro-plus-管线机.png",
-      "configs": [
+        },
         {
           "label": "净水器 2 Pro 双出水 1200G+前置过滤器Pro+管线机",
           "official": 3097,
           "price": 2942
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-净水器-2-pro-双出水-1200g-plus-即热管线机套装",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "净水器 2 Pro 双出水 1200G+即热管线机套装",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-净水器-2-pro-双出水-1200g-plus-即热管线机套装.png",
-      "configs": [
+        },
         {
           "label": "净水器 2 Pro 双出水 1200G+即热管线机套装",
           "official": 2448,
           "price": 2326
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-净水器-2-pro-双出水-1600g-plus-前置过滤器pro-套装",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "净水器 2 Pro 双出水 1600G+前置过滤器Pro 套装",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-净水器-2-pro-双出水-1600g-plus-前置过滤器pro-套装.png",
-      "configs": [
+        },
         {
           "label": "净水器 2 Pro 双出水 1600G+前置过滤器Pro 套装",
           "official": 2848,
           "price": 2706
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-净水器-2-pro-双出水-1600g-plus-前置过滤器pro-plus-管线机",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "净水器 2 Pro 双出水 1600G+前置过滤器Pro+管线机",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-净水器-2-pro-双出水-1600g-plus-前置过滤器pro-plus-管线机.png",
-      "configs": [
+        },
         {
           "label": "净水器 2 Pro 双出水 1600G+前置过滤器Pro+管线机",
           "official": 3747,
           "price": 3560
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-净水器-2-pro-双出水-1600g-plus-即热管线机套装",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "净水器 2 Pro 双出水 1600G+即热管线机套装",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-净水器-2-pro-双出水-1600g-plus-即热管线机套装.png",
-      "configs": [
+        },
         {
           "label": "净水器 2 Pro 双出水 1600G+即热管线机套装",
           "official": 3098,
@@ -7923,7 +7473,7 @@
       "id": "xiaomi-净烟机p2-plus-定时灶-3pro-防干烧版-套装",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "净烟机P2+定时灶 3Pro 防干烧版 套装",
+      "name": "净烟机P2+定时灶 3Pro 防干烧版",
       "tag": "家电",
       "image": "/shop/img/xiaomi-净烟机p2-plus-定时灶-3pro-防干烧版-套装.png",
       "configs": [
@@ -8103,7 +7653,7 @@
       "id": "xiaomi-巨省电-2匹-新一级能效-米家空调",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "巨省电 2匹 新一级能效  米家空调",
+      "name": "巨省电 2匹 新一级能效 米家空调",
       "tag": "家电",
       "image": "/shop/img/xiaomi-巨省电-2匹-新一级能效-米家空调.png",
       "configs": [
@@ -8388,7 +7938,7 @@
       "id": "xiaomi-巨省电pro-立式大3匹-超一级能效-米家空调",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "巨省电Pro 立式大3匹  超一级能效 米家空调",
+      "name": "巨省电Pro 立式大3匹 超一级能效 米家空调",
       "tag": "家电",
       "image": "/shop/img/xiaomi-巨省电pro-立式大3匹-超一级能效-米家空调.png",
       "configs": [
@@ -8463,7 +8013,7 @@
       "id": "xiaomi-强劲风-风管机-超3匹-超一级能效-米家中央空调",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "强劲风 风管机 超3匹  超一级能效 米家中央空调",
+      "name": "强劲风 风管机 超3匹 超一级能效 米家中央空调",
       "tag": "家电",
       "image": "/shop/img/xiaomi-强劲风-风管机-超3匹-超一级能效-米家中央空调.png",
       "configs": [
@@ -8478,7 +8028,7 @@
       "id": "xiaomi-强劲风-风管机-超4匹-超一级能效-米家中央空调",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "强劲风 风管机 超4匹  超一级能效 米家中央空调",
+      "name": "强劲风 风管机 超4匹 超一级能效 米家中央空调",
       "tag": "家电",
       "image": "/shop/img/xiaomi-强劲风-风管机-超4匹-超一级能效-米家中央空调.png",
       "configs": [
@@ -9183,7 +8733,7 @@
       "id": "xiaomi-米家全效空气净化器-ultra-增强版",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家全效空气净化器  Ultra 增强版",
+      "name": "米家全效空气净化器 Ultra 增强版",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家全效空气净化器-ultra-增强版.png",
       "configs": [
@@ -9213,7 +8763,7 @@
       "id": "xiaomi-米家全效缓震亮白牙刷头三支装-适配多向扫振-声波扫振-伺服扫振",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家全效缓震亮白牙刷头三支装  适配多向扫振/声波扫振/伺服扫振",
+      "name": "米家全效缓震亮白牙刷头三支装 适配多向扫振/声波扫振/伺服扫振",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家全效缓震亮白牙刷头三支装-适配多向扫振-声波扫振-伺服扫振.png",
       "configs": [
@@ -9228,7 +8778,7 @@
       "id": "xiaomi-米家全效缓震呵护牙刷头三支装-适配多向扫振-声波扫振-伺服扫振",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家全效缓震呵护牙刷头三支装  适配多向扫振/声波扫振/伺服扫振",
+      "name": "米家全效缓震呵护牙刷头三支装 适配多向扫振/声波扫振/伺服扫振",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家全效缓震呵护牙刷头三支装-适配多向扫振-声波扫振-伺服扫振.png",
       "configs": [
@@ -9243,7 +8793,7 @@
       "id": "xiaomi-米家全效缓震清洁牙刷头三支装-适配多向扫振-声波扫振-伺服扫振",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家全效缓震清洁牙刷头三支装  适配多向扫振/声波扫振/伺服扫振",
+      "name": "米家全效缓震清洁牙刷头三支装 适配多向扫振/声波扫振/伺服扫振",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家全效缓震清洁牙刷头三支装-适配多向扫振-声波扫振-伺服扫振.png",
       "configs": [
@@ -9603,7 +9153,7 @@
       "id": "xiaomi-米家冰箱pro-439l法式-自动制冰",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家冰箱Pro  439L法式 自动制冰",
+      "name": "米家冰箱Pro 439L法式 自动制冰",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家冰箱pro-439l法式-自动制冰.png",
       "configs": [
@@ -9618,7 +9168,7 @@
       "id": "xiaomi-米家冰箱pro-微冰鲜系列",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家冰箱Pro  微冰鲜系列",
+      "name": "米家冰箱Pro 微冰鲜系列",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家冰箱pro-微冰鲜系列.png",
       "configs": [
@@ -10025,36 +9575,6 @@
       ]
     },
     {
-      "id": "xiaomi-米家净水器-2-1200g-plus-前置过滤器pro-plus-管线机套装",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家净水器 2 1200G+前置过滤器Pro+管线机套装",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家净水器-2-1200g-plus-前置过滤器pro-plus-管线机套装.png",
-      "configs": [
-        {
-          "label": "米家净水器 2 1200G+前置过滤器Pro+管线机套装",
-          "official": 2717,
-          "price": 2581
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-米家净水器-2-1200g-plus-前置过滤器pro套装",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家净水器 2 1200G+前置过滤器Pro套装",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家净水器-2-1200g-plus-前置过滤器pro套装.png",
-      "configs": [
-        {
-          "label": "米家净水器 2 1200G+前置过滤器Pro套装",
-          "official": 1818,
-          "price": 1727
-        }
-      ]
-    },
-    {
       "id": "xiaomi-米家净水器-2-沸腾版",
       "brand": "xiaomi",
       "category": "家电",
@@ -10073,7 +9593,7 @@
       "id": "xiaomi-米家净水器-3-1200g",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家净水器 3 1200G",
+      "name": "米家净水器 3",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家净水器-3-1200g.png",
       "configs": [
@@ -10100,40 +9620,10 @@
       ]
     },
     {
-      "id": "xiaomi-米家净水器n1-800g-plus-前置过滤器pro-套装",
+      "id": "xiaomi-米家净水器s1",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家净水器N1 800G+前置过滤器Pro 套装",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家净水器n1-800g-plus-前置过滤器pro-套装.png",
-      "configs": [
-        {
-          "label": "米家净水器N1 800G+前置过滤器Pro 套装",
-          "official": 1598,
-          "price": 1518
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-米家净水器n1-800g-plus-前置过滤器pro-plus-管线机-套装",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家净水器N1 800G+前置过滤器Pro+管线机 套装",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家净水器n1-800g-plus-前置过滤器pro-plus-管线机-套装.png",
-      "configs": [
-        {
-          "label": "米家净水器N1 800G+前置过滤器Pro+管线机 套装",
-          "official": 2497,
-          "price": 2372
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-米家净水器s1-1000g",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家净水器S1 1000G",
+      "name": "米家净水器S1",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家净水器s1-1000g.png",
       "configs": [
@@ -10141,32 +9631,12 @@
           "label": "米家净水器S1 1000G",
           "official": 1699,
           "price": 1614
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-米家净水器s1-1000g-plus-前置过滤器pro-套装",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家净水器S1 1000G+前置过滤器Pro 套装",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家净水器s1-1000g-plus-前置过滤器pro-套装.png",
-      "configs": [
+        },
         {
           "label": "米家净水器S1 1000G+前置过滤器Pro 套装",
           "official": 2498,
           "price": 2373
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-米家净水器s1-1000g-plus-前置过滤器pro-plus-管线机-套装",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家净水器S1 1000G+前置过滤器Pro+管线机 套装",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家净水器s1-1000g-plus-前置过滤器pro-plus-管线机-套装.png",
-      "configs": [
+        },
         {
           "label": "米家净水器S1 1000G+前置过滤器Pro+管线机 套装",
           "official": 3797,
@@ -10238,7 +9708,7 @@
       "id": "xiaomi-米家即热净水器-2-1200g",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家即热净水器 2 1200G",
+      "name": "米家即热净水器 2",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家即热净水器-2-1200g.png",
       "configs": [
@@ -10283,7 +9753,7 @@
       "id": "xiaomi-米家双核净水器-1200g-pro",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家双核净水器 1200G Pro",
+      "name": "米家双核净水器 Pro",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家双核净水器-1200g-pro.png",
       "configs": [
@@ -10295,10 +9765,10 @@
       ]
     },
     {
-      "id": "xiaomi-米家双核净水器1200g-pro-plus-前置过滤器pro-plus-管线机套装",
+      "id": "xiaomi-米家双核净水器1200g-pro",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家双核净水器1200G Pro+前置过滤器Pro+管线机套装",
+      "name": "米家双核净水器1200G Pro",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家双核净水器1200g-pro-plus-前置过滤器pro-plus-管线机套装.png",
       "configs": [
@@ -10306,17 +9776,7 @@
           "label": "米家双核净水器1200G Pro+前置过滤器Pro+管线机套装",
           "official": 3297,
           "price": 3132
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-米家双核净水器1200g-pro-plus-前置过滤器pro套装",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家双核净水器1200G Pro+前置过滤器Pro套装",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家双核净水器1200g-pro-plus-前置过滤器pro套装.png",
-      "configs": [
+        },
         {
           "label": "米家双核净水器1200G Pro+前置过滤器Pro套装",
           "official": 2398,
@@ -11053,7 +10513,7 @@
       "id": "xiaomi-米家定时燃气灶pro-5200w-4800w",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家定时燃气灶Pro  5200W/4800W",
+      "name": "米家定时燃气灶Pro 5200W/4800W",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家定时燃气灶pro-5200w-4800w.png",
       "configs": [
@@ -11096,32 +10556,12 @@
           "label": "米家富矿净水器",
           "official": 3499,
           "price": 3324
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-米家富矿净水器-plus-前置过滤器pro-plus-即热管线机套装",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家富矿净水器+前置过滤器Pro+即热管线机套装",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家富矿净水器-plus-前置过滤器pro-plus-即热管线机套装.png",
-      "configs": [
+        },
         {
           "label": "米家富矿净水器+前置过滤器Pro+即热管线机套装",
           "official": 5597,
           "price": 5317
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-米家富矿净水器-plus-前置过滤器pro套装",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家富矿净水器+前置过滤器Pro套装",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家富矿净水器-plus-前置过滤器pro套装.png",
-      "configs": [
+        },
         {
           "label": "米家富矿净水器+前置过滤器Pro套装",
           "official": 4298,
@@ -11558,7 +10998,7 @@
       "id": "xiaomi-米家无线洗地机2-2-lite-2c-4c-5c-滚刷",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家无线洗地机2 2.\t Lite/2C/4C/5C 滚刷",
+      "name": "米家无线洗地机2 2. Lite/2C/4C/5C 滚刷",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家无线洗地机2-2-lite-2c-4c-5c-滚刷.png",
       "configs": [
@@ -11918,7 +11358,7 @@
       "id": "xiaomi-米家智能净烟机-3-白色",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家智能净烟机 3 白色",
+      "name": "米家智能净烟机 3",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家智能净烟机-3-白色.png",
       "configs": [
@@ -11948,7 +11388,7 @@
       "id": "xiaomi-米家智能净烟机p1-plus-定时灶pro-套装",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家智能净烟机P1+定时灶Pro 套装",
+      "name": "米家智能净烟机P1+定时灶Pro",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家智能净烟机p1-plus-定时灶pro-套装.png",
       "configs": [
@@ -12953,7 +12393,7 @@
       "id": "xiaomi-米家智能晾衣机-2-pro-极地灰",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家智能晾衣机 2 Pro 极地灰",
+      "name": "米家智能晾衣机 2 Pro",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家智能晾衣机-2-pro-极地灰.png",
       "configs": [
@@ -12991,17 +12431,7 @@
           "label": "米家智能晾衣机 3 Max",
           "official": 2822,
           "price": 2681
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-米家智能晾衣机-3-max-极地灰",
-      "brand": "xiaomi",
-      "category": "家电",
-      "name": "米家智能晾衣机 3 Max 极地灰",
-      "tag": "家电",
-      "image": "/shop/img/xiaomi-米家智能晾衣机-3-max-极地灰.png",
-      "configs": [
+        },
         {
           "label": "米家智能晾衣机 3 Max 极地灰",
           "official": 2822,
@@ -13073,7 +12503,7 @@
       "id": "xiaomi-米家智能晾衣机pro-月光白",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家智能晾衣机Pro 月光白",
+      "name": "米家智能晾衣机Pro",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家智能晾衣机pro-月光白.png",
       "configs": [
@@ -13368,7 +12798,7 @@
       "id": "xiaomi-米家智能浴霸-plus-米家控温淋浴花洒n1-套装",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家智能浴霸+米家控温淋浴花洒N1 套装",
+      "name": "米家智能浴霸+米家控温淋浴花洒N1",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家智能浴霸-plus-米家控温淋浴花洒n1-套装.png",
       "configs": [
@@ -13398,7 +12828,7 @@
       "id": "xiaomi-米家智能浴霸n1-plus-米家控温淋浴花洒n1-套装",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家智能浴霸N1+米家控温淋浴花洒N1 套装",
+      "name": "米家智能浴霸N1+米家控温淋浴花洒N1",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家智能浴霸n1-plus-米家控温淋浴花洒n1-套装.png",
       "configs": [
@@ -13473,7 +12903,7 @@
       "id": "xiaomi-米家智能浴霸s1-plus-米家恒温淋浴花洒s1-套装",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家智能浴霸S1+米家恒温淋浴花洒S1 套装",
+      "name": "米家智能浴霸S1+米家恒温淋浴花洒S1",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家智能浴霸s1-plus-米家恒温淋浴花洒s1-套装.png",
       "configs": [
@@ -15493,7 +14923,7 @@
       "id": "xiaomi-米家空气炸锅n1-5l",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家空气炸锅N1  5L",
+      "name": "米家空气炸锅N1 5L",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家空气炸锅n1-5l.png",
       "configs": [
@@ -15598,7 +15028,7 @@
       "id": "xiaomi-米家缓震呵护牙刷头-三只装-适配多向扫振-声波扫振-伺服扫振",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家缓震呵护牙刷头 三只装  适配多向扫振/声波扫振/伺服扫振",
+      "name": "米家缓震呵护牙刷头 三只装 适配多向扫振/声波扫振/伺服扫振",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家缓震呵护牙刷头-三只装-适配多向扫振-声波扫振-伺服扫振.png",
       "configs": [
@@ -15613,7 +15043,7 @@
       "id": "xiaomi-米家缓震清洁牙刷头-三支装-适配多向扫振-声波扫振-伺服扫振",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家缓震清洁牙刷头 三支装   适配多向扫振/声波扫振/伺服扫振",
+      "name": "米家缓震清洁牙刷头 三支装 适配多向扫振/声波扫振/伺服扫振",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家缓震清洁牙刷头-三支装-适配多向扫振-声波扫振-伺服扫振.png",
       "configs": [
@@ -15628,7 +15058,7 @@
       "id": "xiaomi-米家缓震清洁牙刷头-单支装-适配多向扫振-声波扫振-伺服扫振",
       "brand": "xiaomi",
       "category": "家电",
-      "name": "米家缓震清洁牙刷头 单支装  适配多向扫振/声波扫振/伺服扫振",
+      "name": "米家缓震清洁牙刷头 单支装 适配多向扫振/声波扫振/伺服扫振",
       "tag": "家电",
       "image": "/shop/img/xiaomi-米家缓震清洁牙刷头-单支装-适配多向扫振-声波扫振-伺服扫振.png",
       "configs": [
@@ -16923,7 +16353,7 @@
       "id": "xiaomi-redmi-15r-5g",
       "brand": "xiaomi",
       "category": "手机",
-      "name": "REDMI 15R 5G",
+      "name": "REDMI 15R",
       "tag": "手机",
       "image": "/shop/img/xiaomi-redmi-15r-5g.png",
       "configs": [
@@ -16958,7 +16388,7 @@
       "id": "xiaomi-redmi-17-5g",
       "brand": "xiaomi",
       "category": "手机",
-      "name": "REDMI 17 5G",
+      "name": "REDMI 17",
       "tag": "手机",
       "image": "/shop/img/xiaomi-redmi-17-5g.png",
       "configs": [
@@ -17683,7 +17113,7 @@
       "id": "xiaomi-redmi-r70m-5g",
       "brand": "xiaomi",
       "category": "手机",
-      "name": "REDMI R70m 5G",
+      "name": "REDMI R70m",
       "tag": "手机",
       "image": "/shop/img/xiaomi-redmi-r70m-5g.png",
       "configs": [
@@ -18103,7 +17533,7 @@
       "id": "xiaomi-xiaomi-13-ultra-限量定制色",
       "brand": "xiaomi",
       "category": "手机",
-      "name": "Xiaomi 13 Ultra 限量定制色",
+      "name": "Xiaomi 13 Ultra",
       "tag": "手机",
       "image": "/shop/img/xiaomi-xiaomi-13-ultra-限量定制色.png",
       "configs": [
@@ -18943,7 +18373,7 @@
       "id": "xiaomi-xiaomi-17t",
       "brand": "xiaomi",
       "category": "手机",
-      "name": "Xiaomi 17T",
+      "name": "Xiaomi",
       "tag": "手机",
       "image": "/shop/img/xiaomi-xiaomi-17t.png",
       "configs": [
@@ -18983,7 +18413,7 @@
       "id": "xiaomi-xiaomi-17t-pro",
       "brand": "xiaomi",
       "category": "手机",
-      "name": "Xiaomi 17T Pro",
+      "name": "Xiaomi Pro",
       "tag": "手机",
       "image": "/shop/img/xiaomi-xiaomi-17t-pro.png",
       "configs": [
@@ -19771,17 +19201,7 @@
           "label": "小米智能室外摄像机 4 4K",
           "official": 299,
           "price": 284
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-小米智能室外摄像机-4-4k-plus-智能摄像机云存年卡-7天滚动存储",
-      "brand": "xiaomi",
-      "category": "智能家居",
-      "name": "小米智能室外摄像机 4 4K+智能摄像机云存年卡(7天滚动存储）",
-      "tag": "智能家居",
-      "image": "/shop/img/xiaomi-小米智能室外摄像机-4-4k-plus-智能摄像机云存年卡-7天滚动存储.png",
-      "configs": [
+        },
         {
           "label": "小米智能室外摄像机 4 4K+智能摄像机云存年卡(7天滚动存储）",
           "official": 389,
@@ -19831,17 +19251,7 @@
           "label": "小米智能室外摄像机 4C 3K",
           "official": 249,
           "price": 237
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-小米智能室外摄像机-4c-3k-plus-智能摄像机云存年卡-7天滚动存储",
-      "brand": "xiaomi",
-      "category": "智能家居",
-      "name": "小米智能室外摄像机 4C 3K+智能摄像机云存年卡(7天滚动存储",
-      "tag": "智能家居",
-      "image": "/shop/img/xiaomi-小米智能室外摄像机-4c-3k-plus-智能摄像机云存年卡-7天滚动存储.png",
-      "configs": [
+        },
         {
           "label": "小米智能室外摄像机 4C 3K+智能摄像机云存年卡(7天滚动存储",
           "official": 339,
@@ -20056,17 +19466,7 @@
           "label": "小米智能摄像机 3 3K",
           "official": 179,
           "price": 170
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-小米智能摄像机-3-3k-plus-智能摄像机云存年卡-7天滚动存储",
-      "brand": "xiaomi",
-      "category": "智能家居",
-      "name": "小米智能摄像机 3 3K+智能摄像机云存年卡(7天滚动存储）",
-      "tag": "智能家居",
-      "image": "/shop/img/xiaomi-小米智能摄像机-3-3k-plus-智能摄像机云存年卡-7天滚动存储.png",
-      "configs": [
+        },
         {
           "label": "小米智能摄像机 3 3K+智能摄像机云存年卡(7天滚动存储）",
           "official": 269,
@@ -20146,17 +19546,7 @@
           "label": "小米智能摄像机4 变焦版",
           "official": 419,
           "price": 398
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-小米智能摄像机-4-变焦版-plus-智能摄像机云存年卡-7天滚动存储",
-      "brand": "xiaomi",
-      "category": "智能家居",
-      "name": "小米智能摄像机 4 变焦版+智能摄像机云存年卡(7天滚动存储）",
-      "tag": "智能家居",
-      "image": "/shop/img/xiaomi-小米智能摄像机-4-变焦版-plus-智能摄像机云存年卡-7天滚动存储.png",
-      "configs": [
+        },
         {
           "label": "小米智能摄像机 4 变焦版+智能摄像机云存年卡(7天滚动存储）",
           "official": 509,
@@ -20168,7 +19558,7 @@
       "id": "xiaomi-小米智能摄像机-4-plus-智能摄像机云存年卡-7天滚动存储",
       "brand": "xiaomi",
       "category": "智能家居",
-      "name": "小米智能摄像机 4+智能摄像机云存年卡(7天滚动存储）",
+      "name": "小米智能摄像机 4",
       "tag": "智能家居",
       "image": "/shop/img/xiaomi-小米智能摄像机-4-plus-智能摄像机云存年卡-7天滚动存储.png",
       "configs": [
@@ -20198,7 +19588,7 @@
       "id": "xiaomi-小米智能摄像机-4c-plus-智能摄像机云存年卡-7天滚动存储",
       "brand": "xiaomi",
       "category": "智能家居",
-      "name": "小米智能摄像机 4C+智能摄像机云存年卡(7天滚动存储）",
+      "name": "小米智能摄像机 4C",
       "tag": "智能家居",
       "image": "/shop/img/xiaomi-小米智能摄像机-4c-plus-智能摄像机云存年卡-7天滚动存储.png",
       "configs": [
@@ -20251,17 +19641,7 @@
           "label": "小米智能摄像机 视频通话版",
           "official": 319,
           "price": 303
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-小米智能摄像机-视频通话版-plus-智能摄像机云存年卡-7天滚动存储",
-      "brand": "xiaomi",
-      "category": "智能家居",
-      "name": "小米智能摄像机 视频通话版+智能摄像机云存年卡(7天滚动存储）",
-      "tag": "智能家居",
-      "image": "/shop/img/xiaomi-小米智能摄像机-视频通话版-plus-智能摄像机云存年卡-7天滚动存储.png",
-      "configs": [
+        },
         {
           "label": "小米智能摄像机 视频通话版+智能摄像机云存年卡(7天滚动存储）",
           "official": 409,
@@ -20326,17 +19706,7 @@
           "label": "白色",
           "official": 299,
           "price": 284
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-小米智能摄像机c700-plus-智能摄像机云存年卡-7天滚动存储",
-      "brand": "xiaomi",
-      "category": "智能家居",
-      "name": "小米智能摄像机C700+智能摄像机云存年卡(7天滚动存储）",
-      "tag": "智能家居",
-      "image": "/shop/img/xiaomi-小米智能摄像机c700-plus-智能摄像机云存年卡-7天滚动存储.png",
-      "configs": [
+        },
         {
           "label": "小米智能摄像机C700+智能摄像机云存年卡(7天滚动存储）",
           "official": 389,
@@ -20558,7 +19928,7 @@
       "id": "xiaomi-小米智能门锁-e30-大屏猫眼版-星辰黑",
       "brand": "xiaomi",
       "category": "智能家居",
-      "name": "小米智能门锁 E30 大屏猫眼版 星辰黑",
+      "name": "小米智能门锁 E30 大屏猫眼版",
       "tag": "智能家居",
       "image": "/shop/img/xiaomi-小米智能门锁-e30-大屏猫眼版-星辰黑.png",
       "configs": [
@@ -20573,7 +19943,7 @@
       "id": "xiaomi-小米智能门锁-e30-星辰黑",
       "brand": "xiaomi",
       "category": "智能家居",
-      "name": "小米智能门锁 E30 星辰黑",
+      "name": "小米智能门锁 E30",
       "tag": "智能家居",
       "image": "/shop/img/xiaomi-小米智能门锁-e30-星辰黑.png",
       "configs": [
@@ -21478,7 +20848,7 @@
       "id": "xiaomi-redmi显示器a22-2026",
       "brand": "xiaomi",
       "category": "电脑办公",
-      "name": "REDMI显示器A22  2026",
+      "name": "REDMI显示器A22 2026",
       "tag": "电脑办公",
       "image": "/shop/img/xiaomi-redmi显示器a22-2026.png",
       "configs": [
@@ -21816,17 +21186,7 @@
           "label": "白色",
           "official": 769,
           "price": 731
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-米家桌面照片打印机-2-套装",
-      "brand": "xiaomi",
-      "category": "电脑办公",
-      "name": "米家桌面照片打印机 2 套装",
-      "tag": "电脑办公",
-      "image": "/shop/img/xiaomi-米家桌面照片打印机-2-套装.png",
-      "configs": [
+        },
         {
           "label": "米家桌面照片打印机 2 套装",
           "official": 969,
@@ -22043,7 +21403,7 @@
       "id": "xiaomi-redmi投影仪幕布-光子-画轴版-100英寸",
       "brand": "xiaomi",
       "category": "电视",
-      "name": "REDMI投影仪幕布 光子 画轴版   100英寸",
+      "name": "REDMI投影仪幕布 光子 画轴版",
       "tag": "电视",
       "image": "/shop/img/xiaomi-redmi投影仪幕布-光子-画轴版-100英寸.png",
       "configs": [
@@ -23143,7 +22503,7 @@
       "id": "xiaomi-小米手环-珍珠半链-真多麻色",
       "brand": "xiaomi",
       "category": "穿戴",
-      "name": "小米手环 珍珠半链 真多麻色",
+      "name": "小米手环 珍珠半链",
       "tag": "穿戴",
       "image": "/shop/img/xiaomi-小米手环-珍珠半链-真多麻色.png",
       "configs": [
@@ -23891,17 +23251,7 @@
           "label": "Xiaomi 全屋路由 BE3600 Pro",
           "official": 349,
           "price": 332
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-xiaomi全屋路由-be3600pro-套装",
-      "brand": "xiaomi",
-      "category": "路由/网络",
-      "name": "Xiaomi全屋路由 BE3600Pro 套装",
-      "tag": "路由/网络",
-      "image": "/shop/img/xiaomi-xiaomi全屋路由-be3600pro-套装.png",
-      "configs": [
+        },
         {
           "label": "Xiaomi全屋路由 BE3600Pro 套装",
           "official": 599,
@@ -24388,7 +23738,7 @@
       "id": "xiaomi-clicclic-软胶保护壳-适用于-xiaomi-17t",
       "brand": "xiaomi",
       "category": "配件",
-      "name": "Clicclic 软胶保护壳（适用于 Xiaomi 17T ）",
+      "name": "Clicclic 软胶保护壳（适用于 Xiaomi",
       "tag": "配件",
       "image": "/shop/img/xiaomi-clicclic-软胶保护壳-适用于-xiaomi-17t.png",
       "configs": [
@@ -24888,7 +24238,7 @@
       "id": "xiaomi-redmi-pad-pro-类纸膜",
       "brand": "xiaomi",
       "category": "配件",
-      "name": "Redmi Pad Pro 类纸膜",
+      "name": "Redmi Pad Pro 类纸膜",
       "tag": "配件",
       "image": "/shop/img/xiaomi-redmi-pad-pro-类纸膜.png",
       "configs": [
@@ -24948,7 +24298,7 @@
       "id": "xiaomi-xiaomi-120w-充电器套装-原装同款",
       "brand": "xiaomi",
       "category": "配件",
-      "name": "Xiaomi 120W 充电器套装  原装同款",
+      "name": "Xiaomi 120W 充电器套装 原装同款",
       "tag": "配件",
       "image": "/shop/img/xiaomi-xiaomi-120w-充电器套装-原装同款.png",
       "configs": [
@@ -25343,7 +24693,7 @@
       "id": "xiaomi-xiaomi-17-系列龙鳞纤维磁吸保护壳-格纹黑",
       "brand": "xiaomi",
       "category": "配件",
-      "name": "Xiaomi 17 系列龙鳞纤维磁吸保护壳 格纹黑",
+      "name": "Xiaomi 17 系列龙鳞纤维磁吸保护壳",
       "tag": "配件",
       "image": "/shop/img/xiaomi-xiaomi-17-系列龙鳞纤维磁吸保护壳-格纹黑.png",
       "configs": [
@@ -25698,7 +25048,7 @@
       "id": "xiaomi-xiaomi-pad-7系列悬浮键盘-plus-触控笔套装",
       "brand": "xiaomi",
       "category": "配件",
-      "name": "Xiaomi Pad 7系列悬浮键盘+触控笔套装",
+      "name": "Xiaomi Pad",
       "tag": "配件",
       "image": "/shop/img/xiaomi-xiaomi-pad-7系列悬浮键盘-plus-触控笔套装.png",
       "configs": [
@@ -25938,7 +25288,7 @@
       "id": "xiaomi-xiaomi-watch-表圈表带套装",
       "brand": "xiaomi",
       "category": "配件",
-      "name": "Xiaomi Watch  表圈表带套装",
+      "name": "Xiaomi Watch 表圈表带套装",
       "tag": "配件",
       "image": "/shop/img/xiaomi-xiaomi-watch-表圈表带套装.png",
       "configs": [
@@ -26053,7 +25403,7 @@
       "id": "xiaomi-xiaomi-watch-strap-真皮表带-22mm",
       "brand": "xiaomi",
       "category": "配件",
-      "name": "Xiaomi Watch Strap 真皮表带  22mm",
+      "name": "Xiaomi Watch Strap 真皮表带 22mm",
       "tag": "配件",
       "image": "/shop/img/xiaomi-xiaomi-watch-strap-真皮表带-22mm.png",
       "configs": [
@@ -26160,10 +25510,10 @@
       ]
     },
     {
-      "id": "xiaomi-xiaomi-watch-strap真皮表带-大象灰",
+      "id": "xiaomi-xiaomi-watch-strap真皮表带",
       "brand": "xiaomi",
       "category": "配件",
-      "name": "Xiaomi Watch Strap真皮表带 大象灰",
+      "name": "Xiaomi Watch Strap真皮表带",
       "tag": "配件",
       "image": "/shop/img/xiaomi-xiaomi-watch-strap真皮表带-大象灰.png",
       "configs": [
@@ -26171,17 +25521,7 @@
           "label": "Xiaomi Watch Strap真皮表带 大象灰",
           "official": 199,
           "price": 189
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-xiaomi-watch-strap真皮表带-黑色",
-      "brand": "xiaomi",
-      "category": "配件",
-      "name": "Xiaomi Watch Strap真皮表带 黑色",
-      "tag": "配件",
-      "image": "/shop/img/xiaomi-xiaomi-watch-strap真皮表带-黑色.png",
-      "configs": [
+        },
         {
           "label": "Xiaomi Watch Strap真皮表带 黑色",
           "official": 199,
@@ -26758,7 +26098,7 @@
       "id": "xiaomi-小米67w充电器套装-轻享版-原装同款",
       "brand": "xiaomi",
       "category": "配件",
-      "name": "小米67W充电器套装 轻享版  原装同款",
+      "name": "小米67W充电器套装 轻享版 原装同款",
       "tag": "配件",
       "image": "/shop/img/xiaomi-小米67w充电器套装-轻享版-原装同款.png",
       "configs": [
@@ -26788,7 +26128,7 @@
       "id": "xiaomi-小米6a-磁吸编织快充数据线1m-usb-a-to-usb-c",
       "brand": "xiaomi",
       "category": "配件",
-      "name": "小米6A 磁吸编织快充数据线1m  USB-A to USB-C",
+      "name": "小米6A 磁吸编织快充数据线1m USB-A to USB-C",
       "tag": "配件",
       "image": "/shop/img/xiaomi-小米6a-磁吸编织快充数据线1m-usb-a-to-usb-c.png",
       "configs": [
@@ -26968,7 +26308,7 @@
       "id": "xiaomi-小米type-c充电器快充版-20w-白色",
       "brand": "xiaomi",
       "category": "配件",
-      "name": "小米Type-C充电器快充版 20W 白色",
+      "name": "小米Type-C充电器快充版 20W",
       "tag": "配件",
       "image": "/shop/img/xiaomi-小米type-c充电器快充版-20w-白色.png",
       "configs": [
@@ -27423,7 +26763,7 @@
       "id": "xiaomi-小米平板-7-7-pro-键盘式双面保护壳-plus-触控笔套装",
       "brand": "xiaomi",
       "category": "配件",
-      "name": "小米平板 7/7 Pro 键盘式双面保护壳+触控笔套装",
+      "name": "小米平板 7/7 Pro",
       "tag": "配件",
       "image": "/shop/img/xiaomi-小米平板-7-7-pro-键盘式双面保护壳-plus-触控笔套装.png",
       "configs": [
@@ -27458,7 +26798,7 @@
       "id": "xiaomi-小米平板5系列-磁吸双面保护壳-11英寸",
       "brand": "xiaomi",
       "category": "配件",
-      "name": "小米平板5系列 磁吸双面保护壳 11英寸",
+      "name": "小米平板5系列 磁吸双面保护壳",
       "tag": "配件",
       "image": "/shop/img/xiaomi-小米平板5系列-磁吸双面保护壳-11英寸.png",
       "configs": [
@@ -27496,17 +26836,7 @@
           "label": "赤霞橙",
           "official": 99,
           "price": 94
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-小米快拆真皮腕带-马卡龙蓝",
-      "brand": "xiaomi",
-      "category": "配件",
-      "name": "小米快拆真皮腕带 马卡龙蓝",
-      "tag": "配件",
-      "image": "/shop/img/xiaomi-小米快拆真皮腕带-马卡龙蓝.png",
-      "configs": [
+        },
         {
           "label": "小米快拆真皮腕带 马卡龙蓝",
           "official": 99,
@@ -27531,17 +26861,7 @@
           "label": "卡其棕",
           "official": 169,
           "price": 161
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-小米快拆科纳皮磁吸腕带-冰川白",
-      "brand": "xiaomi",
-      "category": "配件",
-      "name": "小米快拆科纳皮磁吸腕带 冰川白",
-      "tag": "配件",
-      "image": "/shop/img/xiaomi-小米快拆科纳皮磁吸腕带-冰川白.png",
-      "configs": [
+        },
         {
           "label": "小米快拆科纳皮磁吸腕带 冰川白",
           "official": 169,
@@ -27553,7 +26873,7 @@
       "id": "xiaomi-小米快拆米兰尼斯腕带-金色",
       "brand": "xiaomi",
       "category": "配件",
-      "name": "小米快拆米兰尼斯腕带 金色",
+      "name": "小米快拆米兰尼斯腕带",
       "tag": "配件",
       "image": "/shop/img/xiaomi-小米快拆米兰尼斯腕带-金色.png",
       "configs": [
@@ -27583,7 +26903,7 @@
       "id": "xiaomi-小米手环-不规则金属腕带-石墨灰",
       "brand": "xiaomi",
       "category": "配件",
-      "name": "小米手环 不规则金属腕带 石墨灰",
+      "name": "小米手环 不规则金属腕带",
       "tag": "配件",
       "image": "/shop/img/xiaomi-小米手环-不规则金属腕带-石墨灰.png",
       "configs": [
@@ -27648,7 +26968,7 @@
       "id": "xiaomi-小米手环-皮质双圈腕带-米白与橙",
       "brand": "xiaomi",
       "category": "配件",
-      "name": "小米手环 皮质双圈腕带 米白与橙",
+      "name": "小米手环 皮质双圈腕带",
       "tag": "配件",
       "image": "/shop/img/xiaomi-小米手环-皮质双圈腕带-米白与橙.png",
       "configs": [
@@ -28223,7 +27543,7 @@
       "id": "xiaomi-小米焦点触控笔pro笔尖-白色",
       "brand": "xiaomi",
       "category": "配件",
-      "name": "小米焦点触控笔pro笔尖 白色",
+      "name": "小米焦点触控笔pro笔尖",
       "tag": "配件",
       "image": "/shop/img/xiaomi-小米焦点触控笔pro笔尖-白色.png",
       "configs": [
@@ -28438,7 +27758,7 @@
       "id": "xiaomi-小米科纳皮磁吸腕带-冷杉绿",
       "brand": "xiaomi",
       "category": "配件",
-      "name": "小米科纳皮磁吸腕带 冷杉绿",
+      "name": "小米科纳皮磁吸腕带",
       "tag": "配件",
       "image": "/shop/img/xiaomi-小米科纳皮磁吸腕带-冷杉绿.png",
       "configs": [
@@ -28643,7 +27963,7 @@
       "id": "xiaomi-小米自带线充电宝10000-67w",
       "brand": "xiaomi",
       "category": "配件",
-      "name": "小米自带线充电宝10000   67W",
+      "name": "小米自带线充电宝10000 67W",
       "tag": "配件",
       "image": "/shop/img/xiaomi-小米自带线充电宝10000-67w.png",
       "configs": [
@@ -28823,7 +28143,7 @@
       "id": "xiaomi-小米车载公网对讲机-plus-支架套装",
       "brand": "xiaomi",
       "category": "配件",
-      "name": "小米车载公网对讲机+支架套装",
+      "name": "小米车载公网对讲机",
       "tag": "配件",
       "image": "/shop/img/xiaomi-小米车载公网对讲机-plus-支架套装.png",
       "configs": [
@@ -28868,7 +28188,7 @@
       "id": "xiaomi-小米金沙江充电宝-超薄磁吸-10000-45w",
       "brand": "xiaomi",
       "category": "配件",
-      "name": "小米金沙江充电宝  超薄磁吸 10000 45W",
+      "name": "小米金沙江充电宝 超薄磁吸 10000 45W",
       "tag": "配件",
       "image": "/shop/img/xiaomi-小米金沙江充电宝-超薄磁吸-10000-45w.png",
       "configs": [
@@ -29841,24 +29161,14 @@
           "label": "（金属银）",
           "official": 249,
           "price": 237
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-redmi-电脑音箱-2-pro-套装",
-      "brand": "xiaomi",
-      "category": "音频",
-      "name": "REDMI 电脑音箱 2 Pro 套装",
-      "tag": "音频",
-      "image": "/shop/img/xiaomi-redmi-电脑音箱-2-pro-套装.png",
-      "configs": [
+        },
         {
-          "label": "（石墨黑）",
+          "label": "套装 （石墨黑）",
           "official": 449,
           "price": 427
         },
         {
-          "label": "（金属银）",
+          "label": "套装 （金属银）",
           "official": 449,
           "price": 427
         }
@@ -29953,7 +29263,7 @@
       "id": "xiaomi-redmi小爱触屏音箱-8英寸",
       "brand": "xiaomi",
       "category": "音频",
-      "name": "Redmi小爱触屏音箱 8英寸",
+      "name": "Redmi小爱触屏音箱",
       "tag": "音频",
       "image": "/shop/img/xiaomi-redmi小爱触屏音箱-8英寸.png",
       "configs": [
@@ -30613,7 +29923,7 @@
       "id": "xiaomi-小米小爱音箱-play",
       "brand": "xiaomi",
       "category": "音频",
-      "name": "小米小爱音箱  Play",
+      "name": "小米小爱音箱 Play",
       "tag": "音频",
       "image": "/shop/img/xiaomi-小米小爱音箱-play.png",
       "configs": [
@@ -38008,7 +37318,7 @@
       "id": "huawei-mate-90-rs-非凡大师-16gb-plus-512gb-瑞红-ultimate-design",
       "brand": "huawei",
       "category": "手机",
-      "name": "Mate 90 RS 非凡大师 16GB+512GB 瑞红 ULTIMATE DESIGN",
+      "name": "Mate 90 RS 非凡大师 ULTIMATE DESIGN",
       "tag": "手机",
       "image": "/shop/img/huawei-mate-90-rs-非凡大师-16gb-plus-512gb-瑞红-ultimate-design.png",
       "configs": [
@@ -38058,7 +37368,7 @@
       "id": "huawei-mate-90-pro-max-12gb-plus-512gb-翡冷翠",
       "brand": "huawei",
       "category": "手机",
-      "name": "Mate 90 Pro Max 12GB+512GB 翡冷翠",
+      "name": "Mate 90 Pro Max",
       "tag": "手机",
       "image": "/shop/img/huawei-mate-90-pro-max-12gb-plus-512gb-翡冷翠.png",
       "configs": [
@@ -38148,7 +37458,7 @@
       "id": "huawei-mate-90-pro-12gb-plus-512gb-晶钻白",
       "brand": "huawei",
       "category": "手机",
-      "name": "Mate 90 Pro 12GB+512GB 晶钻白",
+      "name": "Mate 90 Pro",
       "tag": "手机",
       "image": "/shop/img/huawei-mate-90-pro-12gb-plus-512gb-晶钻白.png",
       "configs": [
@@ -38238,7 +37548,7 @@
       "id": "huawei-mate-90-12gb-plus-256gb-曜石黑",
       "brand": "huawei",
       "category": "手机",
-      "name": "Mate 90 12GB+256GB 曜石黑",
+      "name": "Mate 90",
       "tag": "手机",
       "image": "/shop/img/huawei-mate-90-12gb-plus-256gb-曜石黑.png",
       "configs": [
@@ -38308,7 +37618,7 @@
       "id": "huawei-nova-16-pro-12gb-plus-256gb-星空黑-双卡-全网通版",
       "brand": "huawei",
       "category": "手机",
-      "name": "nova 16 Pro 12GB+256GB 星空黑 双卡 全网通版",
+      "name": "nova 16 Pro",
       "tag": "手机",
       "image": "/shop/img/huawei-nova-16-pro-12gb-plus-256gb-星空黑-双卡-全网通版.png",
       "configs": [
@@ -38383,7 +37693,7 @@
       "id": "huawei-mate-xt-2-非凡大师-16gb-plus-1tb-皓白-ultimate-design",
       "brand": "huawei",
       "category": "手机",
-      "name": "Mate XT 2 非凡大师 16GB+1TB 皓白 ULTIMATE DESIGN",
+      "name": "Mate XT 2 非凡大师 ULTIMATE DESIGN",
       "tag": "手机",
       "image": "/shop/img/huawei-mate-xt-2-非凡大师-16gb-plus-1tb-皓白-ultimate-design.png",
       "configs": [
@@ -38458,7 +37768,7 @@
       "id": "huawei-pura-x-view-12gb-plus-512gb-零度白",
       "brand": "huawei",
       "category": "手机",
-      "name": "Pura X View 12GB+512GB 零度白",
+      "name": "Pura X View",
       "tag": "手机",
       "image": "/shop/img/huawei-pura-x-view-12gb-plus-512gb-零度白.png",
       "configs": [
@@ -38528,7 +37838,7 @@
       "id": "huawei-pura-x-max-12gb-plus-256gb-星际蓝",
       "brand": "huawei",
       "category": "手机",
-      "name": "Pura X Max 12GB+256GB 星际蓝",
+      "name": "Pura X Max",
       "tag": "手机",
       "image": "/shop/img/huawei-pura-x-max-12gb-plus-256gb-星际蓝.png",
       "configs": [
@@ -38658,7 +37968,7 @@
       "id": "huawei-nova-16-se-256gb-樱雪晴空-双卡-全网通版",
       "brand": "huawei",
       "category": "手机",
-      "name": "nova 16 SE 256GB 樱雪晴空 双卡 全网通版",
+      "name": "nova 16 SE 樱雪晴空",
       "tag": "手机",
       "image": "/shop/img/huawei-nova-16-se-256gb-樱雪晴空-双卡-全网通版.png",
       "configs": [
@@ -38933,7 +38243,7 @@
       "id": "huawei-matepad-air-z-8gb-plus-128gb-悦享款-皓月银",
       "brand": "huawei",
       "category": "平板",
-      "name": "MatePad Air Z 8GB+128GB 悦享款 皓月银",
+      "name": "MatePad Air Z 悦享款",
       "tag": "平板",
       "image": "/shop/img/huawei-matepad-air-z-8gb-plus-128gb-悦享款-皓月银.png",
       "configs": [
@@ -39028,7 +38338,7 @@
       "id": "huawei-matepad-air-12英寸-第三代-8gb-plus-256gb-悦享款-暖云白",
       "brand": "huawei",
       "category": "平板",
-      "name": "MatePad Air 12英寸（第三代）8GB+256GB 悦享款 暖云白",
+      "name": "MatePad Air 12英寸（第三代） 悦享款",
       "tag": "平板",
       "image": "/shop/img/huawei-matepad-air-12英寸-第三代-8gb-plus-256gb-悦享款-暖云白.png",
       "configs": [
@@ -39148,7 +38458,7 @@
       "id": "huawei-matepad-pro-12英寸-12gb-plus-256gb-悦享款-深空灰",
       "brand": "huawei",
       "category": "平板",
-      "name": "MatePad Pro 12英寸 12GB+256GB 悦享款 深空灰",
+      "name": "MatePad Pro 悦享款",
       "tag": "平板",
       "image": "/shop/img/huawei-matepad-pro-12英寸-12gb-plus-256gb-悦享款-深空灰.png",
       "configs": [
@@ -39228,7 +38538,7 @@
       "id": "huawei-matebook-fold-非凡大师-麒麟x90-plus-24gb-512gb-天际白-手写笔键盘套装",
       "brand": "huawei",
       "category": "笔记本",
-      "name": "MateBook Fold 非凡大师 麒麟X90 Plus 24GB 512GB 天际白 手写笔键盘套装",
+      "name": "MateBook Fold 非凡大师 麒麟X90 Plus 天际白 手写笔键盘套装",
       "tag": "笔记本",
       "image": "/shop/img/huawei-matebook-fold-非凡大师-麒麟x90-plus-24gb-512gb-天际白-手写笔键盘套装.png",
       "configs": [
@@ -39273,7 +38583,7 @@
       "id": "huawei-matebook-pro-s-16gb-512gb-烟云灰",
       "brand": "huawei",
       "category": "笔记本",
-      "name": "MateBook Pro S 16GB 512GB 烟云灰",
+      "name": "MateBook Pro S",
       "tag": "笔记本",
       "image": "/shop/img/huawei-matebook-pro-s-16gb-512gb-烟云灰.png",
       "configs": [
@@ -39363,7 +38673,7 @@
       "id": "huawei-matebook-pro-麒麟x90-plus-24gb-1tb-拂晓粉",
       "brand": "huawei",
       "category": "笔记本",
-      "name": "MateBook Pro 麒麟X90 Plus 24GB 1TB 拂晓粉",
+      "name": "MateBook Pro 麒麟X90 Plus",
       "tag": "笔记本",
       "image": "/shop/img/huawei-matebook-pro-麒麟x90-plus-24gb-1tb-拂晓粉.png",
       "configs": [
@@ -39428,7 +38738,7 @@
       "id": "huawei-matebook-14-鸿蒙版-16gb-512gb-圆键盘-原野绿",
       "brand": "huawei",
       "category": "笔记本",
-      "name": "MateBook 14 鸿蒙版 16GB 512GB 圆键盘 原野绿",
+      "name": "MateBook 14 鸿蒙版 圆键盘",
       "tag": "笔记本",
       "image": "/shop/img/huawei-matebook-14-鸿蒙版-16gb-512gb-圆键盘-原野绿.png",
       "configs": [
@@ -39493,7 +38803,7 @@
       "id": "huawei-mateview-gt-27英寸-2k-流畅版-标准款-星空黑",
       "brand": "huawei",
       "category": "数码",
-      "name": "MateView GT 27英寸 2K 流畅版 标准款 星空黑",
+      "name": "MateView GT 2K 流畅版 标准款",
       "tag": "数码",
       "image": "/shop/img/huawei-mateview-gt-27英寸-2k-流畅版-标准款-星空黑.png",
       "configs": [
@@ -39560,10 +38870,10 @@
       ]
     },
     {
-      "id": "huawei-freeclip-2-耳夹耳机-无线充-潮玩拼色-红-蓝",
+      "id": "huawei-freeclip-2-耳夹耳机-无线充",
       "brand": "huawei",
       "category": "音频",
-      "name": "FreeClip 2 耳夹耳机 无线充 潮玩拼色（红/蓝）",
+      "name": "FreeClip 2 耳夹耳机 无线充",
       "tag": "音频",
       "image": "/shop/img/huawei-freeclip-2-耳夹耳机-无线充-潮玩拼色-红-蓝.png",
       "configs": [
@@ -39573,12 +38883,42 @@
           "price": 1247
         },
         {
-          "label": "HUAWEI FreeClip 2 耳夹耳机 无线充 潮玩拼色（红/黄）",
+          "label": "潮玩拼色（红/蓝 HUAWEI FreeClip 2 耳夹耳机 无线充 潮玩拼色（红/黄）",
           "official": 1299,
           "price": 1247
         },
         {
-          "label": "HUAWEI FreeClip 2 耳夹耳机 无线充 潮玩拼色（蓝/黄）",
+          "label": "潮玩拼色（红/蓝 HUAWEI FreeClip 2 耳夹耳机 无线充 潮玩拼色（蓝/黄）",
+          "official": 1299,
+          "price": 1247
+        },
+        {
+          "label": "HUAWEI FreeClip 2 耳夹耳机 无线充 玫瑰金",
+          "official": 1299,
+          "price": 1247
+        },
+        {
+          "label": "玫瑰金 HUAWEI FreeClip 2 耳夹耳机 无线充 摩登黑",
+          "official": 1299,
+          "price": 1247
+        },
+        {
+          "label": "玫瑰金 HUAWEI FreeClip 2 耳夹耳机 无线充 羽沙白",
+          "official": 1299,
+          "price": 1247
+        },
+        {
+          "label": "玫瑰金 HUAWEI FreeClip 2 耳夹耳机 无线充 丹宁蓝",
+          "official": 1299,
+          "price": 1247
+        },
+        {
+          "label": "玫瑰金 HUAWEI FreeClip 2 × 周大福 一發暴富套装礼盒",
+          "official": 3388,
+          "price": 3218
+        },
+        {
+          "label": "玫瑰金 HUAWEI FreeClip 2 耳夹耳机 无线充 冰莓紫",
           "official": 1299,
           "price": 1247
         }
@@ -39623,7 +38963,7 @@
       "id": "huawei-freebuds-7-悦彰耳机-无线充-日光橙",
       "brand": "huawei",
       "category": "音频",
-      "name": "FreeBuds 7 悦彰耳机 无线充 日光橙",
+      "name": "FreeBuds 7 悦彰耳机 无线充",
       "tag": "音频",
       "image": "/shop/img/huawei-freebuds-7-悦彰耳机-无线充-日光橙.png",
       "configs": [
@@ -39653,7 +38993,7 @@
       "id": "huawei-智慧屏-v7-教育版-75英寸",
       "brand": "huawei",
       "category": "智慧屏",
-      "name": "智慧屏 V7 教育版 75英寸",
+      "name": "智慧屏 V7 教育版",
       "tag": "智慧屏",
       "image": "/shop/img/huawei-智慧屏-v7-教育版-75英寸.png",
       "configs": [
@@ -39673,7 +39013,7 @@
       "id": "huawei-智慧屏-matetv-2-max-110英寸",
       "brand": "huawei",
       "category": "智慧屏",
-      "name": "智慧屏 MateTV 2 Max 110英寸",
+      "name": "智慧屏 MateTV 2 Max",
       "tag": "智慧屏",
       "image": "/shop/img/huawei-智慧屏-matetv-2-max-110英寸.png",
       "configs": [
@@ -39688,7 +39028,7 @@
       "id": "huawei-智慧屏-matetv-2-pro-75英寸",
       "brand": "huawei",
       "category": "智慧屏",
-      "name": "智慧屏 MateTV 2 Pro 75英寸",
+      "name": "智慧屏 MateTV 2 Pro",
       "tag": "智慧屏",
       "image": "/shop/img/huawei-智慧屏-matetv-2-pro-75英寸.png",
       "configs": [
@@ -39713,7 +39053,7 @@
       "id": "huawei-智慧屏-matetv-2-65英寸",
       "brand": "huawei",
       "category": "智慧屏",
-      "name": "智慧屏 MateTV 2 65英寸",
+      "name": "智慧屏 MateTV 2",
       "tag": "智慧屏",
       "image": "/shop/img/huawei-智慧屏-matetv-2-65英寸.png",
       "configs": [
@@ -39743,7 +39083,7 @@
       "id": "huawei-智慧屏-matetv-2-悦享版-65英寸",
       "brand": "huawei",
       "category": "智慧屏",
-      "name": "智慧屏 MateTV 2 悦享版 65英寸",
+      "name": "智慧屏 MateTV 2 悦享版",
       "tag": "智慧屏",
       "image": "/shop/img/huawei-智慧屏-matetv-2-悦享版-65英寸.png",
       "configs": [
@@ -39768,7 +39108,7 @@
       "id": "huawei-vision智慧屏-6-悦享版-65英寸",
       "brand": "huawei",
       "category": "智慧屏",
-      "name": "Vision智慧屏 6 悦享版 65英寸",
+      "name": "Vision智慧屏 6 悦享版",
       "tag": "智慧屏",
       "image": "/shop/img/huawei-vision智慧屏-6-悦享版-65英寸.png",
       "configs": [
@@ -39798,7 +39138,7 @@
       "id": "huawei-智慧屏-s7-rgb-55英寸",
       "brand": "huawei",
       "category": "智慧屏",
-      "name": "智慧屏 S7 RGB 55英寸",
+      "name": "智慧屏 S7 RGB",
       "tag": "智慧屏",
       "image": "/shop/img/huawei-智慧屏-s7-rgb-55英寸.png",
       "configs": [
@@ -39823,7 +39163,7 @@
       "id": "huawei-vision智慧屏-6-se-rgb-55英寸",
       "brand": "huawei",
       "category": "智慧屏",
-      "name": "Vision智慧屏 6 SE RGB 55英寸",
+      "name": "Vision智慧屏 6 SE RGB",
       "tag": "智慧屏",
       "image": "/shop/img/huawei-vision智慧屏-6-se-rgb-55英寸.png",
       "configs": [
@@ -39848,7 +39188,7 @@
       "id": "huawei-智能门锁-2-pro-悦享版-星际黑",
       "brand": "huawei",
       "category": "智能门锁",
-      "name": "智能门锁 2 Pro 悦享版 星际黑",
+      "name": "智能门锁 2 Pro 悦享版",
       "tag": "智能门锁",
       "image": "/shop/img/huawei-智能门锁-2-pro-悦享版-星际黑.png",
       "configs": [
@@ -39863,7 +39203,7 @@
       "id": "huawei-路由-x2-pro-大地棕",
       "brand": "huawei",
       "category": "路由/网络",
-      "name": "路由 X2 Pro 大地棕",
+      "name": "路由 X2 Pro",
       "tag": "路由/网络",
       "image": "/shop/img/huawei-路由-x2-pro-大地棕.png",
       "configs": [
@@ -39893,7 +39233,7 @@
       "id": "huawei-路由-x2-白色",
       "brand": "huawei",
       "category": "路由/网络",
-      "name": "路由 X2 白色",
+      "name": "路由 X2",
       "tag": "路由/网络",
       "image": "/shop/img/huawei-路由-x2-白色.png",
       "configs": [
@@ -39913,7 +39253,7 @@
       "id": "huawei-随行-wifi-6-pro-银色",
       "brand": "huawei",
       "category": "路由/网络",
-      "name": "随行 WiFi 6 Pro 银色",
+      "name": "随行 WiFi 6 Pro",
       "tag": "路由/网络",
       "image": "/shop/img/huawei-随行-wifi-6-pro-银色.png",
       "configs": [
@@ -39928,7 +39268,7 @@
       "id": "huawei-随行-wifi-5-esim-青色",
       "brand": "huawei",
       "category": "路由/网络",
-      "name": "随行 WiFi 5 eSIM 青色",
+      "name": "随行 WiFi 5 eSIM",
       "tag": "路由/网络",
       "image": "/shop/img/huawei-随行-wifi-5-esim-青色.png",
       "configs": [
@@ -39978,7 +39318,7 @@
       "id": "huawei-dji-osmo-pocket-4-标准套装-经典黑",
       "brand": "huawei",
       "category": "数码",
-      "name": "× DJI Osmo Pocket 4 标准套装 经典黑",
+      "name": "× DJI Osmo Pocket 4 标准套装",
       "tag": "数码",
       "image": "/shop/img/huawei-dji-osmo-pocket-4-标准套装-经典黑.png",
       "configs": [
@@ -40028,7 +39368,7 @@
       "id": "huawei-轻尚双肩包-黑色",
       "brand": "huawei",
       "category": "配件",
-      "name": "轻尚双肩包 黑色",
+      "name": "轻尚双肩包",
       "tag": "配件",
       "image": "/shop/img/huawei-轻尚双肩包-黑色.png",
       "configs": [
@@ -40078,7 +39418,7 @@
       "id": "huawei-mate-x7-12gb-plus-256gb-云锦蓝",
       "brand": "huawei",
       "category": "手机",
-      "name": "Mate X7 12GB+256GB 云锦蓝",
+      "name": "Mate X7",
       "tag": "手机",
       "image": "/shop/img/huawei-mate-x7-12gb-plus-256gb-云锦蓝.png",
       "configs": [
@@ -40198,7 +39538,7 @@
       "id": "huawei-mate-80-rs-非凡大师-20gb-plus-512gb-槿紫-ultimate-design",
       "brand": "huawei",
       "category": "手机",
-      "name": "Mate 80 RS 非凡大师 20GB+512GB 槿紫 ULTIMATE DESIGN",
+      "name": "Mate 80 RS 非凡大师 ULTIMATE DESIGN",
       "tag": "手机",
       "image": "/shop/img/huawei-mate-80-rs-非凡大师-20gb-plus-512gb-槿紫-ultimate-design.png",
       "configs": [
@@ -40238,7 +39578,7 @@
       "id": "huawei-mate-80-pro-max-16gb-plus-512gb-极地银",
       "brand": "huawei",
       "category": "手机",
-      "name": "Mate 80 Pro Max 16GB+512GB 极地银",
+      "name": "Mate 80 Pro Max",
       "tag": "手机",
       "image": "/shop/img/huawei-mate-80-pro-max-16gb-plus-512gb-极地银.png",
       "configs": [
@@ -40288,7 +39628,7 @@
       "id": "huawei-mate-80-pro-max-风驰版-16gb-plus-512gb-极夜黑",
       "brand": "huawei",
       "category": "手机",
-      "name": "Mate 80 Pro Max 风驰版 16GB+512GB 极夜黑",
+      "name": "Mate 80 Pro Max 风驰版",
       "tag": "手机",
       "image": "/shop/img/huawei-mate-80-pro-max-风驰版-16gb-plus-512gb-极夜黑.png",
       "configs": [
@@ -40308,7 +39648,7 @@
       "id": "huawei-mate-80-pro-12gb-plus-256gb-雪域白",
       "brand": "huawei",
       "category": "手机",
-      "name": "Mate 80 Pro 12GB+256GB 雪域白",
+      "name": "Mate 80 Pro",
       "tag": "手机",
       "image": "/shop/img/huawei-mate-80-pro-12gb-plus-256gb-雪域白.png",
       "configs": [
@@ -40398,7 +39738,7 @@
       "id": "huawei-mate-80-12gb-plus-512gb-雪域白",
       "brand": "huawei",
       "category": "手机",
-      "name": "Mate 80 12GB+512GB 雪域白",
+      "name": "Mate 80",
       "tag": "手机",
       "image": "/shop/img/huawei-mate-80-12gb-plus-512gb-雪域白.png",
       "configs": [
@@ -40473,7 +39813,7 @@
       "id": "huawei-mate-xts-非凡大师-16gb-plus-256gb-槿紫-ultimate-design",
       "brand": "huawei",
       "category": "手机",
-      "name": "Mate XTs 非凡大师 16GB+256GB 槿紫 ULTIMATE DESIGN",
+      "name": "Mate XTs 非凡大师 ULTIMATE DESIGN",
       "tag": "手机",
       "image": "/shop/img/huawei-mate-xts-非凡大师-16gb-plus-256gb-槿紫-ultimate-design.png",
       "configs": [
@@ -40543,7 +39883,7 @@
       "id": "huawei-mate-x6-12gb-plus-256gb-曜石黑",
       "brand": "huawei",
       "category": "手机",
-      "name": "Mate X6 12GB+256GB 曜石黑",
+      "name": "Mate X6",
       "tag": "手机",
       "image": "/shop/img/huawei-mate-x6-12gb-plus-256gb-曜石黑.png",
       "configs": [
@@ -40638,7 +39978,7 @@
       "id": "huawei-mate-70-pro-plus-16gb-plus-512gb-墨韵黑",
       "brand": "huawei",
       "category": "手机",
-      "name": "Mate 70 Pro+ 16GB+512GB 墨韵黑",
+      "name": "Mate 70 Pro+",
       "tag": "手机",
       "image": "/shop/img/huawei-mate-70-pro-plus-16gb-plus-512gb-墨韵黑.png",
       "configs": [
@@ -40658,7 +39998,7 @@
       "id": "huawei-mate-70-pro-12gb-plus-256gb-曜石黑",
       "brand": "huawei",
       "category": "手机",
-      "name": "Mate 70 Pro 12GB+256GB 曜石黑",
+      "name": "Mate 70 Pro",
       "tag": "手机",
       "image": "/shop/img/huawei-mate-70-pro-12gb-plus-256gb-曜石黑.png",
       "configs": [
@@ -40678,7 +40018,7 @@
       "id": "huawei-mate-70-pro-优享版-12gb-plus-256gb-雪域白",
       "brand": "huawei",
       "category": "手机",
-      "name": "Mate 70 Pro 优享版 12GB+256GB 雪域白",
+      "name": "Mate 70 Pro 优享版",
       "tag": "手机",
       "image": "/shop/img/huawei-mate-70-pro-优享版-12gb-plus-256gb-雪域白.png",
       "configs": [
@@ -40698,7 +40038,7 @@
       "id": "huawei-mate-70-air-16gb-plus-512gb-羽衣白",
       "brand": "huawei",
       "category": "手机",
-      "name": "Mate 70 Air 16GB+512GB 羽衣白",
+      "name": "Mate 70 Air",
       "tag": "手机",
       "image": "/shop/img/huawei-mate-70-air-16gb-plus-512gb-羽衣白.png",
       "configs": [
@@ -40768,7 +40108,7 @@
       "id": "huawei-pura-90-pro-max-12gb-plus-256gb-橘子海",
       "brand": "huawei",
       "category": "手机",
-      "name": "Pura 90 Pro Max 12GB+256GB 橘子海",
+      "name": "Pura 90 Pro Max 橘子海",
       "tag": "手机",
       "image": "/shop/img/huawei-pura-90-pro-max-12gb-plus-256gb-橘子海.png",
       "configs": [
@@ -40878,7 +40218,7 @@
       "id": "huawei-pura-90-pro-12gb-plus-256gb-椰青白",
       "brand": "huawei",
       "category": "手机",
-      "name": "Pura 90 Pro 12GB+256GB 椰青白",
+      "name": "Pura 90 Pro",
       "tag": "手机",
       "image": "/shop/img/huawei-pura-90-pro-12gb-plus-256gb-椰青白.png",
       "configs": [
@@ -40968,7 +40308,7 @@
       "id": "huawei-pura-90-12gb-plus-256gb-雪域白",
       "brand": "huawei",
       "category": "手机",
-      "name": "Pura 90 12GB+256GB 雪域白",
+      "name": "Pura 90",
       "tag": "手机",
       "image": "/shop/img/huawei-pura-90-12gb-plus-256gb-雪域白.png",
       "configs": [
@@ -41023,7 +40363,7 @@
       "id": "huawei-pura-80-ultra-16gb-plus-512gb-鎏光金",
       "brand": "huawei",
       "category": "手机",
-      "name": "Pura 80 Ultra 16GB+512GB 鎏光金",
+      "name": "Pura 80 Ultra",
       "tag": "手机",
       "image": "/shop/img/huawei-pura-80-ultra-16gb-plus-512gb-鎏光金.png",
       "configs": [
@@ -41053,7 +40393,7 @@
       "id": "huawei-pura-80-pro-plus-16gb-plus-512gb-釉青",
       "brand": "huawei",
       "category": "手机",
-      "name": "Pura 80 Pro+ 16GB+512GB 釉青",
+      "name": "Pura 80 Pro+",
       "tag": "手机",
       "image": "/shop/img/huawei-pura-80-pro-plus-16gb-plus-512gb-釉青.png",
       "configs": [
@@ -41103,7 +40443,7 @@
       "id": "huawei-pura-80-pro-12gb-plus-512gb-釉金",
       "brand": "huawei",
       "category": "手机",
-      "name": "Pura 80 Pro 12GB+512GB 釉金",
+      "name": "Pura 80 Pro",
       "tag": "手机",
       "image": "/shop/img/huawei-pura-80-pro-12gb-plus-512gb-釉金.png",
       "configs": [
@@ -41158,7 +40498,7 @@
       "id": "huawei-pura-80-12gb-plus-512gb-丝绒绿",
       "brand": "huawei",
       "category": "手机",
-      "name": "Pura 80 12GB+512GB 丝绒绿",
+      "name": "Pura 80",
       "tag": "手机",
       "image": "/shop/img/huawei-pura-80-12gb-plus-512gb-丝绒绿.png",
       "configs": [
@@ -41228,7 +40568,7 @@
       "id": "huawei-pura-x-12gb-plus-256gb-零度白",
       "brand": "huawei",
       "category": "手机",
-      "name": "Pura X 12GB+256GB 零度白",
+      "name": "Pura X",
       "tag": "手机",
       "image": "/shop/img/huawei-pura-x-12gb-plus-256gb-零度白.png",
       "configs": [
@@ -41338,7 +40678,7 @@
       "id": "huawei-nova-16-ultra-12gb-plus-512gb-天际白-双卡-全网通版",
       "brand": "huawei",
       "category": "手机",
-      "name": "nova 16 Ultra 12GB+512GB 天际白 双卡 全网通版",
+      "name": "nova 16 Ultra",
       "tag": "手机",
       "image": "/shop/img/huawei-nova-16-ultra-12gb-plus-512gb-天际白-双卡-全网通版.png",
       "configs": [
@@ -41393,7 +40733,7 @@
       "id": "huawei-nova-16-12gb-plus-256gb-星空黑-双卡-全网通版",
       "brand": "huawei",
       "category": "手机",
-      "name": "nova 16 12GB+256GB 星空黑 双卡 全网通版",
+      "name": "nova 16",
       "tag": "手机",
       "image": "/shop/img/huawei-nova-16-12gb-plus-256gb-星空黑-双卡-全网通版.png",
       "configs": [
@@ -41443,7 +40783,7 @@
       "id": "huawei-nova-16z-12gb-plus-512gb-幻彩贝母-双卡-全网通版",
       "brand": "huawei",
       "category": "手机",
-      "name": "nova 16z 12GB+512GB 幻彩贝母 双卡 全网通版",
+      "name": "nova 16z 幻彩贝母",
       "tag": "手机",
       "image": "/shop/img/huawei-nova-16z-12gb-plus-512gb-幻彩贝母-双卡-全网通版.png",
       "configs": [
@@ -41483,7 +40823,7 @@
       "id": "huawei-nova-15-ultra-256gb-带感绿-双卡-全网通版-昆仑玻璃",
       "brand": "huawei",
       "category": "手机",
-      "name": "nova 15 Ultra 256GB 带感绿 双卡 全网通版 昆仑玻璃",
+      "name": "nova 15 Ultra 带感绿 双卡 全网通版 昆仑玻璃",
       "tag": "手机",
       "image": "/shop/img/huawei-nova-15-ultra-256gb-带感绿-双卡-全网通版-昆仑玻璃.png",
       "configs": [
@@ -41553,7 +40893,7 @@
       "id": "huawei-nova-15-pro-256gb-幻夜黑-双卡-全网通版-昆仑玻璃",
       "brand": "huawei",
       "category": "手机",
-      "name": "nova 15 Pro 256GB 幻夜黑 双卡 全网通版 昆仑玻璃",
+      "name": "nova 15 Pro 幻夜黑 双卡 全网通版 昆仑玻璃",
       "tag": "手机",
       "image": "/shop/img/huawei-nova-15-pro-256gb-幻夜黑-双卡-全网通版-昆仑玻璃.png",
       "configs": [
@@ -41623,7 +40963,7 @@
       "id": "huawei-nova-15-256gb-好搭紫-双卡-全网通版",
       "brand": "huawei",
       "category": "手机",
-      "name": "nova 15 256GB 好搭紫 双卡 全网通版",
+      "name": "nova 15",
       "tag": "手机",
       "image": "/shop/img/huawei-nova-15-256gb-好搭紫-双卡-全网通版.png",
       "configs": [
@@ -41673,7 +41013,7 @@
       "id": "huawei-nova-14-ultra-256gb-曜金黑-双卡-全网通版",
       "brand": "huawei",
       "category": "手机",
-      "name": "nova 14 Ultra 256GB 曜金黑 双卡 全网通版",
+      "name": "nova 14 Ultra",
       "tag": "手机",
       "image": "/shop/img/huawei-nova-14-ultra-256gb-曜金黑-双卡-全网通版.png",
       "configs": [
@@ -41688,7 +41028,7 @@
       "id": "huawei-nova-14-活力版-256gb-羽砂黑-双卡-全网通版",
       "brand": "huawei",
       "category": "手机",
-      "name": "nova 14 活力版 256GB 羽砂黑 双卡 全网通版",
+      "name": "nova 14 活力版",
       "tag": "手机",
       "image": "/shop/img/huawei-nova-14-活力版-256gb-羽砂黑-双卡-全网通版.png",
       "configs": [
@@ -41728,7 +41068,7 @@
       "id": "huawei-畅享-90-pro-max-256gb-曜金黑",
       "brand": "huawei",
       "category": "手机",
-      "name": "畅享 90 Pro Max 256GB 曜金黑",
+      "name": "畅享 90 Pro Max",
       "tag": "手机",
       "image": "/shop/img/huawei-畅享-90-pro-max-256gb-曜金黑.png",
       "configs": [
@@ -41798,7 +41138,7 @@
       "id": "huawei-畅享-90-plus-128gb-星空黑",
       "brand": "huawei",
       "category": "手机",
-      "name": "畅享 90 Plus 128GB 星空黑",
+      "name": "畅享 90 Plus",
       "tag": "手机",
       "image": "/shop/img/huawei-畅享-90-plus-128gb-星空黑.png",
       "configs": [
@@ -41838,7 +41178,7 @@
       "id": "huawei-畅享-90-256gb-星海蓝",
       "brand": "huawei",
       "category": "手机",
-      "name": "畅享 90 256GB 星海蓝",
+      "name": "畅享 90",
       "tag": "手机",
       "image": "/shop/img/huawei-畅享-90-256gb-星海蓝.png",
       "configs": [
@@ -41878,7 +41218,7 @@
       "id": "huawei-wiko-x70-12gb-plus-256gb-曜金黑",
       "brand": "huawei",
       "category": "手机",
-      "name": "WIKO X70 12GB+256GB 曜金黑",
+      "name": "WIKO X70",
       "tag": "手机",
       "image": "/shop/img/huawei-wiko-x70-12gb-plus-256gb-曜金黑.png",
       "configs": [
@@ -41933,7 +41273,7 @@
       "id": "huawei-hi畅享-80-pro-8gb-plus-256gb-星空黑",
       "brand": "huawei",
       "category": "手机",
-      "name": "Hi畅享 80 Pro 8GB+256GB 星空黑",
+      "name": "Hi畅享 80 Pro",
       "tag": "手机",
       "image": "/shop/img/huawei-hi畅享-80-pro-8gb-plus-256gb-星空黑.png",
       "configs": [
@@ -41988,7 +41328,7 @@
       "id": "huawei-麦芒40-5g-8gb-plus-256gb-原野绿",
       "brand": "huawei",
       "category": "手机",
-      "name": "麦芒40 5G 8GB+256GB 原野绿",
+      "name": "麦芒40",
       "tag": "手机",
       "image": "/shop/img/huawei-麦芒40-5g-8gb-plus-256gb-原野绿.png",
       "configs": [
@@ -42043,7 +41383,7 @@
       "id": "huawei-hi畅享80-8gb-plus-128gb-曜石黑",
       "brand": "huawei",
       "category": "手机",
-      "name": "Hi畅享80 8GB+128GB 曜石黑",
+      "name": "Hi畅享80",
       "tag": "手机",
       "image": "/shop/img/huawei-hi畅享80-8gb-plus-128gb-曜石黑.png",
       "configs": [
@@ -42113,7 +41453,7 @@
       "id": "huawei-hi畅享-80s-6gb-plus-128gb-晴空蓝",
       "brand": "huawei",
       "category": "手机",
-      "name": "Hi畅享 80S 6GB+128GB 晴空蓝",
+      "name": "Hi畅享 80S",
       "tag": "手机",
       "image": "/shop/img/huawei-hi畅享-80s-6gb-plus-128gb-晴空蓝.png",
       "configs": [
@@ -42483,7 +41823,7 @@
       "id": "huawei-手环-10-标准版-曜石黑",
       "brand": "huawei",
       "category": "穿戴",
-      "name": "手环 10 标准版 曜石黑",
+      "name": "手环 10 标准版",
       "tag": "穿戴",
       "image": "/shop/img/huawei-手环-10-标准版-曜石黑.png",
       "configs": [
@@ -42538,7 +41878,7 @@
       "id": "huawei-超新星手表-x1-pro-梦幻紫",
       "brand": "huawei",
       "category": "穿戴",
-      "name": "超新星手表 X1 Pro 梦幻紫",
+      "name": "超新星手表 X1 Pro",
       "tag": "穿戴",
       "image": "/shop/img/huawei-超新星手表-x1-pro-梦幻紫.png",
       "configs": [
@@ -42558,7 +41898,7 @@
       "id": "huawei-超新星手表-x1-星云粉",
       "brand": "huawei",
       "category": "穿戴",
-      "name": "超新星手表 X1 星云粉",
+      "name": "超新星手表 X1",
       "tag": "穿戴",
       "image": "/shop/img/huawei-超新星手表-x1-星云粉.png",
       "configs": [
@@ -42578,7 +41918,7 @@
       "id": "huawei-儿童手表-5-pro-冰晶蓝",
       "brand": "huawei",
       "category": "穿戴",
-      "name": "儿童手表 5 Pro 冰晶蓝",
+      "name": "儿童手表 5 Pro",
       "tag": "穿戴",
       "image": "/shop/img/huawei-儿童手表-5-pro-冰晶蓝.png",
       "configs": [
@@ -42608,7 +41948,7 @@
       "id": "huawei-儿童手表-5-新耀版-蓝色",
       "brand": "huawei",
       "category": "穿戴",
-      "name": "儿童手表 5 新耀版 蓝色",
+      "name": "儿童手表 5 新耀版",
       "tag": "穿戴",
       "image": "/shop/img/huawei-儿童手表-5-新耀版-蓝色.png",
       "configs": [
@@ -42628,7 +41968,7 @@
       "id": "huawei-儿童手表-5-活力版-星际蓝",
       "brand": "huawei",
       "category": "穿戴",
-      "name": "儿童手表 5 活力版 星际蓝",
+      "name": "儿童手表 5 活力版",
       "tag": "穿戴",
       "image": "/shop/img/huawei-儿童手表-5-活力版-星际蓝.png",
       "configs": [
@@ -42648,7 +41988,7 @@
       "id": "huawei-儿童手表-5-仲夏紫",
       "brand": "huawei",
       "category": "穿戴",
-      "name": "儿童手表 5 仲夏紫",
+      "name": "儿童手表 5",
       "tag": "穿戴",
       "image": "/shop/img/huawei-儿童手表-5-仲夏紫.png",
       "configs": [
@@ -42668,7 +42008,7 @@
       "id": "huawei-儿童手表-5x-pro-极光紫",
       "brand": "huawei",
       "category": "穿戴",
-      "name": "儿童手表 5X Pro 极光紫",
+      "name": "儿童手表 5X Pro",
       "tag": "穿戴",
       "image": "/shop/img/huawei-儿童手表-5x-pro-极光紫.png",
       "configs": [
@@ -42688,7 +42028,7 @@
       "id": "huawei-儿童手表-5x-星际蓝",
       "brand": "huawei",
       "category": "穿戴",
-      "name": "儿童手表 5X 星际蓝",
+      "name": "儿童手表 5X",
       "tag": "穿戴",
       "image": "/shop/img/huawei-儿童手表-5x-星际蓝.png",
       "configs": [
@@ -42708,7 +42048,7 @@
       "id": "huawei-儿童手表-4-pro-蓝色",
       "brand": "huawei",
       "category": "穿戴",
-      "name": "儿童手表 4 Pro 蓝色",
+      "name": "儿童手表 4 Pro",
       "tag": "穿戴",
       "image": "/shop/img/huawei-儿童手表-4-pro-蓝色.png",
       "configs": [
@@ -42728,7 +42068,7 @@
       "id": "huawei-智能体脂秤-3-蓝牙版-蓝楹紫",
       "brand": "huawei",
       "category": "音频",
-      "name": "智能体脂秤 3 蓝牙版 蓝楹紫",
+      "name": "智能体脂秤 3 蓝牙版",
       "tag": "音频",
       "image": "/shop/img/huawei-智能体脂秤-3-蓝牙版-蓝楹紫.png",
       "configs": [
@@ -42778,7 +42118,7 @@
       "id": "huawei-matepad-edge-wifi-16gb-plus-256gb-深空灰",
       "brand": "huawei",
       "category": "平板",
-      "name": "MatePad Edge WiFi 16GB+256GB 深空灰",
+      "name": "MatePad Edge WiFi",
       "tag": "平板",
       "image": "/shop/img/huawei-matepad-edge-wifi-16gb-plus-256gb-深空灰.png",
       "configs": [
@@ -42853,7 +42193,7 @@
       "id": "huawei-matepad-pro-max-12gb-plus-256gb-悦享款-深空灰",
       "brand": "huawei",
       "category": "平板",
-      "name": "MatePad Pro Max 12GB+256GB 悦享款 深空灰",
+      "name": "MatePad Pro Max 悦享款",
       "tag": "平板",
       "image": "/shop/img/huawei-matepad-pro-max-12gb-plus-256gb-悦享款-深空灰.png",
       "configs": [
@@ -42943,7 +42283,7 @@
       "id": "huawei-matepad-mini-悦读版-鸿蒙焕新版-全网通-12gb-plus-256gb-雪域白",
       "brand": "huawei",
       "category": "平板",
-      "name": "MatePad Mini 悦读版 鸿蒙焕新版 全网通 12GB+256GB 雪域白",
+      "name": "MatePad Mini 悦读版 鸿蒙焕新版",
       "tag": "平板",
       "image": "/shop/img/huawei-matepad-mini-悦读版-鸿蒙焕新版-全网通-12gb-plus-256gb-雪域白.png",
       "configs": [
@@ -42973,7 +42313,7 @@
       "id": "huawei-matepad-mini-悦读版-全网通-柔光屏-12gb-plus-256gb-雪域白",
       "brand": "huawei",
       "category": "平板",
-      "name": "MatePad Mini 悦读版 全网通 柔光屏 12GB+256GB 雪域白",
+      "name": "MatePad Mini 悦读版 全网通 柔光屏",
       "tag": "平板",
       "image": "/shop/img/huawei-matepad-mini-悦读版-全网通-柔光屏-12gb-plus-256gb-雪域白.png",
       "configs": [
@@ -43028,7 +42368,7 @@
       "id": "huawei-matepad-11-5-鸿蒙焕新版-wifi-8gb-plus-128gb-深空灰",
       "brand": "huawei",
       "category": "平板",
-      "name": "MatePad 11.5 鸿蒙焕新版 WiFi 8GB+128GB 深空灰",
+      "name": "MatePad 11.5 鸿蒙焕新版 WiFi",
       "tag": "平板",
       "image": "/shop/img/huawei-matepad-11-5-鸿蒙焕新版-wifi-8gb-plus-128gb-深空灰.png",
       "configs": [
@@ -43113,7 +42453,7 @@
       "id": "huawei-matepad-11-5-s-灵动款-鸿蒙焕新版-wifi-8gb-plus-256gb-深空灰",
       "brand": "huawei",
       "category": "平板",
-      "name": "MatePad 11.5 S 灵动款 鸿蒙焕新版 WiFi 8GB+256GB 深空灰",
+      "name": "MatePad 11.5 S 灵动款 鸿蒙焕新版 WiFi",
       "tag": "平板",
       "image": "/shop/img/huawei-matepad-11-5-s-灵动款-鸿蒙焕新版-wifi-8gb-plus-256gb-深空灰.png",
       "configs": [
@@ -43178,7 +42518,7 @@
       "id": "huawei-matepad-se-11英寸-焕新版-wifi-8gb-plus-256gb-星海蓝",
       "brand": "huawei",
       "category": "平板",
-      "name": "MatePad SE 11英寸 焕新版 WiFi 8GB+256GB 星海蓝",
+      "name": "MatePad SE 焕新版 WiFi",
       "tag": "平板",
       "image": "/shop/img/huawei-matepad-se-11英寸-焕新版-wifi-8gb-plus-256gb-星海蓝.png",
       "configs": [
@@ -43198,7 +42538,7 @@
       "id": "huawei-hi-matepad-wifi-8gb-plus-128gb-湖光青",
       "brand": "huawei",
       "category": "平板",
-      "name": "Hi MatePad WiFi 8GB+128GB 湖光青",
+      "name": "Hi MatePad WiFi",
       "tag": "平板",
       "image": "/shop/img/huawei-hi-matepad-wifi-8gb-plus-128gb-湖光青.png",
       "configs": [
@@ -43278,7 +42618,7 @@
       "id": "huawei-matebook-fold-非凡大师-32gb-2tb-瑞红",
       "brand": "huawei",
       "category": "笔记本",
-      "name": "MateBook Fold 非凡大师 32GB 2TB 瑞红",
+      "name": "MateBook Fold 非凡大师",
       "tag": "笔记本",
       "image": "/shop/img/huawei-matebook-fold-非凡大师-32gb-2tb-瑞红.png",
       "configs": [
@@ -43308,7 +42648,7 @@
       "id": "huawei-hi-matebook-14-酷睿-ultra-5-24gb-1tb-圆键盘-晨曦金",
       "brand": "huawei",
       "category": "笔记本",
-      "name": "Hi MateBook 14 酷睿 Ultra 5 24GB 1TB 圆键盘 晨曦金",
+      "name": "Hi MateBook 14 酷睿 Ultra 5 圆键盘",
       "tag": "笔记本",
       "image": "/shop/img/huawei-hi-matebook-14-酷睿-ultra-5-24gb-1tb-圆键盘-晨曦金.png",
       "configs": [
@@ -43323,7 +42663,7 @@
       "id": "huawei-hi-matebook-14-锐龙版-24gb-1tb-晨曦金-圆形键盘",
       "brand": "huawei",
       "category": "笔记本",
-      "name": "Hi MateBook 14 锐龙版 24GB 1TB 晨曦金 圆形键盘",
+      "name": "Hi MateBook 14 锐龙版 晨曦金 圆形键盘",
       "tag": "笔记本",
       "image": "/shop/img/huawei-hi-matebook-14-锐龙版-24gb-1tb-晨曦金-圆形键盘.png",
       "configs": [
@@ -43343,7 +42683,7 @@
       "id": "huawei-hi-matebook-d-14-core-7-240h-16gb-1tb-深空灰-v2-0",
       "brand": "huawei",
       "category": "笔记本",
-      "name": "Hi MateBook D 14 Core 7 240H 16GB 1TB 深空灰 V2.0",
+      "name": "Hi MateBook D 14 Core 7 240H 深空灰 V2.0",
       "tag": "笔记本",
       "image": "/shop/img/huawei-hi-matebook-d-14-core-7-240h-16gb-1tb-深空灰-v2-0.png",
       "configs": [
@@ -43373,7 +42713,7 @@
       "id": "huawei-hi-matebook-d-14-锐龙版-16gb-512gb-极夜灰",
       "brand": "huawei",
       "category": "笔记本",
-      "name": "Hi MateBook D 14 锐龙版 16GB 512GB 极夜灰",
+      "name": "Hi MateBook D 14 锐龙版",
       "tag": "笔记本",
       "image": "/shop/img/huawei-hi-matebook-d-14-锐龙版-16gb-512gb-极夜灰.png",
       "configs": [
@@ -43388,7 +42728,7 @@
       "id": "huawei-hi-matebook-d-16-锐龙版-24gb-512gb-极夜灰",
       "brand": "huawei",
       "category": "笔记本",
-      "name": "Hi MateBook D 16 锐龙版 24GB 512GB 极夜灰",
+      "name": "Hi MateBook D 16 锐龙版",
       "tag": "笔记本",
       "image": "/shop/img/huawei-hi-matebook-d-16-锐龙版-24gb-512gb-极夜灰.png",
       "configs": [
@@ -43433,7 +42773,7 @@
       "id": "huawei-mateview-se-27英寸-1k-标准版",
       "brand": "huawei",
       "category": "数码",
-      "name": "MateView SE 27英寸 1K 标准版",
+      "name": "MateView SE 1K 标准版",
       "tag": "数码",
       "image": "/shop/img/huawei-mateview-se-27英寸-1k-标准版.png",
       "configs": [
@@ -43463,7 +42803,7 @@
       "id": "huawei-mateview-se-23-8英寸-1k-旋转升降支架版",
       "brand": "huawei",
       "category": "配件",
-      "name": "MateView SE 23.8英寸 1K 旋转升降支架版",
+      "name": "MateView SE 1K 旋转升降支架版",
       "tag": "配件",
       "image": "/shop/img/huawei-mateview-se-23-8英寸-1k-旋转升降支架版.png",
       "configs": [
@@ -43563,7 +42903,7 @@
       "id": "huawei-freebuds-pro-5-悦彰耳机-雪域白",
       "brand": "huawei",
       "category": "音频",
-      "name": "FreeBuds Pro 5 悦彰耳机 雪域白",
+      "name": "FreeBuds Pro 5 悦彰耳机",
       "tag": "音频",
       "image": "/shop/img/huawei-freebuds-pro-5-悦彰耳机-雪域白.png",
       "configs": [
@@ -43598,7 +42938,7 @@
       "id": "huawei-freebuds-se-4-anc降噪版-海岛蓝",
       "brand": "huawei",
       "category": "音频",
-      "name": "FreeBuds SE 4 ANC降噪版 海岛蓝",
+      "name": "FreeBuds SE 4 ANC降噪版",
       "tag": "音频",
       "image": "/shop/img/huawei-freebuds-se-4-anc降噪版-海岛蓝.png",
       "configs": [
@@ -43623,7 +42963,7 @@
       "id": "huawei-freebuds-7i-深空灰",
       "brand": "huawei",
       "category": "音频",
-      "name": "FreeBuds 7i 深空灰",
+      "name": "FreeBuds 7i",
       "tag": "音频",
       "image": "/shop/img/huawei-freebuds-7i-深空灰.png",
       "configs": [
@@ -43648,7 +42988,7 @@
       "id": "huawei-freebuds-6-悦彰耳机-星空黑",
       "brand": "huawei",
       "category": "音频",
-      "name": "FreeBuds 6 悦彰耳机 星空黑",
+      "name": "FreeBuds 6 悦彰耳机",
       "tag": "音频",
       "image": "/shop/img/huawei-freebuds-6-悦彰耳机-星空黑.png",
       "configs": [
@@ -43678,7 +43018,7 @@
       "id": "huawei-freebuds-6i-天际白",
       "brand": "huawei",
       "category": "音频",
-      "name": "FreeBuds 6i 天际白",
+      "name": "FreeBuds 6i",
       "tag": "音频",
       "image": "/shop/img/huawei-freebuds-6i-天际白.png",
       "configs": [
@@ -43703,7 +43043,7 @@
       "id": "huawei-freebuds-se-3-陶瓷白",
       "brand": "huawei",
       "category": "音频",
-      "name": "FreeBuds SE 3 陶瓷白",
+      "name": "FreeBuds SE 3",
       "tag": "音频",
       "image": "/shop/img/huawei-freebuds-se-3-陶瓷白.png",
       "configs": [
@@ -43728,7 +43068,7 @@
       "id": "huawei-freebuds-se-2-曜石黑",
       "brand": "huawei",
       "category": "音频",
-      "name": "FreeBuds SE 2 曜石黑",
+      "name": "FreeBuds SE 2",
       "tag": "音频",
       "image": "/shop/img/huawei-freebuds-se-2-曜石黑.png",
       "configs": [
@@ -43758,7 +43098,7 @@
       "id": "huawei-freeclip-2-典藏版-耳夹耳机-无线充-星海蓝",
       "brand": "huawei",
       "category": "音频",
-      "name": "FreeClip 2 典藏版 耳夹耳机 无线充 星海蓝",
+      "name": "FreeClip 2 典藏版 耳夹耳机 无线充",
       "tag": "音频",
       "image": "/shop/img/huawei-freeclip-2-典藏版-耳夹耳机-无线充-星海蓝.png",
       "configs": [
@@ -43775,50 +43115,10 @@
       ]
     },
     {
-      "id": "huawei-freeclip-2-耳夹耳机-无线充-玫瑰金",
-      "brand": "huawei",
-      "category": "音频",
-      "name": "FreeClip 2 耳夹耳机 无线充 玫瑰金",
-      "tag": "音频",
-      "image": "/shop/img/huawei-freeclip-2-耳夹耳机-无线充-玫瑰金.png",
-      "configs": [
-        {
-          "label": "HUAWEI FreeClip 2 耳夹耳机 无线充 玫瑰金",
-          "official": 1299,
-          "price": 1247
-        },
-        {
-          "label": "HUAWEI FreeClip 2 耳夹耳机 无线充 摩登黑",
-          "official": 1299,
-          "price": 1247
-        },
-        {
-          "label": "HUAWEI FreeClip 2 耳夹耳机 无线充 羽沙白",
-          "official": 1299,
-          "price": 1247
-        },
-        {
-          "label": "HUAWEI FreeClip 2 耳夹耳机 无线充 丹宁蓝",
-          "official": 1299,
-          "price": 1247
-        },
-        {
-          "label": "HUAWEI FreeClip 2 × 周大福 一發暴富套装礼盒",
-          "official": 3388,
-          "price": 3218
-        },
-        {
-          "label": "HUAWEI FreeClip 2 耳夹耳机 无线充 冰莓紫",
-          "official": 1299,
-          "price": 1247
-        }
-      ]
-    },
-    {
       "id": "huawei-freeclip-耳夹耳机-无线充-星空黑",
       "brand": "huawei",
       "category": "音频",
-      "name": "FreeClip 耳夹耳机 无线充 星空黑",
+      "name": "FreeClip 耳夹耳机 无线充",
       "tag": "音频",
       "image": "/shop/img/huawei-freeclip-耳夹耳机-无线充-星空黑.png",
       "configs": [
@@ -43843,7 +43143,7 @@
       "id": "huawei-freearc-耳挂耳机-星空黑",
       "brand": "huawei",
       "category": "音频",
-      "name": "FreeArc 耳挂耳机 星空黑",
+      "name": "FreeArc 耳挂耳机",
       "tag": "音频",
       "image": "/shop/img/huawei-freearc-耳挂耳机-星空黑.png",
       "configs": [
@@ -43873,7 +43173,7 @@
       "id": "huawei-freelace-活力版-曜石黑",
       "brand": "huawei",
       "category": "数码",
-      "name": "FreeLace 活力版 曜石黑",
+      "name": "FreeLace 活力版",
       "tag": "数码",
       "image": "/shop/img/huawei-freelace-活力版-曜石黑.png",
       "configs": [
@@ -43918,7 +43218,7 @@
       "id": "huawei-sound-x5-云白",
       "brand": "huawei",
       "category": "音频",
-      "name": "Sound X5 云白",
+      "name": "Sound X5",
       "tag": "音频",
       "image": "/shop/img/huawei-sound-x5-云白.png",
       "configs": [
@@ -43943,7 +43243,7 @@
       "id": "huawei-悦彰家庭影院-典雅黑",
       "brand": "huawei",
       "category": "音频",
-      "name": "悦彰家庭影院 典雅黑",
+      "name": "悦彰家庭影院",
       "tag": "音频",
       "image": "/shop/img/huawei-悦彰家庭影院-典雅黑.png",
       "configs": [
@@ -43958,7 +43258,7 @@
       "id": "huawei-sound-x4-韵律黑",
       "brand": "huawei",
       "category": "音频",
-      "name": "Sound X4 韵律黑",
+      "name": "Sound X4",
       "tag": "音频",
       "image": "/shop/img/huawei-sound-x4-韵律黑.png",
       "configs": [
@@ -43993,7 +43293,7 @@
       "id": "huawei-sound-joy-2-蓝牙版-向新绿",
       "brand": "huawei",
       "category": "音频",
-      "name": "Sound Joy 2 蓝牙版 向新绿",
+      "name": "Sound Joy 2 蓝牙版",
       "tag": "音频",
       "image": "/shop/img/huawei-sound-joy-2-蓝牙版-向新绿.png",
       "configs": [
@@ -44133,7 +43433,7 @@
       "id": "huawei-vision智慧屏-6-pro-65英寸",
       "brand": "huawei",
       "category": "智慧屏",
-      "name": "Vision智慧屏 6 Pro 65英寸",
+      "name": "Vision智慧屏 6 Pro",
       "tag": "智慧屏",
       "image": "/shop/img/huawei-vision智慧屏-6-pro-65英寸.png",
       "configs": [
@@ -44163,7 +43463,7 @@
       "id": "huawei-vision智慧屏-6-65英寸",
       "brand": "huawei",
       "category": "智慧屏",
-      "name": "Vision智慧屏 6 65英寸",
+      "name": "Vision智慧屏 6",
       "tag": "智慧屏",
       "image": "/shop/img/huawei-vision智慧屏-6-65英寸.png",
       "configs": [
@@ -44193,7 +43493,7 @@
       "id": "huawei-vision智慧屏-6-se-55英寸",
       "brand": "huawei",
       "category": "智慧屏",
-      "name": "Vision智慧屏 6 SE 55英寸",
+      "name": "Vision智慧屏 6 SE",
       "tag": "智慧屏",
       "image": "/shop/img/huawei-vision智慧屏-6-se-55英寸.png",
       "configs": [
@@ -44223,7 +43523,7 @@
       "id": "huawei-vision智慧屏-5-pro-65英寸",
       "brand": "huawei",
       "category": "智慧屏",
-      "name": "Vision智慧屏 5 Pro 65英寸",
+      "name": "Vision智慧屏 5 Pro",
       "tag": "智慧屏",
       "image": "/shop/img/huawei-vision智慧屏-5-pro-65英寸.png",
       "configs": [
@@ -44248,7 +43548,7 @@
       "id": "huawei-vision智慧屏-5-65英寸",
       "brand": "huawei",
       "category": "智慧屏",
-      "name": "Vision智慧屏 5 65英寸",
+      "name": "Vision智慧屏 5",
       "tag": "智慧屏",
       "image": "/shop/img/huawei-vision智慧屏-5-65英寸.png",
       "configs": [
@@ -44278,7 +43578,7 @@
       "id": "huawei-vision智慧屏-5-se-85英寸",
       "brand": "huawei",
       "category": "智慧屏",
-      "name": "Vision智慧屏 5 SE 85英寸",
+      "name": "Vision智慧屏 5 SE",
       "tag": "智慧屏",
       "image": "/shop/img/huawei-vision智慧屏-5-se-85英寸.png",
       "configs": [
@@ -44303,7 +43603,7 @@
       "id": "huawei-vision智慧屏-5-se优享版-65英寸",
       "brand": "huawei",
       "category": "智慧屏",
-      "name": "Vision智慧屏 5 SE优享版 65英寸",
+      "name": "Vision智慧屏 5 SE优享版",
       "tag": "智慧屏",
       "image": "/shop/img/huawei-vision智慧屏-5-se优享版-65英寸.png",
       "configs": [
@@ -44328,7 +43628,7 @@
       "id": "huawei-智慧屏-matetv-pro-75英寸",
       "brand": "huawei",
       "category": "智慧屏",
-      "name": "智慧屏 MateTV Pro 75英寸",
+      "name": "智慧屏 MateTV Pro",
       "tag": "智慧屏",
       "image": "/shop/img/huawei-智慧屏-matetv-pro-75英寸.png",
       "configs": [
@@ -44353,7 +43653,7 @@
       "id": "huawei-智慧屏-matetv-65英寸",
       "brand": "huawei",
       "category": "智慧屏",
-      "name": "智慧屏 MateTV 65英寸",
+      "name": "智慧屏 MateTV",
       "tag": "智慧屏",
       "image": "/shop/img/huawei-智慧屏-matetv-65英寸.png",
       "configs": [
@@ -44383,7 +43683,7 @@
       "id": "huawei-智慧屏-s7-pro-65英寸",
       "brand": "huawei",
       "category": "智慧屏",
-      "name": "智慧屏 S7 Pro 65英寸",
+      "name": "智慧屏 S7 Pro",
       "tag": "智慧屏",
       "image": "/shop/img/huawei-智慧屏-s7-pro-65英寸.png",
       "configs": [
@@ -44413,7 +43713,7 @@
       "id": "huawei-智慧屏-s7x-pro-65英寸",
       "brand": "huawei",
       "category": "智慧屏",
-      "name": "智慧屏 S7X Pro 65英寸",
+      "name": "智慧屏 S7X Pro",
       "tag": "智慧屏",
       "image": "/shop/img/huawei-智慧屏-s7x-pro-65英寸.png",
       "configs": [
@@ -44438,7 +43738,7 @@
       "id": "huawei-智慧屏-s7-75英寸",
       "brand": "huawei",
       "category": "智慧屏",
-      "name": "智慧屏 S7 75英寸",
+      "name": "智慧屏 S7",
       "tag": "智慧屏",
       "image": "/shop/img/huawei-智慧屏-s7-75英寸.png",
       "configs": [
@@ -44473,7 +43773,7 @@
       "id": "huawei-智慧屏-s6-pro-65英寸",
       "brand": "huawei",
       "category": "智慧屏",
-      "name": "智慧屏 S6 Pro 65英寸",
+      "name": "智慧屏 S6 Pro",
       "tag": "智慧屏",
       "image": "/shop/img/huawei-智慧屏-s6-pro-65英寸.png",
       "configs": [
@@ -44503,7 +43803,7 @@
       "id": "huawei-智慧屏-v6-85英寸",
       "brand": "huawei",
       "category": "智慧屏",
-      "name": "智慧屏 V6 85英寸",
+      "name": "智慧屏 V6",
       "tag": "智慧屏",
       "image": "/shop/img/huawei-智慧屏-v6-85英寸.png",
       "configs": [
@@ -44528,7 +43828,7 @@
       "id": "huawei-灵犀手写笔-砚黑",
       "brand": "huawei",
       "category": "配件",
-      "name": "灵犀手写笔 砚黑",
+      "name": "灵犀手写笔",
       "tag": "配件",
       "image": "/shop/img/huawei-灵犀手写笔-砚黑.png",
       "configs": [
@@ -44543,7 +43843,7 @@
       "id": "huawei-灵犀悬浮触控-触控板-手柄-珍珠白",
       "brand": "huawei",
       "category": "配件",
-      "name": "灵犀悬浮触控 触控板 手柄 珍珠白",
+      "name": "灵犀悬浮触控 触控板 手柄",
       "tag": "配件",
       "image": "/shop/img/huawei-灵犀悬浮触控-触控板-手柄-珍珠白.png",
       "configs": [
@@ -44558,7 +43858,7 @@
       "id": "huawei-灵犀指向遥控-深空灰",
       "brand": "huawei",
       "category": "配件",
-      "name": "灵犀指向遥控 深空灰",
+      "name": "灵犀指向遥控",
       "tag": "配件",
       "image": "/shop/img/huawei-灵犀指向遥控-深空灰.png",
       "configs": [
@@ -44573,7 +43873,7 @@
       "id": "huawei-智慧屏语音遥控器-黑色",
       "brand": "huawei",
       "category": "智慧屏",
-      "name": "智慧屏语音遥控器 黑色",
+      "name": "智慧屏语音遥控器",
       "tag": "智慧屏",
       "image": "/shop/img/huawei-智慧屏语音遥控器-黑色.png",
       "configs": [
@@ -44718,7 +44018,7 @@
       "id": "huawei-路由-x1-pro-电竞涂装版-星夜黑",
       "brand": "huawei",
       "category": "路由/网络",
-      "name": "路由 X1 Pro 电竞涂装版 星夜黑",
+      "name": "路由 X1 Pro 电竞涂装版",
       "tag": "路由/网络",
       "image": "/shop/img/huawei-路由-x1-pro-电竞涂装版-星夜黑.png",
       "configs": [
@@ -44758,7 +44058,7 @@
       "id": "huawei-路由-x1-pro-星夜黑",
       "brand": "huawei",
       "category": "路由/网络",
-      "name": "路由 X1 Pro 星夜黑",
+      "name": "路由 X1 Pro",
       "tag": "路由/网络",
       "image": "/shop/img/huawei-路由-x1-pro-星夜黑.png",
       "configs": [
@@ -44778,7 +44078,7 @@
       "id": "huawei-路由-x1-星夜黑",
       "brand": "huawei",
       "category": "路由/网络",
-      "name": "路由 X1 星夜黑",
+      "name": "路由 X1",
       "tag": "路由/网络",
       "image": "/shop/img/huawei-路由-x1-星夜黑.png",
       "configs": [
@@ -44853,7 +44153,7 @@
       "id": "huawei-凌霄子母路由-q6-白色",
       "brand": "huawei",
       "category": "路由/网络",
-      "name": "凌霄子母路由 Q6 白色",
+      "name": "凌霄子母路由 Q6",
       "tag": "路由/网络",
       "image": "/shop/img/huawei-凌霄子母路由-q6-白色.png",
       "configs": [
@@ -44868,7 +44168,7 @@
       "id": "huawei-凌霄子母路由-q6e-白色",
       "brand": "huawei",
       "category": "路由/网络",
-      "name": "凌霄子母路由 Q6E 白色",
+      "name": "凌霄子母路由 Q6E",
       "tag": "路由/网络",
       "image": "/shop/img/huawei-凌霄子母路由-q6e-白色.png",
       "configs": [
@@ -44913,7 +44213,7 @@
       "id": "huawei-路由-be3-pro-plus-黑色",
       "brand": "huawei",
       "category": "路由/网络",
-      "name": "路由 BE3 Pro+ 黑色",
+      "name": "路由 BE3 Pro+",
       "tag": "路由/网络",
       "image": "/shop/img/huawei-路由-be3-pro-plus-黑色.png",
       "configs": [
@@ -44973,7 +44273,7 @@
       "id": "huawei-路由-ax6-pro-黑色",
       "brand": "huawei",
       "category": "路由/网络",
-      "name": "路由 AX6 Pro 黑色",
+      "name": "路由 AX6 Pro",
       "tag": "路由/网络",
       "image": "/shop/img/huawei-路由-ax6-pro-黑色.png",
       "configs": [
@@ -44988,7 +44288,7 @@
       "id": "huawei-路由-ax6-new-黑色",
       "brand": "huawei",
       "category": "路由/网络",
-      "name": "路由 AX6 new 黑色",
+      "name": "路由 AX6 new",
       "tag": "路由/网络",
       "image": "/shop/img/huawei-路由-ax6-new-黑色.png",
       "configs": [
@@ -45003,7 +44303,7 @@
       "id": "huawei-路由-ax3-白色",
       "brand": "huawei",
       "category": "路由/网络",
-      "name": "路由 AX3 白色",
+      "name": "路由 AX3",
       "tag": "路由/网络",
       "image": "/shop/img/huawei-路由-ax3-白色.png",
       "configs": [
@@ -45048,7 +44348,7 @@
       "id": "huawei-随行wifi-3-pro-星际蓝",
       "brand": "huawei",
       "category": "路由/网络",
-      "name": "随行WiFi 3 Pro 星际蓝",
+      "name": "随行WiFi 3 Pro",
       "tag": "路由/网络",
       "image": "/shop/img/huawei-随行wifi-3-pro-星际蓝.png",
       "configs": [
@@ -45063,7 +44363,7 @@
       "id": "huawei-移动路由-pro-白色",
       "brand": "huawei",
       "category": "路由/网络",
-      "name": "移动路由 Pro 白色",
+      "name": "移动路由 Pro",
       "tag": "路由/网络",
       "image": "/shop/img/huawei-移动路由-pro-白色.png",
       "configs": [
@@ -45078,7 +44378,7 @@
       "id": "huawei-随行-wifi-5-白色",
       "brand": "huawei",
       "category": "路由/网络",
-      "name": "随行 WiFi 5 白色",
+      "name": "随行 WiFi 5",
       "tag": "路由/网络",
       "image": "/shop/img/huawei-随行-wifi-5-白色.png",
       "configs": [
@@ -45118,7 +44418,7 @@
       "id": "huawei-移动路由-2-白色",
       "brand": "huawei",
       "category": "路由/网络",
-      "name": "移动路由 2 白色",
+      "name": "移动路由 2",
       "tag": "路由/网络",
       "image": "/shop/img/huawei-移动路由-2-白色.png",
       "configs": [
@@ -45178,7 +44478,7 @@
       "id": "huawei-鸿蒙智选-brovi-5g-cpe-ultra-6-官方标配-白色-5g-全网通",
       "brand": "huawei",
       "category": "路由/网络",
-      "name": "鸿蒙智选 Brovi 5G CPE Ultra 6 官方标配 白色 5G 全网通",
+      "name": "鸿蒙智选 Brovi CPE Ultra 6",
       "tag": "路由/网络",
       "image": "/shop/img/huawei-鸿蒙智选-brovi-5g-cpe-ultra-6-官方标配-白色-5g-全网通.png",
       "configs": [
@@ -45193,7 +44493,7 @@
       "id": "huawei-鸿蒙智选-brovi-5g-随行-wifi-pro-5-深空灰-5g-plus-全网通-7000mah大电池",
       "brand": "huawei",
       "category": "路由/网络",
-      "name": "鸿蒙智选 Brovi 5G 随行 WiFi Pro 5 深空灰 5G+全网通 7000mAh大电池",
+      "name": "鸿蒙智选 Brovi 随行 WiFi Pro 5 深空灰 5G+全网通 7000mAh大电池",
       "tag": "路由/网络",
       "image": "/shop/img/huawei-鸿蒙智选-brovi-5g-随行-wifi-pro-5-深空灰-5g-plus-全网通-7000mah大电池.png",
       "configs": [
@@ -45213,7 +44513,7 @@
       "id": "huawei-鸿蒙智选-brovi-5g-cpe-5s-白色-5g-plus-全网通-3000m疾速上网",
       "brand": "huawei",
       "category": "路由/网络",
-      "name": "鸿蒙智选 Brovi 5G CPE 5s 白色 5G+全网通 3000M疾速上网",
+      "name": "鸿蒙智选 Brovi CPE 5s 白色 5G+全网通 3000M疾速上网",
       "tag": "路由/网络",
       "image": "/shop/img/huawei-鸿蒙智选-brovi-5g-cpe-5s-白色-5g-plus-全网通-3000m疾速上网.png",
       "configs": [
@@ -45233,7 +44533,7 @@
       "id": "huawei-鸿蒙智选-brovi-redcap-5g-cpe-5-se-白色",
       "brand": "huawei",
       "category": "路由/网络",
-      "name": "鸿蒙智选 Brovi RedCap 5G CPE 5 SE 白色",
+      "name": "鸿蒙智选 Brovi RedCap CPE 5 SE",
       "tag": "路由/网络",
       "image": "/shop/img/huawei-鸿蒙智选-brovi-redcap-5g-cpe-5-se-白色.png",
       "configs": [
@@ -45383,7 +44683,7 @@
       "id": "huawei-智能门锁-x1-卓雅岩灰",
       "brand": "huawei",
       "category": "智能门锁",
-      "name": "智能门锁 X1 卓雅岩灰",
+      "name": "智能门锁 X1",
       "tag": "智能门锁",
       "image": "/shop/img/huawei-智能门锁-x1-卓雅岩灰.png",
       "configs": [
@@ -45403,7 +44703,7 @@
       "id": "huawei-智能门锁-2-ultra-摩卡金",
       "brand": "huawei",
       "category": "智能门锁",
-      "name": "智能门锁 2 Ultra 摩卡金",
+      "name": "智能门锁 2 Ultra",
       "tag": "智能门锁",
       "image": "/shop/img/huawei-智能门锁-2-ultra-摩卡金.png",
       "configs": [
@@ -45418,7 +44718,7 @@
       "id": "huawei-智能门锁-2-pro-星际黑",
       "brand": "huawei",
       "category": "智能门锁",
-      "name": "智能门锁 2 Pro 星际黑",
+      "name": "智能门锁 2 Pro",
       "tag": "智能门锁",
       "image": "/shop/img/huawei-智能门锁-2-pro-星际黑.png",
       "configs": [
@@ -45433,7 +44733,7 @@
       "id": "huawei-智能门锁-2-尊享版-摩卡金",
       "brand": "huawei",
       "category": "智能门锁",
-      "name": "智能门锁 2 尊享版 摩卡金",
+      "name": "智能门锁 2 尊享版",
       "tag": "智能门锁",
       "image": "/shop/img/huawei-智能门锁-2-尊享版-摩卡金.png",
       "configs": [
@@ -45448,7 +44748,7 @@
       "id": "huawei-智能门锁-2-星际黑",
       "brand": "huawei",
       "category": "智能门锁",
-      "name": "智能门锁 2 星际黑",
+      "name": "智能门锁 2",
       "tag": "智能门锁",
       "image": "/shop/img/huawei-智能门锁-2-星际黑.png",
       "configs": [
@@ -45463,7 +44763,7 @@
       "id": "huawei-智能门锁-2-悦享版-星际黑",
       "brand": "huawei",
       "category": "智能门锁",
-      "name": "智能门锁 2 悦享版 星际黑",
+      "name": "智能门锁 2 悦享版",
       "tag": "智能门锁",
       "image": "/shop/img/huawei-智能门锁-2-悦享版-星际黑.png",
       "configs": [
@@ -45528,7 +44828,7 @@
       "id": "huawei-智能门锁-2-系列装饰锁-摩卡金",
       "brand": "huawei",
       "category": "智能门锁",
-      "name": "智能门锁 2 系列装饰锁 摩卡金",
+      "name": "智能门锁 2 系列装饰锁",
       "tag": "智能门锁",
       "image": "/shop/img/huawei-智能门锁-2-系列装饰锁-摩卡金.png",
       "configs": [
@@ -45548,7 +44848,7 @@
       "id": "huawei-智能门锁-2-系列专用锂电池-黑色",
       "brand": "huawei",
       "category": "智能门锁",
-      "name": "智能门锁 2 系列专用锂电池 黑色",
+      "name": "智能门锁 2 系列专用锂电池",
       "tag": "智能门锁",
       "image": "/shop/img/huawei-智能门锁-2-系列专用锂电池-黑色.png",
       "configs": [
@@ -45973,7 +45273,7 @@
       "id": "huawei-rock-space-适配huawei-mate-60-pro-mate-60-pro-plus-护甲系列保护壳-黑色",
       "brand": "huawei",
       "category": "手机",
-      "name": "rock space 适配HUAWEI Mate 60 Pro/Mate 60 Pro+ 护甲系列保护壳 黑色",
+      "name": "rock space 适配HUAWEI Mate 60 Pro/Mate 60 Pro+ 护甲系列保护壳",
       "tag": "手机",
       "image": "/shop/img/huawei-rock-space-适配huawei-mate-60-pro-mate-60-pro-plus-护甲系列保护壳-黑色.png",
       "configs": [
