@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>产品介绍 · 象联科技 UniThing Technology</title>
-<meta name="description" content="UniThing 商城产品介绍 — 官网式详情、卖点、规格与优惠价格，官网价基础上再享优惠">
+<meta name="description" content="UniThing 商城产品介绍 — 官方式详情流程：主图、配置选择、亮点卖点、详细规格与售后保障">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   :root {
@@ -68,6 +68,7 @@
     --card-grad: linear-gradient(160deg, rgba(212,175,55,0.08), rgba(255,255,255,0.02));
     --stage-grad: linear-gradient(160deg, rgba(212,175,55,0.10), rgba(255,255,255,0.02));
     --panel-grad: linear-gradient(165deg, #17161F, #0D0D15);
+    --poster-grad: linear-gradient(150deg, rgba(212,175,55,0.12), rgba(255,255,255,0.02) 55%, rgba(212,175,55,0.06));
   }
   html { scroll-behavior: smooth; }
   body {
@@ -80,64 +81,89 @@
   .aurora { position: fixed; inset: 0; z-index: -2; background: radial-gradient(ellipse at 20% 0%, var(--gold-16), transparent 45%), radial-gradient(ellipse at 80% 20%, var(--ink-blue-20), transparent 50%), radial-gradient(ellipse at 50% 100%, var(--gold-08), transparent 55%), var(--ink); }
   .glow { position: fixed; width: 460px; height: 460px; border-radius: 50%; background: radial-gradient(circle, var(--gold-14), transparent 65%); pointer-events: none; z-index: -1; transform: translate(-50%,-50%); transition: left .2s, top .2s; }
 
-  .nav { position: sticky; top: 0; z-index: 50; display: flex; align-items: center; justify-content: space-between; padding: 16px 6vw; background: var(--nav-bg); backdrop-filter: blur(12px); border-bottom: 1px solid var(--gold-15); }
+  .nav { position: sticky; top: 0; z-index: 50; display: flex; align-items: center; justify-content: space-between; padding: 14px 6vw; background: var(--nav-bg); backdrop-filter: blur(12px); border-bottom: 1px solid var(--gold-15); }
   .nav .brand { font-size: 18px; font-weight: 700; letter-spacing: 1px; color: var(--gold-light); text-decoration: none; }
   .nav .brand span { color: var(--white); font-weight: 400; margin-left: 8px; font-size: 14px; }
   .nav .nav-links { display: flex; gap: 10px; align-items: center; }
   .nav .nav-btn { color: var(--text-dim); text-decoration: none; font-size: 14px; border: 1px solid var(--gold-35); padding: 7px 16px; border-radius: 999px; transition: .3s; }
   .nav .nav-btn:hover { color: var(--ink); background: var(--gold-light); }
 
-  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 4vw; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 4vw; }
 
-  /* 顶部机型名 + 立即下单 */
-  header.hero { padding: 40px 0 8px; }
-  .hero-top { display: flex; align-items: flex-end; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+  /* ============ 顶部：面包屑 + 机型名 + 立即下单 ============ */
+  header.hero { padding: 36px 0 6px; }
+  .hero-top { display: flex; align-items: flex-end; justify-content: space-between; gap: 22px; flex-wrap: wrap; }
   .hero-top .crumb { font-size: 13px; color: var(--text-dim); letter-spacing: 1px; }
   .hero-top .crumb b { color: var(--gold-light); font-weight: 500; }
-  .hero-top h1 { font-size: clamp(26px, 4.4vw, 40px); font-weight: 800; letter-spacing: 1px; margin: 10px 0 6px; background: linear-gradient(135deg, var(--gold-white), var(--gold) 55%, var(--gold-light)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .hero-top h1 { font-size: clamp(26px, 4.4vw, 42px); font-weight: 800; letter-spacing: 1px; margin: 10px 0 8px; background: linear-gradient(135deg, var(--gold-white), var(--gold) 55%, var(--gold-light)); -webkit-background-clip: text; background-clip: text; color: transparent; line-height: 1.25; }
   .hero-top .tagline { font-size: 14px; color: var(--text-dim); }
-  .hero-buy { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; }
-  .hero-buy .hero-price { text-align: right; }
-  .hero-buy .hero-price .off { font-size: 30px; font-weight: 800; color: var(--gold-light); }
-  .hero-buy .hero-price .official { font-size: 14px; color: var(--text-dim); text-decoration: line-through; margin-left: 8px; }
-  .hero-buy select { min-width: 240px; padding: 11px 12px; border-radius: 10px; border: 1px solid var(--gold-30); background: var(--input-bg); color: var(--white); font-size: 14px; cursor: pointer; outline: none; }
-  .hero-buy select option { background: var(--ink-2); color: var(--white); }
-  .buy-btn { padding: 13px 42px; border: none; border-radius: 12px; background: linear-gradient(135deg, var(--gold), var(--gold-light)); color: var(--ink); font-size: 17px; font-weight: 700; cursor: pointer; transition: .3s; }
+  .buy-btn { padding: 14px 44px; border: none; border-radius: 12px; background: linear-gradient(135deg, var(--gold), var(--gold-light)); color: var(--btn-gold-text); font-size: 17px; font-weight: 700; cursor: pointer; transition: .3s; font-family: inherit; white-space: nowrap; }
   .buy-btn:hover { filter: brightness(1.08); }
   .buy-btn:active { transform: scale(0.98); }
 
-  /* 主图大图居中区 */
-  .stage { margin: 26px 0 8px; padding: 34px 20px; background: var(--stage-grad); border: 1px solid var(--gold-18); border-radius: 22px; text-align: center; }
-  .stage img { max-width: 100%; max-height: 460px; object-fit: contain; }
-  .stage .stage-note { margin-top: 14px; font-size: 12px; color: var(--text-dim); }
+  /* ============ 主图大图居中 ============ */
+  .stage { margin: 26px 0 10px; padding: 44px 24px; background: var(--stage-grad); border: 1px solid var(--gold-18); border-radius: 24px; text-align: center; }
+  .stage img { max-width: 100%; max-height: 480px; object-fit: contain; }
+  .stage .stage-note { margin-top: 16px; font-size: 12px; color: var(--text-dim); }
 
-  /* 区块通用 */
-  .sec { margin-top: 42px; }
-  .sec-title { display: flex; align-items: center; gap: 12px; font-size: 21px; font-weight: 700; letter-spacing: 1px; margin-bottom: 18px; color: var(--gold-light); }
+  /* ============ 区块通用 ============ */
+  .sec { margin-top: 56px; }
+  .sec-title { display: flex; align-items: center; gap: 12px; font-size: 21px; font-weight: 700; letter-spacing: 1px; margin-bottom: 20px; color: var(--gold-light); }
   .sec-title::before { content: ""; width: 4px; height: 20px; border-radius: 2px; background: linear-gradient(180deg, var(--gold), var(--gold-light)); }
+  .sec-sub { font-size: 13px; color: var(--text-dim); margin: -12px 0 18px; }
 
-  /* 卖点区 */
-  .selling { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
-  .point { background: var(--soft-bg); border: 1px solid var(--gold-16); border-radius: 14px; padding: 16px 16px 16px 42px; position: relative; font-size: 14.5px; transition: .3s; }
-  .point:hover { border-color: var(--gold-50); background: var(--gold-07); }
-  .point::before { content: ""; position: absolute; left: 16px; top: 20px; width: 8px; height: 8px; border-radius: 50%; background: var(--gold-light); box-shadow: 0 0 12px var(--gold-80); }
-  .no-points { background: var(--soft-bg); border: 1px dashed var(--dash-border); border-radius: 14px; padding: 22px; font-size: 14px; color: var(--text-dim); }
+  /* ============ 配置选择（胶囊按钮 + 价格联动） ============ */
+  .cfg-box { background: var(--soft-bg); border: 1px solid var(--gold-16); border-radius: 18px; padding: 22px; }
+  .cfg-price { display: flex; align-items: baseline; flex-wrap: wrap; gap: 12px; padding-bottom: 18px; margin-bottom: 18px; border-bottom: 1px solid var(--gold-12); }
+  .cfg-price .off { font-size: 34px; font-weight: 800; color: var(--gold-light); letter-spacing: .5px; }
+  .cfg-price .official { font-size: 15px; color: var(--text-dim); text-decoration: line-through; }
+  .cfg-price .count { margin-left: auto; font-size: 13px; color: var(--text-dim); }
+  .cfg-pills { display: flex; flex-wrap: wrap; gap: 10px; }
+  .cfg-pill { padding: 11px 20px; border-radius: 999px; border: 1px solid var(--gold-30); background: transparent; color: var(--white); font-size: 14px; font-family: inherit; cursor: pointer; transition: .25s; text-align: center; }
+  .cfg-pill:hover { border-color: var(--gold); color: var(--gold-light); background: var(--gold-07); }
+  .cfg-pill.active { background: linear-gradient(135deg, var(--gold), var(--gold-light)); border-color: var(--gold); color: var(--btn-gold-text); font-weight: 700; box-shadow: 0 8px 24px var(--gold-25); }
+  .cfg-pill .pk { display: block; font-size: 12px; opacity: .72; margin-top: 2px; }
 
-  /* 规格参数区 */
-  .specs-box { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
-  .spec-item { background: var(--soft-bg); border: 1px solid var(--gold-16); border-radius: 14px; padding: 14px 16px; display: flex; gap: 14px; }
-  .spec-item .k { flex-shrink: 0; width: 88px; color: var(--gold-light); font-size: 13.5px; font-weight: 600; }
-  .spec-item .v { color: var(--white); font-size: 13.5px; }
-  table.cfg { width: 100%; border-collapse: collapse; margin-top: 16px; font-size: 14px; }
-  table.cfg th, table.cfg td { padding: 11px 14px; text-align: left; border-bottom: 1px solid var(--gold-14); }
-  table.cfg th { color: var(--gold-light); font-weight: 600; background: var(--gold-06); white-space: nowrap; }
-  table.cfg td.off { color: var(--gold-light); font-weight: 700; }
-  table.cfg td.ratio { color: var(--text-dim); }
-  .base-table { width: 100%; border-collapse: collapse; margin-bottom: 6px; font-size: 14px; }
-  .base-table th, .base-table td { padding: 10px 14px; text-align: left; border-bottom: 1px solid var(--gold-12); }
-  .base-table th { width: 130px; color: var(--gold-light); font-weight: 500; }
+  /* ============ 保障服务卡片 ============ */
+  .guarantee { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 18px; }
+  .g-card { display: flex; align-items: flex-start; gap: 12px; padding: 16px 18px; background: var(--card-grad); border: 1px solid var(--gold-18); border-radius: 14px; }
+  .g-card .g-ico { flex-shrink: 0; width: 34px; height: 34px; border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 1px solid var(--gold-40); color: var(--gold-light); font-size: 15px; }
+  .g-card .g-t { font-size: 14.5px; font-weight: 700; color: var(--white); }
+  .g-card .g-d { font-size: 12.5px; color: var(--text-dim); margin-top: 3px; line-height: 1.5; }
 
-  /* 相关推荐 */
+  /* ============ 卖点区：一屏一卖点 ============ */
+  .poster { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 34px; min-height: 400px; padding: 34px 30px; margin-bottom: 20px; background: var(--poster-grad); border: 1px solid var(--gold-14); border-radius: 22px; overflow: hidden; }
+  .poster:nth-child(even) .poster-media { order: 2; }
+  .poster-media { display: flex; align-items: center; justify-content: center; }
+  .poster-media img { max-width: 100%; max-height: 330px; object-fit: contain; filter: drop-shadow(0 22px 46px var(--black-45)); }
+  .poster-text .idx { font-size: 12px; letter-spacing: 3px; color: var(--gold-55); margin-bottom: 10px; }
+  .poster-text h3 { font-size: clamp(24px, 3.6vw, 40px); font-weight: 800; line-height: 1.25; letter-spacing: .5px; margin-bottom: 14px; background: linear-gradient(135deg, var(--gold-white), var(--gold) 60%, var(--gold-light)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .poster-text p { font-size: 15px; color: var(--text-dim); line-height: 1.8; max-width: 44ch; }
+  .no-points { background: var(--soft-bg); border: 1px dashed var(--dash-border); border-radius: 14px; padding: 24px; font-size: 14px; color: var(--text-dim); line-height: 1.8; }
+
+  /* ============ 简要规格（重点参数块） ============ */
+  .quick-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; }
+  .quick-item { padding: 16px 18px; background: var(--soft-bg); border: 1px solid var(--gold-16); border-radius: 14px; }
+  .quick-item .qk { font-size: 12.5px; color: var(--gold-light); letter-spacing: 1px; margin-bottom: 6px; }
+  .quick-item .qv { font-size: 14px; color: var(--white); line-height: 1.6; }
+
+  /* ============ 详细参数：分组扁平表（左标签右值，无表格线） ============ */
+  .spec-group { margin-bottom: 30px; }
+  .spec-group h4 { font-size: 15px; font-weight: 700; color: var(--gold-light); letter-spacing: 1px; padding-bottom: 10px; margin-bottom: 6px; border-bottom: 1px solid var(--gold-14); }
+  .spec-row { display: flex; gap: 20px; padding: 12px 4px; font-size: 14px; }
+  .spec-row .k { flex-shrink: 0; width: 110px; color: var(--text-dim); }
+  .spec-row .v { flex: 1; color: var(--white); line-height: 1.65; word-break: break-word; }
+
+  /* ============ 售后说明 ============ */
+  .after-sale { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  .as-card { padding: 20px; background: var(--soft-bg); border: 1px solid var(--gold-16); border-radius: 14px; text-align: center; }
+  .as-card .as-n { font-size: 26px; font-weight: 800; color: var(--gold-light); }
+  .as-card .as-t { font-size: 14px; color: var(--white); margin-top: 4px; font-weight: 600; }
+  .as-card .as-d { font-size: 12.5px; color: var(--text-dim); margin-top: 6px; line-height: 1.6; }
+  .as-contact { margin-top: 16px; padding: 16px 20px; background: var(--gold-06); border: 1px solid var(--gold-18); border-radius: 14px; font-size: 13.5px; color: var(--text-dim); line-height: 1.9; }
+  .as-contact b { color: var(--gold-light); font-weight: 600; }
+
+  /* ============ 相关推荐 ============ */
   .rel-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
   .rel-card { display: block; text-decoration: none; background: var(--card-grad); border: 1px solid var(--gold-18); border-radius: 16px; padding: 14px; transition: .3s; }
   .rel-card:hover { transform: translateY(-4px); border-color: var(--gold-50); box-shadow: 0 16px 44px var(--black-45); }
@@ -151,9 +177,9 @@
   .notfound { text-align: center; padding: 90px 20px; }
   .notfound h1 { font-size: 28px; color: var(--gold-light); margin-bottom: 10px; }
   .notfound p { color: var(--text-dim); margin-bottom: 26px; }
-  .notfound a { display: inline-block; color: var(--ink); background: linear-gradient(135deg, var(--gold), var(--gold-light)); padding: 12px 34px; border-radius: 999px; text-decoration: none; font-weight: 600; }
+  .notfound a { display: inline-block; color: var(--btn-gold-text); background: linear-gradient(135deg, var(--gold), var(--gold-light)); padding: 12px 34px; border-radius: 999px; text-decoration: none; font-weight: 600; }
 
-  footer { text-align: center; color: var(--text-dim); font-size: 13px; padding: 34px 20px 40px; border-top: 1px solid var(--gold-12); margin-top: 50px; }
+  footer { text-align: center; color: var(--text-dim); font-size: 13px; padding: 34px 20px 40px; border-top: 1px solid var(--gold-12); margin-top: 56px; }
 
   /* 订单弹窗（与商城 index.html 一致） */
   .modal { position: fixed; inset: 0; z-index: 100; background: var(--black-70); backdrop-filter: blur(4px); display: none; align-items: center; justify-content: center; padding: 16px; }
@@ -169,8 +195,8 @@
   .field input:focus, .field textarea:focus { border-color: var(--gold); }
   .field textarea { resize: vertical; min-height: 64px; }
   .actions { display: flex; gap: 12px; margin-top: 8px; }
-  .actions button { flex: 1; padding: 13px; border-radius: 10px; font-size: 15px; font-weight: 600; cursor: pointer; border: none; }
-  .btn-gold { background: linear-gradient(135deg, var(--gold), var(--gold-light)); color: var(--ink); }
+  .actions button { flex: 1; padding: 13px; border-radius: 10px; font-size: 15px; font-weight: 600; cursor: pointer; border: none; font-family: inherit; }
+  .btn-gold { background: linear-gradient(135deg, var(--gold), var(--gold-light)); color: var(--btn-gold-text); }
   .btn-ghost { background: transparent; color: var(--text-dim); border: 1px solid var(--white-20) !important; }
   .btn-ghost:hover { color: var(--white); border-color: var(--gold) !important; }
   .ok-panel { text-align: center; }
@@ -187,15 +213,31 @@
   .pay-tab.active { background: var(--gold); color: var(--pay-active-text); font-weight: 600; border-color: var(--gold); }
 
   .hidden { display: none !important; }
+
+  /* ============ 移动端（≤640px） ============ */
   @media (max-width: 640px) {
-    .hero-top { flex-direction: column; align-items: flex-start; }
-    .hero-buy { align-items: stretch; width: 100%; }
-    .hero-buy select { width: 100%; }
-    .hero-buy .buy-btn { width: 100%; }
-    .hero-buy .hero-price { text-align: left; }
-    .specs-box { grid-template-columns: 1fr; }
+    .hero-top { flex-direction: column; align-items: stretch; }
+    .hero-top .buy-btn { width: 100%; }
+    .stage { padding: 26px 14px; }
+    .stage img { max-height: 300px; }
+    .cfg-box { padding: 16px; }
+    .cfg-price .off { font-size: 28px; }
+    .cfg-price .count { margin-left: 0; width: 100%; }
+    .cfg-pills { flex-direction: column; }
+    .cfg-pill { width: 100%; }
+    .guarantee { grid-template-columns: 1fr; }
+    .poster { grid-template-columns: 1fr; gap: 18px; padding: 22px 18px; min-height: 0; }
+    .poster:nth-child(even) .poster-media { order: 0; }
+    .poster-media img { max-height: 240px; }
+    .poster-text p { max-width: none; }
+    .quick-grid { grid-template-columns: 1fr; }
+    .spec-row { flex-direction: column; gap: 4px; padding: 10px 2px; border-bottom: 1px solid var(--gold-10); }
+    .spec-row .k { width: auto; font-size: 12.5px; }
+    .after-sale { grid-template-columns: 1fr; }
+    .rel-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
     .nav-links { gap: 6px; }
     .nav .nav-btn { padding: 6px 12px; font-size: 13px; }
+    .nav .brand span { display: none; }
   }
 
   /* ============ 浅色模式（米白金） ============ */
@@ -257,6 +299,7 @@
     --card-grad: linear-gradient(160deg, rgba(184,150,46,0.08), rgba(255,255,255,0.6));
     --stage-grad: linear-gradient(160deg, rgba(184,150,46,0.10), rgba(255,255,255,0.6));
     --panel-grad: linear-gradient(165deg, #FFFDF4, #F6F0E0);
+    --poster-grad: linear-gradient(150deg, rgba(184,150,46,0.12), rgba(255,255,255,0.6) 55%, rgba(184,150,46,0.06));
   }
 
   /* ============ 深浅色切换按钮 ============ */
@@ -295,6 +338,7 @@
 </nav>
 
 <div class="wrap" id="pageBody">
+  <!-- 1. 标题 + 立即下单 -->
   <header class="hero" id="heroHeader">
     <div class="hero-top">
       <div>
@@ -302,39 +346,67 @@
         <h1 id="pName"></h1>
         <div class="tagline" id="pTag"></div>
       </div>
-      <div class="hero-buy">
-        <div class="hero-price">
-          <span class="off" id="pPrice"></span>
-          <span class="official" id="pOfficial"></span>
-        </div>
-        <select id="cfgSel" onchange="updateHero()"></select>
-        <button class="buy-btn" onclick="openOrder()">立即下单</button>
-      </div>
+      <button class="buy-btn" type="button" onclick="openOrder()">立即下单</button>
     </div>
   </header>
 
+  <!-- 2. 主图大图居中 -->
   <section class="stage">
-    <img id="pImg" alt="产品主图" onerror="this.style.display='none';document.getElementById('stageNote').style.display='block'">
+    <img id="pImg" alt="产品主图">
     <div class="stage-note hidden" id="stageNote">主图加载中，请稍候或刷新重试</div>
   </section>
 
+  <!-- 3. 配置选择 + 价格联动 + 保障服务 -->
+  <section class="sec" id="cfgSec">
+    <div class="sec-title">选择配置</div>
+    <div class="cfg-box">
+      <div class="cfg-price">
+        <span class="off" id="pPrice"></span>
+        <span class="official" id="pOfficial"></span>
+        <span class="count" id="pCount"></span>
+      </div>
+      <div class="cfg-pills" id="cfgPills"></div>
+    </div>
+    <div class="guarantee">
+      <div class="g-card"><div class="g-ico">✔</div><div><div class="g-t">官方正品</div><div class="g-d">官方渠道货源，全新未拆封，支持验机</div></div></div>
+      <div class="g-card"><div class="g-ico">￥</div><div><div class="g-t">价格保护</div><div class="g-d">下单后 7 天内同款降价可申请补差</div></div></div>
+      <div class="g-card"><div class="g-ico">↺</div><div><div class="g-t">7 天无理由</div><div class="g-d">不影响二次销售的前提下支持退换</div></div></div>
+    </div>
+  </section>
+
+  <!-- 4. 亮点卖点（一屏一卖点） -->
   <section class="sec" id="sellingSec">
     <div class="sec-title">亮点卖点</div>
     <div id="sellingBox"></div>
   </section>
 
-  <section class="sec">
-    <div class="sec-title">规格参数</div>
-    <table class="base-table" id="baseTable"></table>
-    <div class="specs-box" id="specsBox"></div>
-    <table class="cfg" id="cfgTable">
-      <thead>
-        <tr><th>配置档位</th><th>官网价</th><th>优惠价</th><th>优惠比例</th></tr>
-      </thead>
-      <tbody id="cfgBody"></tbody>
-    </table>
+  <!-- 5. 简要规格 -->
+  <section class="sec" id="quickSec">
+    <div class="sec-title">简要规格</div>
+    <div class="quick-grid" id="quickGrid"></div>
   </section>
 
+  <!-- 6. 详细参数 -->
+  <section class="sec" id="specSec">
+    <div class="sec-title">详细参数</div>
+    <div id="specBox"></div>
+  </section>
+
+  <!-- 7. 售后说明 -->
+  <section class="sec">
+    <div class="sec-title">售后与保障</div>
+    <div class="after-sale">
+      <div class="as-card"><div class="as-n">7</div><div class="as-t">日退货</div><div class="as-d">自签收起 7 日内，商品完好可申请退货</div></div>
+      <div class="as-card"><div class="as-n">15</div><div class="as-t">日换货</div><div class="as-d">自签收起 15 日内，非人为故障可换新</div></div>
+      <div class="as-card"><div class="as-n">1</div><div class="as-t">年免费维修</div><div class="as-d">整机保修期内非人为损坏免费维修</div></div>
+    </div>
+    <div class="as-contact">
+      售后咨询与保修申请请联系：<b>unithing@163.com</b>（工作日 24 小时内回复）<br>
+      请提供订单号、机型配置与故障描述，我们会协助您安排检测或换修。人为损坏、进水、私自拆修不在免费保修范围内。
+    </div>
+  </section>
+
+  <!-- 8. 相关推荐 -->
   <section class="sec" id="relSec">
     <div class="sec-title">相关推荐</div>
     <div class="rel-grid" id="relGrid"></div>
@@ -399,33 +471,71 @@
     try { saved = localStorage.getItem(KEY); } catch (e) {}
     var dark = saved === "dark" || (saved === null && window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches);
     function apply(d) {
-    document.documentElement.setAttribute("data-theme", d ? "dark" : "light");
-    var ico = document.getElementById("themeIco");
-    if (ico) ico.textContent = d ? "\u2600" : "\u263E";
-    try { localStorage.setItem(KEY, d ? "dark" : "light"); } catch (e) {}
+      document.documentElement.setAttribute("data-theme", d ? "dark" : "light");
+      var ico = document.getElementById("themeIco");
+      if (ico) ico.textContent = d ? "\u2600" : "\u263E";
+      try { localStorage.setItem(KEY, d ? "dark" : "light"); } catch (e) {}
     }
     apply(dark);
     var btn = document.getElementById("themeToggle");
     if (btn) btn.addEventListener("click", function () {
-    apply(document.documentElement.getAttribute("data-theme") !== "dark");
+      apply(document.documentElement.getAttribute("data-theme") !== "dark");
     });
   })();
+
 const WORKER_URL = "";
 let SHOP = null;
 let current = { product: null, config: null };
 const params = new URLSearchParams(location.search);
 const pid = params.get("id");
 
-function fmt(n) { return "¥" + n.toLocaleString("zh-CN"); }
+function fmt(n) { return "¥" + Number(n).toLocaleString("zh-CN"); }
+function eur(n) { return "¥" + Number(n).toLocaleString("zh-CN"); }
 
 function escapeHtml(s) {
   return String(s || "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 
-function ratio(price, official) {
-  if (!official || official <= 0 || !price) return "—";
-  return ((1 - price / official) * 100).toFixed(1) + "%";
+/* 卖点映射解析：先精确 id 命中，再按 id 前缀兜底（历史 id 带容量/颜色后缀） */
+function resolveSelling(p) {
+  if (typeof SELLING_POINTS === "undefined" || !SELLING_POINTS) return null;
+  if (SELLING_POINTS[p.id]) return SELLING_POINTS[p.id];
+  const otherIds = new Set(SHOP.products.map(x => x.id));
+  const cands = Object.keys(SELLING_POINTS).filter(k => k.indexOf(p.id + "-") === 0 && !otherIds.has(k));
+  if (!cands.length) return null;
+  cands.sort((a, b) => a.length - b.length);
+  return SELLING_POINTS[cands[0]];
 }
+
+/* 配置标签精简：去掉与型号名重复的前缀，只保留差异部分 */
+function shortLabel(label, name) {
+  let s = String(label || "").trim();
+  const n = String(name || "").trim();
+  if (n && s.toLowerCase().indexOf(n.toLowerCase()) === 0) s = s.slice(n.length).trim();
+  s = s.replace(/^[\s\-–—·,，/]+/, "").trim();
+  return s || label;
+}
+
+/* 卖点文案拆分：首个逗号前为大标语，其后为副文案 */
+function splitPoint(text) {
+  const t = String(text || "").trim();
+  const i = t.search(/[，,]/);
+  if (i > 0 && i < t.length - 1) return { head: t.slice(0, i), sub: t.slice(i + 1).replace(/^[\s，,]+/, "") };
+  return { head: t, sub: "" };
+}
+
+/* 规格分组归类 */
+function groupOf(k) {
+  const s = String(k);
+  if (/屏幕|显示/.test(s)) return "屏幕";
+  if (/芯片|处理器|CPU|显卡|GPU/.test(s)) return "处理器与显卡";
+  if (/内存|存储|硬盘/.test(s)) return "内存与存储";
+  if (/摄像|影像|镜头|拍摄/.test(s)) return "影像系统";
+  if (/电池|续航|充电/.test(s)) return "电池与充电";
+  if (/重量|尺寸|厚/.test(s)) return "尺寸与重量";
+  return "其他参数";
+}
+const GROUP_ORDER = ["屏幕", "处理器与显卡", "内存与存储", "影像系统", "电池与充电", "尺寸与重量", "其他参数"];
 
 function render() {
   const p = SHOP.products.find(x => x.id === pid);
@@ -437,52 +547,89 @@ function render() {
   }
   current.product = p;
   document.title = p.name + " · UniThing 商城";
-  const sp = SELLING_POINTS[p.id] || null;
+  const sp = resolveSelling(p);
 
   document.getElementById("pCrumb").innerHTML = `首页 / 商城 / <b>${escapeHtml(p.brand)}</b> / <b>${escapeHtml(p.category)}</b>`;
   document.getElementById("pName").textContent = p.name;
-  document.getElementById("pTag").textContent = `${p.brand} · ${p.category}${p.tag && p.tag !== p.category ? " · " + p.tag : ""} · 官网正品`;
-  document.getElementById("pImg").src = p.image;
+  document.getElementById("pTag").textContent = `${p.brand} · ${p.category}${p.tag && p.tag !== p.category ? " · " + p.tag : ""} · 官方正品保障`;
 
-  // 配置选择
-  const sel = document.getElementById("cfgSel");
-  p.configs.forEach((c, i) => {
-    const opt = document.createElement("option");
-    opt.value = i;
-    opt.textContent = c.label + " ｜ " + fmt(c.price);
-    sel.appendChild(opt);
+  const img = document.getElementById("pImg");
+  img.onerror = function () { this.style.display = "none"; document.getElementById("stageNote").style.display = "block"; document.getElementById("stageNote").classList.remove("hidden"); };
+  img.src = p.image;
+
+  /* 配置胶囊 */
+  const pills = document.getElementById("cfgPills");
+  pills.innerHTML = p.configs.map((c, i) => {
+    const sl = shortLabel(c.label, p.name);
+    const head = sl !== c.label ? sl : c.label;
+    return `<button class="cfg-pill${i === 0 ? " active" : ""}" type="button" data-i="${i}">
+      <span class="pl">${escapeHtml(head)}</span><span class="pk">${fmt(c.price)}</span>
+    </button>`;
+  }).join("");
+  pills.querySelectorAll(".cfg-pill").forEach(btn => {
+    btn.addEventListener("click", function () {
+      pills.querySelectorAll(".cfg-pill").forEach(b => b.classList.remove("active"));
+      this.classList.add("active");
+      selectConfig(+this.dataset.i);
+    });
   });
-  updateHero();
+  selectConfig(0);
 
-  // 卖点区：有映射渲染官网卖点；无映射展示基于真实数据的说明
+  /* 卖点区：一屏一卖点 */
   const sBox = document.getElementById("sellingBox");
   if (sp && sp.points && sp.points.length) {
-    sBox.innerHTML = `<div class="selling">${sp.points.map(pt => `<div class="point">${escapeHtml(pt)}</div>`).join("")}</div>`;
+    const heroImg = sp.hero || "";
+    sBox.innerHTML = sp.points.map((pt, i) => {
+      const { head, sub } = splitPoint(pt);
+      const useHero = heroImg && i % 2 === 0;
+      const src = useHero ? heroImg : p.image;
+      return `<article class="poster">
+        <div class="poster-media"><img src="${src}" alt="${escapeHtml(head)}" loading="lazy"
+          onerror="if(!this.dataset.fb){this.dataset.fb=1;this.src='${p.image}';}else{this.style.display='none';}"></div>
+        <div class="poster-text">
+          <div class="idx">0${i + 1}</div>
+          <h3>${escapeHtml(head)}</h3>
+          ${sub ? `<p>${escapeHtml(sub)}</p>` : ""}
+        </div>
+      </article>`;
+    }).join("");
+    document.getElementById("sellingSec").classList.remove("hidden");
   } else {
-    sBox.innerHTML = `<div class="no-points">该机型官网卖点文案整理中，以下规格与价格为商城在售的真实数据，可放心选购。</div>`;
+    sBox.innerHTML = `<div class="no-points">该机型官网卖点文案暂未整理，为避免误导不作编造。以下「简要规格」「详细参数」与价格为商城在售的真实数据，可放心选购；如需更多信息请联系 unithing@163.com。</div>`;
   }
 
-  // 基础信息表
-  document.getElementById("baseTable").innerHTML =
-    `<tr><th>品牌</th><td>${escapeHtml(p.brand)}</td></tr>` +
-    `<tr><th>品类</th><td>${escapeHtml(p.category)}</td></tr>` +
-    `<tr><th>型号</th><td>${escapeHtml(p.name)}</td></tr>` +
-    `<tr><th>在售配置</th><td>${p.configs.length} 个档位</td></tr>`;
-
-  // 详细规格（来自 SELLING_POINTS 映射）
-  const specsBox = document.getElementById("specsBox");
-  if (sp && sp.specs && Object.keys(sp.specs).length) {
-    specsBox.innerHTML = Object.entries(sp.specs).map(([k, v]) =>
-      `<div class="spec-item"><div class="k">${escapeHtml(k)}</div><div class="v">${escapeHtml(v)}</div></div>`).join("");
-  } else {
-    specsBox.innerHTML = `<div class="no-points" style="grid-column:1/-1;">官网详细规格整理中，当前展示商城在售配置档位与价格。</div>`;
+  /* 简要规格：取映射规格前 4 条，无映射则用真实基础信息 */
+  const quick = document.getElementById("quickGrid");
+  let quickItems = [];
+  if (sp && sp.specs) {
+    quickItems = Object.entries(sp.specs).slice(0, 4).map(([k, v]) => [k, v]);
   }
+  if (!quickItems.length) {
+    const low = p.configs.reduce((m, c) => (c.price < m.price ? c : m), p.configs[0]);
+    quickItems = [["品牌", p.brand], ["品类", p.category], ["在售配置", p.configs.length + " 个档位"], ["起售价", fmt(low.price)]];
+  }
+  quick.innerHTML = quickItems.map(([k, v]) =>
+    `<div class="quick-item"><div class="qk">${escapeHtml(k)}</div><div class="qv">${escapeHtml(v)}</div></div>`).join("");
 
-  // 配置档位表（label / 官网价 / 优惠价 / 优惠比例）
-  document.getElementById("cfgBody").innerHTML = p.configs.map(c =>
-    `<tr><td>${escapeHtml(c.label)}</td><td>${c.official > 0 ? fmt(c.official) : "—"}</td><td class="off">${fmt(c.price)}</td><td class="ratio">${ratio(c.price, c.official)}</td></tr>`).join("");
+  /* 详细参数：分组扁平表 */
+  let groups = {};
+  groups["主要参数"] = [["品牌", p.brand], ["品类", p.category], ["型号", p.name], ["在售配置", p.configs.map(c => shortLabel(c.label, p.name)).join(" / ")]];
+  if (sp && sp.specs) {
+    for (const [k, v] of Object.entries(sp.specs)) {
+      const g = groupOf(k);
+      (groups[g] = groups[g] || []).push([k, v]);
+    }
+  }
+  const ordered = ["主要参数", ...GROUP_ORDER.filter(g => groups[g])];
+  let html = ordered.map(g => `<div class="spec-group"><h4>${escapeHtml(g)}</h4>` +
+    groups[g].map(([k, v]) => `<div class="spec-row"><div class="k">${escapeHtml(k)}</div><div class="v">${escapeHtml(v)}</div></div>`).join("") +
+    `</div>`).join("");
+  if (!(sp && sp.specs)) {
+    html += `<div class="no-points">该机型更细的官方参数仍在整理中，以上为商城在售的真实信息。可致信 unithing@163.com 索取详细参数表。</div>`;
+  }
+  document.getElementById("specBox").innerHTML = html;
 
-  // 相关推荐：同品牌同品类最多 4 款
+  /* 相关推荐：同品牌同品类最多 4 款 */
   const rels = SHOP.products.filter(x => x.brand === p.brand && x.category === p.category && x.id !== p.id).slice(0, 4);
   const relSec = document.getElementById("relSec");
   const relGrid = document.getElementById("relGrid");
@@ -500,16 +647,20 @@ function render() {
   }
 }
 
-function updateHero() {
-  const i = +document.getElementById("cfgSel").value;
-  const c = current.product.configs[i];
+/* 配置切换 → 价格联动（仅优惠价 + 原价划线，不显示优惠比例） */
+function selectConfig(i) {
+  const p = current.product;
+  const c = p.configs[i];
+  if (!c) return;
   current.config = c;
   document.getElementById("pPrice").textContent = fmt(c.price);
   document.getElementById("pOfficial").textContent = c.official > 0 ? "官网价 " + fmt(c.official) : "";
+  document.getElementById("pCount").textContent = `共 ${p.configs.length} 个配置档位`;
 }
 
 function openOrder() {
   const p = current.product, c = current.config;
+  if (!p || !c) return;
   document.getElementById("summary").innerHTML =
     `商品：<b>${escapeHtml(p.name)}</b><br>配置：<b>${escapeHtml(c.label)}</b><br>价格：<b>${fmt(c.price)}</b>${c.official > 0 ? "（官网价 " + fmt(c.official) + "）" : ""}`;
   document.getElementById("formPanel").classList.remove("hidden");
