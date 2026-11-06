@@ -103,7 +103,8 @@
 
   /* ============ 主图大图居中 ============ */
   .stage { margin: 26px 0 10px; padding: 44px 24px; background: var(--stage-grad); border: 1px solid var(--gold-18); border-radius: 24px; text-align: center; }
-  .stage img { max-width: 100%; max-height: 480px; object-fit: contain; }
+  .stage img { max-width: 100%; max-height: 480px; object-fit: contain; transition: opacity .2s ease; }
+  .stage img.fading { opacity: 0; }
   .stage .stage-note { margin-top: 16px; font-size: 12px; color: var(--text-dim); }
 
   /* ============ 区块通用 ============ */
@@ -131,14 +132,29 @@
   .g-card .g-t { font-size: 14.5px; font-weight: 700; color: var(--white); }
   .g-card .g-d { font-size: 12.5px; color: var(--text-dim); margin-top: 3px; line-height: 1.5; }
 
-  /* ============ 卖点区：一屏一卖点 ============ */
-  .poster { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 34px; min-height: 400px; padding: 34px 30px; margin-bottom: 20px; background: var(--poster-grad); border: 1px solid var(--gold-14); border-radius: 22px; overflow: hidden; }
-  .poster:nth-child(even) .poster-media { order: 2; }
-  .poster-media { display: flex; align-items: center; justify-content: center; }
-  .poster-media img { max-width: 100%; max-height: 330px; object-fit: contain; filter: drop-shadow(0 22px 46px var(--black-45)); }
-  .poster-text .idx { font-size: 12px; letter-spacing: 3px; color: var(--gold-55); margin-bottom: 10px; }
-  .poster-text h3 { font-size: clamp(24px, 3.6vw, 40px); font-weight: 800; line-height: 1.25; letter-spacing: .5px; margin-bottom: 14px; background: linear-gradient(135deg, var(--gold-white), var(--gold) 60%, var(--gold-light)); -webkit-background-clip: text; background-clip: text; color: transparent; }
-  .poster-text p { font-size: 15px; color: var(--text-dim); line-height: 1.8; max-width: 44ch; }
+  /* ============ 卖点区：A 官网原图版 / B 统一配色卡版（pv 参数切换） ============ */
+  .pv-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; padding: 11px 16px; margin-bottom: 20px; font-size: 13px; color: var(--text-dim); background: var(--gold-06); border: 1px solid var(--gold-18); border-radius: 12px; line-height: 1.6; }
+  .pv-bar .pv-tag { flex-shrink: 0; padding: 2px 10px; border-radius: 999px; border: 1px solid var(--gold-40); font-size: 11.5px; letter-spacing: 1px; color: var(--gold-light); font-weight: 700; }
+  .pv-bar b { color: var(--gold-light); font-weight: 700; }
+  .pv-bar a { color: var(--gold-light); text-decoration: none; border-bottom: 1px dashed var(--gold-40); padding-bottom: 1px; transition: .25s; }
+  .pv-bar a:hover { color: var(--gold-white); border-bottom-color: var(--gold-60); }
+
+  /* A 版：一屏一张官网原图长图，100% 宽自适应 */
+  .point-shot { margin: 0 0 18px; border-radius: 20px; overflow: hidden; border: 1px solid var(--gold-14); background: var(--poster-grad); }
+  .point-shot img { display: block; width: 100%; height: auto; }
+  .point-shot .shot-fb { padding: 44px 24px; text-align: center; font-size: 14.5px; color: var(--text-dim); line-height: 1.8; }
+
+  /* B 版：一屏一张统一配色卡，居中留白一致 */
+  .point-card { margin: 0 auto 24px; max-width: 1000px; }
+  .point-card img { display: block; width: 100%; height: auto; border-radius: 18px; border: 1px solid var(--gold-18); box-shadow: 0 18px 44px var(--black-45); background: var(--poster-grad); }
+  .point-card .pc-cap { margin-top: 11px; text-align: center; font-size: 13px; color: var(--text-dim); line-height: 1.7; }
+  .point-card .shot-fb { padding: 44px 24px; text-align: center; font-size: 14.5px; color: var(--text-dim); line-height: 1.8; border: 1px dashed var(--dash-border); border-radius: 18px; }
+
+  /* 无配图机型：纯文案块（不造假、不顶替） */
+  .point-text { display: flex; gap: 20px; align-items: flex-start; padding: 22px 26px; margin-bottom: 14px; background: var(--soft-bg); border: 1px solid var(--gold-14); border-radius: 16px; }
+  .point-text .idx { font-size: 12px; letter-spacing: 3px; color: var(--gold-55); padding-top: 4px; }
+  .point-text h3 { font-size: 19px; font-weight: 700; color: var(--gold-light); line-height: 1.4; margin-bottom: 8px; }
+  .point-text p { font-size: 14px; color: var(--text-dim); line-height: 1.8; }
   .no-points { background: var(--soft-bg); border: 1px dashed var(--dash-border); border-radius: 14px; padding: 24px; font-size: 14px; color: var(--text-dim); line-height: 1.8; }
 
   /* ============ 简要规格（重点参数块） ============ */
@@ -226,10 +242,12 @@
     .cfg-pills { flex-direction: column; }
     .cfg-pill { width: 100%; }
     .guarantee { grid-template-columns: 1fr; }
-    .poster { grid-template-columns: 1fr; gap: 18px; padding: 22px 18px; min-height: 0; }
-    .poster:nth-child(even) .poster-media { order: 0; }
-    .poster-media img { max-height: 240px; }
-    .poster-text p { max-width: none; }
+    .pv-bar { font-size: 12.5px; padding: 10px 12px; }
+    .point-shot, .point-card { border-radius: 14px; }
+    .point-shot { margin-bottom: 12px; }
+    .point-card { margin-bottom: 18px; }
+    .point-card .pc-cap { font-size: 12px; }
+    .point-text { flex-direction: column; gap: 8px; padding: 18px; }
     .quick-grid { grid-template-columns: 1fr; }
     .spec-row { flex-direction: column; gap: 4px; padding: 10px 2px; border-bottom: 1px solid var(--gold-10); }
     .spec-row .k { width: auto; font-size: 12.5px; }
@@ -338,6 +356,9 @@
 </nav>
 
 <div class="wrap" id="pageBody">
+  <!-- 0. 卖点展示版本提示（pv=a 官网原图版 / pv=card 统一配色卡版） -->
+  <div class="pv-bar hidden" id="pvBar"></div>
+
   <!-- 1. 标题 + 立即下单 -->
   <header class="hero" id="heroHeader">
     <div class="hero-top">
@@ -516,11 +537,11 @@ function shortLabel(label, name) {
   return s || label;
 }
 
-/* 卖点文案拆分：首个逗号前为大标语，其后为副文案 */
+/* 卖点文案拆分：首个逗号/间隔点前为大标语，其后为副文案 */
 function splitPoint(text) {
   const t = String(text || "").trim();
-  const i = t.search(/[，,]/);
-  if (i > 0 && i < t.length - 1) return { head: t.slice(0, i), sub: t.slice(i + 1).replace(/^[\s，,]+/, "") };
+  const i = t.search(/[，,·]/);
+  if (i > 0 && i < t.length - 1) return { head: t.slice(0, i).trim(), sub: t.slice(i + 1).replace(/^[\s，,·]+/, "") };
   return { head: t, sub: "" };
 }
 
@@ -556,6 +577,7 @@ function render() {
   const img = document.getElementById("pImg");
   img.onerror = function () { this.style.display = "none"; document.getElementById("stageNote").style.display = "block"; document.getElementById("stageNote").classList.remove("hidden"); };
   img.src = p.image;
+  img.setAttribute("data-src-key", p.image || "");
 
   /* 配置胶囊 */
   const pills = document.getElementById("cfgPills");
@@ -575,26 +597,52 @@ function render() {
   });
   selectConfig(0);
 
-  /* 卖点区：一屏一卖点 */
+  /* 卖点区：pv=a（默认）一屏一张官网原图长图；pv=card 一屏一张统一配色卡 */
+  const PV = (() => {
+    const v = (new URLSearchParams(location.search).get("pv") || "a").toLowerCase();
+    return v === "card" ? "card" : "a";
+  })();
+  const pvBar = document.getElementById("pvBar");
   const sBox = document.getElementById("sellingBox");
   if (sp && sp.points && sp.points.length) {
-    const heroImg = sp.hero || "";
+    const useCard = PV === "card";
+    const other = useCard ? "a" : "card";
+    if (pvBar) {
+      const link = new URL(location.href);
+      link.searchParams.set("pv", other);
+      pvBar.innerHTML = `<span class="pv-tag">${useCard ? "B 版" : "A 版"}</span>
+        <span>当前卖点展示：<b>${useCard ? "B 统一配色卡版" : "A 官网原图版"}</b>${useCard ? "（统一配色卡 · 居中留白 · WebP 图）" : "（官网原图长图 · 一屏一图）"}</span>
+        <a href="${link.toString()}">切换到${other === "card" ? "B 统一配色卡版" : "A 官网原图版"} →</a>`;
+      pvBar.classList.remove("hidden");
+    }
     sBox.innerHTML = sp.points.map((pt, i) => {
-      const { head, sub } = splitPoint(pt);
-      const useHero = heroImg && i % 2 === 0;
-      const src = useHero ? heroImg : p.image;
-      return `<article class="poster">
-        <div class="poster-media"><img src="${src}" alt="${escapeHtml(head)}" loading="lazy"
-          onerror="if(!this.dataset.fb){this.dataset.fb=1;this.src='${p.image}';}else{this.style.display='none';}"></div>
-        <div class="poster-text">
-          <div class="idx">0${i + 1}</div>
-          <h3>${escapeHtml(head)}</h3>
-          ${sub ? `<p>${escapeHtml(sub)}</p>` : ""}
-        </div>
-      </article>`;
+      const raw = (pt && typeof pt === "object") ? String(pt.text || "") : String(pt || "");
+      const { head, sub } = splitPoint(raw);
+      const cardSrc = (pt && typeof pt === "object") ? (pt.imageCard || "") : "";
+      const shotSrc = (pt && typeof pt === "object") ? (pt.image || "") : "";
+      const src = useCard ? (cardSrc || shotSrc) : (shotSrc || cardSrc);
+      const idx = (i + 1 < 10 ? "0" : "") + (i + 1);
+      if (!src) {
+        return `<article class="point-text">
+          <div class="idx">${idx}</div>
+          <div>${`<h3>${escapeHtml(head)}</h3>`}${sub ? `<p>${escapeHtml(sub)}</p>` : ""}</div>
+        </article>`;
+      }
+      const fb = `<div class="shot-fb" hidden>卖点配图加载失败（${escapeHtml(head)}）${sub ? "：" + escapeHtml(sub) : ""}</div>`;
+      const onerr = "this.style.display='none';this.nextElementSibling.hidden=false;";
+      if (useCard) {
+        return `<figure class="point-card">
+          <img src="${src}" alt="${escapeHtml(raw)}" loading="lazy" onerror="${onerr}">${fb}
+          <figcaption class="pc-cap">${idx} · ${escapeHtml(head)}</figcaption>
+        </figure>`;
+      }
+      return `<figure class="point-shot">
+        <img src="${src}" alt="${escapeHtml(raw)}" loading="lazy" onerror="${onerr}">${fb}
+      </figure>`;
     }).join("");
     document.getElementById("sellingSec").classList.remove("hidden");
   } else {
+    if (pvBar) pvBar.classList.add("hidden");
     sBox.innerHTML = `<div class="no-points">该机型官网卖点文案暂未整理，为避免误导不作编造。以下「简要规格」「详细参数」与价格为商城在售的真实数据，可放心选购；如需更多信息请联系 unithing@163.com。</div>`;
   }
 
@@ -647,12 +695,30 @@ function render() {
   }
 }
 
+/* 主图随配置/配色淡入切换：该档位无 image 时保持当前主图不变（不裂图、不空白） */
+function switchMainImage(src) {
+  if (!src) return;
+  const img = document.getElementById("pImg");
+  if (!img) return;
+  if (img.getAttribute("data-src-key") === src) return;
+  img.setAttribute("data-src-key", src);
+  img.classList.add("fading");
+  window.setTimeout(function () {
+    img.style.display = "";
+    const note = document.getElementById("stageNote");
+    if (note) { note.style.display = "none"; note.classList.add("hidden"); }
+    img.src = src;
+    window.requestAnimationFrame(function () { img.classList.remove("fading"); });
+  }, 200);
+}
+
 /* 配置切换 → 价格联动（仅优惠价 + 原价划线，不显示优惠比例） */
 function selectConfig(i) {
   const p = current.product;
   const c = p.configs[i];
   if (!c) return;
   current.config = c;
+  switchMainImage(c.image);
   document.getElementById("pPrice").textContent = fmt(c.price);
   document.getElementById("pOfficial").textContent = c.official > 0 ? "官网价 " + fmt(c.official) : "";
   document.getElementById("pCount").textContent = `共 ${p.configs.length} 个配置档位`;

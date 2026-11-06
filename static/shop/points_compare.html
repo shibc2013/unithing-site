@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>卖点展示对比 · A 官网原图版 / B 统一配色卡版 · UniThing 商城</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+  :root {
+    --black: #08080A;
+    --panel: #0F1012;
+    --line: rgba(212,175,55,.22);
+    --line-strong: rgba(212,175,55,.42);
+    --gold: #D4AF37;
+    --gold-light: #E8C761;
+    --gold-white: #F7E7A8;
+    --text: #EDEAE3;
+    --text-dim: rgba(237,234,227,.62);
+    --bg-grad: radial-gradient(1200px 600px at 50% -10%, rgba(212,175,55,.10), transparent 60%), #08080A;
+  }
+  [data-theme="light"] {
+    --black: #FAF7EC;
+    --panel: #FFFDF6;
+    --line: rgba(184,150,46,.26);
+    --line-strong: rgba(184,150,46,.48);
+    --gold: #B8962E;
+    --gold-light: #A8821F;
+    --gold-white: #8A6D1A;
+    --text: #2B2415;
+    --text-dim: rgba(43,36,21,.66);
+    --bg-grad: radial-gradient(1200px 600px at 50% -10%, rgba(184,150,46,.14), transparent 60%), #FAF7EC;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    min-height: 100vh;
+    background: var(--bg-grad);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--gold-light); }
+
+  header.cmp-head {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px;
+    padding: 16px 22px 14px;
+    border-bottom: 1px solid var(--line);
+    background: linear-gradient(180deg, rgba(212,175,55,.06), transparent);
+  }
+  .cmp-title { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  .cmp-title h1 { font-size: 17px; font-weight: 800; margin: 0; letter-spacing: .5px; color: var(--gold-white); }
+  .cmp-title .sub { font-size: 12.5px; color: var(--text-dim); }
+  .cmp-actions { margin-left: auto; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .cmp-btn {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 7px 13px; font-size: 12.5px; text-decoration: none;
+    color: var(--gold-light); border: 1px solid var(--line-strong); border-radius: 999px;
+    background: rgba(212,175,55,.06); transition: .25s; font-family: inherit; cursor: pointer;
+  }
+  .cmp-btn:hover { border-color: var(--gold); color: var(--gold-white); background: rgba(212,175,55,.14); }
+
+  .panes {
+    display: flex; gap: 14px; padding: 14px 16px 18px;
+    min-height: calc(100vh - 74px); align-items: stretch;
+  }
+  .pane { flex: 1 1 50%; min-width: 0; display: flex; flex-direction: column; background: var(--panel); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; }
+  .pane-head {
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+    padding: 10px 14px; border-bottom: 1px solid var(--line);
+    background: linear-gradient(180deg, rgba(212,175,55,.09), transparent);
+  }
+  .pane-tag {
+    flex-shrink: 0; padding: 2px 10px; border-radius: 999px;
+    border: 1px solid var(--line-strong); font-size: 11px; font-weight: 800; letter-spacing: 1px;
+    color: var(--gold-light); background: rgba(212,175,55,.08);
+  }
+  .pane-head .nm { font-size: 13.5px; font-weight: 700; color: var(--gold-white); }
+  .pane-head .ds { font-size: 11.5px; color: var(--text-dim); }
+  .pane-head .open { margin-left: auto; font-size: 12px; text-decoration: none; color: var(--gold-light); border-bottom: 1px dashed var(--line-strong); }
+  iframe { flex: 1 1 auto; width: 100%; min-height: 78vh; border: 0; background: var(--black); display: block; }
+
+  .cmp-foot { padding: 0 20px 22px; font-size: 12px; color: var(--text-dim); line-height: 1.9; }
+  .cmp-foot b { color: var(--gold-light); font-weight: 700; }
+
+  @media (max-width: 640px) {
+    .panes { flex-direction: column; gap: 12px; padding: 12px; min-height: 0; }
+    .pane { flex: 1 1 auto; }
+    iframe { min-height: 72vh; }
+    .cmp-head { padding: 14px 14px 12px; }
+    .cmp-actions { margin-left: 0; width: 100%; }
+    .cmp-title h1 { font-size: 15.5px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="cmp-head">
+  <div class="cmp-title">
+    <h1>卖点区 A/B 双版对比</h1>
+    <span class="sub" id="cmpSub">同一产品的两种卖点展示方式，左右并排浏览</span>
+  </div>
+  <div class="cmp-actions">
+    <button class="cmp-btn" id="cmpTheme" type="button">切换深浅色</button>
+    <a class="cmp-btn" id="openA" href="#" target="_blank" rel="noopener">A 版单独打开</a>
+    <a class="cmp-btn" id="openB" href="#" target="_blank" rel="noopener">B 版单独打开</a>
+    <a class="cmp-btn" href="/shop/">返回商城</a>
+  </div>
+</header>
+
+<main class="panes">
+  <section class="pane">
+    <div class="pane-head">
+      <span class="pane-tag">A 版</span>
+      <span class="nm">A 官网原图版</span>
+      <span class="ds">pv=a · 官网原图长图 · 一屏一图 · 100% 宽</span>
+      <a class="open" id="linkA" href="#" target="_blank" rel="noopener">新窗口打开</a>
+    </div>
+    <iframe id="frameA" title="A 官网原图版" loading="lazy" src="about:blank"></iframe>
+  </section>
+
+  <section class="pane">
+    <div class="pane-head">
+      <span class="pane-tag">B 版</span>
+      <span class="nm">B 统一配色卡版</span>
+      <span class="ds">pv=card · 统一配色卡 · 居中留白 · WebP</span>
+      <a class="open" id="linkB" href="#" target="_blank" rel="noopener">新窗口打开</a>
+    </div>
+    <iframe id="frameB" title="B 统一配色卡版" loading="lazy" src="about:blank"></iframe>
+  </section>
+</main>
+
+<div class="cmp-foot">
+  说明：两侧为<b>同一个产品详情页</b>，仅卖点展示方式不同——A 版用官网原图长图（一屏一张，宽度 100% 自适应），B 版用统一配色卡（居中、留白一致，WebP 压缩图）。
+  可通过 URL 参数 <b>?id=产品id</b> 切换机型；未指定时默认展示华为 Mate 90 Pro Max。主图配色联动、深浅色、下单弹窗在两侧页面中均可用。
+</div>
+
+<script>
+  // ---------- 深浅色（与详情页同一 localStorage 键，首次跟随系统） ----------
+  (function () {
+    var KEY = "unithing-theme";
+    var saved = null;
+    try { saved = localStorage.getItem(KEY); } catch (e) {}
+    var dark = saved === "dark" || (saved === null && window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches);
+    function apply(d) {
+      document.documentElement.setAttribute("data-theme", d ? "dark" : "light");
+      try { localStorage.setItem(KEY, d ? "dark" : "light"); } catch (e) {}
+    }
+    apply(dark);
+    var btn = document.getElementById("cmpTheme");
+    if (btn) btn.addEventListener("click", function () {
+      apply(document.documentElement.getAttribute("data-theme") !== "dark");
+    });
+  })();
+
+  // ---------- 生成 A/B 两版链接（保留产品 id 等参数，仅改写 pv） ----------
+  (function () {
+    var DEFAULT_ID = "huawei-mate-90-pro-max-12gb-plus-512gb-翡冷翠";
+    var qs = new URLSearchParams(location.search);
+    var pid = qs.get("id") || DEFAULT_ID;
+
+    function make(pv) {
+      var u = new URL("/shop/product.html", location.origin);
+      u.searchParams.set("id", pid);
+      u.searchParams.set("pv", pv);
+      return u.toString();
+    }
+    var a = make("a"), b = make("card");
+    document.getElementById("frameA").src = a;
+    document.getElementById("frameB").src = b;
+    document.getElementById("linkA").href = a;
+    document.getElementById("linkB").href = b;
+    document.getElementById("openA").href = a;
+    document.getElementById("openB").href = b;
+
+    // 跨 iframe 同步主题（同源可控）
+    var frames = [document.getElementById("frameA"), document.getElementById("frameB")];
+    document.getElementById("cmpTheme").addEventListener("click", function () {
+      var t = document.documentElement.getAttribute("data-theme");
+      frames.forEach(function (f) {
+        try { f.contentDocument.documentElement.setAttribute("data-theme", t); } catch (e) {}
+      });
+    });
+  })();
+</script>
+</body>
+</html>

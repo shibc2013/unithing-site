@@ -6,14 +6,36 @@ const SELLING_POINTS = {
   "huawei-mate-90-pro-max-12gb-plus-512gb-翡冷翠": {
     hero: "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/phones/mate90-pro-max/img/hero/kv-phone.png",
     points: [
-      "麒麟9050系列，强悍性能迸发，画质帧率拉满，上手即享高能",
-      "全昆仑玄武架构，全新光学昆仑玻璃配合玄武机身，重重防护安心靠谱",
-      "华为睿影XMAGE，睿影红枫人像，超大底2亿长焦，影像实力再飞跃",
-      "全彩灵珑屏，12000尼特峰值亮度，全彩显示加持，通透鲜活一屏惊艳",
-      "卓越通信，四卡三待5A速度，多设备互助拼出好网速",
-      "HarmonyOS 7，聪明小艺便捷帮记，互联分享隐私无忧",
-      "北斗卫星消息，无地面网络也能保持联络",
-      "悬浮星环设计中轴对称，湿地触控更灵敏"
+      {
+        text: "踏光向前 · 悬浮星环设计中轴对称，出场即焦点",
+        image: "/shop/img/points/m90pm_p01.jpg",
+        imageCard: "/shop/img/points/card/m90pm_card01.webp"
+      },
+      {
+        text: "出场，自带光环 · 一体机身线条利落，握持轻巧称手",
+        image: "/shop/img/points/m90pm_p02.jpg",
+        imageCard: "/shop/img/points/card/m90pm_card02.webp"
+      },
+      {
+        text: "四款配色一览 · 翡冷翠 / 曜石黑 / 晶钻白 / 玫瑰金",
+        image: "/shop/img/points/m90pm_p03.jpg",
+        imageCard: "/shop/img/points/card/m90pm_card03.webp"
+      },
+      {
+        text: "小意外，虚惊一场 · 全昆仑玄武架构，光学昆仑玻璃重重防护",
+        image: "/shop/img/points/m90pm_p04.jpg",
+        imageCard: "/shop/img/points/card/m90pm_card04.webp"
+      },
+      {
+        text: "酣畅玩，全控场 · 麒麟9050 PRO 强悍性能，画质帧率拉满",
+        image: "/shop/img/points/m90pm_p05.jpg",
+        imageCard: "/shop/img/points/card/m90pm_card05.webp"
+      },
+      {
+        text: "上镜，准出色 · 华为睿影 XMAGE 影像，超大底 2 亿长焦",
+        image: "/shop/img/points/m90pm_p06.jpg",
+        imageCard: "/shop/img/points/card/m90pm_card06.webp"
+      }
     ],
     specs: {
       "屏幕": "6.9英寸双层OLED，2848x1320",

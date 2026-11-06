@@ -35,17 +35,20 @@
         {
           "label": "蜜珀粉",
           "official": 3399,
-          "price": 3229
+          "price": 3229,
+          "image": "/shop/img/le-联想ai平板-小新pro-gt-13-高通骁龙8-3-5k护眼超清大屏-蜜珀粉.png"
         },
         {
           "label": "霜雪银",
           "official": 3399,
-          "price": 3229
+          "price": 3229,
+          "image": "/shop/img/le-联想ai平板-小新pro-gt-13-高通骁龙8-3-5k护眼超清大屏-霜雪银.png"
         },
         {
           "label": "凝雾灰 官方标配",
           "official": 3799,
-          "price": 3609
+          "price": 3609,
+          "image": "/shop/img/le-联想ai平板-小新pro-gt-13-高通骁龙8-3-5k护眼超清大屏-凝雾灰.png"
         }
       ]
     },
@@ -230,17 +233,20 @@
         {
           "label": "冰魄白",
           "official": 4499,
-          "price": 4274
+          "price": 4274,
+          "image": "/shop/img/le-联想拯救者平板y700-五代-8-8英寸ai游戏平板-骁龙8至尊版-冰魄白.png"
         },
         {
           "label": "星光紫",
           "official": 4499,
-          "price": 4274
+          "price": 4274,
+          "image": "/shop/img/le-联想拯救者平板y700-五代-8-8英寸ai游戏平板-骁龙8至尊版-星光紫.png"
         },
         {
           "label": "碳晶黑",
           "official": 6399,
-          "price": 6079
+          "price": 6079,
+          "image": "/shop/img/le-联想拯救者平板y700-五代-8-8英寸ai游戏平板-骁龙8至尊版-碳晶黑.png"
         }
       ]
     },
@@ -255,12 +261,14 @@
         {
           "label": "11英寸 天青色",
           "official": 1349,
-          "price": 1282
+          "price": 1282,
+          "image": "/shop/img/le-联想小新平板11-11英寸-影音娱乐网课学习-ai平板电脑-天青色.png"
         },
         {
           "label": "11英寸 深空灰",
           "official": 1349,
-          "price": 1282
+          "price": 1282,
+          "image": "/shop/img/le-联想小新平板11-11英寸-影音娱乐网课学习-ai平板电脑-深空灰.png"
         }
       ]
     },
@@ -300,12 +308,14 @@
         {
           "label": "冰魄白",
           "official": 34998,
-          "price": 33248
+          "price": 33248,
+          "image": "/shop/img/le-联想拯救者y9000p-2026-至尊版-16英寸电竞游戏笔记本电脑-冰魄白.png"
         },
         {
           "label": "碳晶黑",
           "official": 34998,
-          "price": 33248
+          "price": 33248,
+          "image": "/shop/img/le-联想拯救者y9000p-2026-至尊版-16英寸电竞游戏笔记本电脑-碳晶黑.png"
         }
       ]
     },
@@ -320,7 +330,8 @@
         {
           "label": "深空灰",
           "official": 9799,
-          "price": 9309
+          "price": 9309,
+          "image": "/shop/img/le-联想小新pro14-酷睿-14英寸轻薄笔记本电脑-深空灰.png"
         },
         {
           "label": "标准版",
@@ -340,37 +351,44 @@
         {
           "label": "12GB+256GB 马卡龙粉",
           "official": 3899,
-          "price": 3704
+          "price": 3704,
+          "image": "/shop/img/le-联想moto-razr-60-12gb-plus-256gb-马卡龙粉.png"
         },
         {
           "label": "12GB+512GB 马卡龙粉",
           "official": 4299,
-          "price": 4084
+          "price": 4084,
+          "image": "/shop/img/le-联想moto-razr-60-12gb-plus-512gb-马卡龙粉.png"
         },
         {
           "label": "12GB+256GB 午夜苍蓝",
           "official": 3899,
-          "price": 3704
+          "price": 3704,
+          "image": "/shop/img/le-联想moto-razr-60-12gb-plus-256gb-午夜苍蓝.png"
         },
         {
           "label": "8GB+256GB 午夜苍蓝",
           "official": 3499,
-          "price": 3324
+          "price": 3324,
+          "image": "/shop/img/le-联想moto-razr-60-8gb-plus-256gb-午夜苍蓝.png"
         },
         {
           "label": "星际陨黑 12+256 官方标配",
           "official": 3899,
-          "price": 3704
+          "price": 3704,
+          "image": "/shop/img/le-联想moto-razr-60-12-plus-256-星际陨黑.png"
         },
         {
           "label": "棉花糖白 12GB+256GB 官方标配",
           "official": 3899,
-          "price": 3704
+          "price": 3704,
+          "image": "/shop/img/le-联想moto-razr-60-12gb-plus-256gb-棉花糖白.png"
         },
         {
           "label": "冰淇淋绿 12GB+256GB 官方标配",
           "official": 3899,
-          "price": 3704
+          "price": 3704,
+          "image": "/shop/img/le-联想moto-razr-60-12gb-plus-256gb-冰淇淋绿.png"
         }
       ]
     },
@@ -385,17 +403,20 @@
         {
           "label": "12GB+256GB 绅墨雅黑",
           "official": 9999,
-          "price": 9499
+          "price": 9499,
+          "image": "/shop/img/le-联想moto-razr-fold-12gb-plus-256gb-绅墨雅黑.png"
         },
         {
           "label": "16GB+1TB 绅墨雅黑",
           "official": 14999,
-          "price": 14249
+          "price": 14249,
+          "image": "/shop/img/le-联想moto-razr-fold-16gb-plus-1tb-绅墨雅黑.png"
         },
         {
           "label": "16GB+512GB 绅墨雅黑",
           "official": 10999,
-          "price": 10449
+          "price": 10449,
+          "image": "/shop/img/le-联想moto-razr-fold-16gb-plus-512gb-绅墨雅黑.png"
         }
       ]
     },
@@ -435,12 +456,14 @@
         {
           "label": "16GB+1TB 檀棕椴木",
           "official": 8499,
-          "price": 8074
+          "price": 8074,
+          "image": "/shop/img/le-联想moto-razr-70-ultra-16gb-plus-1tb-檀棕椴木.png"
         },
         {
           "label": "16GB+512GB 檀棕椴木",
           "official": 7999,
-          "price": 7599
+          "price": 7599,
+          "image": "/shop/img/le-联想moto-razr-70-ultra-16gb-plus-512gb-檀棕椴木.png"
         }
       ]
     },
@@ -465,7 +488,8 @@
         {
           "label": "16G+1T 23.8英寸显示器 官方标配",
           "official": 6499,
-          "price": 6174
+          "price": 6174,
+          "image": "/shop/img/le-小新台式电脑-英特尔i5-14400-16g-1t-ssd-台式机-plus-23-8英寸显示器.png"
         }
       ]
     },
@@ -480,12 +504,14 @@
         {
           "label": "白色",
           "official": 4499,
-          "price": 4274
+          "price": 4274,
+          "image": "/shop/img/le-来酷-lecoo-一体计算机-n27-pro-i5-27英寸一体台式机-白色.png"
         },
         {
           "label": "黑色",
           "official": 4499,
-          "price": 4274
+          "price": 4274,
+          "image": "/shop/img/le-来酷-lecoo-一体计算机-n27-pro-i5-27英寸一体台式机-黑色.png"
         }
       ]
     },
@@ -500,12 +526,14 @@
         {
           "label": "白色",
           "official": 3299,
-          "price": 3134
+          "price": 3134,
+          "image": "/shop/img/le-来酷-lecoo-一体计算机-酷2888-n100-27英寸一体台式机-白色.png"
         },
         {
           "label": "黑色",
           "official": 3299,
-          "price": 3134
+          "price": 3134,
+          "image": "/shop/img/le-来酷-lecoo-一体计算机-酷2888-n100-27英寸一体台式机-黑色.png"
         }
       ]
     },
@@ -520,42 +548,50 @@
         {
           "label": "12GB+256GB 冰魄白",
           "official": 3499,
-          "price": 3324
+          "price": 3324,
+          "image": "/shop/img/le-联想拯救者手机-y70-新一代-12gb-plus-256gb-冰魄白.png"
         },
         {
           "label": "12GB+256GB 碳晶黑",
           "official": 3499,
-          "price": 3324
+          "price": 3324,
+          "image": "/shop/img/le-联想拯救者手机-y70-新一代-12gb-plus-256gb-碳晶黑.png"
         },
         {
           "label": "12GB+512GB 冰魄白",
           "official": 3999,
-          "price": 3799
+          "price": 3799,
+          "image": "/shop/img/le-联想拯救者手机-y70-新一代-12gb-plus-512gb-冰魄白.png"
         },
         {
           "label": "12GB+512GB 碳晶黑",
           "official": 3999,
-          "price": 3799
+          "price": 3799,
+          "image": "/shop/img/le-联想拯救者手机-y70-新一代-12gb-plus-512gb-碳晶黑.png"
         },
         {
           "label": "16GB+1TB 冰魄白",
           "official": 5999,
-          "price": 5699
+          "price": 5699,
+          "image": "/shop/img/le-联想拯救者手机-y70-新一代-16gb-plus-1tb-冰魄白.png"
         },
         {
           "label": "16GB+1TB 碳晶黑",
           "official": 5999,
-          "price": 5699
+          "price": 5699,
+          "image": "/shop/img/le-联想拯救者手机-y70-新一代-16gb-plus-1tb-碳晶黑.png"
         },
         {
           "label": "16GB+512GB 冰魄白",
           "official": 4499,
-          "price": 4274
+          "price": 4274,
+          "image": "/shop/img/le-联想拯救者手机-y70-新一代-16gb-plus-512gb-冰魄白.png"
         },
         {
           "label": "16GB+512GB 碳晶黑",
           "official": 4499,
-          "price": 4274
+          "price": 4274,
+          "image": "/shop/img/le-联想拯救者手机-y70-新一代-16gb-plus-512gb-碳晶黑.png"
         }
       ]
     },
@@ -570,12 +606,14 @@
         {
           "label": "冰魄白",
           "official": 16798,
-          "price": 15958
+          "price": 15958,
+          "image": "/shop/img/le-联想拯救者y7000x-2026-15-3英寸电竞游戏笔记本电脑-冰魄白.png"
         },
         {
           "label": "碳晶黑",
           "official": 14299,
-          "price": 13584
+          "price": 13584,
+          "image": "/shop/img/le-联想拯救者y7000x-2026-15-3英寸电竞游戏笔记本电脑-碳晶黑.png"
         }
       ]
     },
@@ -590,12 +628,14 @@
         {
           "label": "冰魄白",
           "official": 16799,
-          "price": 15959
+          "price": 15959,
+          "image": "/shop/img/le-联想拯救者r9000p-2025-ai元启-16英寸电竞游戏笔记本-冰魄白.png"
         },
         {
           "label": "碳晶黑",
           "official": 16799,
-          "price": 15959
+          "price": 15959,
+          "image": "/shop/img/le-联想拯救者r9000p-2025-ai元启-16英寸电竞游戏笔记本-碳晶黑.png"
         }
       ]
     },
@@ -610,12 +650,14 @@
         {
           "label": "白色",
           "official": 4499,
-          "price": 4274
+          "price": 4274,
+          "image": "/shop/img/le-来酷-lecoo-一体计算机-酷2888-pro-i5-27英寸一体台式机-白色.png"
         },
         {
           "label": "黑色",
           "official": 4499,
-          "price": 4274
+          "price": 4274,
+          "image": "/shop/img/le-来酷-lecoo-一体计算机-酷2888-pro-i5-27英寸一体台式机-黑色.png"
         }
       ]
     },
@@ -630,12 +672,14 @@
         {
           "label": "流岚粉 官方标配",
           "official": 2799,
-          "price": 2659
+          "price": 2659,
+          "image": "/shop/img/le-联想小新平板-pro-gt-11-1英寸学习影音办公-ai平板电脑-流岚粉.png"
         },
         {
           "label": "信风灰 官方标配",
           "official": 2199,
-          "price": 2089
+          "price": 2089,
+          "image": "/shop/img/le-联想小新平板-pro-gt-11-1英寸学习影音办公-ai平板电脑-信风灰.png"
         }
       ]
     },
@@ -755,12 +799,14 @@
         {
           "label": "滴珀青 官方标配",
           "official": 2599,
-          "price": 2469
+          "price": 2469,
+          "image": "/shop/img/le-联想小新pad-pro-13英寸3-5k护眼超清大屏-ai学习平板电脑-滴珀青.png"
         },
         {
           "label": "霜雪银 官方标配",
           "official": 3399,
-          "price": 3229
+          "price": 3229,
+          "image": "/shop/img/le-联想小新pad-pro-13英寸3-5k护眼超清大屏-ai学习平板电脑-霜雪银.png"
         }
       ]
     },
@@ -1180,12 +1226,14 @@
         {
           "label": "赛道灰 官方标配",
           "official": 11999,
-          "price": 11399
+          "price": 11399,
+          "image": "/shop/img/le-联想小新pro16-gt-16英寸轻薄笔记本电脑-赛道灰.png"
         },
         {
           "label": "冠军白 官方标配",
           "official": 13999,
-          "price": 13299
+          "price": 13299,
+          "image": "/shop/img/le-联想小新pro16-gt-16英寸轻薄笔记本电脑-冠军白.png"
         }
       ]
     },
@@ -1590,22 +1638,26 @@
         {
           "label": "晴空蓝 12+256 官方标配",
           "official": 1499,
-          "price": 1424
+          "price": 1424,
+          "image": "/shop/img/le-联想moto-g100-12-plus-256-晴空蓝.png"
         },
         {
           "label": "曜石黑 8+256 官方标配",
           "official": 1399,
-          "price": 1329
+          "price": 1329,
+          "image": "/shop/img/le-联想moto-g100-8-plus-256-曜石黑.png"
         },
         {
           "label": "青峰绿 12+256 官方标配",
           "official": 1499,
-          "price": 1424
+          "price": 1424,
+          "image": "/shop/img/le-联想moto-g100-12-plus-256-青峰绿.png"
         },
         {
           "label": "晴空蓝 8+256 官方标配",
           "official": 1399,
-          "price": 1329
+          "price": 1329,
+          "image": "/shop/img/le-联想moto-g100-8-plus-256-晴空蓝.png"
         }
       ]
     },
@@ -1620,17 +1672,20 @@
         {
           "label": "陨黑 8+128 官方标配",
           "official": 1199,
-          "price": 1139
+          "price": 1139,
+          "image": "/shop/img/le-联想moto-g100s-8-plus-128-陨黑.png"
         },
         {
           "label": "陨黑 8+256 官方标配",
           "official": 1299,
-          "price": 1234
+          "price": 1234,
+          "image": "/shop/img/le-联想moto-g100s-8-plus-256-陨黑.png"
         },
         {
           "label": "海蓝 8+256 官方标配",
           "official": 1299,
-          "price": 1234
+          "price": 1234,
+          "image": "/shop/img/le-联想moto-g100s-8-plus-256-海蓝.png"
         }
       ]
     },
@@ -1645,27 +1700,32 @@
         {
           "label": "云墨黑 12GB+512GB 官方标配",
           "official": 1899,
-          "price": 1804
+          "price": 1804,
+          "image": "/shop/img/le-联想moto-g100-pro-12gb-plus-512gb-云墨黑.png"
         },
         {
           "label": "绫罗紫 12+256 官方标配",
           "official": 1699,
-          "price": 1614
+          "price": 1614,
+          "image": "/shop/img/le-联想moto-g100-pro-12-plus-256-绫罗紫.png"
         },
         {
           "label": "云墨黑 12+256 官方标配",
           "official": 1699,
-          "price": 1614
+          "price": 1614,
+          "image": "/shop/img/le-联想moto-g100-pro-12-plus-256-云墨黑.png"
         },
         {
           "label": "松烟蓝 12GB+512GB 官方标配",
           "official": 1899,
-          "price": 1804
+          "price": 1804,
+          "image": "/shop/img/le-联想moto-g100-pro-12gb-plus-512gb-松烟蓝.png"
         },
         {
           "label": "苔原青 12GB+256GB 官方标配",
           "official": 1699,
-          "price": 1614
+          "price": 1614,
+          "image": "/shop/img/le-联想moto-g100-pro-12gb-plus-256gb-苔原青.png"
         }
       ]
     },
@@ -2870,32 +2930,38 @@
         {
           "label": "霁蓝色 16G+512G 27英寸 官方标配",
           "official": 6999,
-          "price": 6649
+          "price": 6649,
+          "image": "/shop/img/le-小新27一体机-元气版-酷睿5-320-16g-512g-27英寸-霁蓝色.png"
         },
         {
           "label": "青霭色 16G+512G 27英寸 官方标配",
           "official": 6999,
-          "price": 6649
+          "price": 6649,
+          "image": "/shop/img/le-小新27一体机-元气版-酷睿5-320-16g-512g-27英寸-青霭色.png"
         },
         {
           "label": "暮紫色 16G+512G 27英寸 官方标配",
           "official": 6999,
-          "price": 6649
+          "price": 6649,
+          "image": "/shop/img/le-小新27一体机-元气版-酷睿5-320-16g-512g-27英寸-暮紫色.png"
         },
         {
           "label": "霞绯色 16G+512G 27英寸 官方标配",
           "official": 6999,
-          "price": 6649
+          "price": 6649,
+          "image": "/shop/img/le-小新27一体机-元气版-酷睿5-320-16g-512g-27英寸-霞绯色.png"
         },
         {
           "label": "深空色 16G+512G 27英寸 官方标配",
           "official": 6999,
-          "price": 6649
+          "price": 6649,
+          "image": "/shop/img/le-小新27一体机-元气版-酷睿5-320-16g-512g-27英寸-深空色.png"
         },
         {
           "label": "云影色 16G+512G 27英寸 官方标配",
           "official": 6999,
-          "price": 6649
+          "price": 6649,
+          "image": "/shop/img/le-小新27一体机-元气版-酷睿5-320-16g-512g-27英寸-云影色.png"
         }
       ]
     },
@@ -2925,12 +2991,14 @@
         {
           "label": "云影色 16G+512G 官方标配",
           "official": 6499,
-          "price": 6174
+          "price": 6174,
+          "image": "/shop/img/le-小新27-酷睿ultra-5-226v-16g-512g-27英寸一体台式电脑-云影色.png"
         },
         {
           "label": "深空色 16G+512G 官方标配",
           "official": 6499,
-          "price": 6174
+          "price": 6174,
+          "image": "/shop/img/le-小新27-酷睿ultra-5-226v-16g-512g-27英寸一体台式电脑-深空色.png"
         }
       ]
     },
@@ -2990,12 +3058,14 @@
         {
           "label": "16G+512G 官方标配",
           "official": 5099,
-          "price": 4844
+          "price": 4844,
+          "image": "/shop/img/le-小新台式电脑-英特尔i3-14100-16g-512g-台式机.png"
         },
         {
           "label": "16G+512G 21.5英寸显示器 官方标配",
           "official": 5399,
-          "price": 5129
+          "price": 5129,
+          "image": "/shop/img/le-小新台式电脑-英特尔i3-14100-16g-512g-台式机-plus-21-5英寸显示器.png"
         }
       ]
     },
@@ -3055,12 +3125,14 @@
         {
           "label": "云影色 512G 官方标配",
           "official": 5999,
-          "price": 5699
+          "price": 5699,
+          "image": "/shop/img/le-联想小新24-酷睿ultra-7-256v16g-512g-23-8英寸一体台式电脑-云影色.png"
         },
         {
           "label": "深空色 512G 官方标配",
           "official": 5999,
-          "price": 5699
+          "price": 5699,
+          "image": "/shop/img/le-联想小新24-酷睿ultra-7-256v16g-512g-23-8英寸一体台式电脑-深空色.png"
         }
       ]
     },
@@ -3090,12 +3162,14 @@
         {
           "label": "16G+512G 23.8英寸显示器 官方标配",
           "official": 5999,
-          "price": 5699
+          "price": 5699,
+          "image": "/shop/img/le-小新台式电脑-英特尔i5-14400-16g-512g-台式机-plus-23-8英寸显示器.png"
         },
         {
           "label": "16G+512G 21.5英寸显示器 官方标配",
           "official": 5899,
-          "price": 5604
+          "price": 5604,
+          "image": "/shop/img/le-小新台式电脑-英特尔i5-14400-16g-512g-台式机-plus-21-5英寸显示器.png"
         }
       ]
     },
@@ -3125,12 +3199,14 @@
         {
           "label": "深空色 16G+1T 官方标配",
           "official": 7499,
-          "price": 7124
+          "price": 7124,
+          "image": "/shop/img/le-小新27-酷睿ultra-7-256v-16g-1t-27英寸一体台式电脑-深空色.png"
         },
         {
           "label": "云影色 16G+1T 官方标配",
           "official": 7499,
-          "price": 7124
+          "price": 7124,
+          "image": "/shop/img/le-小新27-酷睿ultra-7-256v-16g-1t-27英寸一体台式电脑-云影色.png"
         }
       ]
     },
@@ -3145,32 +3221,38 @@
         {
           "label": "霁蓝色 16G+512G 27英寸 官方标配",
           "official": 6499,
-          "price": 6174
+          "price": 6174,
+          "image": "/shop/img/le-小新27一体机-元气版-酷睿3-304-16g-512g-27英寸-霁蓝色.png"
         },
         {
           "label": "暮紫色 16G+512G 27英寸 官方标配",
           "official": 6499,
-          "price": 6174
+          "price": 6174,
+          "image": "/shop/img/le-小新27一体机-元气版-酷睿3-304-16g-512g-27英寸-暮紫色.png"
         },
         {
           "label": "云影色 16G+512G 27英寸 官方标配",
           "official": 6499,
-          "price": 6174
+          "price": 6174,
+          "image": "/shop/img/le-小新27一体机-元气版-酷睿3-304-16g-512g-27英寸-云影色.png"
         },
         {
           "label": "青霭色 16G+512G 27英寸 官方标配",
           "official": 6499,
-          "price": 6174
+          "price": 6174,
+          "image": "/shop/img/le-小新27一体机-元气版-酷睿3-304-16g-512g-27英寸-青霭色.png"
         },
         {
           "label": "霞绯色 16G+512G 27英寸 官方标配",
           "official": 6499,
-          "price": 6174
+          "price": 6174,
+          "image": "/shop/img/le-小新27一体机-元气版-酷睿3-304-16g-512g-27英寸-霞绯色.png"
         },
         {
           "label": "深空色 16G+512G 27英寸 官方标配",
           "official": 6499,
-          "price": 6174
+          "price": 6174,
+          "image": "/shop/img/le-小新27一体机-元气版-酷睿3-304-16g-512g-27英寸-深空色.png"
         }
       ]
     },
@@ -3185,12 +3267,14 @@
         {
           "label": "云影色 16G+512G 官方标配",
           "official": 6299,
-          "price": 5984
+          "price": 5984,
+          "image": "/shop/img/le-小新24-酷睿ultra-5-226v-16g-512g-23-8英寸一体台式电脑-云影色.png"
         },
         {
           "label": "深空色 16G+512G 官方标配",
           "official": 6299,
-          "price": 5984
+          "price": 5984,
+          "image": "/shop/img/le-小新24-酷睿ultra-5-226v-16g-512g-23-8英寸一体台式电脑-深空色.png"
         }
       ]
     },
@@ -3205,17 +3289,20 @@
         {
           "label": "16G+512G 23.8英寸显示器 官方标配",
           "official": 4999,
-          "price": 4749
+          "price": 4749,
+          "image": "/shop/img/le-小新台式电脑-尊享版-英特尔i5-13420h-16g-512g-台式机-plus-23-8英寸显示器.png"
         },
         {
           "label": "16G+512G 21.5英寸显示器 官方标配",
           "official": 4899,
-          "price": 4654
+          "price": 4654,
+          "image": "/shop/img/le-小新台式电脑-尊享版-英特尔i5-13420h-16g-512g-台式机-plus-21-5英寸显示器.png"
         },
         {
           "label": "16G+512G 27英寸显示器 官方标配",
           "official": 5418,
-          "price": 5147
+          "price": 5147,
+          "image": "/shop/img/le-小新台式电脑-尊享版-英特尔i5-13420h-16g-512g-台式机-plus-27英寸显示器.png"
         }
       ]
     },
@@ -3595,7 +3682,8 @@
         {
           "label": "深空灰 小新无线蓝牙鼠标 官方标配",
           "official": 5808,
-          "price": 5518
+          "price": 5518,
+          "image": "/shop/img/le-联想小新14-酷睿ultra5-14英寸轻薄笔记本电脑-深空灰-plus-小新无线蓝牙鼠标.png"
         }
       ]
     },
@@ -4005,7 +4093,8 @@
         {
           "label": "深空灰 小新无线蓝牙鼠标 官方标配",
           "official": 6008,
-          "price": 5708
+          "price": 5708,
+          "image": "/shop/img/le-联想小新16-酷睿ultra5-16英寸轻薄笔记本电脑-深空灰-plus-小新无线蓝牙鼠标.png"
         }
       ]
     },
@@ -5730,22 +5819,26 @@
         {
           "label": "16G+256G 官方标配",
           "official": 6099,
-          "price": 5794
+          "price": 5794,
+          "image": "/shop/img/le-小新台式电脑-英特尔i5-14400-16g-256g-ssd-plus-2t-hdd-台式机.png"
         },
         {
           "label": "16G+256G 23.8英寸显示器 官方标配",
           "official": 6499,
-          "price": 6174
+          "price": 6174,
+          "image": "/shop/img/le-小新台式电脑-英特尔i5-14400-16g-256g-ssd-plus-2t-hdd-台式机-plus-23-8英寸显示器.png"
         },
         {
           "label": "16G+256G 21.5英寸显示器 官方标配",
           "official": 6399,
-          "price": 6079
+          "price": 6079,
+          "image": "/shop/img/le-小新台式电脑-英特尔i5-14400-16g-256g-ssd-plus-2t-hdd-台式机-plus-21-5英寸显示器.png"
         },
         {
           "label": "16G+256G 27英寸显示器 官方标配",
           "official": 6879,
-          "price": 6535
+          "price": 6535,
+          "image": "/shop/img/le-小新台式电脑-英特尔i5-14400-16g-256g-ssd-plus-2t-hdd-台式机-plus-27英寸显示器.png"
         }
       ]
     },
@@ -6265,12 +6358,14 @@
         {
           "label": "米家净水器 2 1200G+前置过滤器Pro+管线机套装",
           "official": 2717,
-          "price": 2581
+          "price": 2581,
+          "image": "/shop/img/xiaomi-米家净水器-2-1200g-plus-前置过滤器pro-plus-管线机套装.png"
         },
         {
           "label": "米家净水器 2 1200G+前置过滤器Pro套装",
           "official": 1818,
-          "price": 1727
+          "price": 1727,
+          "image": "/shop/img/xiaomi-米家净水器-2-1200g-plus-前置过滤器pro套装.png"
         }
       ]
     },
@@ -6310,12 +6405,14 @@
         {
           "label": "1200G 白色",
           "official": 1799,
-          "price": 1709
+          "price": 1709,
+          "image": "/shop/img/xiaomi-米家净水器n1-1200g.png"
         },
         {
           "label": "1600G 白色",
           "official": 2299,
-          "price": 2184
+          "price": 2184,
+          "image": "/shop/img/xiaomi-米家净水器n1-1600g.png"
         },
         {
           "label": "800G 白色",
@@ -6325,12 +6422,14 @@
         {
           "label": "米家净水器N1 800G+前置过滤器Pro 套装",
           "official": 1598,
-          "price": 1518
+          "price": 1518,
+          "image": "/shop/img/xiaomi-米家净水器n1-800g-plus-前置过滤器pro-套装.png"
         },
         {
           "label": "米家净水器N1 800G+前置过滤器Pro+管线机 套装",
           "official": 2497,
-          "price": 2372
+          "price": 2372,
+          "image": "/shop/img/xiaomi-米家净水器n1-800g-plus-前置过滤器pro-plus-管线机-套装.png"
         }
       ]
     },
@@ -6385,7 +6484,8 @@
         {
           "label": "白色",
           "official": 3299,
-          "price": 3134
+          "price": 3134,
+          "image": "/shop/img/xiaomi-米家智能净烟机s2-白色.png"
         },
         {
           "label": "黑色",
@@ -7425,32 +7525,38 @@
         {
           "label": "净水器 2 Pro 双出水 1200G+前置过滤器Pro 套装",
           "official": 2198,
-          "price": 2088
+          "price": 2088,
+          "image": "/shop/img/xiaomi-净水器-2-pro-双出水-1200g-plus-前置过滤器pro-套装.png"
         },
         {
           "label": "净水器 2 Pro 双出水 1200G+前置过滤器Pro+管线机",
           "official": 3097,
-          "price": 2942
+          "price": 2942,
+          "image": "/shop/img/xiaomi-净水器-2-pro-双出水-1200g-plus-前置过滤器pro-plus-管线机.png"
         },
         {
           "label": "净水器 2 Pro 双出水 1200G+即热管线机套装",
           "official": 2448,
-          "price": 2326
+          "price": 2326,
+          "image": "/shop/img/xiaomi-净水器-2-pro-双出水-1200g-plus-即热管线机套装.png"
         },
         {
           "label": "净水器 2 Pro 双出水 1600G+前置过滤器Pro 套装",
           "official": 2848,
-          "price": 2706
+          "price": 2706,
+          "image": "/shop/img/xiaomi-净水器-2-pro-双出水-1600g-plus-前置过滤器pro-套装.png"
         },
         {
           "label": "净水器 2 Pro 双出水 1600G+前置过滤器Pro+管线机",
           "official": 3747,
-          "price": 3560
+          "price": 3560,
+          "image": "/shop/img/xiaomi-净水器-2-pro-双出水-1600g-plus-前置过滤器pro-plus-管线机.png"
         },
         {
           "label": "净水器 2 Pro 双出水 1600G+即热管线机套装",
           "official": 3098,
-          "price": 2943
+          "price": 2943,
+          "image": "/shop/img/xiaomi-净水器-2-pro-双出水-1600g-plus-即热管线机套装.png"
         }
       ]
     },
@@ -9630,17 +9736,20 @@
         {
           "label": "米家净水器S1 1000G",
           "official": 1699,
-          "price": 1614
+          "price": 1614,
+          "image": "/shop/img/xiaomi-米家净水器s1-1000g.png"
         },
         {
           "label": "米家净水器S1 1000G+前置过滤器Pro 套装",
           "official": 2498,
-          "price": 2373
+          "price": 2373,
+          "image": "/shop/img/xiaomi-米家净水器s1-1000g-plus-前置过滤器pro-套装.png"
         },
         {
           "label": "米家净水器S1 1000G+前置过滤器Pro+管线机 套装",
           "official": 3797,
-          "price": 3607
+          "price": 3607,
+          "image": "/shop/img/xiaomi-米家净水器s1-1000g-plus-前置过滤器pro-plus-管线机-套装.png"
         }
       ]
     },
@@ -9775,12 +9884,14 @@
         {
           "label": "米家双核净水器1200G Pro+前置过滤器Pro+管线机套装",
           "official": 3297,
-          "price": 3132
+          "price": 3132,
+          "image": "/shop/img/xiaomi-米家双核净水器1200g-pro-plus-前置过滤器pro-plus-管线机套装.png"
         },
         {
           "label": "米家双核净水器1200G Pro+前置过滤器Pro套装",
           "official": 2398,
-          "price": 2278
+          "price": 2278,
+          "image": "/shop/img/xiaomi-米家双核净水器1200g-pro-plus-前置过滤器pro套装.png"
         }
       ]
     },
@@ -10555,17 +10666,20 @@
         {
           "label": "米家富矿净水器",
           "official": 3499,
-          "price": 3324
+          "price": 3324,
+          "image": "/shop/img/xiaomi-米家富矿净水器.png"
         },
         {
           "label": "米家富矿净水器+前置过滤器Pro+即热管线机套装",
           "official": 5597,
-          "price": 5317
+          "price": 5317,
+          "image": "/shop/img/xiaomi-米家富矿净水器-plus-前置过滤器pro-plus-即热管线机套装.png"
         },
         {
           "label": "米家富矿净水器+前置过滤器Pro套装",
           "official": 4298,
-          "price": 4083
+          "price": 4083,
+          "image": "/shop/img/xiaomi-米家富矿净水器-plus-前置过滤器pro套装.png"
         }
       ]
     },
@@ -12430,12 +12544,14 @@
         {
           "label": "米家智能晾衣机 3 Max",
           "official": 2822,
-          "price": 2681
+          "price": 2681,
+          "image": "/shop/img/xiaomi-米家智能晾衣机-3-max.png"
         },
         {
           "label": "米家智能晾衣机 3 Max 极地灰",
           "official": 2822,
-          "price": 2681
+          "price": 2681,
+          "image": "/shop/img/xiaomi-米家智能晾衣机-3-max-极地灰.png"
         }
       ]
     },
@@ -19200,12 +19316,14 @@
         {
           "label": "小米智能室外摄像机 4 4K",
           "official": 299,
-          "price": 284
+          "price": 284,
+          "image": "/shop/img/xiaomi-小米智能室外摄像机-4-4k.png"
         },
         {
           "label": "小米智能室外摄像机 4 4K+智能摄像机云存年卡(7天滚动存储）",
           "official": 389,
-          "price": 370
+          "price": 370,
+          "image": "/shop/img/xiaomi-小米智能室外摄像机-4-4k-plus-智能摄像机云存年卡-7天滚动存储.png"
         }
       ]
     },
@@ -19250,12 +19368,14 @@
         {
           "label": "小米智能室外摄像机 4C 3K",
           "official": 249,
-          "price": 237
+          "price": 237,
+          "image": "/shop/img/xiaomi-小米智能室外摄像机-4c-3k.png"
         },
         {
           "label": "小米智能室外摄像机 4C 3K+智能摄像机云存年卡(7天滚动存储",
           "official": 339,
-          "price": 322
+          "price": 322,
+          "image": "/shop/img/xiaomi-小米智能室外摄像机-4c-3k-plus-智能摄像机云存年卡-7天滚动存储.png"
         }
       ]
     },
@@ -19465,12 +19585,14 @@
         {
           "label": "小米智能摄像机 3 3K",
           "official": 179,
-          "price": 170
+          "price": 170,
+          "image": "/shop/img/xiaomi-小米智能摄像机-3-3k.png"
         },
         {
           "label": "小米智能摄像机 3 3K+智能摄像机云存年卡(7天滚动存储）",
           "official": 269,
-          "price": 256
+          "price": 256,
+          "image": "/shop/img/xiaomi-小米智能摄像机-3-3k-plus-智能摄像机云存年卡-7天滚动存储.png"
         }
       ]
     },
@@ -19545,12 +19667,14 @@
         {
           "label": "小米智能摄像机4 变焦版",
           "official": 419,
-          "price": 398
+          "price": 398,
+          "image": "/shop/img/xiaomi-小米智能摄像机-4-变焦版.png"
         },
         {
           "label": "小米智能摄像机 4 变焦版+智能摄像机云存年卡(7天滚动存储）",
           "official": 509,
-          "price": 484
+          "price": 484,
+          "image": "/shop/img/xiaomi-小米智能摄像机-4-变焦版-plus-智能摄像机云存年卡-7天滚动存储.png"
         }
       ]
     },
@@ -19640,12 +19764,14 @@
         {
           "label": "小米智能摄像机 视频通话版",
           "official": 319,
-          "price": 303
+          "price": 303,
+          "image": "/shop/img/xiaomi-小米智能摄像机-视频通话版.png"
         },
         {
           "label": "小米智能摄像机 视频通话版+智能摄像机云存年卡(7天滚动存储）",
           "official": 409,
-          "price": 389
+          "price": 389,
+          "image": "/shop/img/xiaomi-小米智能摄像机-视频通话版-plus-智能摄像机云存年卡-7天滚动存储.png"
         }
       ]
     },
@@ -19705,12 +19831,14 @@
         {
           "label": "白色",
           "official": 299,
-          "price": 284
+          "price": 284,
+          "image": "/shop/img/xiaomi-小米智能摄像机c700.png"
         },
         {
           "label": "小米智能摄像机C700+智能摄像机云存年卡(7天滚动存储）",
           "official": 389,
-          "price": 370
+          "price": 370,
+          "image": "/shop/img/xiaomi-小米智能摄像机c700-plus-智能摄像机云存年卡-7天滚动存储.png"
         }
       ]
     },
@@ -21185,12 +21313,14 @@
         {
           "label": "白色",
           "official": 769,
-          "price": 731
+          "price": 731,
+          "image": "/shop/img/xiaomi-米家桌面照片打印机-2.png"
         },
         {
           "label": "米家桌面照片打印机 2 套装",
           "official": 969,
-          "price": 921
+          "price": 921,
+          "image": "/shop/img/xiaomi-米家桌面照片打印机-2-套装.png"
         }
       ]
     },
@@ -23250,12 +23380,14 @@
         {
           "label": "Xiaomi 全屋路由 BE3600 Pro",
           "official": 349,
-          "price": 332
+          "price": 332,
+          "image": "/shop/img/xiaomi-xiaomi全屋路由-be3600pro.png"
         },
         {
           "label": "Xiaomi全屋路由 BE3600Pro 套装",
           "official": 599,
-          "price": 569
+          "price": 569,
+          "image": "/shop/img/xiaomi-xiaomi全屋路由-be3600pro-套装.png"
         }
       ]
     },
@@ -25520,12 +25652,14 @@
         {
           "label": "Xiaomi Watch Strap真皮表带 大象灰",
           "official": 199,
-          "price": 189
+          "price": 189,
+          "image": "/shop/img/xiaomi-xiaomi-watch-strap真皮表带-大象灰.png"
         },
         {
           "label": "Xiaomi Watch Strap真皮表带 黑色",
           "official": 199,
-          "price": 189
+          "price": 189,
+          "image": "/shop/img/xiaomi-xiaomi-watch-strap真皮表带-黑色.png"
         }
       ]
     },
@@ -26830,17 +26964,20 @@
         {
           "label": "柔雾粉",
           "official": 99,
-          "price": 94
+          "price": 94,
+          "image": "/shop/img/xiaomi-小米快拆真皮腕带.png"
         },
         {
           "label": "赤霞橙",
           "official": 99,
-          "price": 94
+          "price": 94,
+          "image": "/shop/img/xiaomi-小米快拆真皮腕带.png"
         },
         {
           "label": "小米快拆真皮腕带 马卡龙蓝",
           "official": 99,
-          "price": 94
+          "price": 94,
+          "image": "/shop/img/xiaomi-小米快拆真皮腕带-马卡龙蓝.png"
         }
       ]
     },
@@ -26855,17 +26992,20 @@
         {
           "label": "树莓红",
           "official": 169,
-          "price": 161
+          "price": 161,
+          "image": "/shop/img/xiaomi-小米快拆科纳皮磁吸腕带.png"
         },
         {
           "label": "卡其棕",
           "official": 169,
-          "price": 161
+          "price": 161,
+          "image": "/shop/img/xiaomi-小米快拆科纳皮磁吸腕带.png"
         },
         {
           "label": "小米快拆科纳皮磁吸腕带 冰川白",
           "official": 169,
-          "price": 161
+          "price": 161,
+          "image": "/shop/img/xiaomi-小米快拆科纳皮磁吸腕带-冰川白.png"
         }
       ]
     },
@@ -29155,22 +29295,26 @@
         {
           "label": "（石墨黑）",
           "official": 249,
-          "price": 237
+          "price": 237,
+          "image": "/shop/img/xiaomi-redmi-电脑音箱-2-pro.png"
         },
         {
           "label": "（金属银）",
           "official": 249,
-          "price": 237
+          "price": 237,
+          "image": "/shop/img/xiaomi-redmi-电脑音箱-2-pro.png"
         },
         {
           "label": "套装 （石墨黑）",
           "official": 449,
-          "price": 427
+          "price": 427,
+          "image": "/shop/img/xiaomi-redmi-电脑音箱-2-pro-套装.png"
         },
         {
           "label": "套装 （金属银）",
           "official": 449,
-          "price": 427
+          "price": 427,
+          "image": "/shop/img/xiaomi-redmi-电脑音箱-2-pro-套装.png"
         }
       ]
     },
@@ -37375,82 +37519,98 @@
         {
           "label": "HUAWEI Mate 90 Pro Max 12GB+512GB 翡冷翠",
           "official": 9499,
-          "price": 8929
+          "price": 8929,
+          "image": "/shop/img/color/huawei-mate90promax-翡冷翠.png"
         },
         {
           "label": "HUAWEI Mate 90 Pro Max 12GB+512GB 曜石黑",
           "official": 9499,
-          "price": 8929
+          "price": 8929,
+          "image": "/shop/img/color/huawei-mate90promax-曜石黑.png"
         },
         {
           "label": "HUAWEI Mate 90 Pro Max 12GB+512GB 晶钻白",
           "official": 9499,
-          "price": 8929
+          "price": 8929,
+          "image": "/shop/img/color/huawei-mate90promax-晶钻白.png"
         },
         {
           "label": "HUAWEI Mate 90 Pro Max 12GB+512GB 玫瑰金",
           "official": 9499,
-          "price": 8929
+          "price": 8929,
+          "image": "/shop/img/color/huawei-mate90promax-玫瑰金.png"
         },
         {
           "label": "HUAWEI Mate 90 Pro Max 16GB+512GB 曜石黑",
           "official": 9999,
-          "price": 9399
+          "price": 9399,
+          "image": "/shop/img/color/huawei-mate90promax-曜石黑.png"
         },
         {
           "label": "HUAWEI Mate 90 Pro Max 16GB+512GB 晶钻白",
           "official": 9999,
-          "price": 9399
+          "price": 9399,
+          "image": "/shop/img/color/huawei-mate90promax-晶钻白.png"
         },
         {
           "label": "HUAWEI Mate 90 Pro Max 16GB+512GB 翡冷翠",
           "official": 9999,
-          "price": 9399
+          "price": 9399,
+          "image": "/shop/img/color/huawei-mate90promax-翡冷翠.png"
         },
         {
           "label": "HUAWEI Mate 90 Pro Max 16GB+512GB 玫瑰金",
           "official": 9999,
-          "price": 9399
+          "price": 9399,
+          "image": "/shop/img/color/huawei-mate90promax-玫瑰金.png"
         },
         {
           "label": "HUAWEI Mate 90 Pro Max 典藏版 16GB+512GB 曜石黑",
           "official": 10999,
-          "price": 10229
+          "price": 10229,
+          "image": "/shop/img/color/huawei-mate90promax-曜石黑-典藏版.png"
         },
         {
           "label": "HUAWEI Mate 90 Pro Max 典藏版 16GB+512GB 晶钻白",
           "official": 10999,
-          "price": 10229
+          "price": 10229,
+          "image": "/shop/img/color/huawei-mate90promax-晶钻白-典藏版.png"
         },
         {
           "label": "HUAWEI Mate 90 Pro Max 典藏版 16GB+512GB 翡冷翠",
           "official": 10999,
-          "price": 10229
+          "price": 10229,
+          "image": "/shop/img/color/huawei-mate90promax-翡冷翠-典藏版.png"
         },
         {
           "label": "HUAWEI Mate 90 Pro Max 典藏版 16GB+512GB 玫瑰金",
           "official": 10999,
-          "price": 10229
+          "price": 10229,
+          "image": "/shop/img/color/huawei-mate90promax-玫瑰金-典藏版.png"
         },
         {
           "label": "HUAWEI Mate 90 Pro Max 典藏版 16GB+1TB 曜石黑",
           "official": 12999,
-          "price": 12089
+          "price": 12089,
+          "image": "/shop/img/color/huawei-mate90promax-曜石黑-典藏版.png"
         },
         {
           "label": "HUAWEI Mate 90 Pro Max 典藏版 16GB+1TB 晶钻白",
           "official": 12999,
-          "price": 12089
+          "price": 12089,
+          "image": "/shop/img/color/huawei-mate90promax-晶钻白-典藏版.png"
         },
         {
           "label": "HUAWEI Mate 90 Pro Max 典藏版 16GB+1TB 翡冷翠",
           "official": 12999,
-          "price": 12089
+          "price": 12089,
+          "image": "/shop/img/color/huawei-mate90promax-翡冷翠-典藏版.png"
         },
         {
           "label": "HUAWEI Mate 90 Pro Max 典藏版 16GB+1TB 玫瑰金",
           "official": 12999,
-          "price": 12089
+          "price": 12089,
+          "image": "/shop/img/color/huawei-mate90promax-玫瑰金-典藏版.png"
         }
       ]
     },
@@ -38880,47 +39040,56 @@
         {
           "label": "HUAWEI FreeClip 2 耳夹耳机 无线充 潮玩拼色（红/蓝）",
           "official": 1299,
-          "price": 1247
+          "price": 1247,
+          "image": "/shop/img/huawei-freeclip-2-耳夹耳机-无线充-潮玩拼色-红-蓝.png"
         },
         {
           "label": "潮玩拼色（红/蓝 HUAWEI FreeClip 2 耳夹耳机 无线充 潮玩拼色（红/黄）",
           "official": 1299,
-          "price": 1247
+          "price": 1247,
+          "image": "/shop/img/huawei-freeclip-2-耳夹耳机-无线充-潮玩拼色-红-蓝.png"
         },
         {
           "label": "潮玩拼色（红/蓝 HUAWEI FreeClip 2 耳夹耳机 无线充 潮玩拼色（蓝/黄）",
           "official": 1299,
-          "price": 1247
+          "price": 1247,
+          "image": "/shop/img/huawei-freeclip-2-耳夹耳机-无线充-潮玩拼色-红-蓝.png"
         },
         {
           "label": "HUAWEI FreeClip 2 耳夹耳机 无线充 玫瑰金",
           "official": 1299,
-          "price": 1247
+          "price": 1247,
+          "image": "/shop/img/huawei-freeclip-2-耳夹耳机-无线充-玫瑰金.png"
         },
         {
           "label": "玫瑰金 HUAWEI FreeClip 2 耳夹耳机 无线充 摩登黑",
           "official": 1299,
-          "price": 1247
+          "price": 1247,
+          "image": "/shop/img/huawei-freeclip-2-耳夹耳机-无线充-玫瑰金.png"
         },
         {
           "label": "玫瑰金 HUAWEI FreeClip 2 耳夹耳机 无线充 羽沙白",
           "official": 1299,
-          "price": 1247
+          "price": 1247,
+          "image": "/shop/img/huawei-freeclip-2-耳夹耳机-无线充-玫瑰金.png"
         },
         {
           "label": "玫瑰金 HUAWEI FreeClip 2 耳夹耳机 无线充 丹宁蓝",
           "official": 1299,
-          "price": 1247
+          "price": 1247,
+          "image": "/shop/img/huawei-freeclip-2-耳夹耳机-无线充-玫瑰金.png"
         },
         {
           "label": "玫瑰金 HUAWEI FreeClip 2 × 周大福 一發暴富套装礼盒",
           "official": 3388,
-          "price": 3218
+          "price": 3218,
+          "image": "/shop/img/huawei-freeclip-2-耳夹耳机-无线充-玫瑰金.png"
         },
         {
           "label": "玫瑰金 HUAWEI FreeClip 2 耳夹耳机 无线充 冰莓紫",
           "official": 1299,
-          "price": 1247
+          "price": 1247,
+          "image": "/shop/img/huawei-freeclip-2-耳夹耳机-无线充-玫瑰金.png"
         }
       ]
     },
